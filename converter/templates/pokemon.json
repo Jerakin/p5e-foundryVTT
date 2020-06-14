@@ -1,0 +1,834 @@
+{
+	"name": "Bulbasaur",
+	"permission": {
+		"default": 0,
+		"gHYHT3TZ8iDllHiZ": 3
+	},
+	"type": "character",
+	"data": {
+		"abilities": {
+			"str": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			},
+			"dex": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			},
+			"con": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			},
+			"int": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			},
+			"wis": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			},
+			"cha": {
+				"value": 0,
+				"proficient": 0,
+				"mod": 0,
+				"prof": 0,
+				"saveBonus": 0,
+				"checkBonus": 0,
+				"save": 0
+			}
+		},
+		"attributes": {
+			"ac": {
+				"value": 0,
+				"min": 0
+			},
+			"hp": {
+				"value": 0,
+				"min": 0,
+				"max": 0,
+				"temp": "",
+				"tempmax": ""
+			},
+			"init": {
+				"value": 0,
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0
+			},
+			"speed": {
+				"value": "30 ft",
+				"special": ""
+			},
+			"spellcasting": "int",
+			"death": {
+				"success": 0,
+				"failure": 0
+			},
+			"exhaustion": 0,
+			"inspiration": false,
+			"deathsaves1": false,
+			"deathsaves2": false,
+			"deathsaves3": false,
+			"deathsavef1": false,
+			"deathsavef2": false,
+			"deathsavef3": false,
+			"exh1": false,
+			"exh2": false,
+			"exh3": false,
+			"exh4": false,
+			"exh5": false,
+			"exh6": false,
+			"hd": 1,
+			"prof": 2,
+			"spelldc": 8
+		},
+		"details": {
+			"alignment": "1/2",
+			"biography": {
+				"value": "",
+				"public": ""
+			},
+			"race": "Grass/Poison",
+			"background": "",
+			"xp": {
+				"value": 0,
+				"min": 0,
+				"max": 0,
+				"pct": 0
+			},
+			"trait": "",
+			"ideal": "",
+			"bond": "",
+			"flaw": "",
+			"notesname": "",
+			"notes1name": "",
+			"notes2name": "",
+			"notes3name": "",
+			"notes4name": "",
+			"level": 1
+		},
+		"skills": {
+			"acr": {
+				"value": 0,
+				"ability": "dex",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"ani": {
+				"value": 0,
+				"ability": "wis",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"arc": {
+				"value": 0,
+				"ability": "int",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"ath": {
+				"value": 0,
+				"ability": "str",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"dec": {
+				"value": 0,
+				"ability": "cha",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"his": {
+				"value": 0,
+				"ability": "int",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"ins": {
+				"value": 0,
+				"ability": "wis",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"itm": {
+				"value": 0,
+				"ability": "cha",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"inv": {
+				"value": 0,
+				"ability": "int",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 8
+			},
+			"med": {
+				"value": 0,
+				"ability": "wis",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"nat": {
+				"value": 0,
+				"ability": "int",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"prc": {
+				"value": 0,
+				"ability": "wis",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"prf": {
+				"value": 0,
+				"ability": "cha",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"per": {
+				"value": 0,
+				"ability": "cha",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"rel": {
+				"value": 0,
+				"ability": "int",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"slt": {
+				"value": 0,
+				"ability": "dex",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"ste": {
+				"value": 0,
+				"ability": "dex",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			},
+			"sur": {
+				"value": 0,
+				"ability": "wis",
+				"bonus": 0,
+				"mod": 0,
+				"prof": 0,
+				"total": 0,
+				"passive": 10
+			}
+		},
+		"traits": {
+			"size": "tiny",
+			"senses": "",
+			"languages": {
+				"value": [],
+				"custom": ""
+			},
+			"di": {
+				"value": [],
+				"custom": ""
+			},
+			"dr": {
+				"value": [],
+				"custom": "Electric, Fairy, Fighting, Grass, Water"
+			},
+			"dv": {
+				"value": [],
+				"custom": "Fire, Flying, Ice, Psychic"
+			},
+			"ci": {
+				"value": [],
+				"custom": ""
+			},
+			"weaponProf": {
+				"value": [],
+				"custom": ""
+			},
+			"armorProf": {
+				"value": [],
+				"custom": ""
+			},
+			"toolProf": {
+				"value": [],
+				"custom": ""
+			}
+		},
+		"currency": {
+			"pp": 0,
+			"gp": 0,
+			"ep": 0,
+			"sp": 0,
+			"cp": 0
+		},
+		"spells": {
+			"spell1": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell2": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell3": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell4": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell5": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell6": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell7": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell8": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"spell9": {
+				"value": 0,
+				"max": 0,
+				"override": null
+			},
+			"pact": {
+				"value": 0,
+				"max": 0,
+				"override": null,
+				"level": 0
+			}
+		},
+		"bonuses": {
+			"mwak": {
+				"attack": "",
+				"damage": ""
+			},
+			"rwak": {
+				"attack": "",
+				"damage": ""
+			},
+			"msak": {
+				"attack": "",
+				"damage": ""
+			},
+			"rsak": {
+				"attack": "",
+				"damage": ""
+			},
+			"abilities": {
+				"check": "",
+				"save": "",
+				"skill": ""
+			},
+			"spell": {
+				"dc": ""
+			}
+		},
+		"resources": {
+			"primary": {
+				"value": null,
+				"max": null,
+				"sr": false,
+				"lr": false,
+				"label": ""
+			},
+			"secondary": {
+				"value": null,
+				"max": null,
+				"sr": false,
+				"lr": false,
+				"label": ""
+			},
+			"tertiary": {
+				"value": null,
+				"max": null,
+				"sr": false,
+				"lr": false,
+				"label": ""
+			}
+		}
+	},
+	"flags": {
+		"gm-notes": {},
+		"dnd5e": {}
+	},
+	"img": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+	"token": {
+		"flags": {},
+		"name": "Bulbasaur",
+		"displayName": 0,
+		"img": "https://i.imgur.com/DZXdjtG.png",
+		"tint": null,
+		"width": 1,
+		"height": 1,
+		"scale": 1,
+		"mirrorX": false,
+		"mirrorY": false,
+		"lockRotation": false,
+		"rotation": 0,
+		"vision": true,
+		"dimSight": 15,
+		"brightSight": 0,
+		"dimLight": 0,
+		"brightLight": 0,
+		"sightAngle": 360,
+		"lightAngle": 360,
+		"lightColor": "",
+		"lightAlpha": 1,
+		"actorId": "5e8V10YPDkhGkcAM",
+		"actorLink": false,
+		"actorData": {},
+		"disposition": -1,
+		"displayBars": 40,
+		"bar1": {
+			"attribute": "attributes.hp"
+		},
+		"bar2": {
+			"attribute": ""
+		},
+		"randomImg": false
+	},
+	"items": [
+		{
+		"_id": "7WyUAf1TRtIs1iyO",
+		"flags": {},
+		"name": "Pokemon",
+		"type": "class",
+		"img": "icons/svg/mystery-man.svg",
+		"data": {
+			"description": {
+				"value": "<p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</p>\n<p>Species: Seed Pokémon</p>\n<p>Height: 0.7 m (2′04″)</p>\n<p>Weight: 6.9 kg (15.2 lbs)</p>\n<p>Egg Groups: Grass, Monster</p>\n<p>Gender: 87.5% male, 12.5% female</p>\n<p>Egg cycles: 20</p>",
+				"chat": "",
+				"unidentified": ""
+			},
+			"source": "001",
+			"levels": 1,
+			"subclass": "",
+			"hitDice": "d6",
+			"hitDiceUsed": 0,
+			"skills": {
+				"number": 0,
+				"choices": [],
+				"value": [],
+				"custom": ""
+			},
+			"spellcasting": "none",
+			"damage": {
+				"parts": []
+			},
+			"attributes": {
+				"spelldc": 10
+			}
+		},
+		"sort": 100000
+	},
+		{"_id": "WdQwiSm3wx99z4KA",
+		"flags": {
+			"betterRolls5e": {
+				"quickDamage": {
+					"context": {
+						"0": "Normal"
+					},
+					"value": {
+						"0": true
+					},
+					"altValue": {
+						"0": true
+					}
+				}
+			},
+			"favtab": {
+				"isFavourite": false
+			}
+		},
+		"name": "Tackle",
+		"type": "feat",
+		"img": "https://i.imgur.com/hq97oi7.png",
+		"data": {
+			"description": {
+				"value": "<p>You rush forward and slam into an opponent. Make a melee attack roll against a target, doing 1d6 + MOVE normal damage on a hit.</p>\n<p>Higher Levels: The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17.</p>",
+				"chat": "",
+				"unidentified": ""
+			},
+			"source": "STR/DEX",
+			"activation": {
+				"type": "action",
+				"cost": 1,
+				"condition": ""
+			},
+			"duration": {
+				"value": null,
+				"units": "inst"
+			},
+			"target": {
+				"value": null,
+				"units": "",
+				"type": "creature"
+			},
+			"range": {
+				"value": null,
+				"long": null,
+				"units": ""
+			},
+			"uses": {
+				"value": 20,
+				"max": 20,
+				"per": "lr"
+			},
+			"consume": {
+				"type": "",
+				"target": null,
+				"amount": null
+			},
+			"ability": "str",
+			"actionType": "mwak",
+			"attackBonus": 0,
+			"chatFlavor": "",
+			"critical": null,
+			"damage": {
+				"parts": [
+					["1d6+@mod", ""]
+				],
+				"versatile": ""
+			},
+			"formula": "",
+			"save": {
+				"ability": "",
+				"dc": null,
+				"scaling": "spell"
+			},
+			"requirements": "Normal",
+			"recharge": {
+				"value": null,
+				"charged": true
+			},
+			"attributes": {
+				"spelldc": 10
+			}
+		},
+		"sort": 200000},
+		{"_id": "MD1bS5kFSMHSJRSc",
+		"flags": {
+			"favtab": {
+				"isFavourite": false
+			}
+		},
+		"name": "Overgrow",
+		"type": "feat",
+		"img": "icons/svg/mystery-man.svg",
+		"data": {
+			"description": {
+				"value": "<p>When this Pokémon falls below 25% of its maximum HP, double the STAB damage for its grass-type moves.</p>",
+				"chat": "",
+				"unidentified": ""
+			},
+			"source": "",
+			"activation": {
+				"type": "",
+				"cost": 0,
+				"condition": ""
+			},
+			"duration": {
+				"value": null,
+				"units": ""
+			},
+			"target": {
+				"value": null,
+				"units": "",
+				"type": ""
+			},
+			"range": {
+				"value": null,
+				"long": null,
+				"units": ""
+			},
+			"uses": {
+				"value": 0,
+				"max": 0,
+				"per": null
+			},
+			"consume": {
+				"type": "",
+				"target": null,
+				"amount": null
+			},
+			"ability": null,
+			"actionType": "",
+			"attackBonus": 0,
+			"chatFlavor": "",
+			"critical": null,
+			"damage": {
+				"parts": [],
+				"versatile": ""
+			},
+			"formula": "",
+			"save": {
+				"ability": "",
+				"dc": null,
+				"scaling": "spell"
+			},
+			"requirements": "",
+			"recharge": {
+				"value": null,
+				"charged": false
+			},
+			"attributes": {
+				"spelldc": 10
+			}
+		},
+		"sort": 300000
+	},
+		{"_id": "ZuS8FWwZRhThnXbu",
+		"flags": {
+			"betterRolls5e": {
+				"quickDamage": {
+					"context": {
+						"0": "Typeless"
+					},
+					"value": {
+						"0": true
+					},
+					"altValue": {
+						"0": true
+					}
+				}
+			},
+			"favtab": {
+				"isFavourite": false
+			}
+		},
+		"name": "Struggle",
+		"type": "feat",
+		"img": "icons/svg/mystery-man.svg",
+		"data": {
+			"description": {
+				"value": "<p>This move is known by all Pokémon, and can be used at any time. Make a melee attack roll, doing damage equal to 2 + MOVE typeless damage on a hit.</p>",
+				"chat": "",
+				"unidentified": ""
+			},
+			"source": "STR/DEX",
+			"activation": {
+				"type": "action",
+				"cost": 1,
+				"condition": ""
+			},
+			"duration": {
+				"value": null,
+				"units": "inst"
+			},
+			"target": {
+				"value": null,
+				"units": "",
+				"type": "creature"
+			},
+			"range": {
+				"value": null,
+				"long": null,
+				"units": ""
+			},
+			"uses": {
+				"value": 0,
+				"max": 0,
+				"per": ""
+			},
+			"consume": {
+				"type": "",
+				"target": null,
+				"amount": null
+			},
+			"ability": "str",
+			"actionType": "mwak",
+			"attackBonus": 0,
+			"chatFlavor": "",
+			"critical": null,
+			"damage": {
+				"parts": [
+					["2+@mod", ""]
+				],
+				"versatile": ""
+			},
+			"formula": "",
+			"save": {
+				"ability": "",
+				"dc": null,
+				"scaling": "spell"
+			},
+			"requirements": "Typeless",
+			"recharge": {
+				"value": null,
+				"charged": false
+			},
+			"attributes": {
+				"spelldc": 10
+			}
+		},
+		"sort": 100000
+	},
+		{"_id": "HtbAKfkeOImDTJBx",
+		"flags": {
+			"favtab": {
+				"isFavourite": false
+			}
+		},
+		"name": "Growl",
+		"type": "feat",
+		"img": "https://i.imgur.com/hq97oi7.png",
+		"data": {
+			"description": {
+				"value": "<p>You target a creature with an intimidating growl. The creature must make a WIS save against your Move DC. On a fail, it adds -1 to any attack it makes for the duration. This modifier can be stacked if it fails multiple growl saves, up to a maximum of -5.</p>",
+				"chat": "",
+				"unidentified": ""
+			},
+			"source": "STR/CHA",
+			"activation": {
+				"type": "action",
+				"cost": 1,
+				"condition": ""
+			},
+			"duration": {
+				"value": 1,
+				"units": "minute"
+			},
+			"target": {
+				"value": null,
+				"units": "",
+				"type": "creature"
+			},
+			"range": {
+				"value": 100,
+				"long": null,
+				"units": "ft"
+			},
+			"uses": {
+				"value": 20,
+				"max": 20,
+				"per": "lr"
+			},
+			"consume": {
+				"type": "",
+				"target": "",
+				"amount": null
+			},
+			"ability": "",
+			"actionType": "save",
+			"attackBonus": 0,
+			"chatFlavor": "",
+			"critical": null,
+			"damage": {
+				"parts": [],
+				"versatile": ""
+			},
+			"formula": "",
+			"save": {
+				"ability": "wis",
+				"dc": 11,
+				"scaling": "str"
+			},
+			"requirements": "Normal",
+			"recharge": {
+				"value": null,
+				"charged": false
+			},
+			"attributes": {
+				"spelldc": 10
+			}
+		},
+		"sort": 500000
+	}],
+	"_id": "gWYR9cqXptRvp2n5"
+}

@@ -1,5 +1,5 @@
 # Foundry VTT
-Pokmeon5e Module for [Foundry VTT](https://foundryvtt.com/).
+Pokemon5e Module for [Foundry VTT](https://foundryvtt.com/).
 
 ## How to install
 Download the newest [release](https://github.com/Jerakin/p5e-foundryVTT/releases),
@@ -13,3 +13,8 @@ If you for whatever reason want to convert it yourself you will need python 3.5 
 You need a copy of the data files from the app and point towards them in the `./converter/main.py` file.
 
 You can then simply run `python converter/main.py` and it will output the module content in `./dist*`
+
+
+#### Notable links
+https://foundryvtt.com/article/compendium/ 
+https://foundryvtt.com/article/module-development/

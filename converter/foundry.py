@@ -61,7 +61,7 @@ packs = {
             "name": "features",
             "label": module_name,
             "path": "packs/p5e-pokemon.db",
-            "entity": "Item",
+            "entity": "Actor",
             "module": module_name
         }
 }

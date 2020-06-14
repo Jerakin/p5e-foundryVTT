@@ -1,0 +1,138 @@
+{
+	"name": "Water Pulse",
+	"permission": {
+		"default": 0,
+		"snMQZHi6MeQ9VTsM": 3
+	},
+	"type": "feat",
+	"data": {
+		"description": {
+			"value": "<blockquote>\n<p><strong>Type</strong>:&nbsp;<img src=\"https://cdn.bulbagarden.net/upload/5/56/WaterIC_Big.png\" alt=\"\" width=\"48\" height=\"16\"><br><strong>Move</strong>:&nbsp; DEX</p>\n</blockquote>\n<p>Make a ranged attack roll, dealing 1d10 + MOVE water damage on a hit. On a natural attack roll of 17 or higher, the target is confused.</p>\n<p>The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.</p>",
+			"chat": "",
+			"unidentified": ""
+		},
+		"source": "P5E",
+		"activation": {
+			"type": "action",
+			"cost": 1,
+			"condition": ""
+		},
+		"duration": {
+			"value": null,
+			"units": "inst"
+		},
+		"target": {
+			"value": 1,
+			"units": "",
+			"type": "creature"
+		},
+		"range": {
+			"value": 30,
+			"long": null,
+			"units": "ft"
+		},
+		"uses": {
+			"value": 10,
+			"max": 10,
+			"per": "lr"
+		},
+		"consume": {
+			"type": "",
+			"target": "",
+			"amount": null
+		},
+		"ability": "dex",
+		"actionType": "rsak",
+		"attackBonus": 0,
+		"chatFlavor": "You send a wave of ultrasonic aquatic energy at an opponent in range.",
+		"critical": null,
+		"damage": {
+			"parts": [
+				["1d10 + @mod", ""]
+			],
+			"versatile": ""
+		},
+		"formula": "",
+		"save": {
+			"ability": "",
+			"dc": null,
+			"scaling": "spell"
+		},
+		"requirements": "Moves",
+		"recharge": {
+			"value": null,
+			"charged": false
+		},
+		"attributes": {
+			"spelldc": 10
+		}
+	},
+	"flags": {
+		"betterRolls5e": {
+			"critRange": {
+				"type": "String",
+				"value": ""
+			},
+			"critDamage": {
+				"type": "String",
+				"value": ""
+			},
+			"quickDesc": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			},
+			"quickAttack": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			},
+			"quickSave": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			},
+			"quickDamage": {
+				"type": "Array",
+				"value": [true],
+				"altValue": [true],
+				"context": {
+					"0": "Water Damage; 17+ Target is Confused"
+				}
+			},
+			"quickProperties": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			},
+			"quickCharges": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			},
+			"quickTemplate": {
+				"type": "Boolean",
+				"value": false,
+				"altValue": false
+			},
+			"quickOther": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true,
+				"context": ""
+			},
+			"quickFlavor": {
+				"type": "Boolean",
+				"value": true,
+				"altValue": true
+			}
+		},
+		"dynamiceffects": {
+			"equipActive": false,
+			"alwaysActive": false,
+			"effects": []
+		}
+	},
+	"img": "warcraft%20icons/inv_elemental_primal_water.jpg",
+	"_id": "HoGey9iM0ibS8A2I"
+}

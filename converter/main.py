@@ -3,7 +3,7 @@ import shutil
 import json
 from converter import foundry
 
-import converter.pokemon as pokemon
+import converter.packages.pokemon as pokemon
 
 PROJECT = Path(__file__).parent.parent
 

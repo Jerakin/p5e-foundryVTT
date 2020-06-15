@@ -1,5 +1,8 @@
 {
   "Abomasnow": {
-    "img": "https://img.pokemondb.net/artwork/abomasnow.jpg"
+    "img": "https://img.pokemondb.net/artwork/abomasnow.jpg",
+    "token": {
+      "img": "https://i.imgur.com/DZXdjtG.png"
+    }
   }
 }

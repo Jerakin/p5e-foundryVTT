@@ -2,7 +2,7 @@
 Pokemon5e Module for [Foundry VTT](https://foundryvtt.com/).
 
 ## How to install
-*__Currently no functional release__*
+*__Currently no functional release__*  
 Download the newest [release](https://github.com/Jerakin/p5e-foundryVTT/releases),
 unzip the file and place it in foundrys `./data/modules/` folder.
 

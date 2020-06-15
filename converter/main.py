@@ -3,18 +3,25 @@ import shutil
 import json
 from converter import foundry
 
-from converter.pokemon import Pokemon
+import converter.pokemon as pokemon
 
 PROJECT = Path(__file__).parent.parent
 
-data_files = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles")
+BUILD = PROJECT / "build"
+BUILD_POKEMON = BUILD / "pokemon"
+
+DIST = PROJECT / "dist"
+DIST_MODULE = DIST / foundry.module_name
+DIST_PACKS = DIST_MODULE / "packs"
+
+DATA_SOURCE = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles")
 
 
 def build_pokemon(input_file, output_file):
     with input_file.open() as fp:
         json_data = json.load(fp)
-    pokemon = Pokemon(input_file.stem, json_data)
-    pokemon.save(output_file)
+    poke = pokemon.Pokemon(input_file.stem, json_data)
+    poke.save(output_file)
 
 
 def build_move():
@@ -30,14 +37,14 @@ def build_ability():
 
 
 def build():
-    if (PROJECT / "build").exists():
-        shutil.rmtree(PROJECT / "build")
-    (PROJECT / "build").mkdir()
+    if BUILD.exists():
+        shutil.rmtree(BUILD)
+    BUILD.mkdir()
 
-    (PROJECT / "build" / "pokemon").mkdir()
+    BUILD_POKEMON.mkdir()
 
-    for pokemon_file in (data_files / "pokemon").iterdir():
-        build_pokemon(pokemon_file, PROJECT / "build" / "pokemon" / pokemon_file.name)
+    for pokemon_file in (DATA_SOURCE / "pokemon").iterdir():
+        build_pokemon(pokemon_file, BUILD_POKEMON / pokemon_file.name)
 
 
 def pack_folder(folder, output_file):
@@ -48,18 +55,18 @@ def pack_folder(folder, output_file):
 
 
 def package():
-    if (PROJECT / "dist").exists():
-        shutil.rmtree(PROJECT / "dist")
-    (PROJECT / "dist").mkdir()
-    (PROJECT / "dist" / foundry.module_name).mkdir()
-    (PROJECT / "dist" / foundry.module_name / "packs").mkdir()
+    if DIST.exists():
+        shutil.rmtree(DIST)
+    DIST.mkdir()
+    DIST_MODULE.mkdir()
+    DIST_PACKS.mkdir()
 
     for pack_name, pack_def in foundry.packs.items():
-        if (PROJECT / "build" / pack_name).exists():
+        if (BUILD / pack_name).exists():
             foundry.module_definition["packs"].append(pack_def)
-            pack_folder(PROJECT / "build" / pack_name, PROJECT / "dist" / foundry.module_name / pack_def["path"])
+            pack_folder(BUILD / pack_name, DIST_MODULE / pack_def["path"])
 
-    with (PROJECT / "dist" / foundry.module_name / "module.json").open("w", encoding="utf-8") as fp:
+    with (DIST_MODULE / "module.json").open("w", encoding="utf-8") as fp:
         json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
 
 

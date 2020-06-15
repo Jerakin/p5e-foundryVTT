@@ -1,25 +1,25 @@
 import json
 from pathlib import Path
 
-from converter.main import data_files, PROJECT
+from converter.main import DATA_SOURCE, PROJECT
 
 
 def load_datafile(name):
-    p = Path(data_files / (name + ".json"))
+    p = Path(DATA_SOURCE / (name + ".json"))
     with p.open() as fp:
         json_data = json.load(fp)
     return json_data
 
 
 def load_extra(name):
-    p = Path(PROJECT / "converter" / "extra" / (name + ".json"))
+    p = Path(PROJECT / "converter" / "assets" / "extra" / (name + ".json"))
     with p.open() as fp:
         json_data = json.load(fp)
     return json_data
 
 
 def load_template(name):
-    p = Path(PROJECT / "converter" / "templates" / (name + ".json"))
+    p = Path(PROJECT / "converter" / "assets" / "templates" / (name + ".json"))
     with p.open() as fp:
         json_data = json.load(fp)
     return json_data

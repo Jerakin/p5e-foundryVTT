@@ -492,7 +492,7 @@
 		"img": "icons/svg/mystery-man.svg",
 		"data": {
 			"description": {
-				"value": "<p>Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun’s rays, the seed grows progressively larger.</p>\n<p>Species: Seed Pokémon</p>\n<p>Height: 0.7 m (2′04″)</p>\n<p>Weight: 6.9 kg (15.2 lbs)</p>\n<p>Egg Groups: Grass, Monster</p>\n<p>Gender: 87.5% male, 12.5% female</p>\n<p>Egg cycles: 20</p>",
+				"value": "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height}</p>\n<p>Weight: {weight})</p>\n",
 				"chat": "",
 				"unidentified": ""
 			},

@@ -58,10 +58,17 @@ module_definition = {
 
 packs = {
     "pokemon": {
-            "name": "features",
-            "label": module_name,
-            "path": "packs/p5e-pokemon.db",
-            "entity": "Actor",
-            "module": module_name
-        }
+        "name": "pokemon",
+        "label": "Pokemon",
+        "path": "packs/p5e-pokemon.db",
+        "entity": "Actor",
+        "module": module_name
+    },
+    "moves": {
+        "name": "moves",
+        "label": "Pokemon Moves",
+        "path": "packs/p5e-moves.db",
+        "entity": "Item",
+        "module": module_name
+    }
 }

@@ -7,7 +7,7 @@
 	"type": "feat",
 	"data": {
 		"description": {
-			"value": "<blockquote>\n<p><strong>Type</strong>:&nbsp;<img src=\"https://cdn.bulbagarden.net/upload/5/56/WaterIC_Big.png\" alt=\"\" width=\"48\" height=\"16\"><br><strong>Move</strong>:&nbsp; DEX</p>\n</blockquote>\n<p>Make a ranged attack roll, dealing 1d10 + MOVE water damage on a hit. On a natural attack roll of 17 or higher, the target is confused.</p>\n<p>The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17.</p>",
+			"value": "<blockquote>\n<p><strong>Type</strong>:&nbsp;<img src=\"{type_icon}\" alt=\"\" width=\"48\" height=\"16\"><br><strong>Move</strong>:&nbsp; DEX</p>\n</blockquote>\n<p>{description}</p>\n<p>{later_levels}</p>",
 			"chat": "",
 			"unidentified": ""
 		},

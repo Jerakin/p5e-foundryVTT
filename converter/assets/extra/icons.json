@@ -1,0 +1,22 @@
+{
+  "Normal" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Fighting" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Flying" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Poison" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Ground" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Rock" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Bug" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Ghost" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Steel" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Fire" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Water" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Grass" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Electric" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Psychic" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Ice" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Dragon" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Dark" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Fairy" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Varies" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"},
+  "Typeless" : {"img": "https://cdn.bulbagarden.net/upload/9/95/Normal_icon_SwSh.png"}
+}

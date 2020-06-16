@@ -17,5 +17,5 @@ You can then simply run `python converter/main.py` and it will output the module
 
 
 #### Notable links
-https://foundryvtt.com/article/compendium/ 
+https://foundryvtt.com/article/compendium/  
 https://foundryvtt.com/article/module-development/

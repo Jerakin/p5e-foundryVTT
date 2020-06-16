@@ -1,33 +1,48 @@
 import json
 from pathlib import Path
+import converter.foundry as foundry
 
-from converter.main import DATA_SOURCE, PROJECT
+PROJECT = Path(__file__).parent.parent
+
+BUILD = PROJECT / "build"
+BUILD_POKEMON = BUILD / "pokemon"
+BUILD_MOVES = BUILD / "moves"
+
+DIST = PROJECT / "dist"
+DIST_MODULE = DIST / foundry.module_name
+DIST_PACKS = DIST_MODULE / "packs"
+
+DATA = PROJECT / "data"
+
+DATA_SOURCE = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles")
 
 
 def load_datafile(name):
-    p = Path(DATA_SOURCE / (name + ".json"))
-    with p.open() as fp:
+    p = Path(DATA_SOURCE / name).with_suffix(".json")
+    with p.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
     return json_data
 
 
 def load_extra(name):
-    p = Path(PROJECT / "converter" / "assets" / "extra" / (name + ".json"))
-    with p.open() as fp:
+    p = Path(PROJECT / "converter" / "assets" / "extra" / name).with_suffix(".json")
+    with p.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
     return json_data
 
 
 def load_template(name):
-    p = Path(PROJECT / "converter" / "assets" / "templates" / (name + ".json"))
-    with p.open() as fp:
+    p = Path(PROJECT / "converter" / "assets" / "templates" / name).with_suffix(".json")
+    with p.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
     return json_data
 
 
 LEVEL_DATA = load_datafile("leveling")
+POKEDEX_DATA = load_datafile("pokedex_extra")
 EXTRA_MOVE_DATA = load_extra("moves")
 EXTRA_POKEMON_DATA = load_extra("pokemon")
+EXTRA_ICON_DATA = load_extra("icons")
 
 
 def merge(a, b, path=None):

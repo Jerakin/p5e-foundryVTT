@@ -17,6 +17,9 @@ class Move:
         if name in util.EXTRA_MOVE_DATA:
             util.merge(self.output_data, util.EXTRA_MOVE_DATA[name])
 
+    def set_id(self):
+        self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
+
     def convert_range(self, json_data):
         _range = self.RANGE_REG.match(json_data["Duration"])
         if _range:
@@ -55,6 +58,8 @@ class Move:
         self.convert_damage(json_data)
         self.convert_range(json_data)
         self.convert_uses(json_data)
+
+        self.set_id()
 
     def save(self, file_path):
         if not file_path.parent.exists():

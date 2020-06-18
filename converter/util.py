@@ -40,6 +40,8 @@ def load_template(name):
 
 LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
+MOVE_DATA = load_datafile("moves")
+
 EXTRA_MOVE_DATA = load_extra("moves")
 EXTRA_POKEMON_DATA = load_extra("pokemon")
 EXTRA_MOVE_ICON_DATA = load_extra("move_icons")

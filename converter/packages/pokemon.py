@@ -3,18 +3,39 @@ import json
 import math
 
 from converter import pokemon_types as p_types, foundry
-from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA
-
+from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA
+from converter.packages import move
 
 class Move:
-    def __init__(self, name, json_data):
-        self.output_data = load_template("pokemon_move")
-        self.output_data["name"] = name
-        self.output_data["token"]["name"] = name
+    def __init__(self, json_data):
+        self.output_data = json_data
 
-        self.convert(json_data)
-        if name in EXTRA_POKEMON_DATA:
-            merge(self.output_data, EXTRA_POKEMON_DATA[name])
+        self.output_data["labels"] = {"featType": "", "activation": "", "target": "",
+                                      "range": "", "duration": "", "recharge": "",
+                                      "save": "", "damage": "", "damageTypes": ""}
+        self.convert()
+
+    def convert(self):
+        self.output_data["labels"]["featType"] = self.output_data["data"]["activation"]["type"].capitalize()
+        self.output_data["labels"][
+            "activation"] = f'{self.output_data["data"]["activation"]["cost"]} {self.output_data["labels"]["featType"]}'
+
+        self.output_data["labels"][
+            "target"] = f'{self.output_data["data"]["target"]["value"]} {self.output_data["data"]["target"]["type"].capitalize()}'
+
+        self.output_data["labels"][
+            "range"] = f'{self.output_data["data"]["range"]["value"]} {self.output_data["data"]["range"]["units"]}'
+
+        self.output_data["labels"][
+            "duration"] = f'{self.output_data["data"]["duration"]["value"]} {self.output_data["data"]["duration"]["units"].capitalize()}s'
+
+        if self.output_data["data"]["recharge"]["value"]:
+            self.output_data["labels"]["recharge"] = f'Recharge {self.output_data["data"]["recharge"]["value"]}'
+
+        self.output_data["labels"][
+            "save"] = f'DC {self.output_data["data"]["save"]["dc"]} {self.output_data["data"]["save"]["ability"].upper()}'
+        self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
+        # self.output_data["labels"]["damageTypes"] = self.output_data["data"]["details"]["background"]
 
 
 class PokemonItem:
@@ -23,8 +44,6 @@ class PokemonItem:
         self.output_data["name"] = name
 
         self.convert(json_data)
-        if name in EXTRA_POKEMON_DATA:
-            merge(self.output_data, EXTRA_POKEMON_DATA[name])
 
     def convert_image(self):
         img = "icons/svg/mystery-man.svg"
@@ -44,7 +63,8 @@ class PokemonItem:
         for level in [6, 10, 14, 18]:
             if str(level) in json_data["Moves"]["Level"]:
                 lines.append(level_moves[str(level)].format(", ".join(json_data["Moves"]["Level"][str(level)])))
-            lines.extend(["<h2>TMs</h2>", "<p>{}}</p>".format(", ".join(json_data["Moves"]["TM"]))])
+            if "TM" in json_data["Moves"]:
+                lines.extend(["<h2>TMs</h2>", "<p>{}</p>".format(", ".join([str(x) for x in json_data["Moves"]["TM"]]))])
 
         self.output_data["data"]["description"]["value"] = "\n".join(lines).format()
 
@@ -54,10 +74,6 @@ class PokemonItem:
         self.output_data["data"]["hitDice"] = f"d{json_data['Hit Dice']}"
         self.output_data["data"]["source"] = str(json_data["index"])
         self.output_data["data"]["levels"] = json_data["MIN LVL FD"]
-
-    @property
-    def data(self):
-        return self.output_data
 
 
 class Pokemon:
@@ -80,17 +96,30 @@ class Pokemon:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
         self.output_data["token"]["actorId"] = self.output_data["_id"]
 
+    def add_starting_moves(self, json_data):
+        for move_name in json_data["Moves"]["Starting Moves"]:
+            if move_name in BUILD_MOVES.iterdir():  # Check if the move have been built and use that
+                with (BUILD_MOVES / move_name).with_suffix(".json").open(encoding="utf-8") as fp:
+                    json_move_data = json.load(fp)
+                    new_move = Move(json_move_data)
+            else:  # Move have not been built, build it and use that
+                m = move.Move(move_name, MOVE_DATA[move_name])
+                m.save((BUILD_MOVES / move_name).with_suffix(".json"))
+                new_move = Move(m.output_data)
+
+            self.output_data["items"].append(new_move.output_data)
+
     def add_pokemon_item(self, name, json_data):
         item = PokemonItem(name, json_data)
-        self.output_data["items"].append(item)
+        self.output_data["items"].append(item.output_data)
 
     def convert_dex_entry(self, json_data):
         pd = POKEDEX_DATA[str(json_data["index"])]
         entry = "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height} kg</p>\n<p>Weight {weight} m</p>"
-        self.output_data["details"]["biography"]["value"] = entry.format(genus=pd["genus"], description=pd["flavor"],
+        self.output_data["data"]["details"]["biography"]["value"] = entry.format(genus=pd["genus"], description=pd["flavor"],
                                                                          height="{} m".format(pd["height"] / 10),
                                                                          weight="{} kg".format(pd["weight"] / 10))
-        self.output_data["details"]["biography"]["race"] = pd["genus"].replace("Pokémon", "")
+        self.output_data["data"]["details"]["biography"]["race"] = pd["genus"].replace("Pokémon", "")
 
     def convert_traits(self, json_data):
         """Resistance, Immunities, Vulnerabilities"""
@@ -152,7 +181,7 @@ class Pokemon:
         self.convert_traits(json_data)
         self.convert_dex_entry(json_data)
         self.add_pokemon_item(name, json_data)
-
+        self.add_starting_moves(json_data)
         self.set_id()
 
     def save(self, file_path):

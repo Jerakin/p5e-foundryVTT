@@ -38,8 +38,9 @@ def build():
             json_data = json.load(fp)
         build_pokemon(pokemon_file.stem, json_data, util.BUILD_POKEMON / pokemon_file.name)
 
-    for name, json_data in util.load_datafile("moves").items():
-        build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
+    for name, json_data in util.MOVE_DATA.items():
+        if name not in util.BUILD_MOVES.iterdir():
+            build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
 
 
 def pack_folder(folder, output_file):

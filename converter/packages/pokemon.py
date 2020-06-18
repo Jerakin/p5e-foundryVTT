@@ -63,8 +63,8 @@ class PokemonItem:
         for level in [6, 10, 14, 18]:
             if str(level) in json_data["Moves"]["Level"]:
                 lines.append(level_moves[str(level)].format(", ".join(json_data["Moves"]["Level"][str(level)])))
-            if "TM" in json_data["Moves"]:
-                lines.extend(["<h2>TMs</h2>", "<p>{}</p>".format(", ".join([str(x) for x in json_data["Moves"]["TM"]]))])
+        if "TM" in json_data["Moves"]:
+            lines.extend(["<h2>TMs</h2>", "<p>{}</p>".format(", ".join([str(x) for x in json_data["Moves"]["TM"]]))])
 
         self.output_data["data"]["description"]["value"] = "\n".join(lines).format()
 
@@ -149,6 +149,7 @@ class Pokemon:
         self.output_data["data"]["details"]["background"] = "/".join(json_data["Type"])
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
+        self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon", "")
 
         next_level = json_data["MIN LVL FD"] + 1
         if next_level == 21:

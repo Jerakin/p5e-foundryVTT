@@ -1,0 +1,38 @@
+{
+    "_id": "FmxrO6xTus5u4FHV",
+    "flags": {
+    },
+    "name": "Leafeon",
+    "type": "class",
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a4/Shuffle470.png/120px-Shuffle470.png",
+    "data": {
+      "description": {
+        "value": "<h2>Moves</h2>\n<p><strong>Starting Moves</strong>: Helping Hand, Razor Leaf, Tackle, Tail Whip, Sand Attack, Baby-Doll Eyes, Quick Attack</p>\n<p><strong>Level 6</strong>: Grass Whistle, Magical Leaf</p>\n<p><strong>Level 10</strong>: Giga Drain, Swords Dance</p>\n<p><strong>Level 14</strong>: Synthesis, Sunny Day, Last Resort</p>\n<p><strong>Level 18</strong>: Leaf Blade</p>\n<h2>TMs</h2>\n<p>01, 05, 06, 10, 11, 15, 17, 18, 21, 22, 27, 30, 32, 40, 42, 44, 45, 48, 49, 53, 68, 75, 81, 86, 87, 88, 90, 96, 100</p>",
+        "chat": "",
+        "unidentified": ""
+      },
+      "source": "470",
+      "levels": 5,
+      "subclass": "",
+      "hitDice": "d10",
+      "hitDiceUsed": 0,
+      "skills": {
+        "number": 2,
+        "choices": [],
+        "value": []
+      },
+      "spellcasting": "none",
+      "damage": {
+        "parts": []
+      },
+      "attributes": {
+        "spelldc": 10
+      }
+    },
+    "sort": 100000,
+    "labels": {},
+    "isStack": false,
+    "hasTarget": false,
+    "toggleClass": "",
+    "toggleTitle": "Not Equipped"
+  }

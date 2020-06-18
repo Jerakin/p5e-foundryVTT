@@ -42,7 +42,8 @@ LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
 EXTRA_MOVE_DATA = load_extra("moves")
 EXTRA_POKEMON_DATA = load_extra("pokemon")
-EXTRA_ICON_DATA = load_extra("icons")
+EXTRA_MOVE_ICON_DATA = load_extra("move_icons")
+EXTRA_POKEMON_ICON_DATA = load_extra("pokemon_icons")
 
 
 def merge(a, b, path=None):

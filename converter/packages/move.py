@@ -46,9 +46,8 @@ class Move:
             self.output_data["data"]["damage"]["parts"] = ["{}d{} + @mod".format(amount, dice_max), ""]
 
     def convert_description(self, json_data):
-
         template = self.output_data["data"]["description"]["value"]
-        icon = util.EXTRA_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
+        icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
         self.output_data["data"]["description"]["value"] = template.format(type_icon=icon, description=json_data["Description"], later_levels="")
 
     def convert(self, json_data):

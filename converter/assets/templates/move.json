@@ -1,9 +1,5 @@
 {
 	"name": "Water Pulse",
-	"permission": {
-		"default": 0,
-		"snMQZHi6MeQ9VTsM": 3
-	},
 	"type": "feat",
 	"data": {
 		"description": {
@@ -97,7 +93,7 @@
 				"value": [true],
 				"altValue": [true],
 				"context": {
-					"0": "Water Damage; 17+ Target is Confused"
+					"0": ""
 				}
 			},
 			"quickProperties": {
@@ -126,11 +122,6 @@
 				"value": true,
 				"altValue": true
 			}
-		},
-		"dynamiceffects": {
-			"equipActive": false,
-			"alwaysActive": false,
-			"effects": []
 		}
 	},
 	"img": "warcraft%20icons/inv_elemental_primal_water.jpg",

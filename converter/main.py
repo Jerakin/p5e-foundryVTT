@@ -70,6 +70,8 @@ def data():
     with (util.DATA / "moves.json").open("w") as fp:
         json.dump(moves, fp)
 
+    shutil.copy(util.PROJECT / "foundryJS" / "import.js", util.DATA)
+
 
 def package():
     if util.DIST.exists():

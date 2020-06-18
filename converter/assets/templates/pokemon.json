@@ -1,9 +1,5 @@
 {
 	"name": "Bulbasaur",
-	"permission": {
-		"default": 0,
-		"gHYHT3TZ8iDllHiZ": 3
-	},
 	"type": "character",
 	"data": {
 		"abilities": {

@@ -10,6 +10,7 @@ class Move:
     def __init__(self, name, json_data):
         self.output_data = load_template("pokemon_move")
         self.output_data["name"] = name
+        self.output_data["token"]["name"] = name
 
         self.convert(json_data)
         if name in EXTRA_POKEMON_DATA:
@@ -33,6 +34,8 @@ class Pokemon:
 
     def set_id(self):
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
+        self.output_data["token"]["actorId"] = self.output_data["_id"]
+
 
     def convert_dex_entry(self, json_data):
         for item in self.output_data["items"]:
@@ -45,9 +48,9 @@ class Pokemon:
 
     def convert_traits(self, json_data):
         model = p_types.Model(*json_data["Type"])
-        self.output_data["data"]["traits"]["dr"] = ", ".join(model.resistances)
-        self.output_data["data"]["traits"]["di"] = ", ".join(model.immunities)
-        self.output_data["data"]["traits"]["dv"] = ", ".join(model.vulnerabilities)
+        self.output_data["data"]["traits"]["dr"]["custom"] = ", ".join(model.resistances)
+        self.output_data["data"]["traits"]["di"]["custom"] = ", ".join(model.immunities)
+        self.output_data["data"]["traits"]["dv"]["custom"] = ", ".join(model.vulnerabilities)
         self.output_data["data"]["traits"]["senses"] = ", ".join(json_data["Senses"]) if "Senses" in json_data else ""
 
     def convert_skills(self, json_data):
@@ -57,13 +60,12 @@ class Pokemon:
         for abv, name in foundry.skill_abv_to_name.items():
             ability = self.output_data["data"]["skills"][abv]["ability"]
             mod = self.output_data["data"]["abilities"][ability]["mod"]
-            self.output_data["data"]["skills"]["mod"] = mod
+            self.output_data["data"]["skills"][abv]["mod"] = mod
 
             if name in skills:
-                self.output_data["data"]["skills"]["prof"] = self.proficiency
+                self.output_data["data"]["skills"][abv]["prof"] = self.proficiency
 
-            self.output_data["data"]["skills"]["total"] = self.proficiency + mod
-            self.output_data["data"]["skills"]["passive"] = 10 + self.proficiency + mod
+            self.output_data["data"]["skills"][abv]["total"] = self.proficiency + mod
 
     def convert_details(self, json_data):
         self.output_data["data"]["details"]["race"] = "/".join(json_data["Type"])

@@ -2,6 +2,7 @@ import shutil
 import json
 from converter import foundry
 
+from tools.utils import update_progress
 import converter.util as util
 import converter.packages.pokemon as pokemon
 import converter.packages.move as move
@@ -33,12 +34,18 @@ def build():
     util.BUILD_POKEMON.mkdir()
     util.BUILD_MOVES.mkdir()
 
-    for pokemon_file in (util.DATA_SOURCE / "pokemon").iterdir():
+    print("Convert Pokemon")
+    total = len(list((util.DATA_SOURCE / "pokemon").iterdir()))
+    for index, pokemon_file in enumerate((util.DATA_SOURCE / "pokemon").iterdir(), 1):
+        update_progress(index/total)
         with pokemon_file.open() as fp:
             json_data = json.load(fp)
         build_pokemon(pokemon_file.stem, json_data, util.BUILD_POKEMON / pokemon_file.name)
 
-    for name, json_data in util.MOVE_DATA.items():
+    print("Convert Moves")
+    total = len(util.MOVE_DATA)
+    for index, (name, json_data) in enumerate(util.MOVE_DATA.items(), 1):
+        update_progress(index / total)
         if name not in util.BUILD_MOVES.iterdir():
             build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
 
@@ -61,7 +68,7 @@ def data():
             poke.append(json.load(fp))
 
     with (util.DATA / "pokemon.json").open("w") as fp:
-        json.dump(poke, fp)
+        json.dump(poke, fp, indent=4)
 
     moves = []
     for p_file in util.BUILD_MOVES.iterdir():
@@ -69,7 +76,7 @@ def data():
             moves.append(json.load(fp))
 
     with (util.DATA / "moves.json").open("w") as fp:
-        json.dump(moves, fp)
+        json.dump(moves, fp, indent=4)
 
     shutil.copy(util.PROJECT / "foundryJS" / "import.js", util.DATA)
 

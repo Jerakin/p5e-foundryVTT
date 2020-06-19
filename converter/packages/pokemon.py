@@ -124,9 +124,9 @@ class Pokemon:
     def convert_traits(self, json_data):
         """Resistance, Immunities, Vulnerabilities"""
         model = p_types.Model(*json_data["Type"])
-        self.output_data["data"]["traits"]["dr"]["custom"] = ", ".join(model.resistances)
-        self.output_data["data"]["traits"]["di"]["custom"] = ", ".join(model.immunities)
-        self.output_data["data"]["traits"]["dv"]["custom"] = ", ".join(model.vulnerabilities)
+        self.output_data["data"]["traits"]["dr"]["custom"] = ";".join(model.resistances)
+        self.output_data["data"]["traits"]["di"]["custom"] = ";".join(model.immunities)
+        self.output_data["data"]["traits"]["dv"]["custom"] = ";".join(model.vulnerabilities)
         self.output_data["data"]["traits"]["senses"] = ", ".join(json_data["Senses"]) if "Senses" in json_data else ""
 
     def convert_skills(self, json_data):

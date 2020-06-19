@@ -64,65 +64,6 @@
 		}
 	},
 	"flags": {
-		"betterRolls5e": {
-			"critRange": {
-				"type": "String",
-				"value": ""
-			},
-			"critDamage": {
-				"type": "String",
-				"value": ""
-			},
-			"quickDesc": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			},
-			"quickAttack": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			},
-			"quickSave": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			},
-			"quickDamage": {
-				"type": "Array",
-				"value": [true],
-				"altValue": [true],
-				"context": {
-					"0": ""
-				}
-			},
-			"quickProperties": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			},
-			"quickCharges": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			},
-			"quickTemplate": {
-				"type": "Boolean",
-				"value": false,
-				"altValue": false
-			},
-			"quickOther": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true,
-				"context": ""
-			},
-			"quickFlavor": {
-				"type": "Boolean",
-				"value": true,
-				"altValue": true
-			}
-		}
 	},
 	"img": "warcraft%20icons/inv_elemental_primal_water.jpg",
 	"_id": "HoGey9iM0ibS8A2I"

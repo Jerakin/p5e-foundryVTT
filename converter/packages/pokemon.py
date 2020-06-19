@@ -6,6 +6,7 @@ from converter import pokemon_types as p_types, foundry
 from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA, BUILD_ABILITIES, ABILITY_DATA
 from converter.packages import move
 from converter.packages import ability
+from converter.packages import experience
 
 
 class Move:
@@ -70,6 +71,7 @@ class Ability:
             "save"] = f'DC {self.output_data["data"]["save"]["dc"]} {self.output_data["data"]["save"]["ability"].upper()}'
         self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
         # self.output_data["labels"]["damageTypes"] = self.output_data["data"]["details"]["background"]
+
 
 class PokemonItem:
     def __init__(self, name, json_data):
@@ -159,7 +161,6 @@ class Pokemon:
 
             self.output_data["items"].append(new_ability.output_data)
 
-
     def add_pokemon_item(self, name, json_data):
         item = PokemonItem(name, json_data)
         self.output_data["items"].append(item.output_data)
@@ -167,9 +168,10 @@ class Pokemon:
     def convert_dex_entry(self, json_data):
         pd = POKEDEX_DATA[str(json_data["index"])]
         entry = "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height} kg</p>\n<p>Weight {weight} m</p>"
-        self.output_data["data"]["details"]["biography"]["value"] = entry.format(genus=pd["genus"], description=pd["flavor"],
-                                                                         height="{} m".format(pd["height"] / 10),
-                                                                         weight="{} kg".format(pd["weight"] / 10))
+        self.output_data["data"]["details"]["biography"]["value"] = entry.format(genus=pd["genus"],
+                                                                                 description=pd["flavor"],
+                                                                                 height=f"{pd['height'] / 10} m",
+                                                                                 weight=f"{pd['weight'] / 10} kg")
         self.output_data["data"]["details"]["biography"]["race"] = pd["genus"].replace("Pokémon", "")
 
     def convert_traits(self, json_data):
@@ -186,8 +188,8 @@ class Pokemon:
             return
         skills = json_data["Skill"]
         for abv, name in foundry.skill_abv_to_name.items():
-            ability = self.output_data["data"]["skills"][abv]["ability"]
-            mod = self.output_data["data"]["abilities"][ability]["mod"]
+            _ability = self.output_data["data"]["skills"][abv]["ability"]
+            mod = self.output_data["data"]["abilities"][_ability]["mod"]
             self.output_data["data"]["skills"][abv]["mod"] = mod
 
             if name in skills:
@@ -201,6 +203,8 @@ class Pokemon:
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
         self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon", "")
+        self.output_data["data"]["details"]["resources"]["primary"] = experience.GRID[json_data["MIN LVL FD"]][
+            json_data["SR"]]
 
         next_level = json_data["MIN LVL FD"] + 1
         if next_level == 21:

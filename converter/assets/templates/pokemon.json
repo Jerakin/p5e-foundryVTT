@@ -418,10 +418,10 @@
 		"resources": {
 			"primary": {
 				"value": null,
-				"max": null,
+				"max": 5,
 				"sr": false,
 				"lr": false,
-				"label": ""
+				"label": "STAB"
 			},
 			"secondary": {
 				"value": null,
@@ -479,6 +479,162 @@
 		},
 		"randomImg": false
 	},
-	"items": [],
+	"items": [{
+			"_id": "31P9fwD5cpbHrydz",
+			"flags": {
+				"betterRolls5e": {
+					"critRange": {
+						"type": "String",
+						"value": ""
+					},
+					"quickDesc": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					},
+					"quickAttack": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					},
+					"quickSave": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					},
+					"quickDamage": {
+						"type": "Array",
+						"value": {
+							"0": true
+						},
+						"altValue": {
+							"0": true
+						},
+						"context": {
+							"0": "Typeless"
+						}
+					},
+					"quickProperties": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					},
+					"quickCharges": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					},
+					"quickTemplate": {
+						"type": "Boolean",
+						"value": false,
+						"altValue": false
+					},
+					"quickOther": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true,
+						"context": ""
+					},
+					"quickFlavor": {
+						"type": "Boolean",
+						"value": true,
+						"altValue": true
+					}
+				},
+				"dynamiceffects": {
+					"equipActive": false,
+					"alwaysActive": false,
+					"effects": []
+				}
+			},
+			"name": "Struggle",
+			"type": "feat",
+			"img": "icons/svg/mystery-man.svg",
+			"data": {
+				"description": {
+					"value": "<blockquote>\n<p><strong>Type</strong>: None</p>\n<p><strong>Move</strong>: STR/DEX</p>\n</blockquote>\n<p>This move is known by all Pokémon, and can be used at any time. Make a melee attack roll, doing damage equal to 2 + MOVE typeless damage on a hit.</p>",
+					"chat": "",
+					"unidentified": ""
+				},
+				"source": "STR/DEX",
+				"activation": {
+					"type": "action",
+					"cost": 1,
+					"condition": ""
+				},
+				"duration": {
+					"value": null,
+					"units": "inst"
+				},
+				"target": {
+					"value": 1,
+					"units": "",
+					"type": "creature"
+				},
+				"range": {
+					"value": 5,
+					"long": null,
+					"units": "ft"
+				},
+				"uses": {
+					"value": 0,
+					"max": 0,
+					"per": ""
+				},
+				"consume": {
+					"type": "",
+					"target": "",
+					"amount": null
+				},
+				"ability": "str",
+				"actionType": "mwak",
+				"attackBonus": 0,
+				"chatFlavor": "",
+				"critical": null,
+				"damage": {
+					"parts": [
+						[
+							"2+@mod",
+							""
+						]
+					],
+					"versatile": ""
+				},
+				"formula": "",
+				"save": {
+					"ability": "",
+					"dc": null,
+					"scaling": "spell"
+				},
+				"requirements": "Typeless",
+				"recharge": {
+					"value": null,
+					"charged": false
+				},
+				"attributes": {
+					"spelldc": 10
+				}
+			},
+			"sort": -87500,
+			"labels": {
+				"featType": "Action",
+				"activation": "1 Action",
+				"target": "1 Creature",
+				"range": "5 Feet",
+				"duration": "Instantaneous",
+				"recharge": "Recharge [null]",
+				"save": "",
+				"damage": "2+@mod",
+				"damageTypes": ""
+			},
+			"isStack": false,
+			"hasUses": false,
+			"isOnCooldown": false,
+			"isDepleted": false,
+			"hasTarget": true,
+			"toggleClass": "",
+			"toggleTitle": "Not Equipped"
+		}
+	],
 	"_id": "gWYR9cqXptRvp2n5"
 }

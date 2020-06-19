@@ -50,6 +50,14 @@ EXTRA_MOVE_ICON_DATA = load_extra("move_icons")
 EXTRA_POKEMON_ICON_DATA = load_extra("pokemon_icons")
 EXTRA_ABILITY_DATA = load_extra("abilities")
 
+TRANSLATE_NAME = {
+  "Flabebe": "Flabébé",
+  "Meowstic-f": "Meowstic ♀",
+  "Meowstic-m": "Meowstic ♂",
+  "Nidoran-m": "Nidoran ♂",
+  "Nidoran-f": "Nidoran ♀"
+}
+
 
 def merge(a, b, path=None):
     """merges b into a"""

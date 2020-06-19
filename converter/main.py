@@ -1,5 +1,7 @@
 import shutil
 import json
+import time
+
 from converter import foundry
 
 from tools.utils import update_progress
@@ -36,6 +38,8 @@ def build():
     print("Building Pokemon")
     total = len(list((util.DATA_SOURCE / "pokemon").iterdir()))
     for index, pokemon_file in enumerate((util.DATA_SOURCE / "pokemon").iterdir(), 1):
+        if pokemon_file.stem == "MissingNo":
+            continue
         update_progress(index/total)
         with pokemon_file.open(encoding="utf-8") as fp:
             json_data = json.load(fp)
@@ -44,6 +48,8 @@ def build():
     print("Building Moves")
     total = len(util.MOVE_DATA)
     for index, (name, json_data) in enumerate(util.MOVE_DATA.items(), 1):
+        if name == "Error":
+            continue
         update_progress(index / total)
         if name not in util.BUILD_MOVES.iterdir():
             build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
@@ -116,10 +122,8 @@ def package():
 
 def make():
     build()
-    try:
-        package()
-    except PermissionError:  # For some reason this fails the first time
-        package()
+    time.sleep(1)
+    package()
     data()
     print("All done")
 

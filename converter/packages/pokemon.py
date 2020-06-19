@@ -3,7 +3,7 @@ import json
 import math
 
 from converter import pokemon_types as p_types, foundry
-from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA, BUILD_ABILITIES, ABILITY_DATA
+from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA, BUILD_ABILITIES, ABILITY_DATA, TRANSLATE_NAME
 from converter.packages import move
 from converter.packages import ability
 from converter.packages import experience
@@ -81,10 +81,7 @@ class PokemonItem:
         self.convert(json_data)
 
     def convert_image(self):
-        img = "icons/svg/mystery-man.svg"
-        if self.output_data["name"] in EXTRA_POKEMON_ICON_DATA:
-            img = EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]
-        self.output_data["img"] = img
+        self.output_data["img"] = EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["img"]
 
     def convert_move_info(self, json_data):
         lines = ["<h2>Moves</h2>",
@@ -108,12 +105,15 @@ class PokemonItem:
         self.convert_move_info(json_data)
         self.output_data["data"]["hitDice"] = f"d{json_data['Hit Dice']}"
         self.output_data["data"]["source"] = str(json_data["index"])
+        self.output_data["data"]["subclass"] = str(json_data["index"])
         self.output_data["data"]["levels"] = json_data["MIN LVL FD"]
 
 
 class Pokemon:
     def __init__(self, name, json_data):
         self.output_data = load_template("pokemon")
+        if name in TRANSLATE_NAME:
+            name = TRANSLATE_NAME[name]
         self.output_data["name"] = name
         self.output_data["token"]["name"] = name
 
@@ -167,7 +167,7 @@ class Pokemon:
 
     def convert_dex_entry(self, json_data):
         pd = POKEDEX_DATA[str(json_data["index"])]
-        entry = "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height} kg</p>\n<p>Weight {weight} m</p>"
+        entry = "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height}</p>\n<p>Weight {weight}</p>"
         self.output_data["data"]["details"]["biography"]["value"] = entry.format(genus=pd["genus"],
                                                                                  description=pd["flavor"],
                                                                                  height=f"{pd['height'] / 10} m",
@@ -192,18 +192,21 @@ class Pokemon:
             mod = self.output_data["data"]["abilities"][_ability]["mod"]
             self.output_data["data"]["skills"][abv]["mod"] = mod
 
+            add_prof = 0
             if name in skills:
-                self.output_data["data"]["skills"][abv]["prof"] = self.proficiency
-                self.output_data["data"]["skills"][abv]["proficient"] = 1
+                add_prof = self.proficiency
+                self.output_data["data"]["skills"][abv]["value"] = 1
 
-            self.output_data["data"]["skills"][abv]["total"] = self.proficiency + mod
-            self.output_data["data"]["skills"][abv]["passive"] = 10 + self.proficiency + mod
+            self.output_data["data"]["skills"][abv]["prof"] = add_prof
+            self.output_data["data"]["skills"][abv]["total"] = add_prof + mod
+            self.output_data["data"]["skills"][abv]["passive"] = 10 + add_prof + mod
 
     def convert_details(self, json_data):
         self.output_data["data"]["details"]["background"] = "/".join(json_data["Type"])
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
-        self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon", "")
+        self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon",
+                                                                                                             "")
         self.output_data["data"]["details"]["xp"]["value"] = experience.GRID[json_data["MIN LVL FD"]][
             json_data["SR"]]
 
@@ -216,6 +219,9 @@ class Pokemon:
         self.output_data["data"]["attributes"]["ac"]["value"] = json_data["AC"]
         self.output_data["data"]["attributes"]["hp"]["value"] = json_data["HP"]
         self.output_data["data"]["attributes"]["hp"]["max"] = json_data["HP"]
+
+        self.output_data["data"]["attributes"]["speed"][
+            "value"] = f'{json_data["WSp"]} ft' if "WSp" in json_data else "0 ft"
 
         self.output_data["data"]["attributes"]["init"]["mod"] = self.output_data["data"]["abilities"]["dex"]["mod"]
 
@@ -232,7 +238,7 @@ class Pokemon:
             current["proficient"] = 1 if name in saving_throws else 0
 
     def convert_stab(self, json_data):
-        self.output_data["data"]["details"]["xp"]["max"] = LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
+        self.output_data["data"]["resources"]["primary"]["value"] = LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
 
     def convert(self, name, json_data):
         self.convert_abilities(json_data)

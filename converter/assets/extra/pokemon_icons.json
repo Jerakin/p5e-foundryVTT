@@ -1,2273 +1,2273 @@
 {
-	"Leafeon": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a4/Shuffle470.png"
-	},
-	"Bulbasaur": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9c/Shuffle001.png"
-	},
-	"Ivysaur": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle002.png"
-	},
-	"Venusaur": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle003.png"
-	},
-	"Charmander": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/00/Shuffle004.png"
-	},
-	"Charmeleon": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/45/Shuffle005.png"
-	},
-	"Charizard": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle006.png"
-	},
-	"Squirtle": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b6/Shuffle007.png"
-	},
-	"Wartortle": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9a/Shuffle008.png"
-	},
-	"Blastoise": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle009.png"
-	},
-	"Caterpie": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/58/Shuffle010.png"
-	},
-	"Metapod": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle011.png"
-	},
-	"Butterfree": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2d/Shuffle012.png"
-	},
-	"Weedle": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/04/Shuffle013.png"
-	},
-	"Kakuna": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5c/Shuffle014.png"
-	},
-	"Beedrill": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2b/Shuffle015.png"
-	},
-	"Pidgey": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/60/Shuffle016.png"
-	},
-	"Pidgeotto": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bc/Shuffle017.png"
-	},
-	"Pidgeot": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/de/Shuffle018.png"
-	},
-	"Rattata": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c2/Shuffle019.png"
-	},
-	"Raticate": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/86/Shuffle020.png"
-	},
-	"Spearow": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle021.png"
-	},
-	"Fearow": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle022.png"
-	},
-	"Ekans": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/42/Shuffle023.png"
-	},
-	"Arbok": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5b/Shuffle024.png"
-	},
-	"Pikachu": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b3/Shuffle025.png"
-	},
-	"Raichu": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/af/Shuffle026.png"
-	},
-	"Sandshrew": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e2/Shuffle027.png"
-	},
-	"Sandslash": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/50/Shuffle028.png"
-	},
-	"Nidoran ♀": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle029.png"
-	},
-	"Nidorina": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5b/Shuffle030.png"
-	},
-	"Nidoqueen": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/68/Shuffle031.png"
-	},
-	"Nidoran ♂": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle032.png"
-	},
-	"Nidorino": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/70/Shuffle033.png"
-	},
-	"Nidoking": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c9/Shuffle034.png"
-	},
-	"Clefairy": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle035.png"
-	},
-	"Clefable": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/aa/Shuffle036.png"
-	},
-	"Vulpix": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/95/Shuffle037.png"
-	},
-	"Ninetales": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ed/Shuffle038.png"
-	},
-	"Jigglypuff": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/85/Shuffle039.png"
-	},
-	"Wigglytuff": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2e/Shuffle040.png"
-	},
-	"Zubat": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/86/Shuffle041.png"
-	},
-	"Golbat": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cc/Shuffle042.png"
-	},
-	"Oddish": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/05/Shuffle043.png"
-	},
-	"Gloom": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/51/Shuffle044.png"
-	},
-	"Vileplume": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/61/Shuffle045.png"
-	},
-	"Paras": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5e/Shuffle046.png"
-	},
-	"Parasect": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c5/Shuffle047.png"
-	},
-	"Venonat": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7f/Shuffle048.png"
-	},
-	"Venomoth": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9f/Shuffle049.png"
-	},
-	"Diglett": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/43/Shuffle050.png"
-	},
-	"Dugtrio": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/81/Shuffle051.png"
-	},
-	"Meowth": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/59/Shuffle052.png"
-	},
-	"Persian": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c2/Shuffle053.png"
-	},
-	"Psyduck": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle054.png"
-	},
-	"Golduck": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle055.png"
-	},
-	"Mankey": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2e/Shuffle056.png"
-	},
-	"Primeape": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/88/Shuffle057.png"
-	},
-	"Growlithe": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/41/Shuffle058.png"
-	},
-	"Arcanine": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8a/Shuffle059.png"
-	},
-	"Poliwag": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/65/Shuffle060.png"
-	},
-	"Poliwhirl": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9e/Shuffle061.png"
-	},
-	"Poliwrath": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/de/Shuffle062.png"
-	},
-	"Abra": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/11/Shuffle063.png"
-	},
-	"Kadabra": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8a/Shuffle064.png"
-	},
-	"Alakazam": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/99/Shuffle065.png"
-	},
-	"Machop": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/96/Shuffle066.png"
-	},
-	"Machoke": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1f/Shuffle067.png"
-	},
-	"Machamp": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a3/Shuffle068.png"
-	},
-	"Bellsprout": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle069.png"
-	},
-	"Weepinbell": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/24/Shuffle070.png"
-	},
-	"Victreebel": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4b/Shuffle071.png"
-	},
-	"Tentacool": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/81/Shuffle072.png"
-	},
-	"Tentacruel": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/10/Shuffle073.png"
-	},
-	"Geodude": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/15/Shuffle074.png"
-	},
-	"Graveler": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e3/Shuffle075.png"
-	},
-	"Golem": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/39/Shuffle076.png"
-	},
-	"Ponyta": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3b/Shuffle077.png"
-	},
-	"Rapidash": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/43/Shuffle078.png"
-	},
-	"Slowpoke": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/79/Shuffle079.png"
-	},
-	"Slowbro": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/36/Shuffle080.png"
-	},
-	"Magnemite": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c8/Shuffle081.png"
-	},
-	"Magneton": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/47/Shuffle082.png"
-	},
-	"Farfetch'd": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle083.png"
-	},
-	"Doduo": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b7/Shuffle084.png"
-	},
-	"Dodrio": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6f/Shuffle085.png"
-	},
-	"Seel": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fb/Shuffle086.png"
-	},
-	"Dewgong": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a4/Shuffle087.png"
-	},
-	"Grimer": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a0/Shuffle088.png"
-	},
-	"Muk": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4a/Shuffle089.png"
-	},
-	"Shellder": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ac/Shuffle090.png"
-	},
-	"Cloyster": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ec/Shuffle091.png"
-	},
-	"Gastly": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/08/Shuffle092.png"
-	},
-	"Haunter": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle093.png"
-	},
-	"Gengar": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle094.png"
-	},
-	"Onix": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e9/Shuffle095.png"
-	},
-	"Drowzee": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d2/Shuffle096.png"
-	},
-	"Hypno": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b1/Shuffle097.png"
-	},
-	"Krabby": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d2/Shuffle098.png"
-	},
-	"Kingler": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8b/Shuffle099.png"
-	},
-	"Voltorb": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f9/Shuffle100.png"
-	},
-	"Electrode": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/63/Shuffle101.png"
-	},
-	"Exeggcute": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0b/Shuffle102.png"
-	},
-	"Exeggutor": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle103.png"
-	},
-	"Cubone": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/05/Shuffle104.png"
-	},
-	"Marowak": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9b/Shuffle105.png"
-	},
-	"Hitmonlee": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle106.png"
-	},
-	"Hitmonchan": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ae/Shuffle107.png"
-	},
-	"Lickitung": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle108.png"
-	},
-	"Koffing": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3c/Shuffle109.png"
-	},
-	"Weezing": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f3/Shuffle110.png"
-	},
-	"Rhyhorn": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/84/Shuffle111.png"
-	},
-	"Rhydon": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/50/Shuffle112.png"
-	},
-	"Chansey": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle113.png"
-	},
-	"Tangela": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/04/Shuffle114.png"
-	},
-	"Kangaskhan": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d9/Shuffle115.png"
-	},
-	"Horsea": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle116.png"
-	},
-	"Seadra": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ca/Shuffle117.png"
-	},
-	"Goldeen": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/af/Shuffle118.png"
-	},
-	"Seaking": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/85/Shuffle119.png"
-	},
-	"Staryu": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle120.png"
-	},
-	"Starmie": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a9/Shuffle121.png"
-	},
-	"Mr. Mime": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/32/Shuffle122.png"
-	},
-	"Scyther": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2b/Shuffle123.png"
-	},
-	"Jynx": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ed/Shuffle124.png"
-	},
-	"Electabuzz": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ad/Shuffle125.png"
-	},
-	"Magmar": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/24/Shuffle126.png"
-	},
-	"Pinsir": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle127.png"
-	},
-	"Tauros": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/39/Shuffle128.png"
-	},
-	"Magikarp": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle129.png"
-	},
-	"Gyarados": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/44/Shuffle130.png"
-	},
-	"Lapras": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/eb/Shuffle131.png"
-	},
-	"Ditto": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0d/Shuffle132.png"
-	},
-	"Eevee": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/55/Shuffle133.png"
-	},
-	"Vaporeon": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5d/Shuffle134.png"
-	},
-	"Jolteon": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/88/Shuffle135.png"
-	},
-	"Flareon": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e0/Shuffle136.png"
-	},
-	"Porygon": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/91/Shuffle137.png"
-	},
-	"Omanyte": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6c/Shuffle138.png"
-	},
-	"Omastar": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle139.png"
-	},
-	"Kabuto": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8f/Shuffle140.png"
-	},
-	"Kabutops": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/67/Shuffle141.png"
-	},
-	"Aerodactyl": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e2/Shuffle142.png"
-	},
-	"Snorlax": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle143.png"
-	},
-	"Articuno": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/10/Shuffle144.png"
-	},
-	"Zapdos": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/59/Shuffle145.png"
-	},
-	"Moltres": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle146.png"
-	},
-	"Dratini": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle147.png"
-	},
-	"Dragonair": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/58/Shuffle148.png"
-	},
-	"Dragonite": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/42/Shuffle149.png"
-	},
-	"Mewtwo": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/13/Shuffle150.png"
-	},
-	"Mew": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle151.png"
-	},
-	"Chikorita": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b6/Shuffle152.png"
-	},
-	"Bayleef": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/05/Shuffle153.png"
-	},
-	"Meganium": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/12/Shuffle154.png"
-	},
-	"Cyndaquil": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a4/Shuffle155.png"
-	},
-	"Quilava": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/69/Shuffle156.png"
-	},
-	"Typhlosion": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e3/Shuffle157.png"
-	},
-	"Totodile": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c8/Shuffle158.png"
-	},
-	"Croconaw": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8a/Shuffle159.png"
-	},
-	"Feraligatr": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8b/Shuffle160.png"
-	},
-	"Sentret": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle161.png"
-	},
-	"Furret": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/66/Shuffle162.png"
-	},
-	"Hoothoot": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/90/Shuffle163.png"
-	},
-	"Noctowl": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a5/Shuffle164.png"
-	},
-	"Ledyba": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/75/Shuffle165.png"
-	},
-	"Ledian": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3d/Shuffle166.png"
-	},
-	"Spinarak": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0a/Shuffle167.png"
-	},
-	"Ariados": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cf/Shuffle168.png"
-	},
-	"Crobat": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle169.png"
-	},
-	"Chinchou": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3d/Shuffle170.png"
-	},
-	"Lanturn": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle171.png"
-	},
-	"Pichu": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle172.png"
-	},
-	"Cleffa": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5f/Shuffle173.png"
-	},
-	"Igglybuff": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d9/Shuffle174.png"
-	},
-	"Togepi": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle175.png"
-	},
-	"Togetic": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9e/Shuffle176.png"
-	},
-	"Natu": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle177.png"
-	},
-	"Xatu": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5a/Shuffle178.png"
-	},
-	"Mareep": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle179.png"
-	},
-	"Flaaffy": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2c/Shuffle180.png"
-	},
-	"Ampharos": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8f/Shuffle181.png"
-	},
-	"Bellossom": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/37/Shuffle182.png"
-	},
-	"Marill": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e3/Shuffle183.png"
-	},
-	"Azumarill": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e3/Shuffle184.png"
-	},
-	"Sudowoodo": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fc/Shuffle185.png"
-	},
-	"Politoed": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/ba/Shuffle186.png"
-	},
-	"Hoppip": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/35/Shuffle187.png"
-	},
-	"Skiploom": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3a/Shuffle188.png"
-	},
-	"Jumpluff": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/71/Shuffle189.png"
-	},
-	"Aipom": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7f/Shuffle190.png"
-	},
-	"Sunkern": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a9/Shuffle191.png"
-	},
-	"Sunflora": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/17/Shuffle192.png"
-	},
-	"Yanma": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5c/Shuffle193.png"
-	},
-	"Wooper": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle194.png"
-	},
-	"Quagsire": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/82/Shuffle195.png"
-	},
-	"Espeon": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/aa/Shuffle196.png"
-	},
-	"Umbreon": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f3/Shuffle197.png"
-	},
-	"Murkrow": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6c/Shuffle198.png"
-	},
-	"Slowking": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/57/Shuffle199.png"
-	},
-	"Misdreavus": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/79/Shuffle200.png"
-	},
-	"Unown": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/35/Shuffle201.png"
-	},
-	"Wobbuffet": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5f/Shuffle202.png"
-	},
-	"Girafarig": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3d/Shuffle203.png"
-	},
-	"Pineco": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2a/Shuffle204.png"
-	},
-	"Forretress": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle205.png"
-	},
-	"Dunsparce": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/54/Shuffle206.png"
-	},
-	"Gligar": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3e/Shuffle207.png"
-	},
-	"Steelix": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/81/Shuffle208.png"
-	},
-	"Snubbull": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/77/Shuffle209.png"
-	},
-	"Granbull": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3a/Shuffle210.png"
-	},
-	"Qwilfish": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/51/Shuffle211.png"
-	},
-	"Scizor": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle212.png"
-	},
-	"Shuckle": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b4/Shuffle213.png"
-	},
-	"Heracross": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fb/Shuffle214.png"
-	},
-	"Sneasel": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/80/Shuffle215.png"
-	},
-	"Teddiursa": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/62/Shuffle216.png"
-	},
-	"Ursaring": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3f/Shuffle217.png"
-	},
-	"Slugma": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d7/Shuffle218.png"
-	},
-	"Magcargo": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle219.png"
-	},
-	"Swinub": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/18/Shuffle220.png"
-	},
-	"Piloswine": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle221.png"
-	},
-	"Corsola": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8b/Shuffle222.png"
-	},
-	"Remoraid": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b4/Shuffle223.png"
-	},
-	"Octillery": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c2/Shuffle224.png"
-	},
-	"Delibird": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/44/Shuffle225.png"
-	},
-	"Mantine": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5f/Shuffle226.png"
-	},
-	"Skarmory": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/be/Shuffle227.png"
-	},
-	"Houndour": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle228.png"
-	},
-	"Houndoom": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fc/Shuffle229.png"
-	},
-	"Kingdra": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/14/Shuffle230.png"
-	},
-	"Phanpy": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8d/Shuffle231.png"
-	},
-	"Donphan": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6a/Shuffle232.png"
-	},
-	"Porygon2": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/83/Shuffle233.png"
-	},
-	"Stantler": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ef/Shuffle234.png"
-	},
-	"Smeargle": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle235.png"
-	},
-	"Tyrogue": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e0/Shuffle236.png"
-	},
-	"Hitmontop": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/64/Shuffle237.png"
-	},
-	"Smoochum": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d0/Shuffle238.png"
-	},
-	"Elekid": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/49/Shuffle239.png"
-	},
-	"Magby": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/26/Shuffle240.png"
-	},
-	"Miltank": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c1/Shuffle241.png"
-	},
-	"Blissey": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9b/Shuffle242.png"
-	},
-	"Raikou": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a3/Shuffle243.png"
-	},
-	"Entei": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle244.png"
-	},
-	"Suicune": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/ba/Shuffle245.png"
-	},
-	"Larvitar": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1a/Shuffle246.png"
-	},
-	"Pupitar": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/12/Shuffle247.png"
-	},
-	"Tyranitar": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7b/Shuffle248.png"
-	},
-	"Lugia": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/74/Shuffle249.png"
-	},
-	"Ho-oh": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/af/Shuffle250.png"
-	},
-	"Celebi": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle251.png"
-	},
-	"Treecko": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4e/Shuffle252.png"
-	},
-	"Grovyle": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/75/Shuffle253.png"
-	},
-	"Sceptile": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b7/Shuffle254.png"
-	},
-	"Torchic": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/65/Shuffle255.png"
-	},
-	"Combusken": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/54/Shuffle256.png"
-	},
-	"Blaziken": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d1/Shuffle257.png"
-	},
-	"Mudkip": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/37/Shuffle258.png"
-	},
-	"Marshtomp": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/80/Shuffle259.png"
-	},
-	"Swampert": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/77/Shuffle260.png"
-	},
-	"Poochyena": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f3/Shuffle261.png"
-	},
-	"Mightyena": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d1/Shuffle262.png"
-	},
-	"Zigzagoon": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1f/Shuffle263.png"
-	},
-	"Linoone": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle264.png"
-	},
-	"Wurmple": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a6/Shuffle265.png"
-	},
-	"Silcoon": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e6/Shuffle266.png"
-	},
-	"Beautifly": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle267.png"
-	},
-	"Cascoon": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle268.png"
-	},
-	"Dustox": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4c/Shuffle269.png"
-	},
-	"Lotad": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/90/Shuffle270.png"
-	},
-	"Lombre": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a2/Shuffle271.png"
-	},
-	"Ludicolo": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ab/Shuffle272.png"
-	},
-	"Seedot": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/eb/Shuffle273.png"
-	},
-	"Nuzleaf": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8a/Shuffle274.png"
-	},
-	"Shiftry": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b8/Shuffle275.png"
-	},
-	"Taillow": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/95/Shuffle276.png"
-	},
-	"Swellow": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e8/Shuffle277.png"
-	},
-	"Wingull": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/27/Shuffle278.png"
-	},
-	"Pelipper": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/26/Shuffle279.png"
-	},
-	"Ralts": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3f/Shuffle280.png"
-	},
-	"Kirlia": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d8/Shuffle281.png"
-	},
-	"Gardevoir": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9d/Shuffle282.png"
-	},
-	"Surskit": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8a/Shuffle283.png"
-	},
-	"Masquerain": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle284.png"
-	},
-	"Shroomish": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/68/Shuffle285.png"
-	},
-	"Breloom": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0a/Shuffle286.png"
-	},
-	"Slakoth": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c6/Shuffle287.png"
-	},
-	"Vigoroth": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle288.png"
-	},
-	"Slaking": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle289.png"
-	},
-	"Nincada": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle290.png"
-	},
-	"Ninjask": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/39/Shuffle291.png"
-	},
-	"Shedinja": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0f/Shuffle292.png"
-	},
-	"Whismur": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3e/Shuffle293.png"
-	},
-	"Loudred": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d6/Shuffle294.png"
-	},
-	"Exploud": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8f/Shuffle295.png"
-	},
-	"Makuhita": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle296.png"
-	},
-	"Hariyama": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3d/Shuffle297.png"
-	},
-	"Azurill": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3e/Shuffle298.png"
-	},
-	"Nosepass": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/78/Shuffle299.png"
-	},
-	"Skitty": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6a/Shuffle300.png"
-	},
-	"Delcatty": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle301.png"
-	},
-	"Sableye": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7d/Shuffle302.png"
-	},
-	"Mawile": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/09/Shuffle303.png"
-	},
-	"Aron": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/70/Shuffle304.png"
-	},
-	"Lairon": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/04/Shuffle305.png"
-	},
-	"Aggron": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/70/Shuffle306.png"
-	},
-	"Meditite": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6e/Shuffle307.png"
-	},
-	"Medicham": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d2/Shuffle308.png"
-	},
-	"Electrike": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a6/Shuffle309.png"
-	},
-	"Manectric": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/82/Shuffle310.png"
-	},
-	"Plusle": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ef/Shuffle311.png"
-	},
-	"Minun": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c6/Shuffle312.png"
-	},
-	"Volbeat": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7b/Shuffle313.png"
-	},
-	"Illumise": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1e/Shuffle314.png"
-	},
-	"Roselia": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a6/Shuffle315.png"
-	},
-	"Gulpin": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/87/Shuffle316.png"
-	},
-	"Swalot": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ae/Shuffle317.png"
-	},
-	"Carvanha": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9e/Shuffle318.png"
-	},
-	"Sharpedo": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/23/Shuffle319.png"
-	},
-	"Wailmer": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/18/Shuffle320.png"
-	},
-	"Wailord": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d6/Shuffle321.png"
-	},
-	"Numel": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle322.png"
-	},
-	"Camerupt": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0e/Shuffle323.png"
-	},
-	"Torkoal": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d1/Shuffle324.png"
-	},
-	"Spoink": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0d/Shuffle325.png"
-	},
-	"Grumpig": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/dd/Shuffle326.png"
-	},
-	"Spinda": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b3/Shuffle327.png"
-	},
-	"Trapinch": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a7/Shuffle328.png"
-	},
-	"Vibrava": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fe/Shuffle329.png"
-	},
-	"Flygon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7a/Shuffle330.png"
-	},
-	"Cacnea": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/19/Shuffle331.png"
-	},
-	"Cacturne": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle332.png"
-	},
-	"Swablu": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a7/Shuffle333.png"
-	},
-	"Altaria": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/28/Shuffle334.png"
-	},
-	"Zangoose": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6d/Shuffle335.png"
-	},
-	"Seviper": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle336.png"
-	},
-	"Lunatone": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/16/Shuffle337.png"
-	},
-	"Solrock": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/19/Shuffle338.png"
-	},
-	"Barboach": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a5/Shuffle339.png"
-	},
-	"Whiscash": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cf/Shuffle340.png"
-	},
-	"Corphish": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fe/Shuffle341.png"
-	},
-	"Crawdaunt": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/66/Shuffle342.png"
-	},
-	"Baltoy": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cd/Shuffle343.png"
-	},
-	"Claydol": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/00/Shuffle344.png"
-	},
-	"Lileep": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/18/Shuffle345.png"
-	},
-	"Cradily": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/02/Shuffle346.png"
-	},
-	"Anorith": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7c/Shuffle347.png"
-	},
-	"Armaldo": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/80/Shuffle348.png"
-	},
-	"Feebas": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1e/Shuffle349.png"
-	},
-	"Milotic": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/93/Shuffle350.png"
-	},
-	"Castform": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6a/Shuffle351.png"
-	},
-	"Castform Sunny": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle351S.png"
-	},
-	"Castform Rainy": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/72/Shuffle351R.png"
-	},
-	"Castform Snowy": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/81/Shuffle351H.png"
-	},
-	"Kecleon": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/11/Shuffle352.png"
-	},
-	"Shuppet": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fe/Shuffle353.png"
-	},
-	"Banette": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a7/Shuffle354.png"
-	},
-	"Duskull": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/77/Shuffle355.png"
-	},
-	"Dusclops": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/50/Shuffle356.png"
-	},
-	"Tropius": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a9/Shuffle357.png"
-	},
-	"Chimecho": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2d/Shuffle358.png"
-	},
-	"Absol": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2f/Shuffle359.png"
-	},
-	"Wynaut": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4b/Shuffle360.png"
-	},
-	"Snorunt": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fd/Shuffle361.png"
-	},
-	"Glalie": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3b/Shuffle362.png"
-	},
-	"Spheal": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle363.png"
-	},
-	"Sealeo": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/64/Shuffle364.png"
-	},
-	"Walrein": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/32/Shuffle365.png"
-	},
-	"Clamperl": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/14/Shuffle366.png"
-	},
-	"Huntail": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2d/Shuffle367.png"
-	},
-	"Gorebyss": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5c/Shuffle368.png"
-	},
-	"Relicanth": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/23/Shuffle369.png"
-	},
-	"Luvdisc": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/54/Shuffle370.png"
-	},
-	"Bagon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7a/Shuffle371.png"
-	},
-	"Shelgon": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/65/Shuffle372.png"
-	},
-	"Salamence": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f0/Shuffle373.png"
-	},
-	"Beldum": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/13/Shuffle374.png"
-	},
-	"Metang": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0e/Shuffle375.png"
-	},
-	"Metagross": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7a/Shuffle376.png"
-	},
-	"Regirock": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle377.png"
-	},
-	"Regice": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/80/Shuffle378.png"
-	},
-	"Registeel": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle379.png"
-	},
-	"Latias": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/88/Shuffle380.png"
-	},
-	"Latios": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/81/Shuffle381.png"
-	},
-	"Kyogre": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7b/Shuffle382.png"
-	},
-	"Groudon": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2c/Shuffle383.png"
-	},
-	"Rayquaza": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ad/Shuffle384.png"
-	},
-	"Jirachi": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/59/Shuffle385.png"
-	},
-	"Deoxys": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/73/Shuffle386.png"
-	},
-	"Turtwig": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f5/Shuffle387.png"
-	},
-	"Grotle": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/14/Shuffle388.png"
-	},
-	"Torterra": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle389.png"
-	},
-	"Chimchar": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ab/Shuffle390.png"
-	},
-	"Monferno": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4e/Shuffle391.png"
-	},
-	"Infernape": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/91/Shuffle392.png"
-	},
-	"Piplup": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/16/Shuffle393.png"
-	},
-	"Prinplup": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5b/Shuffle394.png"
-	},
-	"Empoleon": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c6/Shuffle395.png"
-	},
-	"Starly": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle396.png"
-	},
-	"Staravia": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/88/Shuffle397.png"
-	},
-	"Staraptor": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5a/Shuffle398.png"
-	},
-	"Bidoof": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c4/Shuffle399.png"
-	},
-	"Bibarel": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/50/Shuffle400.png"
-	},
-	"Kricketot": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/68/Shuffle401.png"
-	},
-	"Kricketune": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5e/Shuffle402.png"
-	},
-	"Shinx": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d7/Shuffle403.png"
-	},
-	"Luxio": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e7/Shuffle404.png"
-	},
-	"Luxray": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/19/Shuffle405.png"
-	},
-	"Budew": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5f/Shuffle406.png"
-	},
-	"Roserade": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8d/Shuffle407.png"
-	},
-	"Cranidos": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cb/Shuffle408.png"
-	},
-	"Rampardos": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e0/Shuffle409.png"
-	},
-	"Shieldon": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b2/Shuffle410.png"
-	},
-	"Bastiodon": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/18/Shuffle411.png"
-	},
-	"Burmy": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b7/Shuffle412.png"
-	},
-	"Wormadam Plant Cloak": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/79/Shuffle413.png"
-	},
-	"Wormadam Sand Cloak": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c4/Shuffle413G.png"
-	},
-	"Wormadam Trash Cloak": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1c/Shuffle413S.png"
-	},
-	"Mothim": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e8/Shuffle414.png"
-	},
-	"Combee": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5e/Shuffle415.png"
-	},
-	"Vespiquen": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/37/Shuffle416.png"
-	},
-	"Pachirisu": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bc/Shuffle417.png"
-	},
-	"Buizel": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f0/Shuffle418.png"
-	},
-	"Floatzel": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d7/Shuffle419.png"
-	},
-	"Cherubi": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle420.png"
-	},
-	"Cherrim": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/26/Shuffle421.png"
-	},
-	"Shellos": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e2/Shuffle422.png"
-	},
-	"Gastrodon": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/34/Shuffle423.png"
-	},
-	"Ambipom": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/58/Shuffle424.png"
-	},
-	"Drifloon": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2b/Shuffle425.png"
-	},
-	"Drifblim": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6e/Shuffle426.png"
-	},
-	"Buneary": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0d/Shuffle427.png"
-	},
-	"Lopunny": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle428.png"
-	},
-	"Mismagius": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle429.png"
-	},
-	"Honchkrow": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/56/Shuffle430.png"
-	},
-	"Glameow": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle431.png"
-	},
-	"Purugly": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e8/Shuffle432.png"
-	},
-	"Chingling": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/57/Shuffle433.png"
-	},
-	"Stunky": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f3/Shuffle434.png"
-	},
-	"Skuntank": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle435.png"
-	},
-	"Bronzor": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle436.png"
-	},
-	"Bronzong": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/20/Shuffle437.png"
-	},
-	"Bonsly": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/ba/Shuffle438.png"
-	},
-	"Mime Jr.": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d6/Shuffle439.png"
-	},
-	"Happiny": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle440.png"
-	},
-	"Chatot": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ec/Shuffle441.png"
-	},
-	"Spiritomb": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a5/Shuffle442.png"
-	},
-	"Gible": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ce/Shuffle443.png"
-	},
-	"Gabite": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/df/Shuffle444.png"
-	},
-	"Garchomp": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/54/Shuffle445.png"
-	},
-	"Munchlax": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle446.png"
-	},
-	"Riolu": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle447.png"
-	},
-	"Lucario": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5a/Shuffle448.png"
-	},
-	"Hippopotas": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ac/Shuffle449.png"
-	},
-	"Hippowdon": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b7/Shuffle450.png"
-	},
-	"Skorupi": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/18/Shuffle451.png"
-	},
-	"Drapion": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6d/Shuffle452.png"
-	},
-	"Croagunk": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle453.png"
-	},
-	"Toxicroak": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle454.png"
-	},
-	"Carnivine": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/dd/Shuffle455.png"
-	},
-	"Finneon": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/46/Shuffle456.png"
-	},
-	"Lumineon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7f/Shuffle457.png"
-	},
-	"Mantyke": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/21/Shuffle458.png"
-	},
-	"Snover": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0a/Shuffle459.png"
-	},
-	"Abomasnow": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/84/Shuffle460.png"
-	},
-	"Weavile": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/10/Shuffle461.png"
-	},
-	"Magnezone": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9f/Shuffle462.png"
-	},
-	"Lickilicky": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fc/Shuffle463.png"
-	},
-	"Rhyperior": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c2/Shuffle464.png"
-	},
-	"Tangrowth": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle465.png"
-	},
-	"Electivire": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/95/Shuffle466.png"
-	},
-	"Magmortar": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9c/Shuffle467.png"
-	},
-	"Togekiss": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/19/Shuffle468.png"
-	},
-	"Yanmega": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6a/Shuffle469.png"
-	},
-	"Glaceon": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9d/Shuffle471.png"
-	},
-	"Gliscor": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/46/Shuffle472.png"
-	},
-	"Mamoswine": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/48/Shuffle473.png"
-	},
-	"Porygon-Z": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle474.png"
-	},
-	"Gallade": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a6/Shuffle475.png"
-	},
-	"Probopass": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/91/Shuffle476.png"
-	},
-	"Dusknoir": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a1/Shuffle477.png"
-	},
-	"Froslass": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5d/Shuffle478.png"
-	},
-	"Rotom": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b3/Shuffle479.png"
-	},
-	"Rotom Heat": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d9/Shuffle479O.png"
-	},
-	"Rotom Wash": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/38/Shuffle479W.png"
-	},
-	"Rotom Frost": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle479R.png"
-	},
-	"Rotom Fan": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/89/Shuffle479F.png"
-	},
-	"Rotom Mow": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ec/Shuffle479L.png"
-	},
-	"Uxie": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9f/Shuffle480.png"
-	},
-	"Mesprit": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/04/Shuffle481.png"
-	},
-	"Azelf": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/50/Shuffle482.png"
-	},
-	"Dialga": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ae/Shuffle483.png"
-	},
-	"Palkia": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/11/Shuffle484.png"
-	},
-	"Heatran": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/02/Shuffle485.png"
-	},
-	"Regigigas": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle486.png"
-	},
-	"Giratina Altered Forme": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c1/Shuffle487.png"
-	},
-	"Giratina Origin Forme": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/49/Shuffle487O.png"
-	},
-	"Cresselia": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/67/Shuffle488.png"
-	},
-	"Phione": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/45/Shuffle489.png"
-	},
-	"Manaphy": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/03/Shuffle490.png"
-	},
-	"Darkrai": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ea/Shuffle491.png"
-	},
-	"Shaymin Land": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle492.png"
-	},
-	"Shaymin Sky": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/12/Shuffle492S.png"
-	},
-	"Arceus (Normal)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Fighting)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Flying)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Poison)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Ground)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Rock)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Bug)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Ghost)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Steel)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Fire)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Water)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Grass)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Electric)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Psychic)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Ice)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Dragon)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Dark)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Arceus (Fairy)": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/97/Shuffle493.png"
-	},
-	"Victini": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle494.png"
-	},
-	"Snivy": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/df/Shuffle495.png"
-	},
-	"Servine": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/74/Shuffle496.png"
-	},
-	"Serperior": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/28/Shuffle497.png"
-	},
-	"Tepig": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/85/Shuffle498.png"
-	},
-	"Pignite": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cf/Shuffle499.png"
-	},
-	"Emboar": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a3/Shuffle500.png"
-	},
-	"Oshawott": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3a/Shuffle501.png"
-	},
-	"Dewott": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c4/Shuffle502.png"
-	},
-	"Samurott": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/58/Shuffle503.png"
-	},
-	"Patrat": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a0/Shuffle504.png"
-	},
-	"Watchog": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/55/Shuffle505.png"
-	},
-	"Lillipup": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/56/Shuffle506.png"
-	},
-	"Herdier": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b6/Shuffle507.png"
-	},
-	"Stoutland": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fa/Shuffle508.png"
-	},
-	"Purrloin": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle509.png"
-	},
-	"Liepard": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a5/Shuffle510.png"
-	},
-	"Pansage": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a5/Shuffle511.png"
-	},
-	"Simisage": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3b/Shuffle512.png"
-	},
-	"Pansear": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e9/Shuffle513.png"
-	},
-	"Simisear": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ae/Shuffle514.png"
-	},
-	"Panpour": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/da/Shuffle515.png"
-	},
-	"Simipour": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8d/Shuffle516.png"
-	},
-	"Munna": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9a/Shuffle517.png"
-	},
-	"Musharna": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cb/Shuffle518.png"
-	},
-	"Pidove": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle519.png"
-	},
-	"Tranquill": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9e/Shuffle520.png"
-	},
-	"Unfezant": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e5/Shuffle521.png"
-	},
-	"Blitzle": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fd/Shuffle522.png"
-	},
-	"Zebstrika": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8f/Shuffle523.png"
-	},
-	"Roggenrola": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/90/Shuffle524.png"
-	},
-	"Boldore": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle525.png"
-	},
-	"Gigalith": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c0/Shuffle526.png"
-	},
-	"Woobat": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/46/Shuffle527.png"
-	},
-	"Swoobat": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ab/Shuffle528.png"
-	},
-	"Drilbur": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f4/Shuffle529.png"
-	},
-	"Excadrill": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cb/Shuffle530.png"
-	},
-	"Audino": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/28/Shuffle531.png"
-	},
-	"Timburr": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e7/Shuffle532.png"
-	},
-	"Gurdurr": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/42/Shuffle533.png"
-	},
-	"Conkeldurr": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/46/Shuffle534.png"
-	},
-	"Tympole": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a3/Shuffle535.png"
-	},
-	"Palpitoad": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle536.png"
-	},
-	"Seismitoad": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b3/Shuffle537.png"
-	},
-	"Throh": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7e/Shuffle538.png"
-	},
-	"Sawk": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/98/Shuffle539.png"
-	},
-	"Sewaddle": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1e/Shuffle540.png"
-	},
-	"Swadloon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/75/Shuffle541.png"
-	},
-	"Leavanny": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/dd/Shuffle542.png"
-	},
-	"Venipede": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/84/Shuffle543.png"
-	},
-	"Whirlipede": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/55/Shuffle544.png"
-	},
-	"Scolipede": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle545.png"
-	},
-	"Cottonee": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3e/Shuffle546.png"
-	},
-	"Whimsicott": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/44/Shuffle547.png"
-	},
-	"Petilil": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/eb/Shuffle548.png"
-	},
-	"Lilligant": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/37/Shuffle549.png"
-	},
-	"Basculin": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/63/Shuffle550.png"
-	},
-	"Sandile": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ec/Shuffle551.png"
-	},
-	"Krokorok": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0e/Shuffle552.png"
-	},
-	"Krookodile": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle553.png"
-	},
-	"Darumaka": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/10/Shuffle554.png"
-	},
-	"Darmanitan": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle555.png"
-	},
-	"Maractus": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/45/Shuffle556.png"
-	},
-	"Dwebble": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/15/Shuffle557.png"
-	},
-	"Crustle": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b2/Shuffle558.png"
-	},
-	"Scraggy": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle559.png"
-	},
-	"Scrafty": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/29/Shuffle560.png"
-	},
-	"Sigilyph": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/38/Shuffle561.png"
-	},
-	"Yamask": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle562.png"
-	},
-	"Cofagrigus": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d6/Shuffle563.png"
-	},
-	"Tirtouga": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a1/Shuffle564.png"
-	},
-	"Carracosta": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7b/Shuffle565.png"
-	},
-	"Archen": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle566.png"
-	},
-	"Archeops": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle567.png"
-	},
-	"Trubbish": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/00/Shuffle568.png"
-	},
-	"Garbodor": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/27/Shuffle569.png"
-	},
-	"Zorua": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f1/Shuffle570.png"
-	},
-	"Zoroark": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f9/Shuffle571.png"
-	},
-	"Minccino": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/21/Shuffle572.png"
-	},
-	"Cinccino": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6b/Shuffle573.png"
-	},
-	"Gothita": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/29/Shuffle574.png"
-	},
-	"Gothorita": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5c/Shuffle575.png"
-	},
-	"Gothitelle": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/dc/Shuffle576.png"
-	},
-	"Solosis": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle577.png"
-	},
-	"Duosion": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fb/Shuffle578.png"
-	},
-	"Reuniclus": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d4/Shuffle579.png"
-	},
-	"Ducklett": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1b/Shuffle580.png"
-	},
-	"Swanna": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d0/Shuffle581.png"
-	},
-	"Vanillite": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle582.png"
-	},
-	"Vanillish": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ca/Shuffle583.png"
-	},
-	"Vanilluxe": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/dd/Shuffle584.png"
-	},
-	"Deerling": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1b/Shuffle585.png"
-	},
-	"Sawsbuck": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fe/Shuffle586.png"
-	},
-	"Emolga": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c9/Shuffle587.png"
-	},
-	"Karrablast": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/17/Shuffle588.png"
-	},
-	"Escavalier": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/14/Shuffle589.png"
-	},
-	"Foongus": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle590.png"
-	},
-	"Amoonguss": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/06/Shuffle591.png"
-	},
-	"Frillish": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/17/Shuffle592.png"
-	},
-	"Jellicent": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/84/Shuffle593.png"
-	},
-	"Alomomola": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/db/Shuffle594.png"
-	},
-	"Joltik": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/26/Shuffle595.png"
-	},
-	"Galvantula": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle596.png"
-	},
-	"Ferroseed": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e1/Shuffle597.png"
-	},
-	"Ferrothorn": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c4/Shuffle598.png"
-	},
-	"Klink": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7f/Shuffle599.png"
-	},
-	"Klang": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/ff/Shuffle600.png"
-	},
-	"Klinklang": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cf/Shuffle601.png"
-	},
-	"Tynamo": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a4/Shuffle602.png"
-	},
-	"Eelektrik": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ee/Shuffle603.png"
-	},
-	"Eelektross": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fd/Shuffle604.png"
-	},
-	"Elgyem": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6f/Shuffle605.png"
-	},
-	"Beheeyem": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/93/Shuffle606.png"
-	},
-	"Litwick": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7f/Shuffle607.png"
-	},
-	"Lampent": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/eb/Shuffle608.png"
-	},
-	"Chandelure": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8d/Shuffle609.png"
-	},
-	"Axew": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle610.png"
-	},
-	"Fraxure": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/74/Shuffle611.png"
-	},
-	"Haxorus": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6d/Shuffle612.png"
-	},
-	"Cubchoo": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/ff/Shuffle613.png"
-	},
-	"Beartic": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/99/Shuffle614.png"
-	},
-	"Cryogonal": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/22/Shuffle615.png"
-	},
-	"Shelmet": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/79/Shuffle616.png"
-	},
-	"Accelgor": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/77/Shuffle617.png"
-	},
-	"Stunfisk": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f9/Shuffle618.png"
-	},
-	"Mienfoo": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9c/Shuffle619.png"
-	},
-	"Mienshao": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f9/Shuffle620.png"
-	},
-	"Druddigon": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f4/Shuffle621.png"
-	},
-	"Golett": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle622.png"
-	},
-	"Golurk": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/75/Shuffle623.png"
-	},
-	"Pawniard": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2e/Shuffle624.png"
-	},
-	"Bisharp": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8d/Shuffle625.png"
-	},
-	"Bouffalant": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/40/Shuffle626.png"
-	},
-	"Rufflet": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fe/Shuffle627.png"
-	},
-	"Braviary": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7a/Shuffle628.png"
-	},
-	"Vullaby": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9c/Shuffle629.png"
-	},
-	"Mandibuzz": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/73/Shuffle630.png"
-	},
-	"Heatmor": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9a/Shuffle631.png"
-	},
-	"Durant": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/91/Shuffle632.png"
-	},
-	"Deino": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c3/Shuffle633.png"
-	},
-	"Zweilous": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4a/Shuffle634.png"
-	},
-	"Hydreigon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/75/Shuffle635.png"
-	},
-	"Larvesta": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e8/Shuffle636.png"
-	},
-	"Volcarona": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f9/Shuffle637.png"
-	},
-	"Cobalion": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f5/Shuffle638.png"
-	},
-	"Terrakion": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bb/Shuffle639.png"
-	},
-	"Virizion": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5f/Shuffle640.png"
-	},
-	"Tornadus": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d3/Shuffle641.png"
-	},
-	"Thundurus": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/8c/Shuffle642.png"
-	},
-	"Reshiram": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/35/Shuffle643.png"
-	},
-	"Zekrom": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3e/Shuffle644.png"
-	},
-	"Landorus": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/80/Shuffle645.png"
-	},
-	"Kyurem": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/64/Shuffle646.png"
-	},
-	"White Kyurem": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/63/Shuffle646W.png"
-	},
-	"Black Kyurem": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle646B.png"
-	},
-	"Keldeo": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c7/Shuffle647.png"
-	},
-	"Meloetta - Aria": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/31/Shuffle648.png"
-	},
-	"Meloetta - Pirouette": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1b/Shuffle648P.png"
-	},
-	"Genesect": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e8/Shuffle649.png"
-	},
-	"Chespin": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bc/Shuffle650.png"
-	},
-	"Quilladin": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/df/Shuffle651.png"
-	},
-	"Chesnaught": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a8/Shuffle652.png"
-	},
-	"Fennekin": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/68/Shuffle653.png"
-	},
-	"Braixen": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/76/Shuffle654.png"
-	},
-	"Delphox": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0c/Shuffle655.png"
-	},
-	"Froakie": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ca/Shuffle656.png"
-	},
-	"Frogadier": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/36/Shuffle657.png"
-	},
-	"Greninja": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/07/Shuffle658.png"
-	},
-	"Bunnelby": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/86/Shuffle659.png"
-	},
-	"Diggersby": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/60/Shuffle660.png"
-	},
-	"Fletchling": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/42/Shuffle661.png"
-	},
-	"Fletchinder": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/12/Shuffle662.png"
-	},
-	"Talonflame": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle663.png"
-	},
-	"Scatterbug": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6f/Shuffle664.png"
-	},
-	"Spewpa": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/fc/Shuffle665.png"
-	},
-	"Vivillon": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c8/Shuffle666.png"
-	},
-	"Litleo": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7c/Shuffle667.png"
-	},
-	"Pyroar": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle668.png"
-	},
-	"Flabébé": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle669.png"
-	},
-	"Floette": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ce/Shuffle670.png"
-	},
-	"Florges": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/08/Shuffle671.png"
-	},
-	"Skiddo": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/33/Shuffle672.png"
-	},
-	"Gogoat": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/22/Shuffle673.png"
-	},
-	"Pancham": {
-		"img": "https://archives.bulbagarden.net/media/upload/1/1d/Shuffle674.png"
-	},
-	"Pangoro": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/55/Shuffle675.png"
-	},
-	"Furfrou": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f0/Shuffle676.png"
-	},
-	"Espurr": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/44/Shuffle677.png"
-	},
-	"Meowstic ♂": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/de/Shuffle678.png"
-	},
-	"Meowstic ♀": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ac/Shuffle678F.png"
-	},
-	"Honedge": {
-		"img": "https://archives.bulbagarden.net/media/upload/3/3c/Shuffle679.png"
-	},
-	"Doublade": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f4/Shuffle680.png"
-	},
-	"Aegislash": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e3/Shuffle681.png"
-	},
-	"Spritzee": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/44/Shuffle682.png"
-	},
-	"Aromatisse": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/66/Shuffle683.png"
-	},
-	"Swirlix": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/6e/Shuffle684.png"
-	},
-	"Slurpuff": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/78/Shuffle685.png"
-	},
-	"Inkay": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/72/Shuffle686.png"
-	},
-	"Malamar": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a9/Shuffle687.png"
-	},
-	"Binacle": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/e2/Shuffle688.png"
-	},
-	"Barbaracle": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/ce/Shuffle689.png"
-	},
-	"Skrelp": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d5/Shuffle690.png"
-	},
-	"Dragalge": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/2d/Shuffle691.png"
-	},
-	"Clauncher": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/c9/Shuffle692.png"
-	},
-	"Clawitzer": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/95/Shuffle693.png"
-	},
-	"Helioptile": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/83/Shuffle694.png"
-	},
-	"Heliolisk": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f2/Shuffle695.png"
-	},
-	"Tyrunt": {
-		"img": "https://archives.bulbagarden.net/media/upload/e/ea/Shuffle696.png"
-	},
-	"Tyrantrum": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cd/Shuffle697.png"
-	},
-	"Amaura": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5e/Shuffle698.png"
-	},
-	"Aurorus": {
-		"img": "https://archives.bulbagarden.net/media/upload/c/cc/Shuffle699.png"
-	},
-	"Sylveon": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7e/Shuffle700.png"
-	},
-	"Hawlucha": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4c/Shuffle701.png"
-	},
-	"Dedenne": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/86/Shuffle702.png"
-	},
-	"Carbink": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/07/Shuffle703.png"
-	},
-	"Goomy": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/79/Shuffle704.png"
-	},
-	"Sliggoo": {
-		"img": "https://archives.bulbagarden.net/media/upload/4/4a/Shuffle705.png"
-	},
-	"Goodra": {
-		"img": "https://archives.bulbagarden.net/media/upload/7/7b/Shuffle706.png"
-	},
-	"Klefki": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ac/Shuffle707.png"
-	},
-	"Phantump": {
-		"img": "https://archives.bulbagarden.net/media/upload/f/f6/Shuffle708.png"
-	},
-	"Trevenant": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/62/Shuffle709.png"
-	},
-	"Pumpkaboo": {
-		"img": "https://archives.bulbagarden.net/media/upload/5/5b/Shuffle710.png"
-	},
-	"Gourgeist": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/b0/Shuffle711.png"
-	},
-	"Bergmite": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/02/Shuffle712.png"
-	},
-	"Avalugg": {
-		"img": "https://archives.bulbagarden.net/media/upload/6/64/Shuffle713.png"
-	},
-	"Noibat": {
-		"img": "https://archives.bulbagarden.net/media/upload/0/0a/Shuffle714.png"
-	},
-	"Noivern": {
-		"img": "https://archives.bulbagarden.net/media/upload/b/bf/Shuffle715.png"
-	},
-	"Xerneas": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ad/Shuffle716.png"
-	},
-	"Yveltal": {
-		"img": "https://archives.bulbagarden.net/media/upload/8/83/Shuffle717.png"
-	},
-	"Zygarde 10% Forme": {
-		"img": "https://archives.bulbagarden.net/media/upload/9/9c/Shuffle718T.png"
-	},
-	"Zygarde 50% Forme": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d1/Shuffle718.png"
-	},
-	"Zygarde Complete Forme": {
-		"img": "https://archives.bulbagarden.net/media/upload/2/20/Shuffle718C.png"
-	},
-	"Diancie": {
-		"img": "https://archives.bulbagarden.net/media/upload/d/d5/Shuffle719.png"
-	},
-	"Hoopa Confined": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ab/Shuffle720.png"
-	},
-	"Hoopa Unbound": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/a3/Shuffle720U.png"
-	},
-	"Volcanion": {
-		"img": "https://archives.bulbagarden.net/media/upload/a/ae/Shuffle721.png"
-	}
+  "Leafeon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a4/Shuffle470.png/120px-Shuffle470.png"
+  },
+  "Bulbasaur": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Shuffle001.png/120px-Shuffle001.png"
+  },
+  "Ivysaur": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle002.png/120px-Shuffle002.png"
+  },
+  "Venusaur": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle003.png/120px-Shuffle003.png"
+  },
+  "Charmander": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/00/Shuffle004.png/120px-Shuffle004.png"
+  },
+  "Charmeleon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Shuffle005.png/120px-Shuffle005.png"
+  },
+  "Charizard": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle006.png/120px-Shuffle006.png"
+  },
+  "Squirtle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b6/Shuffle007.png/120px-Shuffle007.png"
+  },
+  "Wartortle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9a/Shuffle008.png/120px-Shuffle008.png"
+  },
+  "Blastoise": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle009.png/120px-Shuffle009.png"
+  },
+  "Caterpie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Shuffle010.png/120px-Shuffle010.png"
+  },
+  "Metapod": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle011.png/120px-Shuffle011.png"
+  },
+  "Butterfree": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2d/Shuffle012.png/120px-Shuffle012.png"
+  },
+  "Weedle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/04/Shuffle013.png/120px-Shuffle013.png"
+  },
+  "Kakuna": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Shuffle014.png/120px-Shuffle014.png"
+  },
+  "Beedrill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2b/Shuffle015.png/120px-Shuffle015.png"
+  },
+  "Pidgey": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/60/Shuffle016.png/120px-Shuffle016.png"
+  },
+  "Pidgeotto": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Shuffle017.png/120px-Shuffle017.png"
+  },
+  "Pidgeot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/de/Shuffle018.png/120px-Shuffle018.png"
+  },
+  "Rattata": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c2/Shuffle019.png/120px-Shuffle019.png"
+  },
+  "Raticate": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/86/Shuffle020.png/120px-Shuffle020.png"
+  },
+  "Spearow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle021.png/120px-Shuffle021.png"
+  },
+  "Fearow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle022.png/120px-Shuffle022.png"
+  },
+  "Ekans": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Shuffle023.png/120px-Shuffle023.png"
+  },
+  "Arbok": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/Shuffle024.png/120px-Shuffle024.png"
+  },
+  "Pikachu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b3/Shuffle025.png/120px-Shuffle025.png"
+  },
+  "Raichu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/af/Shuffle026.png/120px-Shuffle026.png"
+  },
+  "Sandshrew": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e2/Shuffle027.png/120px-Shuffle027.png"
+  },
+  "Sandslash": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/50/Shuffle028.png/120px-Shuffle028.png"
+  },
+  "Nidoran ♀": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle029.png/120px-Shuffle029.png"
+  },
+  "Nidorina": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/Shuffle030.png/120px-Shuffle030.png"
+  },
+  "Nidoqueen": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/68/Shuffle031.png/120px-Shuffle031.png"
+  },
+  "Nidoran ♂": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle032.png/120px-Shuffle032.png"
+  },
+  "Nidorino": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/70/Shuffle033.png/120px-Shuffle033.png"
+  },
+  "Nidoking": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c9/Shuffle034.png/120px-Shuffle034.png"
+  },
+  "Clefairy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle035.png/120px-Shuffle035.png"
+  },
+  "Clefable": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/aa/Shuffle036.png/120px-Shuffle036.png"
+  },
+  "Vulpix": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/95/Shuffle037.png/120px-Shuffle037.png"
+  },
+  "Ninetales": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ed/Shuffle038.png/120px-Shuffle038.png"
+  },
+  "Jigglypuff": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/85/Shuffle039.png/120px-Shuffle039.png"
+  },
+  "Wigglytuff": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2e/Shuffle040.png/120px-Shuffle040.png"
+  },
+  "Zubat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/86/Shuffle041.png/120px-Shuffle041.png"
+  },
+  "Golbat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Shuffle042.png/120px-Shuffle042.png"
+  },
+  "Oddish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/05/Shuffle043.png/120px-Shuffle043.png"
+  },
+  "Gloom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/51/Shuffle044.png/120px-Shuffle044.png"
+  },
+  "Vileplume": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/61/Shuffle045.png/120px-Shuffle045.png"
+  },
+  "Paras": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Shuffle046.png/120px-Shuffle046.png"
+  },
+  "Parasect": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c5/Shuffle047.png/120px-Shuffle047.png"
+  },
+  "Venonat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Shuffle048.png/120px-Shuffle048.png"
+  },
+  "Venomoth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Shuffle049.png/120px-Shuffle049.png"
+  },
+  "Diglett": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/43/Shuffle050.png/120px-Shuffle050.png"
+  },
+  "Dugtrio": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Shuffle051.png/120px-Shuffle051.png"
+  },
+  "Meowth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/59/Shuffle052.png/120px-Shuffle052.png"
+  },
+  "Persian": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c2/Shuffle053.png/120px-Shuffle053.png"
+  },
+  "Psyduck": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle054.png/120px-Shuffle054.png"
+  },
+  "Golduck": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle055.png/120px-Shuffle055.png"
+  },
+  "Mankey": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2e/Shuffle056.png/120px-Shuffle056.png"
+  },
+  "Primeape": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/88/Shuffle057.png/120px-Shuffle057.png"
+  },
+  "Growlithe": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/41/Shuffle058.png/120px-Shuffle058.png"
+  },
+  "Arcanine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Shuffle059.png/120px-Shuffle059.png"
+  },
+  "Poliwag": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/65/Shuffle060.png/120px-Shuffle060.png"
+  },
+  "Poliwhirl": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Shuffle061.png/120px-Shuffle061.png"
+  },
+  "Poliwrath": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/de/Shuffle062.png/120px-Shuffle062.png"
+  },
+  "Abra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/11/Shuffle063.png/120px-Shuffle063.png"
+  },
+  "Kadabra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Shuffle064.png/120px-Shuffle064.png"
+  },
+  "Alakazam": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/99/Shuffle065.png/120px-Shuffle065.png"
+  },
+  "Machop": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/96/Shuffle066.png/120px-Shuffle066.png"
+  },
+  "Machoke": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1f/Shuffle067.png/120px-Shuffle067.png"
+  },
+  "Machamp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Shuffle068.png/120px-Shuffle068.png"
+  },
+  "Bellsprout": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle069.png/120px-Shuffle069.png"
+  },
+  "Weepinbell": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/24/Shuffle070.png/120px-Shuffle070.png"
+  },
+  "Victreebel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4b/Shuffle071.png/120px-Shuffle071.png"
+  },
+  "Tentacool": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Shuffle072.png/120px-Shuffle072.png"
+  },
+  "Tentacruel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Shuffle073.png/120px-Shuffle073.png"
+  },
+  "Geodude": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Shuffle074.png/120px-Shuffle074.png"
+  },
+  "Graveler": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Shuffle075.png/120px-Shuffle075.png"
+  },
+  "Golem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Shuffle076.png/120px-Shuffle076.png"
+  },
+  "Ponyta": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Shuffle077.png/120px-Shuffle077.png"
+  },
+  "Rapidash": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/43/Shuffle078.png/120px-Shuffle078.png"
+  },
+  "Slowpoke": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Shuffle079.png/120px-Shuffle079.png"
+  },
+  "Slowbro": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/36/Shuffle080.png/120px-Shuffle080.png"
+  },
+  "Magnemite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c8/Shuffle081.png/120px-Shuffle081.png"
+  },
+  "Magneton": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/47/Shuffle082.png/120px-Shuffle082.png"
+  },
+  "Farfetch'd": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle083.png/120px-Shuffle083.png"
+  },
+  "Doduo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b7/Shuffle084.png/120px-Shuffle084.png"
+  },
+  "Dodrio": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Shuffle085.png/120px-Shuffle085.png"
+  },
+  "Seel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/Shuffle086.png/120px-Shuffle086.png"
+  },
+  "Dewgong": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a4/Shuffle087.png/120px-Shuffle087.png"
+  },
+  "Grimer": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a0/Shuffle088.png/120px-Shuffle088.png"
+  },
+  "Muk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/Shuffle089.png/120px-Shuffle089.png"
+  },
+  "Shellder": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Shuffle090.png/120px-Shuffle090.png"
+  },
+  "Cloyster": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ec/Shuffle091.png/120px-Shuffle091.png"
+  },
+  "Gastly": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/08/Shuffle092.png/120px-Shuffle092.png"
+  },
+  "Haunter": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle093.png/120px-Shuffle093.png"
+  },
+  "Gengar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle094.png/120px-Shuffle094.png"
+  },
+  "Onix": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e9/Shuffle095.png/120px-Shuffle095.png"
+  },
+  "Drowzee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/Shuffle096.png/120px-Shuffle096.png"
+  },
+  "Hypno": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b1/Shuffle097.png/120px-Shuffle097.png"
+  },
+  "Krabby": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/Shuffle098.png/120px-Shuffle098.png"
+  },
+  "Kingler": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Shuffle099.png/120px-Shuffle099.png"
+  },
+  "Voltorb": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Shuffle100.png/120px-Shuffle100.png"
+  },
+  "Electrode": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/63/Shuffle101.png/120px-Shuffle101.png"
+  },
+  "Exeggcute": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0b/Shuffle102.png/120px-Shuffle102.png"
+  },
+  "Exeggutor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle103.png/120px-Shuffle103.png"
+  },
+  "Cubone": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/05/Shuffle104.png/120px-Shuffle104.png"
+  },
+  "Marowak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/Shuffle105.png/120px-Shuffle105.png"
+  },
+  "Hitmonlee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle106.png/120px-Shuffle106.png"
+  },
+  "Hitmonchan": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Shuffle107.png/120px-Shuffle107.png"
+  },
+  "Lickitung": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle108.png/120px-Shuffle108.png"
+  },
+  "Koffing": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3c/Shuffle109.png/120px-Shuffle109.png"
+  },
+  "Weezing": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Shuffle110.png/120px-Shuffle110.png"
+  },
+  "Rhyhorn": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/84/Shuffle111.png/120px-Shuffle111.png"
+  },
+  "Rhydon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/50/Shuffle112.png/120px-Shuffle112.png"
+  },
+  "Chansey": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle113.png/120px-Shuffle113.png"
+  },
+  "Tangela": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/04/Shuffle114.png/120px-Shuffle114.png"
+  },
+  "Kangaskhan": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d9/Shuffle115.png/120px-Shuffle115.png"
+  },
+  "Horsea": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle116.png/120px-Shuffle116.png"
+  },
+  "Seadra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ca/Shuffle117.png/120px-Shuffle117.png"
+  },
+  "Goldeen": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/af/Shuffle118.png/120px-Shuffle118.png"
+  },
+  "Seaking": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/85/Shuffle119.png/120px-Shuffle119.png"
+  },
+  "Staryu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle120.png/120px-Shuffle120.png"
+  },
+  "Starmie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a9/Shuffle121.png/120px-Shuffle121.png"
+  },
+  "Mr. Mime": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/32/Shuffle122.png/120px-Shuffle122.png"
+  },
+  "Scyther": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2b/Shuffle123.png/120px-Shuffle123.png"
+  },
+  "Jynx": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ed/Shuffle124.png/120px-Shuffle124.png"
+  },
+  "Electabuzz": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ad/Shuffle125.png/120px-Shuffle125.png"
+  },
+  "Magmar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/24/Shuffle126.png/120px-Shuffle126.png"
+  },
+  "Pinsir": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle127.png/120px-Shuffle127.png"
+  },
+  "Tauros": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Shuffle128.png/120px-Shuffle128.png"
+  },
+  "Magikarp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle129.png/120px-Shuffle129.png"
+  },
+  "Gyarados": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Shuffle130.png/120px-Shuffle130.png"
+  },
+  "Lapras": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Shuffle131.png/120px-Shuffle131.png"
+  },
+  "Ditto": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0d/Shuffle132.png/120px-Shuffle132.png"
+  },
+  "Eevee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/55/Shuffle133.png/120px-Shuffle133.png"
+  },
+  "Vaporeon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Shuffle134.png/120px-Shuffle134.png"
+  },
+  "Jolteon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/88/Shuffle135.png/120px-Shuffle135.png"
+  },
+  "Flareon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Shuffle136.png/120px-Shuffle136.png"
+  },
+  "Porygon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/91/Shuffle137.png/120px-Shuffle137.png"
+  },
+  "Omanyte": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Shuffle138.png/120px-Shuffle138.png"
+  },
+  "Omastar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle139.png/120px-Shuffle139.png"
+  },
+  "Kabuto": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Shuffle140.png/120px-Shuffle140.png"
+  },
+  "Kabutops": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/67/Shuffle141.png/120px-Shuffle141.png"
+  },
+  "Aerodactyl": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e2/Shuffle142.png/120px-Shuffle142.png"
+  },
+  "Snorlax": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle143.png/120px-Shuffle143.png"
+  },
+  "Articuno": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Shuffle144.png/120px-Shuffle144.png"
+  },
+  "Zapdos": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/59/Shuffle145.png/120px-Shuffle145.png"
+  },
+  "Moltres": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle146.png/120px-Shuffle146.png"
+  },
+  "Dratini": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle147.png/120px-Shuffle147.png"
+  },
+  "Dragonair": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Shuffle148.png/120px-Shuffle148.png"
+  },
+  "Dragonite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Shuffle149.png/120px-Shuffle149.png"
+  },
+  "Mewtwo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/13/Shuffle150.png/120px-Shuffle150.png"
+  },
+  "Mew": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle151.png/120px-Shuffle151.png"
+  },
+  "Chikorita": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b6/Shuffle152.png/120px-Shuffle152.png"
+  },
+  "Bayleef": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/05/Shuffle153.png/120px-Shuffle153.png"
+  },
+  "Meganium": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/12/Shuffle154.png/120px-Shuffle154.png"
+  },
+  "Cyndaquil": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a4/Shuffle155.png/120px-Shuffle155.png"
+  },
+  "Quilava": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/69/Shuffle156.png/120px-Shuffle156.png"
+  },
+  "Typhlosion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Shuffle157.png/120px-Shuffle157.png"
+  },
+  "Totodile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c8/Shuffle158.png/120px-Shuffle158.png"
+  },
+  "Croconaw": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Shuffle159.png/120px-Shuffle159.png"
+  },
+  "Feraligatr": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Shuffle160.png/120px-Shuffle160.png"
+  },
+  "Sentret": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle161.png/120px-Shuffle161.png"
+  },
+  "Furret": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Shuffle162.png/120px-Shuffle162.png"
+  },
+  "Hoothoot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/90/Shuffle163.png/120px-Shuffle163.png"
+  },
+  "Noctowl": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Shuffle164.png/120px-Shuffle164.png"
+  },
+  "Ledyba": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Shuffle165.png/120px-Shuffle165.png"
+  },
+  "Ledian": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/Shuffle166.png/120px-Shuffle166.png"
+  },
+  "Spinarak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Shuffle167.png/120px-Shuffle167.png"
+  },
+  "Ariados": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Shuffle168.png/120px-Shuffle168.png"
+  },
+  "Crobat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle169.png/120px-Shuffle169.png"
+  },
+  "Chinchou": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/Shuffle170.png/120px-Shuffle170.png"
+  },
+  "Lanturn": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle171.png/120px-Shuffle171.png"
+  },
+  "Pichu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle172.png/120px-Shuffle172.png"
+  },
+  "Cleffa": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5f/Shuffle173.png/120px-Shuffle173.png"
+  },
+  "Igglybuff": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d9/Shuffle174.png/120px-Shuffle174.png"
+  },
+  "Togepi": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle175.png/120px-Shuffle175.png"
+  },
+  "Togetic": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Shuffle176.png/120px-Shuffle176.png"
+  },
+  "Natu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle177.png/120px-Shuffle177.png"
+  },
+  "Xatu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/Shuffle178.png/120px-Shuffle178.png"
+  },
+  "Mareep": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle179.png/120px-Shuffle179.png"
+  },
+  "Flaaffy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Shuffle180.png/120px-Shuffle180.png"
+  },
+  "Ampharos": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Shuffle181.png/120px-Shuffle181.png"
+  },
+  "Bellossom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Shuffle182.png/120px-Shuffle182.png"
+  },
+  "Marill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Shuffle183.png/120px-Shuffle183.png"
+  },
+  "Azumarill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Shuffle184.png/120px-Shuffle184.png"
+  },
+  "Sudowoodo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fc/Shuffle185.png/120px-Shuffle185.png"
+  },
+  "Politoed": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/ba/Shuffle186.png/120px-Shuffle186.png"
+  },
+  "Hoppip": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Shuffle187.png/120px-Shuffle187.png"
+  },
+  "Skiploom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3a/Shuffle188.png/120px-Shuffle188.png"
+  },
+  "Jumpluff": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/71/Shuffle189.png/120px-Shuffle189.png"
+  },
+  "Aipom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Shuffle190.png/120px-Shuffle190.png"
+  },
+  "Sunkern": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a9/Shuffle191.png/120px-Shuffle191.png"
+  },
+  "Sunflora": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/17/Shuffle192.png/120px-Shuffle192.png"
+  },
+  "Yanma": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Shuffle193.png/120px-Shuffle193.png"
+  },
+  "Wooper": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle194.png/120px-Shuffle194.png"
+  },
+  "Quagsire": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/82/Shuffle195.png/120px-Shuffle195.png"
+  },
+  "Espeon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/aa/Shuffle196.png/120px-Shuffle196.png"
+  },
+  "Umbreon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Shuffle197.png/120px-Shuffle197.png"
+  },
+  "Murkrow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6c/Shuffle198.png/120px-Shuffle198.png"
+  },
+  "Slowking": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/57/Shuffle199.png/120px-Shuffle199.png"
+  },
+  "Misdreavus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Shuffle200.png/120px-Shuffle200.png"
+  },
+  "Unown": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Shuffle201.png/120px-Shuffle201.png"
+  },
+  "Wobbuffet": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5f/Shuffle202.png/120px-Shuffle202.png"
+  },
+  "Girafarig": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/Shuffle203.png/120px-Shuffle203.png"
+  },
+  "Pineco": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2a/Shuffle204.png/120px-Shuffle204.png"
+  },
+  "Forretress": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle205.png/120px-Shuffle205.png"
+  },
+  "Dunsparce": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/54/Shuffle206.png/120px-Shuffle206.png"
+  },
+  "Gligar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Shuffle207.png/120px-Shuffle207.png"
+  },
+  "Steelix": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Shuffle208.png/120px-Shuffle208.png"
+  },
+  "Snubbull": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Shuffle209.png/120px-Shuffle209.png"
+  },
+  "Granbull": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3a/Shuffle210.png/120px-Shuffle210.png"
+  },
+  "Qwilfish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/51/Shuffle211.png/120px-Shuffle211.png"
+  },
+  "Scizor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle212.png/120px-Shuffle212.png"
+  },
+  "Shuckle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b4/Shuffle213.png/120px-Shuffle213.png"
+  },
+  "Heracross": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/Shuffle214.png/120px-Shuffle214.png"
+  },
+  "Sneasel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/80/Shuffle215.png/120px-Shuffle215.png"
+  },
+  "Teddiursa": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/62/Shuffle216.png/120px-Shuffle216.png"
+  },
+  "Ursaring": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3f/Shuffle217.png/120px-Shuffle217.png"
+  },
+  "Slugma": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d7/Shuffle218.png/120px-Shuffle218.png"
+  },
+  "Magcargo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle219.png/120px-Shuffle219.png"
+  },
+  "Swinub": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Shuffle220.png/120px-Shuffle220.png"
+  },
+  "Piloswine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle221.png/120px-Shuffle221.png"
+  },
+  "Corsola": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Shuffle222.png/120px-Shuffle222.png"
+  },
+  "Remoraid": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b4/Shuffle223.png/120px-Shuffle223.png"
+  },
+  "Octillery": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c2/Shuffle224.png/120px-Shuffle224.png"
+  },
+  "Delibird": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Shuffle225.png/120px-Shuffle225.png"
+  },
+  "Mantine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5f/Shuffle226.png/120px-Shuffle226.png"
+  },
+  "Skarmory": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/be/Shuffle227.png/120px-Shuffle227.png"
+  },
+  "Houndour": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle228.png/120px-Shuffle228.png"
+  },
+  "Houndoom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fc/Shuffle229.png/120px-Shuffle229.png"
+  },
+  "Kingdra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Shuffle230.png/120px-Shuffle230.png"
+  },
+  "Phanpy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8d/Shuffle231.png/120px-Shuffle231.png"
+  },
+  "Donphan": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6a/Shuffle232.png/120px-Shuffle232.png"
+  },
+  "Porygon2": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/83/Shuffle233.png/120px-Shuffle233.png"
+  },
+  "Stantler": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ef/Shuffle234.png/120px-Shuffle234.png"
+  },
+  "Smeargle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle235.png/120px-Shuffle235.png"
+  },
+  "Tyrogue": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Shuffle236.png/120px-Shuffle236.png"
+  },
+  "Hitmontop": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Shuffle237.png/120px-Shuffle237.png"
+  },
+  "Smoochum": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d0/Shuffle238.png/120px-Shuffle238.png"
+  },
+  "Elekid": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Shuffle239.png/120px-Shuffle239.png"
+  },
+  "Magby": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Shuffle240.png/120px-Shuffle240.png"
+  },
+  "Miltank": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c1/Shuffle241.png/120px-Shuffle241.png"
+  },
+  "Blissey": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9b/Shuffle242.png/120px-Shuffle242.png"
+  },
+  "Raikou": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Shuffle243.png/120px-Shuffle243.png"
+  },
+  "Entei": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle244.png/120px-Shuffle244.png"
+  },
+  "Suicune": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/ba/Shuffle245.png/120px-Shuffle245.png"
+  },
+  "Larvitar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1a/Shuffle246.png/120px-Shuffle246.png"
+  },
+  "Pupitar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/12/Shuffle247.png/120px-Shuffle247.png"
+  },
+  "Tyranitar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Shuffle248.png/120px-Shuffle248.png"
+  },
+  "Lugia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/74/Shuffle249.png/120px-Shuffle249.png"
+  },
+  "Ho-oh": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/af/Shuffle250.png/120px-Shuffle250.png"
+  },
+  "Celebi": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle251.png/120px-Shuffle251.png"
+  },
+  "Treecko": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4e/Shuffle252.png/120px-Shuffle252.png"
+  },
+  "Grovyle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Shuffle253.png/120px-Shuffle253.png"
+  },
+  "Sceptile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b7/Shuffle254.png/120px-Shuffle254.png"
+  },
+  "Torchic": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/65/Shuffle255.png/120px-Shuffle255.png"
+  },
+  "Combusken": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/54/Shuffle256.png/120px-Shuffle256.png"
+  },
+  "Blaziken": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Shuffle257.png/120px-Shuffle257.png"
+  },
+  "Mudkip": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Shuffle258.png/120px-Shuffle258.png"
+  },
+  "Marshtomp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/80/Shuffle259.png/120px-Shuffle259.png"
+  },
+  "Swampert": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Shuffle260.png/120px-Shuffle260.png"
+  },
+  "Poochyena": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Shuffle261.png/120px-Shuffle261.png"
+  },
+  "Mightyena": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Shuffle262.png/120px-Shuffle262.png"
+  },
+  "Zigzagoon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1f/Shuffle263.png/120px-Shuffle263.png"
+  },
+  "Linoone": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle264.png/120px-Shuffle264.png"
+  },
+  "Wurmple": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Shuffle265.png/120px-Shuffle265.png"
+  },
+  "Silcoon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e6/Shuffle266.png/120px-Shuffle266.png"
+  },
+  "Beautifly": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle267.png/120px-Shuffle267.png"
+  },
+  "Cascoon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle268.png/120px-Shuffle268.png"
+  },
+  "Dustox": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4c/Shuffle269.png/120px-Shuffle269.png"
+  },
+  "Lotad": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/90/Shuffle270.png/120px-Shuffle270.png"
+  },
+  "Lombre": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a2/Shuffle271.png/120px-Shuffle271.png"
+  },
+  "Ludicolo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ab/Shuffle272.png/120px-Shuffle272.png"
+  },
+  "Seedot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Shuffle273.png/120px-Shuffle273.png"
+  },
+  "Nuzleaf": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Shuffle274.png/120px-Shuffle274.png"
+  },
+  "Shiftry": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b8/Shuffle275.png/120px-Shuffle275.png"
+  },
+  "Taillow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/95/Shuffle276.png/120px-Shuffle276.png"
+  },
+  "Swellow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Shuffle277.png/120px-Shuffle277.png"
+  },
+  "Wingull": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/27/Shuffle278.png/120px-Shuffle278.png"
+  },
+  "Pelipper": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Shuffle279.png/120px-Shuffle279.png"
+  },
+  "Ralts": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3f/Shuffle280.png/120px-Shuffle280.png"
+  },
+  "Kirlia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d8/Shuffle281.png/120px-Shuffle281.png"
+  },
+  "Gardevoir": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9d/Shuffle282.png/120px-Shuffle282.png"
+  },
+  "Surskit": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8a/Shuffle283.png/120px-Shuffle283.png"
+  },
+  "Masquerain": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle284.png/120px-Shuffle284.png"
+  },
+  "Shroomish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/68/Shuffle285.png/120px-Shuffle285.png"
+  },
+  "Breloom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Shuffle286.png/120px-Shuffle286.png"
+  },
+  "Slakoth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Shuffle287.png/120px-Shuffle287.png"
+  },
+  "Vigoroth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle288.png/120px-Shuffle288.png"
+  },
+  "Slaking": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle289.png/120px-Shuffle289.png"
+  },
+  "Nincada": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle290.png/120px-Shuffle290.png"
+  },
+  "Ninjask": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/39/Shuffle291.png/120px-Shuffle291.png"
+  },
+  "Shedinja": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0f/Shuffle292.png/120px-Shuffle292.png"
+  },
+  "Whismur": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Shuffle293.png/120px-Shuffle293.png"
+  },
+  "Loudred": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Shuffle294.png/120px-Shuffle294.png"
+  },
+  "Exploud": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Shuffle295.png/120px-Shuffle295.png"
+  },
+  "Makuhita": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle296.png/120px-Shuffle296.png"
+  },
+  "Hariyama": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3d/Shuffle297.png/120px-Shuffle297.png"
+  },
+  "Azurill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Shuffle298.png/120px-Shuffle298.png"
+  },
+  "Nosepass": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/78/Shuffle299.png/120px-Shuffle299.png"
+  },
+  "Skitty": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6a/Shuffle300.png/120px-Shuffle300.png"
+  },
+  "Delcatty": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle301.png/120px-Shuffle301.png"
+  },
+  "Sableye": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7d/Shuffle302.png/120px-Shuffle302.png"
+  },
+  "Mawile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/09/Shuffle303.png/120px-Shuffle303.png"
+  },
+  "Aron": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/70/Shuffle304.png/120px-Shuffle304.png"
+  },
+  "Lairon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/04/Shuffle305.png/120px-Shuffle305.png"
+  },
+  "Aggron": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/70/Shuffle306.png/120px-Shuffle306.png"
+  },
+  "Meditite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6e/Shuffle307.png/120px-Shuffle307.png"
+  },
+  "Medicham": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d2/Shuffle308.png/120px-Shuffle308.png"
+  },
+  "Electrike": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Shuffle309.png/120px-Shuffle309.png"
+  },
+  "Manectric": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/82/Shuffle310.png/120px-Shuffle310.png"
+  },
+  "Plusle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ef/Shuffle311.png/120px-Shuffle311.png"
+  },
+  "Minun": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Shuffle312.png/120px-Shuffle312.png"
+  },
+  "Volbeat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Shuffle313.png/120px-Shuffle313.png"
+  },
+  "Illumise": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Shuffle314.png/120px-Shuffle314.png"
+  },
+  "Roselia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Shuffle315.png/120px-Shuffle315.png"
+  },
+  "Gulpin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/87/Shuffle316.png/120px-Shuffle316.png"
+  },
+  "Swalot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Shuffle317.png/120px-Shuffle317.png"
+  },
+  "Carvanha": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Shuffle318.png/120px-Shuffle318.png"
+  },
+  "Sharpedo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/23/Shuffle319.png/120px-Shuffle319.png"
+  },
+  "Wailmer": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Shuffle320.png/120px-Shuffle320.png"
+  },
+  "Wailord": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Shuffle321.png/120px-Shuffle321.png"
+  },
+  "Numel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle322.png/120px-Shuffle322.png"
+  },
+  "Camerupt": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/Shuffle323.png/120px-Shuffle323.png"
+  },
+  "Torkoal": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Shuffle324.png/120px-Shuffle324.png"
+  },
+  "Spoink": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0d/Shuffle325.png/120px-Shuffle325.png"
+  },
+  "Grumpig": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/dd/Shuffle326.png/120px-Shuffle326.png"
+  },
+  "Spinda": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b3/Shuffle327.png/120px-Shuffle327.png"
+  },
+  "Trapinch": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Shuffle328.png/120px-Shuffle328.png"
+  },
+  "Vibrava": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fe/Shuffle329.png/120px-Shuffle329.png"
+  },
+  "Flygon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Shuffle330.png/120px-Shuffle330.png"
+  },
+  "Cacnea": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/19/Shuffle331.png/120px-Shuffle331.png"
+  },
+  "Cacturne": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle332.png/120px-Shuffle332.png"
+  },
+  "Swablu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Shuffle333.png/120px-Shuffle333.png"
+  },
+  "Altaria": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/28/Shuffle334.png/120px-Shuffle334.png"
+  },
+  "Zangoose": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6d/Shuffle335.png/120px-Shuffle335.png"
+  },
+  "Seviper": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle336.png/120px-Shuffle336.png"
+  },
+  "Lunatone": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Shuffle337.png/120px-Shuffle337.png"
+  },
+  "Solrock": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/19/Shuffle338.png/120px-Shuffle338.png"
+  },
+  "Barboach": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Shuffle339.png/120px-Shuffle339.png"
+  },
+  "Whiscash": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Shuffle340.png/120px-Shuffle340.png"
+  },
+  "Corphish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fe/Shuffle341.png/120px-Shuffle341.png"
+  },
+  "Crawdaunt": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Shuffle342.png/120px-Shuffle342.png"
+  },
+  "Baltoy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cd/Shuffle343.png/120px-Shuffle343.png"
+  },
+  "Claydol": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/00/Shuffle344.png/120px-Shuffle344.png"
+  },
+  "Lileep": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Shuffle345.png/120px-Shuffle345.png"
+  },
+  "Cradily": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/02/Shuffle346.png/120px-Shuffle346.png"
+  },
+  "Anorith": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7c/Shuffle347.png/120px-Shuffle347.png"
+  },
+  "Armaldo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/80/Shuffle348.png/120px-Shuffle348.png"
+  },
+  "Feebas": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Shuffle349.png/120px-Shuffle349.png"
+  },
+  "Milotic": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/93/Shuffle350.png/120px-Shuffle350.png"
+  },
+  "Castform": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6a/Shuffle351.png/120px-Shuffle351.png"
+  },
+  "Castform Sunny": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle351S.png/120px-Shuffle351S.png"
+  },
+  "Castform Rainy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/72/Shuffle351R.png/120px-Shuffle351R.png"
+  },
+  "Castform Snowy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Shuffle351H.png/120px-Shuffle351H.png"
+  },
+  "Kecleon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/11/Shuffle352.png/120px-Shuffle352.png"
+  },
+  "Shuppet": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fe/Shuffle353.png/120px-Shuffle353.png"
+  },
+  "Banette": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Shuffle354.png/120px-Shuffle354.png"
+  },
+  "Duskull": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Shuffle355.png/120px-Shuffle355.png"
+  },
+  "Dusclops": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/50/Shuffle356.png/120px-Shuffle356.png"
+  },
+  "Tropius": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a9/Shuffle357.png/120px-Shuffle357.png"
+  },
+  "Chimecho": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2d/Shuffle358.png/120px-Shuffle358.png"
+  },
+  "Absol": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2f/Shuffle359.png/120px-Shuffle359.png"
+  },
+  "Wynaut": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4b/Shuffle360.png/120px-Shuffle360.png"
+  },
+  "Snorunt": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Shuffle361.png/120px-Shuffle361.png"
+  },
+  "Glalie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Shuffle362.png/120px-Shuffle362.png"
+  },
+  "Spheal": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle363.png/120px-Shuffle363.png"
+  },
+  "Sealeo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Shuffle364.png/120px-Shuffle364.png"
+  },
+  "Walrein": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/32/Shuffle365.png/120px-Shuffle365.png"
+  },
+  "Clamperl": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Shuffle366.png/120px-Shuffle366.png"
+  },
+  "Huntail": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2d/Shuffle367.png/120px-Shuffle367.png"
+  },
+  "Gorebyss": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Shuffle368.png/120px-Shuffle368.png"
+  },
+  "Relicanth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/23/Shuffle369.png/120px-Shuffle369.png"
+  },
+  "Luvdisc": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/54/Shuffle370.png/120px-Shuffle370.png"
+  },
+  "Bagon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Shuffle371.png/120px-Shuffle371.png"
+  },
+  "Shelgon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/65/Shuffle372.png/120px-Shuffle372.png"
+  },
+  "Salamence": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f0/Shuffle373.png/120px-Shuffle373.png"
+  },
+  "Beldum": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/13/Shuffle374.png/120px-Shuffle374.png"
+  },
+  "Metang": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/Shuffle375.png/120px-Shuffle375.png"
+  },
+  "Metagross": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Shuffle376.png/120px-Shuffle376.png"
+  },
+  "Regirock": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle377.png/120px-Shuffle377.png"
+  },
+  "Regice": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/80/Shuffle378.png/120px-Shuffle378.png"
+  },
+  "Registeel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle379.png/120px-Shuffle379.png"
+  },
+  "Latias": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/88/Shuffle380.png/120px-Shuffle380.png"
+  },
+  "Latios": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/81/Shuffle381.png/120px-Shuffle381.png"
+  },
+  "Kyogre": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Shuffle382.png/120px-Shuffle382.png"
+  },
+  "Groudon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2c/Shuffle383.png/120px-Shuffle383.png"
+  },
+  "Rayquaza": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ad/Shuffle384.png/120px-Shuffle384.png"
+  },
+  "Jirachi": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/59/Shuffle385.png/120px-Shuffle385.png"
+  },
+  "Deoxys": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/73/Shuffle386.png/120px-Shuffle386.png"
+  },
+  "Turtwig": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f5/Shuffle387.png/120px-Shuffle387.png"
+  },
+  "Grotle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Shuffle388.png/120px-Shuffle388.png"
+  },
+  "Torterra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle389.png/120px-Shuffle389.png"
+  },
+  "Chimchar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ab/Shuffle390.png/120px-Shuffle390.png"
+  },
+  "Monferno": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4e/Shuffle391.png/120px-Shuffle391.png"
+  },
+  "Infernape": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/91/Shuffle392.png/120px-Shuffle392.png"
+  },
+  "Piplup": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/16/Shuffle393.png/120px-Shuffle393.png"
+  },
+  "Prinplup": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/Shuffle394.png/120px-Shuffle394.png"
+  },
+  "Empoleon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c6/Shuffle395.png/120px-Shuffle395.png"
+  },
+  "Starly": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle396.png/120px-Shuffle396.png"
+  },
+  "Staravia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/88/Shuffle397.png/120px-Shuffle397.png"
+  },
+  "Staraptor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/Shuffle398.png/120px-Shuffle398.png"
+  },
+  "Bidoof": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c4/Shuffle399.png/120px-Shuffle399.png"
+  },
+  "Bibarel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/50/Shuffle400.png/120px-Shuffle400.png"
+  },
+  "Kricketot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/68/Shuffle401.png/120px-Shuffle401.png"
+  },
+  "Kricketune": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Shuffle402.png/120px-Shuffle402.png"
+  },
+  "Shinx": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d7/Shuffle403.png/120px-Shuffle403.png"
+  },
+  "Luxio": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e7/Shuffle404.png/120px-Shuffle404.png"
+  },
+  "Luxray": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/19/Shuffle405.png/120px-Shuffle405.png"
+  },
+  "Budew": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5f/Shuffle406.png/120px-Shuffle406.png"
+  },
+  "Roserade": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8d/Shuffle407.png/120px-Shuffle407.png"
+  },
+  "Cranidos": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Shuffle408.png/120px-Shuffle408.png"
+  },
+  "Rampardos": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e0/Shuffle409.png/120px-Shuffle409.png"
+  },
+  "Shieldon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Shuffle410.png/120px-Shuffle410.png"
+  },
+  "Bastiodon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Shuffle411.png/120px-Shuffle411.png"
+  },
+  "Burmy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b7/Shuffle412.png/120px-Shuffle412.png"
+  },
+  "Wormadam Plant Cloak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Shuffle413.png/120px-Shuffle413.png"
+  },
+  "Wormadam Sand Cloak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c4/Shuffle413G.png/120px-Shuffle413G.png"
+  },
+  "Wormadam Trash Cloak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1c/Shuffle413S.png/120px-Shuffle413S.png"
+  },
+  "Mothim": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Shuffle414.png/120px-Shuffle414.png"
+  },
+  "Combee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Shuffle415.png/120px-Shuffle415.png"
+  },
+  "Vespiquen": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Shuffle416.png/120px-Shuffle416.png"
+  },
+  "Pachirisu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Shuffle417.png/120px-Shuffle417.png"
+  },
+  "Buizel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f0/Shuffle418.png/120px-Shuffle418.png"
+  },
+  "Floatzel": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d7/Shuffle419.png/120px-Shuffle419.png"
+  },
+  "Cherubi": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle420.png/120px-Shuffle420.png"
+  },
+  "Cherrim": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Shuffle421.png/120px-Shuffle421.png"
+  },
+  "Shellos": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e2/Shuffle422.png/120px-Shuffle422.png"
+  },
+  "Gastrodon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/34/Shuffle423.png/120px-Shuffle423.png"
+  },
+  "Ambipom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Shuffle424.png/120px-Shuffle424.png"
+  },
+  "Drifloon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2b/Shuffle425.png/120px-Shuffle425.png"
+  },
+  "Drifblim": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6e/Shuffle426.png/120px-Shuffle426.png"
+  },
+  "Buneary": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0d/Shuffle427.png/120px-Shuffle427.png"
+  },
+  "Lopunny": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle428.png/120px-Shuffle428.png"
+  },
+  "Mismagius": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle429.png/120px-Shuffle429.png"
+  },
+  "Honchkrow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/56/Shuffle430.png/120px-Shuffle430.png"
+  },
+  "Glameow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle431.png/120px-Shuffle431.png"
+  },
+  "Purugly": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Shuffle432.png/120px-Shuffle432.png"
+  },
+  "Chingling": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/57/Shuffle433.png/120px-Shuffle433.png"
+  },
+  "Stunky": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f3/Shuffle434.png/120px-Shuffle434.png"
+  },
+  "Skuntank": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle435.png/120px-Shuffle435.png"
+  },
+  "Bronzor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle436.png/120px-Shuffle436.png"
+  },
+  "Bronzong": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/20/Shuffle437.png/120px-Shuffle437.png"
+  },
+  "Bonsly": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/ba/Shuffle438.png/120px-Shuffle438.png"
+  },
+  "Mime Jr.": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Shuffle439.png/120px-Shuffle439.png"
+  },
+  "Happiny": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle440.png/120px-Shuffle440.png"
+  },
+  "Chatot": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ec/Shuffle441.png/120px-Shuffle441.png"
+  },
+  "Spiritomb": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Shuffle442.png/120px-Shuffle442.png"
+  },
+  "Gible": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ce/Shuffle443.png/120px-Shuffle443.png"
+  },
+  "Gabite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Shuffle444.png/120px-Shuffle444.png"
+  },
+  "Garchomp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/54/Shuffle445.png/120px-Shuffle445.png"
+  },
+  "Munchlax": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle446.png/120px-Shuffle446.png"
+  },
+  "Riolu": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle447.png/120px-Shuffle447.png"
+  },
+  "Lucario": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5a/Shuffle448.png/120px-Shuffle448.png"
+  },
+  "Hippopotas": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Shuffle449.png/120px-Shuffle449.png"
+  },
+  "Hippowdon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b7/Shuffle450.png/120px-Shuffle450.png"
+  },
+  "Skorupi": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/18/Shuffle451.png/120px-Shuffle451.png"
+  },
+  "Drapion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6d/Shuffle452.png/120px-Shuffle452.png"
+  },
+  "Croagunk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle453.png/120px-Shuffle453.png"
+  },
+  "Toxicroak": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle454.png/120px-Shuffle454.png"
+  },
+  "Carnivine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/dd/Shuffle455.png/120px-Shuffle455.png"
+  },
+  "Finneon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/46/Shuffle456.png/120px-Shuffle456.png"
+  },
+  "Lumineon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Shuffle457.png/120px-Shuffle457.png"
+  },
+  "Mantyke": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/21/Shuffle458.png/120px-Shuffle458.png"
+  },
+  "Snover": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Shuffle459.png/120px-Shuffle459.png"
+  },
+  "Abomasnow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/84/Shuffle460.png/120px-Shuffle460.png"
+  },
+  "Weavile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Shuffle461.png/120px-Shuffle461.png"
+  },
+  "Magnezone": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Shuffle462.png/120px-Shuffle462.png"
+  },
+  "Lickilicky": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fc/Shuffle463.png/120px-Shuffle463.png"
+  },
+  "Rhyperior": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c2/Shuffle464.png/120px-Shuffle464.png"
+  },
+  "Tangrowth": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle465.png/120px-Shuffle465.png"
+  },
+  "Electivire": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/95/Shuffle466.png/120px-Shuffle466.png"
+  },
+  "Magmortar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Shuffle467.png/120px-Shuffle467.png"
+  },
+  "Togekiss": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/19/Shuffle468.png/120px-Shuffle468.png"
+  },
+  "Yanmega": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6a/Shuffle469.png/120px-Shuffle469.png"
+  },
+  "Glaceon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9d/Shuffle471.png/120px-Shuffle471.png"
+  },
+  "Gliscor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/46/Shuffle472.png/120px-Shuffle472.png"
+  },
+  "Mamoswine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/48/Shuffle473.png/120px-Shuffle473.png"
+  },
+  "Porygon-Z": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle474.png/120px-Shuffle474.png"
+  },
+  "Gallade": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Shuffle475.png/120px-Shuffle475.png"
+  },
+  "Probopass": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/91/Shuffle476.png/120px-Shuffle476.png"
+  },
+  "Dusknoir": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a1/Shuffle477.png/120px-Shuffle477.png"
+  },
+  "Froslass": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5d/Shuffle478.png/120px-Shuffle478.png"
+  },
+  "Rotom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b3/Shuffle479.png/120px-Shuffle479.png"
+  },
+  "Rotom Heat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d9/Shuffle479O.png/120px-Shuffle479O.png"
+  },
+  "Rotom Wash": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/38/Shuffle479W.png/120px-Shuffle479W.png"
+  },
+  "Rotom Frost": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle479R.png/120px-Shuffle479R.png"
+  },
+  "Rotom Fan": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/89/Shuffle479F.png/120px-Shuffle479F.png"
+  },
+  "Rotom Mow": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ec/Shuffle479L.png/120px-Shuffle479L.png"
+  },
+  "Uxie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9f/Shuffle480.png/120px-Shuffle480.png"
+  },
+  "Mesprit": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/04/Shuffle481.png/120px-Shuffle481.png"
+  },
+  "Azelf": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/50/Shuffle482.png/120px-Shuffle482.png"
+  },
+  "Dialga": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Shuffle483.png/120px-Shuffle483.png"
+  },
+  "Palkia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/11/Shuffle484.png/120px-Shuffle484.png"
+  },
+  "Heatran": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/02/Shuffle485.png/120px-Shuffle485.png"
+  },
+  "Regigigas": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle486.png/120px-Shuffle486.png"
+  },
+  "Giratina Altered Forme": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c1/Shuffle487.png/120px-Shuffle487.png"
+  },
+  "Giratina Origin Forme": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/49/Shuffle487O.png/120px-Shuffle487O.png"
+  },
+  "Cresselia": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/67/Shuffle488.png/120px-Shuffle488.png"
+  },
+  "Phione": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Shuffle489.png/120px-Shuffle489.png"
+  },
+  "Manaphy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/03/Shuffle490.png/120px-Shuffle490.png"
+  },
+  "Darkrai": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ea/Shuffle491.png/120px-Shuffle491.png"
+  },
+  "Shaymin Land": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle492.png/120px-Shuffle492.png"
+  },
+  "Shaymin Sky": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/12/Shuffle492S.png/120px-Shuffle492S.png"
+  },
+  "Arceus (Normal)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Fighting)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Flying)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Poison)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Ground)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Rock)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Bug)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Ghost)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Steel)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Fire)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Water)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Grass)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Electric)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Psychic)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Ice)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Dragon)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Dark)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Arceus (Fairy)": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/97/Shuffle493.png/120px-Shuffle493.png"
+  },
+  "Victini": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle494.png/120px-Shuffle494.png"
+  },
+  "Snivy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Shuffle495.png/120px-Shuffle495.png"
+  },
+  "Servine": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/74/Shuffle496.png/120px-Shuffle496.png"
+  },
+  "Serperior": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/28/Shuffle497.png/120px-Shuffle497.png"
+  },
+  "Tepig": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/85/Shuffle498.png/120px-Shuffle498.png"
+  },
+  "Pignite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Shuffle499.png/120px-Shuffle499.png"
+  },
+  "Emboar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Shuffle500.png/120px-Shuffle500.png"
+  },
+  "Oshawott": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3a/Shuffle501.png/120px-Shuffle501.png"
+  },
+  "Dewott": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c4/Shuffle502.png/120px-Shuffle502.png"
+  },
+  "Samurott": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Shuffle503.png/120px-Shuffle503.png"
+  },
+  "Patrat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a0/Shuffle504.png/120px-Shuffle504.png"
+  },
+  "Watchog": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/55/Shuffle505.png/120px-Shuffle505.png"
+  },
+  "Lillipup": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/56/Shuffle506.png/120px-Shuffle506.png"
+  },
+  "Herdier": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b6/Shuffle507.png/120px-Shuffle507.png"
+  },
+  "Stoutland": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fa/Shuffle508.png/120px-Shuffle508.png"
+  },
+  "Purrloin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle509.png/120px-Shuffle509.png"
+  },
+  "Liepard": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Shuffle510.png/120px-Shuffle510.png"
+  },
+  "Pansage": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a5/Shuffle511.png/120px-Shuffle511.png"
+  },
+  "Simisage": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3b/Shuffle512.png/120px-Shuffle512.png"
+  },
+  "Pansear": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e9/Shuffle513.png/120px-Shuffle513.png"
+  },
+  "Simisear": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Shuffle514.png/120px-Shuffle514.png"
+  },
+  "Panpour": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/da/Shuffle515.png/120px-Shuffle515.png"
+  },
+  "Simipour": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8d/Shuffle516.png/120px-Shuffle516.png"
+  },
+  "Munna": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9a/Shuffle517.png/120px-Shuffle517.png"
+  },
+  "Musharna": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Shuffle518.png/120px-Shuffle518.png"
+  },
+  "Pidove": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle519.png/120px-Shuffle519.png"
+  },
+  "Tranquill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9e/Shuffle520.png/120px-Shuffle520.png"
+  },
+  "Unfezant": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e5/Shuffle521.png/120px-Shuffle521.png"
+  },
+  "Blitzle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Shuffle522.png/120px-Shuffle522.png"
+  },
+  "Zebstrika": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8f/Shuffle523.png/120px-Shuffle523.png"
+  },
+  "Roggenrola": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/90/Shuffle524.png/120px-Shuffle524.png"
+  },
+  "Boldore": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle525.png/120px-Shuffle525.png"
+  },
+  "Gigalith": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c0/Shuffle526.png/120px-Shuffle526.png"
+  },
+  "Woobat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/46/Shuffle527.png/120px-Shuffle527.png"
+  },
+  "Swoobat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ab/Shuffle528.png/120px-Shuffle528.png"
+  },
+  "Drilbur": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Shuffle529.png/120px-Shuffle529.png"
+  },
+  "Excadrill": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cb/Shuffle530.png/120px-Shuffle530.png"
+  },
+  "Audino": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/28/Shuffle531.png/120px-Shuffle531.png"
+  },
+  "Timburr": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e7/Shuffle532.png/120px-Shuffle532.png"
+  },
+  "Gurdurr": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Shuffle533.png/120px-Shuffle533.png"
+  },
+  "Conkeldurr": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/46/Shuffle534.png/120px-Shuffle534.png"
+  },
+  "Tympole": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Shuffle535.png/120px-Shuffle535.png"
+  },
+  "Palpitoad": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle536.png/120px-Shuffle536.png"
+  },
+  "Seismitoad": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b3/Shuffle537.png/120px-Shuffle537.png"
+  },
+  "Throh": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7e/Shuffle538.png/120px-Shuffle538.png"
+  },
+  "Sawk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/98/Shuffle539.png/120px-Shuffle539.png"
+  },
+  "Sewaddle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1e/Shuffle540.png/120px-Shuffle540.png"
+  },
+  "Swadloon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Shuffle541.png/120px-Shuffle541.png"
+  },
+  "Leavanny": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/dd/Shuffle542.png/120px-Shuffle542.png"
+  },
+  "Venipede": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/84/Shuffle543.png/120px-Shuffle543.png"
+  },
+  "Whirlipede": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/55/Shuffle544.png/120px-Shuffle544.png"
+  },
+  "Scolipede": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle545.png/120px-Shuffle545.png"
+  },
+  "Cottonee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Shuffle546.png/120px-Shuffle546.png"
+  },
+  "Whimsicott": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Shuffle547.png/120px-Shuffle547.png"
+  },
+  "Petilil": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Shuffle548.png/120px-Shuffle548.png"
+  },
+  "Lilligant": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/37/Shuffle549.png/120px-Shuffle549.png"
+  },
+  "Basculin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/63/Shuffle550.png/120px-Shuffle550.png"
+  },
+  "Sandile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ec/Shuffle551.png/120px-Shuffle551.png"
+  },
+  "Krokorok": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0e/Shuffle552.png/120px-Shuffle552.png"
+  },
+  "Krookodile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle553.png/120px-Shuffle553.png"
+  },
+  "Darumaka": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/10/Shuffle554.png/120px-Shuffle554.png"
+  },
+  "Darmanitan": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle555.png/120px-Shuffle555.png"
+  },
+  "Maractus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/45/Shuffle556.png/120px-Shuffle556.png"
+  },
+  "Dwebble": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/15/Shuffle557.png/120px-Shuffle557.png"
+  },
+  "Crustle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Shuffle558.png/120px-Shuffle558.png"
+  },
+  "Scraggy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle559.png/120px-Shuffle559.png"
+  },
+  "Scrafty": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/29/Shuffle560.png/120px-Shuffle560.png"
+  },
+  "Sigilyph": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/38/Shuffle561.png/120px-Shuffle561.png"
+  },
+  "Yamask": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle562.png/120px-Shuffle562.png"
+  },
+  "Cofagrigus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d6/Shuffle563.png/120px-Shuffle563.png"
+  },
+  "Tirtouga": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a1/Shuffle564.png/120px-Shuffle564.png"
+  },
+  "Carracosta": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Shuffle565.png/120px-Shuffle565.png"
+  },
+  "Archen": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle566.png/120px-Shuffle566.png"
+  },
+  "Archeops": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle567.png/120px-Shuffle567.png"
+  },
+  "Trubbish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/00/Shuffle568.png/120px-Shuffle568.png"
+  },
+  "Garbodor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/27/Shuffle569.png/120px-Shuffle569.png"
+  },
+  "Zorua": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f1/Shuffle570.png/120px-Shuffle570.png"
+  },
+  "Zoroark": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Shuffle571.png/120px-Shuffle571.png"
+  },
+  "Minccino": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/21/Shuffle572.png/120px-Shuffle572.png"
+  },
+  "Cinccino": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Shuffle573.png/120px-Shuffle573.png"
+  },
+  "Gothita": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/29/Shuffle574.png/120px-Shuffle574.png"
+  },
+  "Gothorita": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5c/Shuffle575.png/120px-Shuffle575.png"
+  },
+  "Gothitelle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/dc/Shuffle576.png/120px-Shuffle576.png"
+  },
+  "Solosis": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle577.png/120px-Shuffle577.png"
+  },
+  "Duosion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/Shuffle578.png/120px-Shuffle578.png"
+  },
+  "Reuniclus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d4/Shuffle579.png/120px-Shuffle579.png"
+  },
+  "Ducklett": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1b/Shuffle580.png/120px-Shuffle580.png"
+  },
+  "Swanna": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d0/Shuffle581.png/120px-Shuffle581.png"
+  },
+  "Vanillite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle582.png/120px-Shuffle582.png"
+  },
+  "Vanillish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ca/Shuffle583.png/120px-Shuffle583.png"
+  },
+  "Vanilluxe": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/dd/Shuffle584.png/120px-Shuffle584.png"
+  },
+  "Deerling": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1b/Shuffle585.png/120px-Shuffle585.png"
+  },
+  "Sawsbuck": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fe/Shuffle586.png/120px-Shuffle586.png"
+  },
+  "Emolga": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c9/Shuffle587.png/120px-Shuffle587.png"
+  },
+  "Karrablast": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/17/Shuffle588.png/120px-Shuffle588.png"
+  },
+  "Escavalier": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/14/Shuffle589.png/120px-Shuffle589.png"
+  },
+  "Foongus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle590.png/120px-Shuffle590.png"
+  },
+  "Amoonguss": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/06/Shuffle591.png/120px-Shuffle591.png"
+  },
+  "Frillish": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/17/Shuffle592.png/120px-Shuffle592.png"
+  },
+  "Jellicent": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/84/Shuffle593.png/120px-Shuffle593.png"
+  },
+  "Alomomola": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/db/Shuffle594.png/120px-Shuffle594.png"
+  },
+  "Joltik": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/26/Shuffle595.png/120px-Shuffle595.png"
+  },
+  "Galvantula": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle596.png/120px-Shuffle596.png"
+  },
+  "Ferroseed": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e1/Shuffle597.png/120px-Shuffle597.png"
+  },
+  "Ferrothorn": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c4/Shuffle598.png/120px-Shuffle598.png"
+  },
+  "Klink": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Shuffle599.png/120px-Shuffle599.png"
+  },
+  "Klang": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/Shuffle600.png/120px-Shuffle600.png"
+  },
+  "Klinklang": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cf/Shuffle601.png/120px-Shuffle601.png"
+  },
+  "Tynamo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a4/Shuffle602.png/120px-Shuffle602.png"
+  },
+  "Eelektrik": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ee/Shuffle603.png/120px-Shuffle603.png"
+  },
+  "Eelektross": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fd/Shuffle604.png/120px-Shuffle604.png"
+  },
+  "Elgyem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Shuffle605.png/120px-Shuffle605.png"
+  },
+  "Beheeyem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/93/Shuffle606.png/120px-Shuffle606.png"
+  },
+  "Litwick": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7f/Shuffle607.png/120px-Shuffle607.png"
+  },
+  "Lampent": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/eb/Shuffle608.png/120px-Shuffle608.png"
+  },
+  "Chandelure": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8d/Shuffle609.png/120px-Shuffle609.png"
+  },
+  "Axew": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle610.png/120px-Shuffle610.png"
+  },
+  "Fraxure": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/74/Shuffle611.png/120px-Shuffle611.png"
+  },
+  "Haxorus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6d/Shuffle612.png/120px-Shuffle612.png"
+  },
+  "Cubchoo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/ff/Shuffle613.png/120px-Shuffle613.png"
+  },
+  "Beartic": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/99/Shuffle614.png/120px-Shuffle614.png"
+  },
+  "Cryogonal": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/22/Shuffle615.png/120px-Shuffle615.png"
+  },
+  "Shelmet": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Shuffle616.png/120px-Shuffle616.png"
+  },
+  "Accelgor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/77/Shuffle617.png/120px-Shuffle617.png"
+  },
+  "Stunfisk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Shuffle618.png/120px-Shuffle618.png"
+  },
+  "Mienfoo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Shuffle619.png/120px-Shuffle619.png"
+  },
+  "Mienshao": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Shuffle620.png/120px-Shuffle620.png"
+  },
+  "Druddigon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Shuffle621.png/120px-Shuffle621.png"
+  },
+  "Golett": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle622.png/120px-Shuffle622.png"
+  },
+  "Golurk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Shuffle623.png/120px-Shuffle623.png"
+  },
+  "Pawniard": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2e/Shuffle624.png/120px-Shuffle624.png"
+  },
+  "Bisharp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8d/Shuffle625.png/120px-Shuffle625.png"
+  },
+  "Bouffalant": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/40/Shuffle626.png/120px-Shuffle626.png"
+  },
+  "Rufflet": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fe/Shuffle627.png/120px-Shuffle627.png"
+  },
+  "Braviary": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7a/Shuffle628.png/120px-Shuffle628.png"
+  },
+  "Vullaby": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Shuffle629.png/120px-Shuffle629.png"
+  },
+  "Mandibuzz": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/73/Shuffle630.png/120px-Shuffle630.png"
+  },
+  "Heatmor": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9a/Shuffle631.png/120px-Shuffle631.png"
+  },
+  "Durant": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/91/Shuffle632.png/120px-Shuffle632.png"
+  },
+  "Deino": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c3/Shuffle633.png/120px-Shuffle633.png"
+  },
+  "Zweilous": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/Shuffle634.png/120px-Shuffle634.png"
+  },
+  "Hydreigon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/75/Shuffle635.png/120px-Shuffle635.png"
+  },
+  "Larvesta": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Shuffle636.png/120px-Shuffle636.png"
+  },
+  "Volcarona": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f9/Shuffle637.png/120px-Shuffle637.png"
+  },
+  "Cobalion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f5/Shuffle638.png/120px-Shuffle638.png"
+  },
+  "Terrakion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bb/Shuffle639.png/120px-Shuffle639.png"
+  },
+  "Virizion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5f/Shuffle640.png/120px-Shuffle640.png"
+  },
+  "Tornadus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d3/Shuffle641.png/120px-Shuffle641.png"
+  },
+  "Thundurus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/8c/Shuffle642.png/120px-Shuffle642.png"
+  },
+  "Reshiram": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/35/Shuffle643.png/120px-Shuffle643.png"
+  },
+  "Zekrom": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3e/Shuffle644.png/120px-Shuffle644.png"
+  },
+  "Landorus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/80/Shuffle645.png/120px-Shuffle645.png"
+  },
+  "Kyurem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Shuffle646.png/120px-Shuffle646.png"
+  },
+  "White Kyurem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/63/Shuffle646W.png/120px-Shuffle646W.png"
+  },
+  "Black Kyurem": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle646B.png/120px-Shuffle646B.png"
+  },
+  "Keldeo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c7/Shuffle647.png/120px-Shuffle647.png"
+  },
+  "Meloetta - Aria": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/31/Shuffle648.png/120px-Shuffle648.png"
+  },
+  "Meloetta - Pirouette": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1b/Shuffle648P.png/120px-Shuffle648P.png"
+  },
+  "Genesect": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e8/Shuffle649.png/120px-Shuffle649.png"
+  },
+  "Chespin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bc/Shuffle650.png/120px-Shuffle650.png"
+  },
+  "Quilladin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/df/Shuffle651.png/120px-Shuffle651.png"
+  },
+  "Chesnaught": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a8/Shuffle652.png/120px-Shuffle652.png"
+  },
+  "Fennekin": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/68/Shuffle653.png/120px-Shuffle653.png"
+  },
+  "Braixen": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/76/Shuffle654.png/120px-Shuffle654.png"
+  },
+  "Delphox": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0c/Shuffle655.png/120px-Shuffle655.png"
+  },
+  "Froakie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ca/Shuffle656.png/120px-Shuffle656.png"
+  },
+  "Frogadier": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/36/Shuffle657.png/120px-Shuffle657.png"
+  },
+  "Greninja": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Shuffle658.png/120px-Shuffle658.png"
+  },
+  "Bunnelby": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/86/Shuffle659.png/120px-Shuffle659.png"
+  },
+  "Diggersby": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/60/Shuffle660.png/120px-Shuffle660.png"
+  },
+  "Fletchling": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/42/Shuffle661.png/120px-Shuffle661.png"
+  },
+  "Fletchinder": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/12/Shuffle662.png/120px-Shuffle662.png"
+  },
+  "Talonflame": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle663.png/120px-Shuffle663.png"
+  },
+  "Scatterbug": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6f/Shuffle664.png/120px-Shuffle664.png"
+  },
+  "Spewpa": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/fc/Shuffle665.png/120px-Shuffle665.png"
+  },
+  "Vivillon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c8/Shuffle666.png/120px-Shuffle666.png"
+  },
+  "Litleo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7c/Shuffle667.png/120px-Shuffle667.png"
+  },
+  "Pyroar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle668.png/120px-Shuffle668.png"
+  },
+  "Flabébé": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle669.png/120px-Shuffle669.png"
+  },
+  "Floette": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ce/Shuffle670.png/120px-Shuffle670.png"
+  },
+  "Florges": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/08/Shuffle671.png/120px-Shuffle671.png"
+  },
+  "Skiddo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/33/Shuffle672.png/120px-Shuffle672.png"
+  },
+  "Gogoat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/22/Shuffle673.png/120px-Shuffle673.png"
+  },
+  "Pancham": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/1/1d/Shuffle674.png/120px-Shuffle674.png"
+  },
+  "Pangoro": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/55/Shuffle675.png/120px-Shuffle675.png"
+  },
+  "Furfrou": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f0/Shuffle676.png/120px-Shuffle676.png"
+  },
+  "Espurr": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Shuffle677.png/120px-Shuffle677.png"
+  },
+  "Meowstic ♂": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/de/Shuffle678.png/120px-Shuffle678.png"
+  },
+  "Meowstic ♀": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Shuffle678F.png/120px-Shuffle678F.png"
+  },
+  "Honedge": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/3/3c/Shuffle679.png/120px-Shuffle679.png"
+  },
+  "Doublade": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f4/Shuffle680.png/120px-Shuffle680.png"
+  },
+  "Aegislash": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e3/Shuffle681.png/120px-Shuffle681.png"
+  },
+  "Spritzee": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/44/Shuffle682.png/120px-Shuffle682.png"
+  },
+  "Aromatisse": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/66/Shuffle683.png/120px-Shuffle683.png"
+  },
+  "Swirlix": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/6e/Shuffle684.png/120px-Shuffle684.png"
+  },
+  "Slurpuff": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/78/Shuffle685.png/120px-Shuffle685.png"
+  },
+  "Inkay": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/72/Shuffle686.png/120px-Shuffle686.png"
+  },
+  "Malamar": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a9/Shuffle687.png/120px-Shuffle687.png"
+  },
+  "Binacle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/e2/Shuffle688.png/120px-Shuffle688.png"
+  },
+  "Barbaracle": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/ce/Shuffle689.png/120px-Shuffle689.png"
+  },
+  "Skrelp": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d5/Shuffle690.png/120px-Shuffle690.png"
+  },
+  "Dragalge": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/2d/Shuffle691.png/120px-Shuffle691.png"
+  },
+  "Clauncher": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/c9/Shuffle692.png/120px-Shuffle692.png"
+  },
+  "Clawitzer": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/95/Shuffle693.png/120px-Shuffle693.png"
+  },
+  "Helioptile": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/83/Shuffle694.png/120px-Shuffle694.png"
+  },
+  "Heliolisk": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f2/Shuffle695.png/120px-Shuffle695.png"
+  },
+  "Tyrunt": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/e/ea/Shuffle696.png/120px-Shuffle696.png"
+  },
+  "Tyrantrum": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cd/Shuffle697.png/120px-Shuffle697.png"
+  },
+  "Amaura": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5e/Shuffle698.png/120px-Shuffle698.png"
+  },
+  "Aurorus": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/c/cc/Shuffle699.png/120px-Shuffle699.png"
+  },
+  "Sylveon": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7e/Shuffle700.png/120px-Shuffle700.png"
+  },
+  "Hawlucha": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4c/Shuffle701.png/120px-Shuffle701.png"
+  },
+  "Dedenne": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/86/Shuffle702.png/120px-Shuffle702.png"
+  },
+  "Carbink": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/07/Shuffle703.png/120px-Shuffle703.png"
+  },
+  "Goomy": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/79/Shuffle704.png/120px-Shuffle704.png"
+  },
+  "Sliggoo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/Shuffle705.png/120px-Shuffle705.png"
+  },
+  "Goodra": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Shuffle706.png/120px-Shuffle706.png"
+  },
+  "Klefki": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ac/Shuffle707.png/120px-Shuffle707.png"
+  },
+  "Phantump": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/f/f6/Shuffle708.png/120px-Shuffle708.png"
+  },
+  "Trevenant": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/62/Shuffle709.png/120px-Shuffle709.png"
+  },
+  "Pumpkaboo": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/5/5b/Shuffle710.png/120px-Shuffle710.png"
+  },
+  "Gourgeist": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/b0/Shuffle711.png/120px-Shuffle711.png"
+  },
+  "Bergmite": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/02/Shuffle712.png/120px-Shuffle712.png"
+  },
+  "Avalugg": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/6/64/Shuffle713.png/120px-Shuffle713.png"
+  },
+  "Noibat": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/Shuffle714.png/120px-Shuffle714.png"
+  },
+  "Noivern": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/b/bf/Shuffle715.png/120px-Shuffle715.png"
+  },
+  "Xerneas": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ad/Shuffle716.png/120px-Shuffle716.png"
+  },
+  "Yveltal": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/8/83/Shuffle717.png/120px-Shuffle717.png"
+  },
+  "Zygarde 10% Forme": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Shuffle718T.png/120px-Shuffle718T.png"
+  },
+  "Zygarde 50% Forme": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d1/Shuffle718.png/120px-Shuffle718.png"
+  },
+  "Zygarde Complete Forme": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/2/20/Shuffle718C.png/120px-Shuffle718C.png"
+  },
+  "Diancie": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/d/d5/Shuffle719.png/120px-Shuffle719.png"
+  },
+  "Hoopa Confined": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ab/Shuffle720.png/120px-Shuffle720.png"
+  },
+  "Hoopa Unbound": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/a3/Shuffle720U.png/120px-Shuffle720U.png"
+  },
+  "Volcanion": {
+    "img": "https://archives.bulbagarden.net/media/upload/thumb/a/ae/Shuffle721.png/120px-Shuffle721.png"
+  }
 }

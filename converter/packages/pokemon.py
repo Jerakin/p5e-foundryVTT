@@ -203,7 +203,7 @@ class Pokemon:
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
         self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon", "")
-        self.output_data["data"]["details"]["resources"]["primary"] = experience.GRID[json_data["MIN LVL FD"]][
+        self.output_data["data"]["resources"]["primary"]["value"] = experience.GRID[json_data["MIN LVL FD"]][
             json_data["SR"]]
 
         next_level = json_data["MIN LVL FD"] + 1

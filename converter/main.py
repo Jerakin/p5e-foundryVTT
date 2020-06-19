@@ -33,22 +33,22 @@ def build():
     util.BUILD_MOVES.mkdir()
     util.BUILD_ABILITIES.mkdir()
 
-    print("Convert Pokemon")
+    print("Building Pokemon")
     total = len(list((util.DATA_SOURCE / "pokemon").iterdir()))
     for index, pokemon_file in enumerate((util.DATA_SOURCE / "pokemon").iterdir(), 1):
         update_progress(index/total)
-        with pokemon_file.open() as fp:
+        with pokemon_file.open(encoding="utf-8") as fp:
             json_data = json.load(fp)
         build_pokemon(pokemon_file.stem, json_data, util.BUILD_POKEMON / pokemon_file.name)
 
-    print("Convert Moves")
+    print("Building Moves")
     total = len(util.MOVE_DATA)
     for index, (name, json_data) in enumerate(util.MOVE_DATA.items(), 1):
         update_progress(index / total)
         if name not in util.BUILD_MOVES.iterdir():
             build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
 
-    print("Convert Abilities")
+    print("Building Abilities")
     total = len(util.ABILITY_DATA)
     for index, (name, json_data) in enumerate(util.ABILITY_DATA.items(), 1):
         update_progress(index / total)
@@ -57,9 +57,12 @@ def build():
 
 
 def pack_folder(folder, output_file):
-    with output_file.open("a") as fp:
-        for p_file in folder.iterdir():
-            with p_file.open() as f:
+    print(f"Packing f{folder}")
+    with output_file.open("w", encoding="utf-8") as fp:
+        total = len(list(folder.iterdir()))
+        for index, p_file in enumerate(folder.iterdir(), 1):
+            update_progress(index / total)
+            with p_file.open(encoding="utf-8") as f:
                 fp.write(f.read() + "\n")
 
 
@@ -70,27 +73,27 @@ def data():
 
     poke = []
     for p_file in util.BUILD_POKEMON.iterdir():
-        with p_file.open() as fp:
+        with p_file.open(encoding="utf-8") as fp:
             poke.append(json.load(fp))
 
-    with (util.DATA / "pokemon.json").open("w") as fp:
-        json.dump(poke, fp, indent=4)
+    with (util.DATA / "pokemon.json").open("w", encoding="utf-8") as fp:
+        json.dump(poke, fp, indent=2, ensure_ascii=False)
 
     moves = []
     for p_file in util.BUILD_MOVES.iterdir():
-        with p_file.open() as fp:
+        with p_file.open(encoding="utf-8") as fp:
             moves.append(json.load(fp))
 
-    with (util.DATA / "moves.json").open("w") as fp:
-        json.dump(moves, fp, indent=4)
+    with (util.DATA / "moves.json").open("w", encoding="utf-8") as fp:
+        json.dump(moves, fp, indent=2, ensure_ascii=False)
 
     abilities = []
     for p_file in util.BUILD_ABILITIES.iterdir():
-        with p_file.open() as fp:
+        with p_file.open(encoding="utf-8") as fp:
             abilities.append(json.load(fp))
 
-    with (util.DATA / "abilities.json").open("w") as fp:
-        json.dump(moves, fp, indent=4)
+    with (util.DATA / "abilities.json").open("w", encoding="utf-8") as fp:
+        json.dump(moves, fp, indent=2, ensure_ascii=False)
 
     shutil.copy(util.PROJECT / "foundryJS" / "import.js", util.DATA)
 

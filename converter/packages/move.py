@@ -63,8 +63,8 @@ class Move:
     def save(self, file_path):
         if not file_path.parent.exists():
             file_path.parent.mkdir(parents=True)
-        with file_path.open("w+") as fp:
-            json.dump(self.output_data, fp)
+        with file_path.open("w+", encoding="utf-8") as fp:
+            json.dump(self.output_data, fp, ensure_ascii=False)
 
 
 # if __name__ == "__main__":

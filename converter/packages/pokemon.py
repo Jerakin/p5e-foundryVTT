@@ -238,10 +238,11 @@ class Pokemon:
         self.convert_dex_entry(json_data)
         self.add_pokemon_item(name, json_data)
         self.add_starting_moves(json_data)
+        self.add_abilities(json_data)
         self.set_id()
 
     def save(self, file_path):
         if not file_path.parent.exists():
             file_path.parent.mkdir(parents=True)
-        with file_path.open("w+") as fp:
-            json.dump(self.output_data, fp)
+        with file_path.open("w+", encoding="utf-8") as fp:
+            json.dump(self.output_data, fp, ensure_ascii=False)

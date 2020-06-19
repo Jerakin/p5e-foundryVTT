@@ -3,8 +3,10 @@ import json
 import math
 
 from converter import pokemon_types as p_types, foundry
-from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA
+from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA, BUILD_ABILITIES, ABILITY_DATA
 from converter.packages import move
+from converter.packages import ability
+
 
 class Move:
     def __init__(self, json_data):
@@ -37,6 +39,37 @@ class Move:
         self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
         # self.output_data["labels"]["damageTypes"] = self.output_data["data"]["details"]["background"]
 
+
+class Ability:
+    def __init__(self, json_data):
+        self.output_data = json_data
+
+        self.output_data["labels"] = {"featType": "", "activation": "", "target": "",
+                                      "range": "", "duration": "", "recharge": "",
+                                      "save": "", "damage": "", "damageTypes": ""}
+        self.convert()
+
+    def convert(self):
+        self.output_data["labels"]["featType"] = self.output_data["data"]["activation"]["type"].capitalize()
+        self.output_data["labels"][
+            "activation"] = f'{self.output_data["data"]["activation"]["cost"]} {self.output_data["labels"]["featType"]}'
+
+        self.output_data["labels"][
+            "target"] = f'{self.output_data["data"]["target"]["value"]} {self.output_data["data"]["target"]["type"].capitalize()}'
+
+        self.output_data["labels"][
+            "range"] = f'{self.output_data["data"]["range"]["value"]} {self.output_data["data"]["range"]["units"]}'
+
+        self.output_data["labels"][
+            "duration"] = f'{self.output_data["data"]["duration"]["value"]} {self.output_data["data"]["duration"]["units"].capitalize()}s'
+
+        if self.output_data["data"]["recharge"]["value"]:
+            self.output_data["labels"]["recharge"] = f'Recharge {self.output_data["data"]["recharge"]["value"]}'
+
+        self.output_data["labels"][
+            "save"] = f'DC {self.output_data["data"]["save"]["dc"]} {self.output_data["data"]["save"]["ability"].upper()}'
+        self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
+        # self.output_data["labels"]["damageTypes"] = self.output_data["data"]["details"]["background"]
 
 class PokemonItem:
     def __init__(self, name, json_data):
@@ -108,6 +141,24 @@ class Pokemon:
                 new_move = Move(m.output_data)
 
             self.output_data["items"].append(new_move.output_data)
+
+    def add_abilities(self, json_data):
+        abilities = json_data["Abilities"]
+        if "Hidden Ability" in json_data:
+            abilities.append(json_data["Hidden Ability"])
+
+        for ability_name in abilities:
+            if ability_name in BUILD_ABILITIES.iterdir():  # Check if the move have been built and use that
+                with (BUILD_MOVES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
+                    json_move_data = json.load(fp)
+                    new_ability = Ability(json_move_data)
+            else:  # Move have not been built, build it and use that
+                m = ability.Ability(ability_name, ABILITY_DATA[ability_name])
+                m.save((BUILD_ABILITIES / ability_name).with_suffix(".json"))
+                new_ability = Ability(m.output_data)
+
+            self.output_data["items"].append(new_ability.output_data)
+
 
     def add_pokemon_item(self, name, json_data):
         item = PokemonItem(name, json_data)

@@ -6,6 +6,7 @@ from tools.utils import update_progress
 import converter.util as util
 import converter.packages.pokemon as pokemon
 import converter.packages.move as move
+import converter.packages.ability as ability
 
 
 def build_pokemon(name, json_data, output_file):
@@ -18,12 +19,9 @@ def build_move(name, json_data, output_file):
     poke.save(output_file)
 
 
-def build_item():
-    pass
-
-
-def build_ability():
-    pass
+def build_ability(name, json_data, output_file):
+    abi = ability.Ability(name, json_data)
+    abi.save(output_file)
 
 
 def build():
@@ -33,6 +31,7 @@ def build():
 
     util.BUILD_POKEMON.mkdir()
     util.BUILD_MOVES.mkdir()
+    util.BUILD_ABILITIES.mkdir()
 
     print("Convert Pokemon")
     total = len(list((util.DATA_SOURCE / "pokemon").iterdir()))
@@ -48,6 +47,13 @@ def build():
         update_progress(index / total)
         if name not in util.BUILD_MOVES.iterdir():
             build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
+
+    print("Convert Abilities")
+    total = len(util.ABILITY_DATA)
+    for index, (name, json_data) in enumerate(util.ABILITY_DATA.items(), 1):
+        update_progress(index / total)
+        if name not in util.BUILD_ABILITIES.iterdir():
+            build_ability(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
 
 
 def pack_folder(folder, output_file):
@@ -76,6 +82,14 @@ def data():
             moves.append(json.load(fp))
 
     with (util.DATA / "moves.json").open("w") as fp:
+        json.dump(moves, fp, indent=4)
+
+    abilities = []
+    for p_file in util.BUILD_ABILITIES.iterdir():
+        with p_file.open() as fp:
+            abilities.append(json.load(fp))
+
+    with (util.DATA / "abilities.json").open("w") as fp:
         json.dump(moves, fp, indent=4)
 
     shutil.copy(util.PROJECT / "foundryJS" / "import.js", util.DATA)

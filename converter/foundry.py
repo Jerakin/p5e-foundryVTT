@@ -70,5 +70,12 @@ packs = {
         "path": "packs/p5e-moves.db",
         "entity": "Item",
         "module": module_name
+    },
+    "abilities": {
+        "name": "abilities",
+        "label": "Pokemon Abilities",
+        "path": "packs/p5e-abilities.db",
+        "entity": "Item",
+        "module": module_name
     }
 }

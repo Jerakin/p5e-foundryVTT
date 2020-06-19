@@ -7,6 +7,7 @@ PROJECT = Path(__file__).parent.parent
 BUILD = PROJECT / "build"
 BUILD_POKEMON = BUILD / "pokemon"
 BUILD_MOVES = BUILD / "moves"
+BUILD_ABILITIES = BUILD / "abilities"
 
 DIST = PROJECT / "dist"
 DIST_MODULE = DIST / foundry.module_name
@@ -41,11 +42,13 @@ def load_template(name):
 LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
 MOVE_DATA = load_datafile("moves")
+ABILITY_DATA = load_datafile("abilities")
 
 EXTRA_MOVE_DATA = load_extra("moves")
 EXTRA_POKEMON_DATA = load_extra("pokemon")
 EXTRA_MOVE_ICON_DATA = load_extra("move_icons")
 EXTRA_POKEMON_ICON_DATA = load_extra("pokemon_icons")
+EXTRA_ABILITY_DATA = load_extra("abilities")
 
 
 def merge(a, b, path=None):

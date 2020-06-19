@@ -194,6 +194,7 @@ class Pokemon:
 
             if name in skills:
                 self.output_data["data"]["skills"][abv]["prof"] = self.proficiency
+                self.output_data["data"]["skills"][abv]["proficient"] = 1
 
             self.output_data["data"]["skills"][abv]["total"] = self.proficiency + mod
             self.output_data["data"]["skills"][abv]["passive"] = 10 + self.proficiency + mod
@@ -203,7 +204,7 @@ class Pokemon:
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
         self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon", "")
-        self.output_data["data"]["resources"]["primary"]["value"] = experience.GRID[json_data["MIN LVL FD"]][
+        self.output_data["data"]["details"]["xp"]["value"] = experience.GRID[json_data["MIN LVL FD"]][
             json_data["SR"]]
 
         next_level = json_data["MIN LVL FD"] + 1
@@ -222,12 +223,16 @@ class Pokemon:
         """Strength, Dexterity, Constitution, etc."""
         saving_throws = json_data["saving_throws"] if "saving_throws" in json_data else []
         for name, value in json_data["attributes"].items():
-            ability = name.lower()
-            current = self.output_data["data"]["abilities"][ability]
+            _ability = name.lower()
+            current = self.output_data["data"]["abilities"][_ability]
             current["value"] = value
             current["mod"] = self._ability_modifier(value)
             current["save"] = current["mod"] + self.proficiency if name in saving_throws else 0
             current["prof"] = self.proficiency if name in saving_throws else 0
+            current["proficient"] = 1 if name in saving_throws else 0
+
+    def convert_stab(self, json_data):
+        self.output_data["data"]["details"]["xp"]["max"] = LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
 
     def convert(self, name, json_data):
         self.convert_abilities(json_data)
@@ -239,6 +244,8 @@ class Pokemon:
         self.add_pokemon_item(name, json_data)
         self.add_starting_moves(json_data)
         self.add_abilities(json_data)
+        self.convert_stab(json_data)
+
         self.set_id()
 
     def save(self, file_path):

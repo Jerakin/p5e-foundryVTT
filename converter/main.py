@@ -57,7 +57,7 @@ def build():
 
 
 def pack_folder(folder, output_file):
-    print(f"Packing f{folder}")
+    print(f"Packing {folder.stem}")
     with output_file.open("w", encoding="utf-8") as fp:
         total = len(list(folder.iterdir()))
         for index, p_file in enumerate(folder.iterdir(), 1):
@@ -116,8 +116,12 @@ def package():
 
 def make():
     build()
-    package()
+    try:
+        package()
+    except PermissionError:  # For some reason this fails the first time
+        package()
     data()
+    print("All done")
 
 
 if __name__ == "__main__":

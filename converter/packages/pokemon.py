@@ -69,7 +69,7 @@ class Ability:
 
         self.output_data["labels"][
             "save"] = f'DC {self.output_data["data"]["save"]["dc"]} {self.output_data["data"]["save"]["ability"].upper()}'
-        self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
+        # self.output_data["labels"]["damage"] = self.output_data["data"]["damage"]["parts"][0][0]
         # self.output_data["labels"]["damageTypes"] = self.output_data["data"]["details"]["background"]
 
 

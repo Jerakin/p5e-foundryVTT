@@ -3,7 +3,7 @@
 	"type": "feat",
 	"data": {
 		"description": {
-			"value": "<blockquote>\n<p><strong>Type</strong>:&nbsp;<img src=\"{type_icon}\" alt=\"\" width=\"48\" height=\"16\"><br><strong>Move</strong>:&nbsp; DEX</p>\n</blockquote>\n<p>{description}</p>\n<p>{later_levels}</p>",
+			"value": "<blockquote>\n<p><strong>Type</strong>:&nbsp;<img src=\"{type_icon}\" alt=\"\" width=\"48\" height=\"16\"><br><strong>Move</strong>:&nbsp; {ability}</p>\n</blockquote>\n<p>{description}</p>\n<p>{later_levels}</p>",
 			"chat": "",
 			"unidentified": ""
 		},
@@ -23,7 +23,7 @@
 			"type": "creature"
 		},
 		"range": {
-			"value": 30,
+			"value": 5,
 			"long": null,
 			"units": "ft"
 		},
@@ -40,7 +40,7 @@
 		"ability": "dex",
 		"actionType": "rsak",
 		"attackBonus": 0,
-		"chatFlavor": "You send a wave of ultrasonic aquatic energy at an opponent in range.",
+		"chatFlavor": "",
 		"critical": null,
 		"damage": {
 			"parts": [
@@ -54,7 +54,7 @@
 			"dc": null,
 			"scaling": "spell"
 		},
-		"requirements": "Moves",
+		"requirements": "",
 		"recharge": {
 			"value": null,
 			"charged": false
@@ -65,6 +65,6 @@
 	},
 	"flags": {
 	},
-	"img": "warcraft%20icons/inv_elemental_primal_water.jpg",
+	"img": "",
 	"_id": "HoGey9iM0ibS8A2I"
 }

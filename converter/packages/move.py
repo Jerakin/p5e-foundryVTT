@@ -9,9 +9,11 @@ import converter.util as util
 class Move:
     RANGE_REG = re.compile("([\d]+)")
     DURATION_REG = re.compile("([-d\d]+)\s([\w]+)")
+    AREA_REG = re.compile("([\d]+)\s(foot)\s(circle|cone|line|sphere|radius)")
 
     def __init__(self, name, json_data):
         self.output_data = util.load_template("move")
+        name = f'{name} (C)' if "Concentration" in json_data["Duration"] else name
         self.output_data["name"] = name
 
         self.convert(json_data)
@@ -23,15 +25,23 @@ class Move:
 
     def convert_range(self, json_data):
         if json_data["Range"] == "Melee":
-            _range = "0"
+            _range = 5
         else:
             _range = self.RANGE_REG.match(json_data["Range"])
             if _range:
-                _range = _range.group(1)
+                _range = int(_range.group(1))
             else:
-                _range = 0
+                _range = 5
 
         self.output_data["data"]["range"]["value"] = _range
+
+        # It's a Melee attack if the range is less than 5, range if it is more than 5 and save trumps them both
+        _type = "mwak"
+        if _range > 5:
+            _type = "rwak"
+        _type = "save" if "Save" in json_data else _type
+
+        self.output_data["data"]["actionType"] = _type
 
     def convert_uses(self, json_data):
         self.output_data["data"]["uses"]["value"] = json_data["PP"]
@@ -68,8 +78,40 @@ class Move:
             else:
                 self.output_data["data"]["duration"]["units"] = "special"
 
+    def convert_target(self, json_data):
+        area = self.AREA_REG.search(json_data["Description"])
+        if area:
+            self.output_data["data"]["target"]["value"] = area.group(1)
+            self.output_data["data"]["target"]["units"] = area.group(2)
+            self.output_data["data"]["target"]["type"] = area.group(3)
+        elif json_data["Range"] == "Self":
+            self.output_data["data"]["target"]["type"] = "self"
+
     def convert_ability(self, json_data):
-        self.output_data["data"]["ability"] = ", ".join(json_data["Move Power"]) if "Move Power" in json_data else "None"
+        self.output_data["data"]["ability"] = json_data["Move Power"][0].lower() if "Move Power" in json_data else ""
+
+    @staticmethod
+    def _level_index(level):
+        if level >= 17:
+            return "17"
+        elif level >= 10:
+            return "10"
+        elif level >= 5:
+            return "5"
+        else:
+            return "1"
+
+    def update_damage_save(self, json_data, level, prof, move):
+        if "Damage" in json_data:
+            amount = json_data["Damage"][self._level_index(level)]["amount"]
+            dice_max = json_data["Damage"][self._level_index(level)]["dice_max"]
+            self.output_data["data"]["damage"]["parts"] = [["{}d{} + @mod".format(amount, dice_max), ""]]
+
+        if "Save" in json_data:
+            self.output_data["data"]["save"]["ability"] = json_data["Save"].lower()
+            self.output_data["data"]["save"]["dc"] = 8 + prof + move
+            self.output_data["data"]["save"]["scaling"] = json_data["Move Power"][
+                0].lower() if "Move Power" in json_data else ""
 
     def convert_damage_save(self, json_data):
         if "Damage" in json_data:
@@ -79,13 +121,18 @@ class Move:
 
         if "Save" in json_data:
             self.output_data["data"]["save"]["ability"] = json_data["Save"].lower()
-            self.output_data["data"]["save"]["dc"] = 10
+            self.output_data["data"]["save"]["dc"] = 8
             self.output_data["data"]["save"]["scaling"] = json_data["Move Power"][0].lower() if "Move Power" in json_data else ""
 
     def convert_description(self, json_data):
         template = self.output_data["data"]["description"]["value"]
         icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
-        self.output_data["data"]["description"]["value"] = template.format(type_icon=icon, description=json_data["Description"], later_levels="")
+        _ability = "/".join(json_data["Move Power"]) if "Move Power" in json_data else "None"
+        self.output_data["data"]["description"]["value"] = template.format(type_icon=icon,
+                                                                           description=json_data["Description"],
+                                                                           later_levels="",
+                                                                           ability=_ability)
+        self.output_data["data"]["requirements"] = json_data["Type"]
 
     def convert_icon(self, json_data):
         icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["icon"]
@@ -100,7 +147,7 @@ class Move:
         self.convert_uses(json_data)
         self.convert_icon(json_data)
         self.convert_duration(json_data)
-
+        self.convert_target(json_data)
         self.set_id()
 
     def save(self, file_path):

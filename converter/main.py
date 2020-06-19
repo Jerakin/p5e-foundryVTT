@@ -59,7 +59,7 @@ def build():
     for index, (name, json_data) in enumerate(util.ABILITY_DATA.items(), 1):
         update_progress(index / total)
         if name not in util.BUILD_ABILITIES.iterdir():
-            build_ability(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
+            build_ability(name, json_data, (util.BUILD_ABILITIES / name).with_suffix(".json"))
 
 
 def pack_folder(folder, output_file):

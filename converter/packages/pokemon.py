@@ -9,16 +9,15 @@ from converter.packages import ability
 from converter.packages import experience
 
 
-class Move:
+class Move(move.Move):
     def __init__(self, json_data):
         self.output_data = json_data
 
         self.output_data["labels"] = {"featType": "", "activation": "", "target": "",
                                       "range": "", "duration": "", "recharge": "",
                                       "save": "", "damage": "", "damageTypes": ""}
-        self.convert()
 
-    def convert(self):
+    def convert(self, json_data=None):
         self.output_data["labels"]["featType"] = self.output_data["data"]["activation"]["type"].capitalize()
         self.output_data["labels"][
             "activation"] = f'{self.output_data["data"]["activation"]["cost"]} {self.output_data["labels"]["featType"]}'
@@ -76,7 +75,7 @@ class Ability:
 class PokemonItem:
     def __init__(self, name, json_data):
         self.output_data = load_template("pokemon_item")
-        self.output_data["name"] = name
+        self.output_data["name"] = name.replace("Flabebe", "Flabébé")
 
         self.convert(json_data)
 
@@ -129,7 +128,23 @@ class Pokemon:
 
     def set_id(self):
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
+
+    def convert_token(self, json_data):
+        if "Senses" not in json_data:
+            return
+
         self.output_data["token"]["actorId"] = self.output_data["_id"]
+
+        bright_sight = 0
+        for sense_line in json_data["Senses"]:
+            sense, amount = sense_line.split()
+            sense = sense.lower()
+            amount = int(amount.replace("ft", "").replace(".", ""))
+            if sense == "darkvision":
+                self.output_data["token"]["dimSight"] = amount
+            else:
+                bright_sight = max(bright_sight, amount)
+        self.output_data["token"]["brightSight"] = bright_sight
 
     def add_starting_moves(self, json_data):
         for move_name in json_data["Moves"]["Starting Moves"]:
@@ -142,6 +157,20 @@ class Pokemon:
                 m.save((BUILD_MOVES / move_name).with_suffix(".json"))
                 new_move = Move(m.output_data)
 
+            level = self.output_data["data"]["details"]["level"]
+
+            _move = 0
+            if "Move Power" in MOVE_DATA[move_name]:
+                power = MOVE_DATA[move_name]["Move Power"][0].lower()
+                if power == "any":
+                    _move = max([self.output_data["data"]["abilities"][ab]["mod"]] for ab in foundry.abilities)
+                elif power == "varies":
+                    pass
+                else:
+                    _move = self.output_data["data"]["abilities"][MOVE_DATA[move_name]["Move Power"][0].lower()]["mod"]
+            new_move.update_damage_save(json_data, level, self.proficiency, _move)
+            new_move.convert()
+
             self.output_data["items"].append(new_move.output_data)
 
     def add_abilities(self, json_data):
@@ -151,7 +180,7 @@ class Pokemon:
 
         for ability_name in abilities:
             if ability_name in BUILD_ABILITIES.iterdir():  # Check if the move have been built and use that
-                with (BUILD_MOVES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
+                with (BUILD_ABILITIES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
                     json_move_data = json.load(fp)
                     new_ability = Ability(json_move_data)
             else:  # Move have not been built, build it and use that
@@ -241,18 +270,20 @@ class Pokemon:
         self.output_data["data"]["resources"]["primary"]["value"] = LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
 
     def convert(self, name, json_data):
+        self.set_id()
+
         self.convert_abilities(json_data)
         self.convert_attributes(json_data)
         self.convert_details(json_data)
         self.convert_skills(json_data)
         self.convert_traits(json_data)
         self.convert_dex_entry(json_data)
+        self.convert_token(json_data)
+
         self.add_pokemon_item(name, json_data)
         self.add_starting_moves(json_data)
         self.add_abilities(json_data)
         self.convert_stab(json_data)
-
-        self.set_id()
 
     def save(self, file_path):
         if not file_path.parent.exists():

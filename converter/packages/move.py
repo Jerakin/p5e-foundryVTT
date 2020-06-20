@@ -24,24 +24,39 @@ class Move:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_range(self, json_data):
-        if json_data["Range"] == "Melee":
-            _range = 5
-        else:
-            _range = self.RANGE_REG.match(json_data["Range"])
-            if _range:
-                _range = int(_range.group(1))
-            else:
+        if json_data["ab"]:
+            if json_data["Range"] == "Melee":
                 _range = 5
+                _type = "mwak"
+            else:
+                _range = self.RANGE_REG.match(json_data["Range"])
+                if _range:
+                    _range = int(_range.group(1))
+                else:
+                    _range = 5
+
+                if _range > 5:
+                    _type = "rwak"
+                else:
+                    _type = "mwak"
+
+        elif json_data["Range"] == "Self":
+            _range = None
+            _type = None
+
+        elif "Save" not in json_data:
+            # Move isn't attack or requires save
+            _type = None
+            _range = None
+
+        elif "Save" in json_data:
+            # Move requires save but not attack
+            _type = "save"
+            _range = None
 
         self.output_data["data"]["range"]["value"] = _range
-
-        # It's a Melee attack if the range is less than 5, range if it is more than 5 and save trumps them both
-        _type = "mwak"
-        if _range > 5:
-            _type = "rwak"
-        _type = "save" if "Save" in json_data else _type
-
         self.output_data["data"]["actionType"] = _type
+        self.output_data["data"]["range"]["units"] = "ft" if _range else None
 
     def convert_uses(self, json_data):
         self.output_data["data"]["uses"]["value"] = json_data["PP"]

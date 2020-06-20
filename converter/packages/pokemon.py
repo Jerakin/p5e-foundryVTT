@@ -86,12 +86,13 @@ class PokemonItem:
         lines = ["<h2>Moves</h2>",
                  "<p><strong>Starting Moves</strong>: {}</p>".format(", ".join(json_data["Moves"]["Starting Moves"]))]
 
-        level_moves = {"6": "<p><strong>Level 6</strong>: {}</p>",
+        level_moves = {"2": "<p><strong>Level 2</strong>: {}</p>",
+                       "6": "<p><strong>Level 6</strong>: {}</p>",
                        "10": "<p><strong>Level 10</strong>: {}</p>",
                        "14": "<p><strong>Level 14</strong>: {}</p>",
                        "18": "<p><strong>Level 18</strong>: {}</p>"}
 
-        for level in [6, 10, 14, 18]:
+        for level in [2, 6, 10, 14, 18]:
             if str(level) in json_data["Moves"]["Level"]:
                 lines.append(level_moves[str(level)].format(", ".join(json_data["Moves"]["Level"][str(level)])))
         if "TM" in json_data["Moves"]:

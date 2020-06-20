@@ -4,5 +4,21 @@
       "chatFlavor": "You send a wave of ultrasonic aquatic energy at an opponent in range."
     },
     "img": "https://wow.zamimg.com/images/wow/icons/large/ability_mage_waterjet.jpg"
+  },
+  "Bide": {
+    "data": {
+      "duration": {
+        "value": 2,
+        "units": "round"
+      }
+    }
+  },
+  "Infestation": {
+    "data": {
+      "duration": {
+        "value": 2,
+        "units": "round"
+      }
+    }
   }
 }

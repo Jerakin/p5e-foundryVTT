@@ -254,6 +254,18 @@ class Pokemon:
 
         self.output_data["data"]["attributes"]["init"]["mod"] = self.output_data["data"]["abilities"]["dex"]["mod"]
 
+    def convert_movement_speed(self, json_data):
+        translate = {"SSp": "Swimming",
+                     "FSp": "Flying",
+                     "Climbing Speed": "Climbing",
+                     "Burrowing Speed": "Burrowing",
+                     }
+        all_speeds = []
+        for speed, new in translate.items():
+            if speed in json_data:
+                all_speeds.append(f'{new} {json_data[speed]} ft')
+        self.output_data["data"]["attributes"]["speed"]["special"] = ", ".join(all_speeds)
+
     def convert_abilities(self, json_data):
         """Strength, Dexterity, Constitution, etc."""
         saving_throws = json_data["saving_throws"] if "saving_throws" in json_data else []
@@ -279,6 +291,7 @@ class Pokemon:
         self.convert_traits(json_data)
         self.convert_dex_entry(json_data)
         self.convert_token(json_data)
+        self.convert_movement_speed(json_data)
 
         self.add_pokemon_item(name, json_data)
         self.add_starting_moves(json_data)

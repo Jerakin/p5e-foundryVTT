@@ -1,9 +1,6 @@
 {
 	"Abomasnow": {
-		"img": "https://img.pokemondb.net/artwork/abomasnow.jpg",
-		"token": {
-			"img": "https://i.imgur.com/DZXdjtG.png"
-		}
+		"img": "https://img.pokemondb.net/artwork/abomasnow.jpg"
 	},
 	"Arceus (Bug)": {
 		"img": "https://img.pokemondb.net/artwork/arceus.jpg"

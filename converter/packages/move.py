@@ -13,7 +13,7 @@ class Move:
 
     def __init__(self, name, json_data):
         self.output_data = util.load_template("move")
-        name = f'{name} (C)' if "Concentration" in json_data["Duration"] else name
+        name = f'{name} (C)' if "concentration" in json_data["Duration"].lower() else name
         self.output_data["name"] = name
 
         self.convert(json_data)
@@ -76,7 +76,7 @@ class Move:
 
         self.output_data["data"]["activation"]["type"] = activation
 
-        if "Concentration" in json_data["Duration"]:
+        if "concentration" in json_data["Duration"].lower():
             self.output_data["data"]["activation"]["condition"] = "Concentration"
 
     def convert_duration(self, json_data):

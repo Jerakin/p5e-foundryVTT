@@ -189,6 +189,7 @@ class Move:
 #     import shutil
 #     from pathlib import Path
 #     shutil.rmtree(util.BUILD_MOVES, ignore_errors=True)
-#     for _name, _json_data in util.load_datafile("moves").items():
-#         poke = Move(_name, _json_data)
-#         poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))
+#     _name = "Bide"
+#     _json_data = util.MOVE_DATA["Bide"]
+#     poke = Move(_name, _json_data)
+#     poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))

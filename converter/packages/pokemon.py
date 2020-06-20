@@ -75,7 +75,7 @@ class Ability:
 class PokemonItem:
     def __init__(self, name, json_data):
         self.output_data = load_template("pokemon_item")
-        self.output_data["name"] = name.replace("Flabebe", "Flabébé")
+        self.output_data["name"] = name
 
         self.convert(json_data)
 
@@ -131,6 +131,8 @@ class Pokemon:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_token(self, json_data):
+        self.output_data["token"]["img"] = EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["token"]
+
         if "Senses" not in json_data:
             return
 

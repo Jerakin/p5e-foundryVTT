@@ -9,7 +9,7 @@ import converter.util as util
 class Move:
     RANGE_REG = re.compile("([\d]+)")
     DURATION_REG = re.compile("([-d\d]+)\s([\w]+)")
-    AREA_REG = re.compile("([\d]+)\s(foot)\s(circle|cone|line|sphere|radius)")
+    AREA_REG = re.compile("([\d]+)\s(foot|feet)\s(circle|cone|line|sphere|radius)")
 
     def __init__(self, name, json_data):
         self.output_data = util.load_template("move")
@@ -80,26 +80,39 @@ class Move:
             self.output_data["data"]["activation"]["condition"] = "Concentration"
 
     def convert_duration(self, json_data):
+        translate = {
+            "rounds": "round",
+            "minutes": "minute"
+        }
+
         duration = json_data["Duration"].lower()
         if duration == "instantaneous":
             self.output_data["data"]["duration"]["units"] = "inst"
         else:
-
             dur = self.DURATION_REG.match(duration)
             if dur:
-                dur.group(1)
-                self.output_data["data"]["duration"]["value"] = dur.group(1)
-                self.output_data["data"]["duration"]["units"] = dur.group(2)
+                value = dur.group(1)
+                try:
+                    value = int(value)
+                except ValueError:
+                    value = int(value[0])
+                self.output_data["data"]["duration"]["value"] = value
+                self.output_data["data"]["duration"]["units"] = translate[dur.group(2)] if dur.group(2) in translate else dur.group(2)
             else:
                 self.output_data["data"]["duration"]["units"] = "special"
 
     def convert_target(self, json_data):
         area = self.AREA_REG.search(json_data["Description"])
         if area:
-            self.output_data["data"]["target"]["value"] = area.group(1)
-            self.output_data["data"]["target"]["units"] = area.group(2)
-            self.output_data["data"]["target"]["type"] = area.group(3)
+            _type = area.group(3)
+            if _type == "circle":
+                _type = "sphere"
+            self.output_data["data"]["target"]["value"] = int(area.group(1))
+            self.output_data["data"]["target"]["units"] = "ft"
+            self.output_data["data"]["target"]["type"] = _type
         elif json_data["Range"] == "Self":
+            self.output_data["data"]["target"]["value"] = None
+            self.output_data["data"]["target"]["units"] = None
             self.output_data["data"]["target"]["type"] = "self"
 
     def convert_ability(self, json_data):

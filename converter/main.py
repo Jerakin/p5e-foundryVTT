@@ -35,9 +35,10 @@ def build():
     util.BUILD_MOVES.mkdir()
     util.BUILD_ABILITIES.mkdir()
 
+    util.download_pokemon()
     print("Building Pokemon")
-    total = len(list((util.DATA_SOURCE / "pokemon").iterdir()))
-    for index, pokemon_file in enumerate((util.DATA_SOURCE / "pokemon").iterdir(), 1):
+    total = len(list((util.CACHE / "pokemon").iterdir()))
+    for index, pokemon_file in enumerate((util.CACHE / "pokemon").iterdir(), 1):
         if pokemon_file.stem == "MissingNo":
             continue
         update_progress(index/total)
@@ -75,6 +76,7 @@ def pack_folder(folder, output_file):
 def package():
     if util.DIST.exists():
         shutil.rmtree(util.DIST)
+        time.sleep(1)
     util.DIST.mkdir()
     util.DIST_MODULE.mkdir()
     util.DIST_PACKS.mkdir()
@@ -87,10 +89,12 @@ def package():
     with (util.DIST_MODULE / "module.json").open("w", encoding="utf-8") as fp:
         json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
 
+    shutil.make_archive(util.DIST / "Pokemon5e", "zip", util.DIST / "Pokemon5e")
+    shutil.rmtree(util.DIST / "Pokemon5e")
+
 
 def make():
     build()
-    time.sleep(1)
     package()
     print("All done")
 

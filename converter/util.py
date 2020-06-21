@@ -113,6 +113,7 @@ def load_template(name):
 LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
 MOVE_DATA = load_datafile("moves")
+MOVE_EXTRA_DATA = load_datafile("moves_extra")
 ABILITY_DATA = load_datafile("abilities")
 
 EXTRA_MOVE_DATA = load_extra("moves")

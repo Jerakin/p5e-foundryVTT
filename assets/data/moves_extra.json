@@ -1,0 +1,1220 @@
+{
+  "Absorb": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Acid": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Acid Armor": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 10."
+  },
+  "Acid Spray": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Acrobatics": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Aerial Ace": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Aeroblast": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Air Cutter": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Air Slash": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Ancient Power": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Aqua Jet": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Aqua Tail": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Arm Thrust": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Aromatic Mist": {
+    "hl": "The bonus dice roll for this move changes to a 1d6 at level 10."
+  },
+  "Assurance": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Astonish": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Attack Order": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Aura Sphere": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Aurora Beam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Avalanche": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Barrage": {
+    "hl": "Each projectile that hits deals 1d6 at level 5, 2d4 at level 10, and 2d6 at level 17."
+  },
+  "Belch": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Bide": {
+    "hl": "You may continue to stockpile damage for 2 turns at level 10 and above."
+  },
+  "Bind": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Bite": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Blast Burn": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Blaze Kick": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Blizzard": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Blue Flare": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Body Slam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Bolt Strike": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Bone Club": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Bone Rush": {
+    "hl": "The damage dice rolls for this move change to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Boomburst": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Brave Bird": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Brick Break": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Brine": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Brutal Swing": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Bubble": {
+    "hl": "The damage dice roll for this move changes to 1d8 at level 5, 2d6 at level 10, and 3d6 at level 17."
+  },
+  "Bubble Beam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Bug Bite": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Bug Buzz": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Bulldoze": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Bullet Punch": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Bullet Seed": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Charge Beam": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Charm": {
+    "hl": "The target adds -3 at level 5, -4 at level 10, and -5 at level 17."
+  },
+  "Chatter": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Chip Away": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Circle Throw": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Clamp": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Clear Smog": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Close Combat": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Comet Punch": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Confusion": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Constrict": {
+    "hl": "The damage dice rolls for this move change to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Counter": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Covet": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Crabhammer": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Cross Chop": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Cross Poison": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Crunch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Crush Claw": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Crush Grip": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Curse": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Cut": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Dark Pulse": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Dazzling Gleam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Defend Order": {
+    "hl": "The AC boost for this move changes to +2 at level 5, +3 at level 10, and +4 at level 17."
+  },
+  "Diamond Storm": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Dig": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Disarming Voice": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Dive": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Dizzy Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Doom Desire": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Double Hit": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Double Kick": {
+    "hl": "The damage dice rolls for this move changes to 1d8 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Double Slap": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Double-Edge": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Draco Meteor": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Dragon Ascent": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Dragon Breath": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Dragon Claw": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Dragon Pulse": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Dragon Rage": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Dragon Rush": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Dragon Tail": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Drain Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Draining Kiss": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Dream Eater": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Drill Peck": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Drill Run": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Dual Chop": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Dynamic Punch": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Earth Power": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Earthquake": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Echoed Voice": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Egg Bomb": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Electro Ball": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Electroweb": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Ember": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Encore": {
+    "hl": "The number of turns the opponent must use the move increases to 2 turns at level 10 and 3 turns at level 17."
+  },
+  "Energy Ball": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Eruption": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Extrasensory": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Extreme Speed": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Facade": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Fairy Wind": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Fake Out": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "False Swipe": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Feint": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Feint Attack": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Fell Stinger": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Fiery Dance": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Fire Blast": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Fire Fang": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Fire Pledge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Fire Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Fire Spin": {
+    "hl": "The damage dice rolls for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Flail": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Flame Burst": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Flame Charge": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Flame Wheel": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Flamethrower": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Flare Blitz": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Flash Cannon": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Fly": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Focus Blast": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Focus Punch": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Force Palm": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Foul Play": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Freeze-Dry": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Freeze Shock": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Frenzy Plant": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Frost Breath": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Frustration": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Fury Attack": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Fury Cutter": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Fury Swipes": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Fusion Bolt": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Fusion Flare": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Future Sight": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Gear Grind": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Giga Drain": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Giga Impact": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Glaciate": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Grass Knot": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Grass Pledge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Gunk Shot": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Gust": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Gyro Ball": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Hammer Arm": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Head Charge": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Head Smash": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Headbutt": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Heal Order": {
+    "hl": "The damage dice roll for this move changes to 3d6 at level 5, 5d6 at level 10, and 8d6 at level 17."
+  },
+  "Heal Pulse": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Heart Stamp": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Heat Crash": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Heat Wave": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Heavy Slam": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Hex": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Hidden Power": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "High Jump Kick": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Hold Back": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Horn Attack": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Horn Leech": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Hurricane": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Hydro Cannon": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Hydro Pump": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Hyper Beam": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Hyper Fang": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Hyper Voice": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Hyperspace Fury": {
+    "hl": "You can fire 4 projectiles at level 5, 5 projectiles at level 10, and 6 projectiles at level 17."
+  },
+  "Hyperspace Hole": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Ice Ball": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 2d4 at level 10, and 2d6 at level 17."
+  },
+  "Ice Beam": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Ice Burn": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Ice Fang": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Ice Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Ice Shard": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Icicle Crash": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Icicle Spear": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Icy Wind": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Incinerate": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Inferno": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Infestation": {
+    "hl": " The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Ingrain": {
+    "hl": "The healing dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Iron Head": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Iron Tail": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Jump Kick": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Karate Chop": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Knock Off": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Last Resort": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Land's Wrath": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Lava Plume": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Leaf Blade": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Leaf Storm": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Leaf Tornado": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Leech Life": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Leech Seed": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 2d6 at level 10, and 2d8 at level 17."
+  },
+  "Lick": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Light of Ruin": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Low Kick": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Low Sweep": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Luster Purge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Mach Punch": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Magical Leaf": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Magma Storm": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Magnet Bomb": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Magnitude": {
+    "hl": "For damage rolls, use 2x Dice at level 5, 3x Dice at level 10, and 4x Dice at level 17."
+  },
+  "Mega Drain": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Mega Kick": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Mega Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Megahorn": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Metal Claw": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Meteor Mash": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Milk Drink": {
+    "hl": "The dice roll for this move changes to 3d6 at level 5, 5d6 at level 10, and 8d6 at level 17."
+  },
+  "Mirror Coat": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Mirror Shot": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Mist Ball": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Moonblast": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Moonlight": {
+    "hl": "The dice roll for healing changes to 3d6 at level 5, 5d6 at level 10, and 8d6 at level 17."
+  },
+  "Morning Sun": {
+    "hl": "The damage dice roll for this move changes to 3d6 at level 5, 4d6 at level 10, and 5d6 at level 17."
+  },
+  "Mud Bomb": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Mud Shot": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Mud-Slap": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Muddy Water": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Mystical Fire": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Natural Gift": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Needle Arm": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Night Daze": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Night Shade": {
+    "hl": "The damage dice roll for this move changes to 2d4+Level at level 5, 1d12+Level at level 10, and 4d4+Level at level 17."
+  },
+  "Night Slash": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Nightmare": {
+    "hl": "The damage dice roll for this move changes to 4d6 at level 5, 5d6 at level 10, and 6d6 at level 17."
+  },
+  "Nuzzle": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Oblivion Wing": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Octazooka": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Ominous Wind": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Origin Pulse": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Outrage": {
+    "hl": "The dice used for this move changes to a d8 at level 5, a d10 at level 10, and a d12 at level 17."
+  },
+  "Overheat": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Parabolic Charge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Pay Day": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Payback": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Peck": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Petal Blizzard": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Petal Dance": {
+    "hl": "The damage dice rolls for this move change to 2d6 at level 5, 3d6 at level 10, and 4d6 at level 17."
+  },
+  "Phantom Force": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Pin Missile": {
+    "hl": "The damage dice rolls for this move change to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Play Rough": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Pluck": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Poison Fang": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Poison Gas": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Poison Jab": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Poison Sting": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Poison Tail": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Pound": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Powder": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Powder Snow": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Power Gem": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Power Whip": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Power-Up Punch": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 3d6 at level 10, and 4d6 at level 17."
+  },
+  "Precipice Blades": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Present": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Psybeam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Psychic": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Psycho Boost": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 7d6 at level 10, and 8d8 at level 17."
+  },
+  "Psycho Cut": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Psyshock": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Psystrike": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Punishment": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d10 at level 17."
+  },
+  "Pursuit": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Quick Attack": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 1d10 at level 17."
+  },
+  "Quiver Dance": {
+    "hl": "Add +2 to your AC at level 10 and above"
+  },
+  "Rage": {
+    "hl": "For damage when raging, the bonus changes to +2 at level 5, +4 at level 10, and +6 at level 17."
+  },
+  "Rapid Spin": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Razor Leaf": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Razor Shell": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Razor Wind": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Recover": {
+    "hl": "The dice roll for healing increases to 2d6 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Relic Song": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Rest": {
+    "hl": "The dice roll for healing increases to 6d6 at level 5, 8d6 at level 10, and 8d10 at level 17."
+  },
+  "Retaliate": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Return": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Revenge": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Reversal": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Roar of Time": {
+    "hl": "The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17."
+  },
+  "Rock Blast": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Rock Climb": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Rock Slide": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Rock Smash": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Rock Throw": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Rock Tomb": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Rock Wrecker": {
+    "hl": "The damage dice roll for this move changes to 6d6 at level 5, 8d6 at level 10, and 7d12 at level 17."
+  },
+  "Rolling Kick": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Rollout": {
+    "hl": "The damage dice changes to a d8 at level 5, a d10 at level 10, and a d12 at level 17."
+  },
+  "Round": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d10 at level 17."
+  },
+  "Sacred Fire": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Sacred Sword": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Sand Tomb": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Scald": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Scary Face": {
+    "hl": "The damage dice roll for this move changes to  at level 5,  at level 10, and  at level 17."
+  },
+  "Scratch": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Searing Shot": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Secret Power": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Secret Sword": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Seed Bomb": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Seed Flare": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Self-Destruct": {
+    "hl": "The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17."
+  },
+  "Shadow Ball": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Shadow Claw": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Shadow Force": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Shadow Punch": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Shadow Sneak": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Shock Wave": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Signal Beam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Silver Wind": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Skull Bash": {
+    "hl": "The damage dice roll for this move changes to 3d10 at level 5, 5d8 at level 10, and 8d8 at level 17."
+  },
+  "Sky Attack": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Sky Drop": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Sky Uppercut": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Slam": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Slash": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Sludge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Sludge Bomb": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Sludge Wave": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Smack Down": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Smart Strike": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Smog": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Smokescreen": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Snarl": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Snore": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Soft-Boiled": {
+    "hl": "The dice roll for healing changes to 4d6 at level 5, 6d6 at level 10, and 8d6 at level 17."
+  },
+  "Solar Beam": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Spacial Rend": {
+    "hl": "The damage dice roll for this move changes to 4d10 at level 5, 6d10 at level 10, and 8d12 at level 17."
+  },
+  "Spark": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Spike Cannon": {
+    "hl": "The damage dice rolls for this move change to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Spikes": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Spit Up": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Stealth Rock": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Steam Eruption": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Steamroller": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Steel Wing": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Stomp": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Stone Edge": {
+    "hl": "The damage dice roll for this move changes to 2d12 at level 5, 4d8 at level 10, and 8d6 at level 17."
+  },
+  "Stored Power": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 3d6 at level 10, and 4d6 at level 17."
+  },
+  "Storm Throw": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Strength": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Struggle Bug": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Submission": {
+    "hl": "The damage dice rolls for this move change to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Sucker Punch": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Super Fang": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Superpower": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 6d8 at level 10, and 6d12 at level 17."
+  },
+  "Surf": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Swallow": {
+    "hl": "The base healing dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Swift": {
+    "hl": "You fire 4 projectiles at level 5, 5 projectiles at level 10, and 6 projectiles at level 17."
+  },
+  "Swords Dance": {
+    "hl": "You create 3 swords at level 10 and 4 swords at level 17."
+  },
+  "Synchronoise": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Synthesis": {
+    "hl": "The healing dice roll for this move changes to 4d6 at level 5, 6d6 at level 10, and 8d6 at level 17."
+  },
+  "Tackle": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Tail Slap": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Take Down": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Techno Blast": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Thief": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Thousand Arrows": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Thousand Waves": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Thrash": {
+    "hl": "The damage dice rolls for this move change to 2d8 at level 5, 2d10 at level 10, and 4d6 at level 17."
+  },
+  "Thunder": {
+    "hl": " The damage dice roll for this move changes to 3d8 at level 5, 6d6 at level 10, and 7d8 at level 17."
+  },
+  "Thunder Fang": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Thunder Punch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Thunder Shock": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Thunderbolt": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Tri Attack": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Triple Kick": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Trump Card": {
+    "hl": "The damage dice roll for this move changes to 1d8 at level 5, 2d6 at level 10, and 4d6 at level 17."
+  },
+  "Twineedle": {
+    "hl": "The damage dice roll for this move changes to 2d4 at level 5, 1d12 at level 10, and 4d4 at level 17."
+  },
+  "Twister": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "U-Turn": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Uproar": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "V-Create": {
+    "hl": "The damage dice roll for this move changes to 6d6 at level 5, 8d6 at level 10, and 7d12 at level 17."
+  },
+  "Vacuum Wave": {
+    "hl": "The damage dice roll for this move changes to 1d6 at level 5, 1d10 at level 10, and 1d12 at level 17."
+  },
+  "Venoshock": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 4d8 at level 17."
+  },
+  "Vice Grip": {
+    "hl": "The damage dice roll for this move changes to 2d6 at level 5, 4d4 at level 10, and 3d10 at level 17."
+  },
+  "Vine Whip": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Vital Throw": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Volt Switch": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Volt Tackle": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Wake-Up Slap": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 2d12 at level 10, and 6d6 at level 17."
+  },
+  "Water Gun": {
+    "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
+  },
+  "Water Pledge": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Water Pulse": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Water Shuriken": {
+    "hl": " The damage dice roll for this move changes to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Water Spout": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "Waterfall": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Weather Ball": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Whirlpool": {
+    "hl": "The damage dice roll for this move changes to 1d10 at level 5, 2d8 at level 10, and 5d4 at level 17."
+  },
+  "Wild Charge": {
+    "hl": "The damage dice roll for this move changes to 2d10 at level 5, 3d10 at level 10, and 4d12 at level 17."
+  },
+  "Wing Attack": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 5d4 at level 10, and 4d8 at level 17."
+  },
+  "Withdraw": {
+    "hl": "Increase your AC by +3 at level 10 and above."
+  },
+  "Wood Hammer": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Wrap": {
+    "hl": "The damage dice rolls for this move change to 1d6 at level 5, 1d8 at level 10, and 2d6 at level 17."
+  },
+  "Wring Out": {
+    "hl": "The damage dice roll for this move changes to 5d6 at level 5, 4d12 at level 10, and 8d8 at level 17."
+  },
+  "X-Scissor": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  },
+  "Zap Cannon": {
+    "hl": "The damage dice roll for this move changes to 3d8 at level 5, 4d10 at level 10, and 7d8 at level 17."
+  },
+  "Zen Headbutt": {
+    "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
+  }
+}

@@ -158,9 +158,11 @@ class Move:
         template = self.output_data["data"]["description"]["value"]
         icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
         _ability = "/".join(json_data["Move Power"]) if "Move Power" in json_data else "None"
+        higher_level = util.MOVE_EXTRA_DATA[self.output_data["name"]]["hl"] if self.output_data["name"] in util.MOVE_EXTRA_DATA and "hl" in util.MOVE_EXTRA_DATA[self.output_data["name"]] else ""
+
         self.output_data["data"]["description"]["value"] = template.format(type_icon=icon,
                                                                            description=json_data["Description"],
-                                                                           later_levels="",
+                                                                           later_levels=higher_level,
                                                                            ability=_ability)
         self.output_data["data"]["requirements"] = json_data["Type"]
 

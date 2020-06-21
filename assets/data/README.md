@@ -102,9 +102,16 @@ This store the different element icons. The `"img"` is the icon in the descripti
 This is the data file that is overwriting the template data for every move. Here it could be nice to input a `chatFlavor`
 for the moves.
 
+### moves.json
+Currently only containing the "Higher Level" text of a Move.
+
 ### pokemon.json
 This is the data file that is overwriting the template data for every Pokemon. Images are already added.
+
+### pokemon_extra.json
+Currently only containing the Size of a Pokemon.
 
 ### pokemon_icon.json
 This stores the different icons for the Pokemon, the `"img"` is the image that is used on the Pokemon Item. The `"token"`
 is used as the token. These tokens are created by the script in `./tools/tokens/`.
+

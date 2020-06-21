@@ -481,72 +481,7 @@
 	},
 	"items": [{
 			"_id": "31P9fwD5cpbHrydz",
-			"flags": {
-				"betterRolls5e": {
-					"critRange": {
-						"type": "String",
-						"value": ""
-					},
-					"quickDesc": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					},
-					"quickAttack": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					},
-					"quickSave": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					},
-					"quickDamage": {
-						"type": "Array",
-						"value": {
-							"0": true
-						},
-						"altValue": {
-							"0": true
-						},
-						"context": {
-							"0": "Typeless"
-						}
-					},
-					"quickProperties": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					},
-					"quickCharges": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					},
-					"quickTemplate": {
-						"type": "Boolean",
-						"value": false,
-						"altValue": false
-					},
-					"quickOther": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true,
-						"context": ""
-					},
-					"quickFlavor": {
-						"type": "Boolean",
-						"value": true,
-						"altValue": true
-					}
-				},
-				"dynamiceffects": {
-					"equipActive": false,
-					"alwaysActive": false,
-					"effects": []
-				}
-			},
+			"flags": {},
 			"name": "Struggle",
 			"type": "feat",
 			"img": "icons/svg/mystery-man.svg",

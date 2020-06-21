@@ -116,6 +116,7 @@ MOVE_DATA = load_datafile("moves")
 ABILITY_DATA = load_datafile("abilities")
 
 EXTRA_MOVE_DATA = load_extra("moves_extra")
+EXTRA_POKEMON_DATA = load_extra("pokemon_extra")
 MERGE_MOVE_DATA = load_extra("moves")
 MERGE_POKEMON_DATA = load_extra("pokemon")
 EXTRA_MOVE_ICON_DATA = load_extra("move_icons")

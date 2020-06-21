@@ -19,6 +19,16 @@ skill_name_to_abv = {
     "Survival": "sur"
 }
 
+token_size_map = {
+    "tiny": {"width": 1, "height": 1, "scale": 0.5},
+    "sm": {"width": 1, "height": 1, "scale": 1},
+    "med": {"width": 1, "height": 1, "scale": 1},
+    "lg": {"width": 2, "height": 2, "scale": 1},
+    "huge": {"width": 3, "height": 3, "scale": 1},
+    "grg": {"width": 4, "height": 4, "scale": 1},
+}
+
+
 skill_abv_to_name = {
      "acr": "Acrobatics",
      "ani": "Animal Handling",

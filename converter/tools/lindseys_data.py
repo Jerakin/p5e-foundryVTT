@@ -7,6 +7,16 @@ import converter.util as util
 dex_data = Path("~").expanduser() / "Downloads" / "dexDATA.csv"
 move_data = Path("~").expanduser() / "Downloads" / "moveDATA.csv"
 
+size_map = {
+    "large": "lg",
+    "tiny": "tiny",
+    "huge": "huge",
+    "medium": "med",
+    "mediumm": "med",
+    "small": "sm",
+    "gargantuan": "grg"
+}
+
 
 def add_pokemon_size():
     with dex_data.open(encoding="utf-8") as fp:
@@ -17,14 +27,17 @@ def add_pokemon_size():
         for row in reader:
             pokemon = row[pokemon_index]
             size = row[size_index]
-            if size and pokemon in util.MERGE_POKEMON_DATA:
-                util.MERGE_POKEMON_DATA[pokemon]["data"] = {"traits": {"size": size.lower()}}
+            if f"{pokemon}.json" in [x.name for x in util.BUILD_POKEMON.iterdir()]:
+                if pokemon in util.MERGE_POKEMON_DATA and pokemon not in util.EXTRA_POKEMON_DATA:
+                    util.EXTRA_POKEMON_DATA[pokemon] = {}
+                if size:
+                    util.EXTRA_POKEMON_DATA[pokemon]["size"] = size_map[size.lower()]
             else:
                 print(pokemon)
 
-        output = (util.ASSETS / "data" / "pokemon").with_suffix(".json")
+        output = (util.ASSETS / "data" / "pokemon_extra").with_suffix(".json")
         with output.open("w", encoding="utf-8") as f:
-            json.dump(util.MERGE_POKEMON_DATA, f, ensure_ascii=False, indent=2)
+            json.dump(util.EXTRA_POKEMON_DATA, f, ensure_ascii=False, indent=2)
 
 
 def add_move_higher_level():
@@ -46,3 +59,5 @@ def add_move_higher_level():
         output = (util.ASSETS / "data" / "moves_extra").with_suffix(".json")
         with output.open("w", encoding="utf-8") as f:
             json.dump(new_data, f, ensure_ascii=False, indent=2)
+
+add_pokemon_size()

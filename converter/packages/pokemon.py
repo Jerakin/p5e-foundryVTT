@@ -160,6 +160,11 @@ class Pokemon:
                 bright_sight = max(bright_sight, amount)
         self.output_data["token"]["brightSight"] = bright_sight
 
+        size = self.output_data["data"]["traits"]["size"]
+        self.output_data["token"]["width"] = foundry.token_size_map[size]["width"]
+        self.output_data["token"]["height"] = foundry.token_size_map[size]["height"]
+        self.output_data["token"]["scale"] = foundry.token_size_map[size]["scale"]
+
     def add_starting_moves(self, json_data):
         for move_name in json_data["Moves"]["Starting Moves"]:
             if move_name in util.BUILD_MOVES.iterdir():  # Check if the move have been built and use that
@@ -218,12 +223,13 @@ class Pokemon:
         self.output_data["data"]["details"]["biography"]["race"] = pd["genus"].replace("Pokémon", "")
 
     def convert_traits(self, json_data):
-        """Resistance, Immunities, Vulnerabilities"""
+        """Resistance, Immunities, Vulnerabilities, Size"""
         model = p_types.Model(*json_data["Type"])
         self.output_data["data"]["traits"]["dr"]["custom"] = "; ".join([x.capitalize() for x in model.resistances])
         self.output_data["data"]["traits"]["di"]["custom"] = "; ".join([x.capitalize() for x in model.immunities])
         self.output_data["data"]["traits"]["dv"]["custom"] = "; ".join([x.capitalize() for x in model.vulnerabilities])
         self.output_data["data"]["traits"]["senses"] = ", ".join(json_data["Senses"]) if "Senses" in json_data else ""
+        self.output_data["data"]["traits"]["size"] = util.EXTRA_POKEMON_DATA[self.output_data["name"]] if self.output_data["name"] in util.EXTRA_POKEMON_DATA else "tiny"
 
     def convert_skills(self, json_data):
         """Athletics, Sleight of Hand, etc."""

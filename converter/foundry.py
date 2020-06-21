@@ -58,7 +58,7 @@ module_definition = {
     "title": module_name,
     "description": "The Wonderful World of Pokémon - in Dungeons & Dragons 5E",
     "author": "Jerakin",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "minimumCoreVersion": "0.5.0",
     "compatibleCoreVersion": "0.5.5",
     "packs": [

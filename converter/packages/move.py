@@ -19,8 +19,8 @@ class Move:
         self.output_data["name"] = name
 
         self.convert(json_data)
-        if name in util.EXTRA_MOVE_DATA:
-            util.merge(self.output_data, util.EXTRA_MOVE_DATA[name])
+        if name in util.MERGE_MOVE_DATA:
+            util.merge(self.output_data, util.MERGE_MOVE_DATA[name])
 
     def set_id(self):
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
@@ -158,7 +158,7 @@ class Move:
         template = self.output_data["data"]["description"]["value"]
         icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
         _ability = "/".join(json_data["Move Power"]) if "Move Power" in json_data else "None"
-        higher_level = util.MOVE_EXTRA_DATA[self.output_data["name"]]["hl"] if self.output_data["name"] in util.MOVE_EXTRA_DATA and "hl" in util.MOVE_EXTRA_DATA[self.output_data["name"]] else ""
+        higher_level = util.EXTRA_MOVE_DATA[self.output_data["name"]]["hl"] if self.output_data["name"] in util.EXTRA_MOVE_DATA and "hl" in util.EXTRA_MOVE_DATA[self.output_data["name"]] else ""
 
         self.output_data["data"]["description"]["value"] = template.format(type_icon=icon,
                                                                            description=json_data["Description"],

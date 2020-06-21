@@ -131,8 +131,8 @@ class Pokemon:
         self.proficiency = util.LEVEL_DATA[str(json_data["MIN LVL FD"])]["prof"]
 
         self.convert(name, json_data)
-        if name in util.EXTRA_POKEMON_DATA:
-            util.merge(self.output_data, util.EXTRA_POKEMON_DATA[name])
+        if name in util.MERGE_POKEMON_DATA:
+            util.merge(self.output_data, util.MERGE_POKEMON_DATA[name])
 
     @staticmethod
     def _ability_modifier(value):

@@ -17,14 +17,14 @@ def add_pokemon_size():
         for row in reader:
             pokemon = row[pokemon_index]
             size = row[size_index]
-            if size and pokemon in util.EXTRA_POKEMON_DATA:
-                util.EXTRA_POKEMON_DATA[pokemon]["data"] = {"traits": {"size": size.lower()}}
+            if size and pokemon in util.MERGE_POKEMON_DATA:
+                util.MERGE_POKEMON_DATA[pokemon]["data"] = {"traits": {"size": size.lower()}}
             else:
                 print(pokemon)
 
         output = (util.ASSETS / "data" / "pokemon").with_suffix(".json")
         with output.open("w", encoding="utf-8") as f:
-            json.dump(util.EXTRA_POKEMON_DATA, f, ensure_ascii=False, indent=2)
+            json.dump(util.MERGE_POKEMON_DATA, f, ensure_ascii=False, indent=2)
 
 
 def add_move_higher_level():

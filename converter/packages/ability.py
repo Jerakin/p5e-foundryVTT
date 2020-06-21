@@ -14,8 +14,8 @@ class Ability:
         self.output_data["name"] = name
 
         self.convert(json_data)
-        if name in util.EXTRA_ABILITY_DATA:
-            util.merge(self.output_data, util.EXTRA_ABILITY_DATA[name])
+        if name in util.MERGE_ABILITY_DATA:
+            util.merge(self.output_data, util.MERGE_ABILITY_DATA[name])
 
     def set_id(self):
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]

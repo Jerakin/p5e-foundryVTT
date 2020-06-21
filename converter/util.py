@@ -113,14 +113,14 @@ def load_template(name):
 LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
 MOVE_DATA = load_datafile("moves")
-MOVE_EXTRA_DATA = load_datafile("moves_extra")
 ABILITY_DATA = load_datafile("abilities")
 
-EXTRA_MOVE_DATA = load_extra("moves")
-EXTRA_POKEMON_DATA = load_extra("pokemon")
+EXTRA_MOVE_DATA = load_extra("moves_extra")
+MERGE_MOVE_DATA = load_extra("moves")
+MERGE_POKEMON_DATA = load_extra("pokemon")
 EXTRA_MOVE_ICON_DATA = load_extra("move_icons")
 EXTRA_POKEMON_ICON_DATA = load_extra("pokemon_icons")
-EXTRA_ABILITY_DATA = load_extra("abilities")
+MERGE_ABILITY_DATA = load_extra("abilities")
 
 TRANSLATE_NAME = {
   "Flabebe": "Flabébé",

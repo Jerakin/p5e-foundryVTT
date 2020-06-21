@@ -3,8 +3,8 @@ from pathlib import Path
 import requests
 import json
 import shutil
-from converter.util import CONVERTER, CACHE, ASSETS, PROJECT
-from tools.utils import update_progress
+from converter.util import CACHE, ASSETS, PROJECT
+from converter.tools.utils import update_progress
 
 output = ASSETS / "images" / "token" / "tokens"
 tokens = CACHE / "tokens"

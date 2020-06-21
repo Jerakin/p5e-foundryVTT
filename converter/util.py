@@ -3,9 +3,12 @@ from pathlib import Path
 
 import requests
 import time
-
-import converter.gitdir as gitdir
-import converter.foundry as foundry
+try:
+    import gitdir as gitdir
+    import foundry as foundry
+except ImportError:
+    import converter.gitdir as gitdir
+    import converter.foundry as foundry
 
 PROJECT = Path(__file__).parent.parent
 CONVERTER = PROJECT / "converter"

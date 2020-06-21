@@ -1,6 +1,11 @@
 import json
-import converter.util as util
+
 import hashlib
+
+try:
+    import converter.util as util
+except ImportError:
+    import util
 
 
 class Ability:

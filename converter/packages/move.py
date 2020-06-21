@@ -2,7 +2,10 @@ import hashlib
 import json
 import re
 
-import converter.util as util
+try:
+    import util
+except ImportError:
+    import converter.util as util
 
 
 class Move:

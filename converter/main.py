@@ -3,12 +3,20 @@ import shutil
 
 import time
 
-import converter.packages.ability as ability
-import converter.packages.move as move
-import converter.packages.pokemon as pokemon
-import converter.util as util
-from converter import foundry
-from tools.utils import update_progress
+try:
+    import converter.packages.ability as ability
+    import converter.packages.move as move
+    import converter.packages.pokemon as pokemon
+    import converter.util as util
+    import converter.foundry as foundry
+    from converter.tools.utils import update_progress
+except ImportError:
+    import packages.ability as ability
+    import packages.move as move
+    import packages.pokemon as pokemon
+    import util
+    import foundry
+    from tools.utils import update_progress
 
 
 def build_pokemon(name, json_data, output_file):

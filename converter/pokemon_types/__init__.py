@@ -1,4 +1,8 @@
-from converter.pokemon_types import _types
+try:
+    import pokemon_types._types as _types
+except ImportError:
+    from converter.pokemon_types import _types
+
 
 _type_map = {
     None: _types.BaseType(),

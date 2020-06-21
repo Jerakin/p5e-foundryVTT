@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 from converter.util import BUILD_POKEMON, PROJECT, RAW_DATA_SOURCE
 import time
-from tools.utils import update_progress
+from converter.tools.utils import update_progress
 
 extra_pokemon = Path(PROJECT / "assets" / "data" / "pokemon").with_suffix(".json")
 extra_pokemon_icons = Path(PROJECT / "assets" / "data" / "pokemon_icons").with_suffix(".json")

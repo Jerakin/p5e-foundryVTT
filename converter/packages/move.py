@@ -26,7 +26,15 @@ class Move:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_range(self, json_data):
-        if json_data["ab"]:
+        if not json_data["ab"] and "Damage" in json_data:
+            _range = self.RANGE_REG.match(json_data["Range"])
+            if _range:
+                _range = int(_range.group(1))
+            else:
+                _range = 5
+
+            _type = "other"
+        elif json_data["ab"]:
             if json_data["Range"] == "Melee":
                 _range = 5
                 _type = "mwak"
@@ -135,7 +143,8 @@ class Move:
         if "Damage" in json_data:
             amount = json_data["Damage"][self._level_index(level)]["amount"]
             dice_max = json_data["Damage"][self._level_index(level)]["dice_max"]
-            self.output_data["data"]["damage"]["parts"] = [["{}d{} + @mod".format(amount, dice_max), ""]]
+            mod = "+ @mod" if json_data["Damage"][self._level_index(level)]["move"] else ""
+            self.output_data["data"]["damage"]["parts"] = [["{}d{} {}".format(amount, dice_max, mod), ""]]
 
         if "Save" in json_data:
             self.output_data["data"]["save"]["ability"] = json_data["Save"].lower()
@@ -147,7 +156,8 @@ class Move:
         if "Damage" in json_data:
             amount = json_data["Damage"]["1"]["amount"]
             dice_max = json_data["Damage"]["1"]["dice_max"]
-            self.output_data["data"]["damage"]["parts"] = [["{}d{} + @mod".format(amount, dice_max), ""]]
+            mod = "+ @mod" if json_data["Damage"]["1"]["move"] else ""
+            self.output_data["data"]["damage"]["parts"] = [["{}d{} {}".format(amount, dice_max, mod), ""]]
 
         if "Save" in json_data:
             self.output_data["data"]["save"]["ability"] = json_data["Save"].lower()

@@ -229,7 +229,7 @@ class Pokemon:
         self.output_data["data"]["traits"]["di"]["custom"] = "; ".join([x.capitalize() for x in model.immunities])
         self.output_data["data"]["traits"]["dv"]["custom"] = "; ".join([x.capitalize() for x in model.vulnerabilities])
         self.output_data["data"]["traits"]["senses"] = ", ".join(json_data["Senses"]) if "Senses" in json_data else ""
-        self.output_data["data"]["traits"]["size"] = util.EXTRA_POKEMON_DATA[self.output_data["name"]] if self.output_data["name"] in util.EXTRA_POKEMON_DATA else "tiny"
+        self.output_data["data"]["traits"]["size"] = util.EXTRA_POKEMON_DATA[self.output_data["name"]]["size"] if self.output_data["name"] in util.EXTRA_POKEMON_DATA else "tiny"
 
     def convert_skills(self, json_data):
         """Athletics, Sleight of Hand, etc."""
@@ -275,8 +275,8 @@ class Pokemon:
         self.output_data["data"]["attributes"]["init"]["mod"] = self.output_data["data"]["abilities"]["dex"]["mod"]
 
     def convert_movement_speed(self, json_data):
-        translate = {"SSp": "Swimming",
-                     "FSp": "Flying",
+        translate = {"Ssp": "Swimming",
+                     "Fsp": "Flying",
                      "Climbing Speed": "Climbing",
                      "Burrowing Speed": "Burrowing",
                      }

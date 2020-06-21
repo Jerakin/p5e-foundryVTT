@@ -72,38 +72,6 @@ def pack_folder(folder, output_file):
                 fp.write(f.read() + "\n")
 
 
-def data():
-    if util.DATA.exists():
-        shutil.rmtree(util.DATA)
-    util.DATA.mkdir()
-
-    poke = []
-    for p_file in util.BUILD_POKEMON.iterdir():
-        with p_file.open(encoding="utf-8") as fp:
-            poke.append(json.load(fp))
-
-    with (util.DATA / "pokemon.json").open("w", encoding="utf-8") as fp:
-        json.dump(poke, fp, indent=2, ensure_ascii=False)
-
-    moves = []
-    for p_file in util.BUILD_MOVES.iterdir():
-        with p_file.open(encoding="utf-8") as fp:
-            moves.append(json.load(fp))
-
-    with (util.DATA / "moves.json").open("w", encoding="utf-8") as fp:
-        json.dump(moves, fp, indent=2, ensure_ascii=False)
-
-    abilities = []
-    for p_file in util.BUILD_ABILITIES.iterdir():
-        with p_file.open(encoding="utf-8") as fp:
-            abilities.append(json.load(fp))
-
-    with (util.DATA / "abilities.json").open("w", encoding="utf-8") as fp:
-        json.dump(moves, fp, indent=2, ensure_ascii=False)
-
-    shutil.copy(util.PROJECT / "foundryJS" / "import.js", util.DATA)
-
-
 def package():
     if util.DIST.exists():
         shutil.rmtree(util.DIST)
@@ -124,7 +92,6 @@ def make():
     build()
     time.sleep(1)
     package()
-    data()
     print("All done")
 
 

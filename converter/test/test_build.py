@@ -1,7 +1,7 @@
 from pathlib import Path
 import json
 
-PROJECT = Path(__file__).parent.parent
+PROJECT = Path(__file__).parent.parent.parent
 
 pokemon_build_folder = PROJECT / "build" / "pokemon"
 

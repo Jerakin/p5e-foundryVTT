@@ -3,6 +3,7 @@ from pathlib import Path
 import converter.foundry as foundry
 
 PROJECT = Path(__file__).parent.parent
+CONVERTER = PROJECT / "converter"
 
 BUILD = PROJECT / "build"
 BUILD_POKEMON = BUILD / "pokemon"
@@ -13,7 +14,7 @@ DIST = PROJECT / "dist"
 DIST_MODULE = DIST / foundry.module_name
 DIST_PACKS = DIST_MODULE / "packs"
 
-DATA = PROJECT / "data"
+CACHE = PROJECT / "cache"
 
 DATA_SOURCE = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles")
 
@@ -26,14 +27,14 @@ def load_datafile(name):
 
 
 def load_extra(name):
-    p = Path(PROJECT / "converter" / "assets" / "extra" / name).with_suffix(".json")
+    p = Path(PROJECT / "assets" / "data" / name).with_suffix(".json")
     with p.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
     return json_data
 
 
 def load_template(name):
-    p = Path(PROJECT / "converter" / "assets" / "templates" / name).with_suffix(".json")
+    p = Path(PROJECT / "assets" / "templates" / name).with_suffix(".json")
     with p.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
     return json_data

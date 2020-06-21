@@ -6,8 +6,8 @@ from converter.util import BUILD_POKEMON, PROJECT, DATA_SOURCE
 import time
 from tools.utils import update_progress
 
-extra_pokemon = Path(PROJECT / "converter" / "assets" / "extra" / "pokemon").with_suffix(".json")
-extra_pokemon_icons = Path(PROJECT / "converter" / "assets" / "extra" / "pokemon_icons").with_suffix(".json")
+extra_pokemon = Path(PROJECT / "assets" / "data" / "pokemon").with_suffix(".json")
+extra_pokemon_icons = Path(PROJECT / "assets" / "data" / "pokemon_icons").with_suffix(".json")
 
 index_orders = Path(DATA_SOURCE / "index_order").with_suffix(".json")
 

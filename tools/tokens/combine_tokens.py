@@ -3,14 +3,14 @@ from pathlib import Path
 import requests
 import json
 import shutil
-from converter.util import PROJECT
+from converter.util import CONVERTER, CACHE, ASSETS
 from tools.utils import update_progress
 
-root = PROJECT
-output = root / "assets" / "token" / "tokens"
-tokens = PROJECT / "cache" / "tokens"
-token_source = root / "assets" / "token" / "token_parts"
-data_file = root / "converter" / "assets" / "extra" / "pokemon_icons.json"
+root = CONVERTER
+output = ASSETS / "images" / "token" / "tokens"
+tokens = CACHE / "tokens"
+token_source = ASSETS / "token" / "token_parts"
+data_file = ASSETS / "data" / "pokemon_icons.json"
 filter_data_path = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles\filter_data.json")
 
 if not tokens.exists():

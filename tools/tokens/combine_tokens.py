@@ -3,13 +3,12 @@ from pathlib import Path
 import requests
 import json
 import shutil
-from converter.util import CONVERTER, CACHE, ASSETS
+from converter.util import CONVERTER, CACHE, ASSETS, PROJECT
 from tools.utils import update_progress
 
-root = CONVERTER
 output = ASSETS / "images" / "token" / "tokens"
 tokens = CACHE / "tokens"
-token_source = ASSETS / "token" / "token_parts"
+token_source = PROJECT / "tools" / "token_parts"
 data_file = ASSETS / "data" / "pokemon_icons.json"
 filter_data_path = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles\filter_data.json")
 
@@ -68,7 +67,7 @@ def main():
         path = download_image(data["img"].replace("120px", "128px"))
         if path:
             assemble(filter_data[pokemon]["Type"], path)
-            data["token"] = f"https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/master/assets/token/tokens/{path.name}"
+            data["token"] = f"https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/master/assets/tokens/{path.name}"
         else:
             print(f'Could not download {data["img"].replace("120px", "128px")}')
 

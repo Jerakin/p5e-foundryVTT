@@ -1,6 +1,8 @@
+import requests
 import json
 from pathlib import Path
 import converter.foundry as foundry
+import time
 
 PROJECT = Path(__file__).parent.parent
 CONVERTER = PROJECT / "converter"
@@ -16,28 +18,64 @@ DIST_PACKS = DIST_MODULE / "packs"
 
 CACHE = PROJECT / "cache"
 
-DATA_SOURCE = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles")
+ASSETS = PROJECT / "assets"
+
+DATA_SOURCE = "https://raw.githubusercontent.com/Jerakin/Pokedex5E/master/assets/datafiles/"
+
+
+def __load(path):
+    with path.open(encoding="utf-8") as fp:
+        json_data = json.load(fp)
+    return json_data
+
+
+def __download(name, path):
+    index = CACHE / "index.json"
+    if index.exists():
+        index_data = __load(index)
+        if name not in index_data:
+            index_data[name] = {}
+    else:
+        index_data = {name: {}}
+
+    if not path.parent.exists():
+        path.parent.mkdir(parents=True)
+
+    url = DATA_SOURCE + name + ".json"
+    r = requests.get(url)
+    if r.status_code == 200:
+        index_data[name]["time"] = time.time()
+        with index.open("w") as f:
+            json.dump(index_data, f)
+
+        data = json.loads(r.content.decode("utf-8"))
+        with path.open("w", encoding="utf-8") as fp:
+            json.dump(data, fp, ensure_ascii=False)
+        return data
 
 
 def load_datafile(name):
-    p = Path(DATA_SOURCE / name).with_suffix(".json")
-    with p.open(encoding="utf-8") as fp:
-        json_data = json.load(fp)
-    return json_data
+    p = (CACHE / "data" / name).with_suffix(".json")
+    index = CACHE / "index.json"
+    if p.exists():
+        if index.exists():
+            current_time = time.time()
+            index_data = __load(index)
+            if current_time - index_data[name]["time"] > 86400:
+                return __download(name, p)
+
+        return __load(p)
+    return __download(name, p)
 
 
 def load_extra(name):
-    p = Path(PROJECT / "assets" / "data" / name).with_suffix(".json")
-    with p.open(encoding="utf-8") as fp:
-        json_data = json.load(fp)
-    return json_data
+    p = Path(ASSETS / "data" / name).with_suffix(".json")
+    return __load(p)
 
 
 def load_template(name):
-    p = Path(PROJECT / "assets" / "templates" / name).with_suffix(".json")
-    with p.open(encoding="utf-8") as fp:
-        json_data = json.load(fp)
-    return json_data
+    p = Path(ASSETS / "templates" / name).with_suffix(".json")
+    return __load(p)
 
 
 LEVEL_DATA = load_datafile("leveling")

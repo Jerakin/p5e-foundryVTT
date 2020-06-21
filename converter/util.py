@@ -1,8 +1,10 @@
-import requests
 import json
 from pathlib import Path
-import converter.foundry as foundry
+
+import requests
 import time
+
+import converter.foundry as foundry
 
 PROJECT = Path(__file__).parent.parent
 CONVERTER = PROJECT / "converter"

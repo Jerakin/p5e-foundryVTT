@@ -1,5 +1,5 @@
-from pathlib import Path
 import json
+from pathlib import Path
 
 PROJECT = Path(__file__).parent.parent.parent
 

@@ -1,8 +1,7 @@
 import hashlib
 import json
-import math
 import re
-from converter import pokemon_types as p_types
+
 import converter.util as util
 
 

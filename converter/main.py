@@ -1,14 +1,14 @@
-import shutil
 import json
+import shutil
+
 import time
 
-from converter import foundry
-
-from tools.utils import update_progress
-import converter.util as util
-import converter.packages.pokemon as pokemon
-import converter.packages.move as move
 import converter.packages.ability as ability
+import converter.packages.move as move
+import converter.packages.pokemon as pokemon
+import converter.util as util
+from converter import foundry
+from tools.utils import update_progress
 
 
 def build_pokemon(name, json_data, output_file):

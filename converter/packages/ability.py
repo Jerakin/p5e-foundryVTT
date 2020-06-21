@@ -2,6 +2,7 @@ import json
 import converter.util as util
 import hashlib
 
+
 class Ability:
     def __init__(self, name, json_data):
         self.output_data = util.load_template("ability")

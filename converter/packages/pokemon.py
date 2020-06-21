@@ -1,12 +1,14 @@
 import hashlib
 import json
+
 import math
 
-from converter import pokemon_types as p_types, foundry
-from converter.util import load_template, LEVEL_DATA, EXTRA_POKEMON_DATA, merge, POKEDEX_DATA, EXTRA_POKEMON_ICON_DATA, BUILD_MOVES, MOVE_DATA, BUILD_ABILITIES, ABILITY_DATA, TRANSLATE_NAME
-from converter.packages import move
+from converter import foundry
+from converter import pokemon_types as p_types
+from converter import util
 from converter.packages import ability
 from converter.packages import experience
+from converter.packages import move
 
 
 class Move(move.Move):
@@ -74,13 +76,13 @@ class Ability:
 
 class PokemonItem:
     def __init__(self, name, json_data):
-        self.output_data = load_template("pokemon_item")
+        self.output_data = util.load_template("pokemon_item")
         self.output_data["name"] = name
 
         self.convert(json_data)
 
     def convert_image(self):
-        self.output_data["img"] = EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["img"]
+        self.output_data["img"] = util.EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["img"]
 
     def convert_move_info(self, json_data):
         lines = ["<h2>Moves</h2>",
@@ -111,17 +113,17 @@ class PokemonItem:
 
 class Pokemon:
     def __init__(self, name, json_data):
-        self.output_data = load_template("pokemon")
-        if name in TRANSLATE_NAME:
-            name = TRANSLATE_NAME[name]
+        self.output_data = util.load_template("pokemon")
+        if name in util.TRANSLATE_NAME:
+            name = util.TRANSLATE_NAME[name]
         self.output_data["name"] = name
         self.output_data["token"]["name"] = name
 
-        self.proficiency = LEVEL_DATA[str(json_data["MIN LVL FD"])]["prof"]
+        self.proficiency = util.LEVEL_DATA[str(json_data["MIN LVL FD"])]["prof"]
 
         self.convert(name, json_data)
-        if name in EXTRA_POKEMON_DATA:
-            merge(self.output_data, EXTRA_POKEMON_DATA[name])
+        if name in util.EXTRA_POKEMON_DATA:
+            util.merge(self.output_data, util.EXTRA_POKEMON_DATA[name])
 
     @staticmethod
     def _ability_modifier(value):
@@ -131,7 +133,7 @@ class Pokemon:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_token(self, json_data):
-        self.output_data["token"]["img"] = EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["token"]
+        self.output_data["token"]["img"] = util.EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["token"]
 
         if "Senses" not in json_data:
             return
@@ -151,26 +153,26 @@ class Pokemon:
 
     def add_starting_moves(self, json_data):
         for move_name in json_data["Moves"]["Starting Moves"]:
-            if move_name in BUILD_MOVES.iterdir():  # Check if the move have been built and use that
-                with (BUILD_MOVES / move_name).with_suffix(".json").open(encoding="utf-8") as fp:
+            if move_name in util.BUILD_MOVES.iterdir():  # Check if the move have been built and use that
+                with (util.BUILD_MOVES / move_name).with_suffix(".json").open(encoding="utf-8") as fp:
                     json_move_data = json.load(fp)
                     new_move = Move(json_move_data)
             else:  # Move have not been built, build it and use that
-                m = move.Move(move_name, MOVE_DATA[move_name])
-                m.save((BUILD_MOVES / move_name).with_suffix(".json"))
+                m = move.Move(move_name, util.MOVE_DATA[move_name])
+                m.save((util.BUILD_MOVES / move_name).with_suffix(".json"))
                 new_move = Move(m.output_data)
 
             level = self.output_data["data"]["details"]["level"]
 
             _move = 0
-            if "Move Power" in MOVE_DATA[move_name]:
-                power = MOVE_DATA[move_name]["Move Power"][0].lower()
+            if "Move Power" in util.MOVE_DATA[move_name]:
+                power = util.MOVE_DATA[move_name]["Move Power"][0].lower()
                 if power == "any":
                     _move = max([self.output_data["data"]["abilities"][ab]["mod"]] for ab in foundry.abilities)
                 elif power == "varies":
                     pass
                 else:
-                    _move = self.output_data["data"]["abilities"][MOVE_DATA[move_name]["Move Power"][0].lower()]["mod"]
+                    _move = self.output_data["data"]["abilities"][util.MOVE_DATA[move_name]["Move Power"][0].lower()]["mod"]
             new_move.update_damage_save(json_data, level, self.proficiency, _move)
             new_move.convert()
 
@@ -182,13 +184,13 @@ class Pokemon:
             abilities.append(json_data["Hidden Ability"])
 
         for ability_name in abilities:
-            if ability_name in BUILD_ABILITIES.iterdir():  # Check if the move have been built and use that
-                with (BUILD_ABILITIES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
+            if ability_name in util.BUILD_ABILITIES.iterdir():  # Check if the move have been built and use that
+                with (util.BUILD_ABILITIES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
                     json_move_data = json.load(fp)
                     new_ability = Ability(json_move_data)
             else:  # Move have not been built, build it and use that
-                m = ability.Ability(ability_name, ABILITY_DATA[ability_name])
-                m.save((BUILD_ABILITIES / ability_name).with_suffix(".json"))
+                m = ability.Ability(ability_name, util.ABILITY_DATA[ability_name])
+                m.save((util.BUILD_ABILITIES / ability_name).with_suffix(".json"))
                 new_ability = Ability(m.output_data)
 
             self.output_data["items"].append(new_ability.output_data)
@@ -198,7 +200,7 @@ class Pokemon:
         self.output_data["items"].append(item.output_data)
 
     def convert_dex_entry(self, json_data):
-        pd = POKEDEX_DATA[str(json_data["index"])]
+        pd = util.POKEDEX_DATA[str(json_data["index"])]
         entry = "<p>{description}</p>\n<p>Species: {genus}</p>\n<p>Height: {height}</p>\n<p>Weight {weight}</p>"
         self.output_data["data"]["details"]["biography"]["value"] = entry.format(genus=pd["genus"],
                                                                                  description=pd["flavor"],
@@ -237,7 +239,7 @@ class Pokemon:
         self.output_data["data"]["details"]["background"] = "/".join(json_data["Type"])
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         self.output_data["data"]["details"]["alignment"] = json_data["SR"]
-        self.output_data["data"]["details"]["race"] = POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon",
+        self.output_data["data"]["details"]["race"] = util.POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon",
                                                                                                              "")
         self.output_data["data"]["details"]["xp"]["value"] = experience.GRID[json_data["MIN LVL FD"]][
             json_data["SR"]]
@@ -245,7 +247,7 @@ class Pokemon:
         next_level = json_data["MIN LVL FD"] + 1
         if next_level == 21:
             next_level = 20
-        self.output_data["data"]["details"]["xp"]["max"] = LEVEL_DATA[str(next_level)]["exp"]
+        self.output_data["data"]["details"]["xp"]["max"] = util.LEVEL_DATA[str(next_level)]["exp"]
 
     def convert_attributes(self, json_data):
         self.output_data["data"]["attributes"]["ac"]["value"] = json_data["AC"]
@@ -282,7 +284,7 @@ class Pokemon:
             current["proficient"] = 1 if name in saving_throws else 0
 
     def convert_stab(self, json_data):
-        self.output_data["data"]["resources"]["primary"]["value"] = LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
+        self.output_data["data"]["resources"]["primary"]["value"] = util.LEVEL_DATA[str(json_data["MIN LVL FD"])]["STAB"]
 
     def convert(self, name, json_data):
         self.set_id()

@@ -89,17 +89,14 @@
 	"Meloetta - Pirouette": {
 		"img": "https://img.pokemondb.net/artwork/meloetta-pirouette.jpg"
 	},
-	"Meowstic-f": {
+	"Meowstic ♀": {
 		"img": "https://img.pokemondb.net/artwork/Meowstic-female.jpg"
 	},
-	"Meowstic-m": {
+	"Meowstic ♂": {
 		"img": "https://img.pokemondb.net/artwork/Meowstic-male.jpg"
 	},
 	"Mime Jr.": {
 		"img": "https://img.pokemondb.net/artwork/mime-jr.jpg"
-	},
-	"MissingNo": {
-		"img": ""
 	},
 	"Mr. Mime": {
 		"img": "https://img.pokemondb.net/artwork/mr-mime.jpg"
@@ -731,7 +728,7 @@
 	"Flaaffy": {
 		"img": "https://img.pokemondb.net/artwork/flaaffy.jpg"
 	},
-	"Flabebe": {
+	"Flabébé": {
 		"img": "https://img.pokemondb.net/artwork/flabebe.jpg"
 	},
 	"Flareon": {
@@ -1382,10 +1379,10 @@
 	"Nidoqueen": {
 		"img": "https://img.pokemondb.net/artwork/nidoqueen.jpg"
 	},
-	"Nidoran-f": {
+	"Nidoran ♀": {
 		"img": "https://img.pokemondb.net/artwork/nidoran-f.jpg"
 	},
-	"Nidoran-m": {
+	"Nidoran ♂": {
 		"img": "https://img.pokemondb.net/artwork/nidoran-m.jpg"
 	},
 	"Nidorina": {

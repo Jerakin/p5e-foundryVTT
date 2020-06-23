@@ -905,9 +905,6 @@
   "Scald": {
     "hl": "The damage dice roll for this move changes to 2d8 at level 5, 4d6 at level 10, and 6d6 at level 17."
   },
-  "Scary Face": {
-    "hl": "The damage dice roll for this move changes to  at level 5,  at level 10, and  at level 17."
-  },
   "Scratch": {
     "hl": "The damage dice roll for this move changes to 1d12 at level 5, 2d8 at level 10, and 4d6 at level 17."
   },

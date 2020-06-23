@@ -176,6 +176,12 @@
   "Sandslash": {
     "size": "sm"
   },
+  "Nidoran ♀": {
+       "size": "tiny"
+  },
+  "Nidoran ♂": {
+       "size": "tiny"
+  },
   "Nidorina": {
     "size": "sm"
   },
@@ -481,6 +487,9 @@
   },
   "Jolteon": {
     "size": "sm"
+  },
+  "Flabébé": {
+    "size": "tiny"
   },
   "Flareon": {
     "size": "sm"
@@ -1363,6 +1372,12 @@
   },
   "Bonsly": {
     "size": "tiny"
+  },
+  "Meowstic ♀": {
+    "size": "sm"
+  },
+  "Meowstic ♂": {
+    "size": "sm"
   },
   "Mime Jr.": {
     "size": "tiny"

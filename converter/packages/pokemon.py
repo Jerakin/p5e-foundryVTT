@@ -144,6 +144,11 @@ class Pokemon:
     def convert_token(self, json_data):
         self.output_data["token"]["img"] = util.EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["token"]
 
+        size = self.output_data["data"]["traits"]["size"]
+        self.output_data["token"]["width"] = foundry.token_size_map[size]["width"]
+        self.output_data["token"]["height"] = foundry.token_size_map[size]["height"]
+        self.output_data["token"]["scale"] = foundry.token_size_map[size]["scale"]
+
         if "Senses" not in json_data:
             return
 
@@ -159,11 +164,6 @@ class Pokemon:
             else:
                 bright_sight = max(bright_sight, amount)
         self.output_data["token"]["brightSight"] = bright_sight
-
-        size = self.output_data["data"]["traits"]["size"]
-        self.output_data["token"]["width"] = foundry.token_size_map[size]["width"]
-        self.output_data["token"]["height"] = foundry.token_size_map[size]["height"]
-        self.output_data["token"]["scale"] = foundry.token_size_map[size]["scale"]
 
     def add_starting_moves(self, json_data):
         for move_name in json_data["Moves"]["Starting Moves"]:
@@ -253,7 +253,8 @@ class Pokemon:
     def convert_details(self, json_data):
         self.output_data["data"]["details"]["background"] = "/".join(json_data["Type"])
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
-        self.output_data["data"]["details"]["alignment"] = json_data["SR"]
+        sr = json_data["SR"]
+        self.output_data["data"]["details"]["alignment"] = foundry.sr_map[sr] if sr in foundry.sr_map else str(sr)
         self.output_data["data"]["details"]["race"] = util.POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon",
                                                                                                              "")
         self.output_data["data"]["details"]["xp"]["value"] = experience.GRID[json_data["MIN LVL FD"]][

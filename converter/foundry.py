@@ -52,6 +52,13 @@ skill_abv_to_name = {
 
 abilities = ["str", "dex", "con", "int", "wis", "cha"]
 
+
+sr_map = {
+    0.125: "1/8",
+    0.25: "1/4",
+    0.5: "1/2",
+}
+
 module_name = "Pokemon5e"
 module_definition = {
     "name": module_name,

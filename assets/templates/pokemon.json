@@ -1,5 +1,5 @@
 {
-	"name": "Bulbasaur",
+	"name": "",
 	"type": "character",
 	"data": {
 		"abilities": {
@@ -294,7 +294,7 @@
 			}
 		},
 		"traits": {
-			"size": "tiny",
+			"size": null,
 			"senses": "",
 			"languages": {
 				"value": [],
@@ -306,11 +306,11 @@
 			},
 			"dr": {
 				"value": [],
-				"custom": "Electric, Fairy, Fighting, Grass, Water"
+				"custom": ""
 			},
 			"dv": {
 				"value": [],
-				"custom": "Fire, Flying, Ice, Psychic"
+				"custom": ""
 			},
 			"ci": {
 				"value": [],
@@ -443,16 +443,16 @@
 		"gm-notes": {},
 		"dnd5e": {}
 	},
-	"img": "https://img.pokemondb.net/artwork/bulbasaur.jpg",
+	"img": "",
 	"token": {
 		"flags": {},
-		"name": "Bulbasaur",
+		"name": null,
 		"displayName": 0,
-		"img": "https://i.imgur.com/DZXdjtG.png",
+		"img": "",
 		"tint": null,
-		"width": 1,
-		"height": 1,
-		"scale": 0.5,
+		"width": null,
+		"height": null,
+		"scale": null,
 		"mirrorX": false,
 		"mirrorY": false,
 		"lockRotation": false,

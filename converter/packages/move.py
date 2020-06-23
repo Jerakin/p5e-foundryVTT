@@ -26,6 +26,20 @@ class Move:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_range(self, json_data):
+        def check_range(range_string):
+            __range = self.RANGE_REG.match(range_string)
+            if __range:
+                __range = int(__range.group(1))
+            else:
+                __range = 5
+
+            if __range > 5:
+                __type = "rwak"
+            else:
+                __type = "mwak"
+
+            return __range, __type
+
         if not json_data["ab"] and "Damage" in json_data:
             _range = self.RANGE_REG.match(json_data["Range"])
             if _range:
@@ -39,16 +53,7 @@ class Move:
                 _range = 5
                 _type = "mwak"
             else:
-                _range = self.RANGE_REG.match(json_data["Range"])
-                if _range:
-                    _range = int(_range.group(1))
-                else:
-                    _range = 5
-
-                if _range > 5:
-                    _type = "rwak"
-                else:
-                    _type = "mwak"
+                _range, _type = check_range(json_data["Range"])
 
         elif json_data["Range"] == "Self":
             _range = None
@@ -62,7 +67,7 @@ class Move:
         elif "Save" in json_data:
             # Move requires save but not attack
             _type = "save"
-            _range = None
+            _range, _ = check_range(json_data["Range"])
 
         self.output_data["data"]["range"]["value"] = _range
         self.output_data["data"]["actionType"] = _type
@@ -77,12 +82,10 @@ class Move:
         activation = ""
         if "bonus action" in move_time:
             activation = "bonus action"
-        elif "action" in move_time:
-            activation = "action"
         elif "reaction" in move_time:
             activation = "reaction"
-        elif "bonus action" in move_time:
-            activation = "bonus action"
+        elif "action" in move_time:
+            activation = "action"
 
         self.output_data["data"]["activation"]["type"] = activation
 

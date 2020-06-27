@@ -15,11 +15,11 @@ class Move:
 
     def __init__(self, name, json_data):
         self.output_data = util.load_template("move")
-        name = f'{name} (C)' if "concentration" in json_data["Duration"].lower() else name
-        self.output_data["name"] = name
+        self.name = name
+        self.output_data["name"] = f'{name} (C)' if "concentration" in json_data["Duration"].lower() else name
 
         self.convert(json_data)
-        if name in util.MERGE_MOVE_DATA:
+        if self.name in util.MERGE_MOVE_DATA:
             util.merge(self.output_data, util.MERGE_MOVE_DATA[name])
 
     def set_id(self):
@@ -174,8 +174,7 @@ class Move:
         template = self.output_data["data"]["description"]["value"]
         icon = util.EXTRA_MOVE_ICON_DATA[json_data["Type"].split("/")[0]]["img"]
         _ability = "/".join(json_data["Move Power"]) if "Move Power" in json_data else "None"
-        higher_level = util.EXTRA_MOVE_DATA[self.output_data["name"]]["hl"] if self.output_data["name"] in util.EXTRA_MOVE_DATA and "hl" in util.EXTRA_MOVE_DATA[self.output_data["name"]] else ""
-
+        higher_level = util.EXTRA_MOVE_DATA[self.name]["hl"] if self.name in util.EXTRA_MOVE_DATA and "hl" in util.EXTRA_MOVE_DATA[self.name] else ""
         self.output_data["data"]["description"]["value"] = template.format(type_icon=icon,
                                                                            description=json_data["Description"],
                                                                            later_levels=higher_level,

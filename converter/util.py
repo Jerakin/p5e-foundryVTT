@@ -26,8 +26,8 @@ CACHE = PROJECT / "cache"
 
 ASSETS = PROJECT / "assets"
 
-RAW_DATA_SOURCE = "https://raw.githubusercontent.com/Jerakin/Pokedex5E/master/assets/datafiles/"
-DATA_SOURCE = "https://github.com/Jerakin/Pokedex5E/tree/master/assets/datafiles/"
+RAW_DATA_SOURCE = "https://raw.githubusercontent.com/Jerakin/Pokedex5E/p5e-vtt/assets/datafiles/"
+DATA_SOURCE = "https://github.com/Jerakin/Pokedex5E/tree/p5e-vtt/master/assets/datafiles/"
 
 
 def __load(path):
@@ -64,7 +64,8 @@ def __download(name, path):
         with path.open("w", encoding="utf-8") as fp:
             json.dump(data, fp, ensure_ascii=False)
         return data
-
+    else:
+        print(url, r.status_code)
 
 def download_pokemon():
     name = "pokemon_data"

@@ -60,16 +60,16 @@
 		"img": "https://img.pokemondb.net/artwork/kyurem-black.jpg"
 	},
 	"Castform Rainy": {
-		"img": "https://img.pokemondb.net/artwork/castform-rainy.png"
+		"img": "https://img.pokemondb.net/artwork/vector/castform-rainy.png"
 	},
 	"Castform Snowy": {
-		"img": "https://img.pokemondb.net/artwork/castform-snowy.png"
+		"img": "https://img.pokemondb.net/artwork/vector/castform-snowy.png"
 	},
 	"Castform Sunny": {
-		"img": "https://img.pokemondb.net/artwork/castform-sunny.png"
+		"img": "https://img.pokemondb.net/artwork/vector/castform-sunny.png"
 	},
 	"Farfetch'd": {
-		"img": "https://img.pokemondb.net/artwork/large/farfetchd.jpg"
+		"img": "https://img.pokemondb.net/artwork/farfetchd.jpg"
 	},
 	"Giratina Altered Forme": {
 		"img": "https://img.pokemondb.net/artwork/giratina-altered.jpg"
@@ -90,10 +90,10 @@
 		"img": "https://img.pokemondb.net/artwork/meloetta-pirouette.jpg"
 	},
 	"Meowstic ♀": {
-		"img": "https://img.pokemondb.net/artwork/Meowstic-female.jpg"
+		"img": "https://img.pokemondb.net/artwork/meowstic-female.jpg"
 	},
 	"Meowstic ♂": {
-		"img": "https://img.pokemondb.net/artwork/Meowstic-male.jpg"
+		"img": "https://img.pokemondb.net/artwork/meowstic-male.jpg"
 	},
 	"Mime Jr.": {
 		"img": "https://img.pokemondb.net/artwork/mime-jr.jpg"
@@ -102,19 +102,19 @@
 		"img": "https://img.pokemondb.net/artwork/mr-mime.jpg"
 	},
 	"Rotom Fan": {
-		"img": "https://img.pokemondb.net/artwork/Rotom-fan.jpg"
+		"img": "https://img.pokemondb.net/artwork/rotom-fan.jpg"
 	},
 	"Rotom Frost": {
-		"img": "https://img.pokemondb.net/artwork/Rotom-frost.jpg"
+		"img": "https://img.pokemondb.net/artwork/rotom-frost.jpg"
 	},
 	"Rotom Heat": {
-		"img": "https://img.pokemondb.net/artwork/Rotom-heat.jpg"
+		"img": "https://img.pokemondb.net/artwork/rotom-heat.jpg"
 	},
 	"Rotom Mow": {
-		"img": "https://img.pokemondb.net/artwork/Rotom-mow.jpg"
+		"img": "https://img.pokemondb.net/artwork/rotom-mow.jpg"
 	},
 	"Rotom Wash": {
-		"img": "https://img.pokemondb.net/artwork/Rotom-wash.jpg"
+		"img": "https://img.pokemondb.net/artwork/rotom-wash.jpg"
 	},
 	"Shaymin Land": {
 		"img": "https://img.pokemondb.net/artwork/shaymin-land.jpg"
@@ -129,7 +129,7 @@
 		"img": "https://img.pokemondb.net/artwork/wormadam-plant.jpg"
 	},
 	"Wormadam Sand Cloak": {
-		"img": "https://img.pokemondb.net/artwork/wormadam-sand.jpg"
+		"img": "https://img.pokemondb.net/artwork/wormadam-sandy.jpg"
 	},
 	"Wormadam Trash Cloak": {
 		"img": "https://img.pokemondb.net/artwork/wormadam-trash.jpg"

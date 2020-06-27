@@ -254,7 +254,7 @@ class Pokemon:
         self.output_data["data"]["details"]["background"] = "/".join(json_data["Type"])
         self.output_data["data"]["details"]["level"] = json_data["MIN LVL FD"]
         sr = json_data["SR"]
-        self.output_data["data"]["details"]["alignment"] = foundry.sr_map[sr] if sr in foundry.sr_map else str(sr)
+        self.output_data["data"]["details"]["alignment"] = foundry.sr_map[sr] if sr in foundry.sr_map else str(int(sr))
         self.output_data["data"]["details"]["race"] = util.POKEDEX_DATA[str(json_data["index"])]["genus"].replace("Pokémon",
                                                                                                              "")
         self.output_data["data"]["details"]["xp"]["value"] = experience.GRID[json_data["MIN LVL FD"]][

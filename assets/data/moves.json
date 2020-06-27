@@ -19,5 +19,13 @@
         "units": "round"
       }
     }
+  },
+  "Swords Dance": {
+    "data": {
+      "range": {
+        "value": 30
+      },
+      "actionType": "rwak"
+    }
   }
 }

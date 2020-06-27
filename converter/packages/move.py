@@ -11,7 +11,7 @@ except ImportError:
 class Move:
     RANGE_REG = re.compile("([\d]+)")
     DURATION_REG = re.compile("([-d\d]+)\s([\w]+)")
-    AREA_REG = re.compile("([\d]+)\s(foot|feet)\s(circle|cone|line|sphere|radius)")
+    AREA_REG = re.compile("([\d]+)\s*(foot|feet|ft)\s*(circle|cone|line|sphere|radius)?")
 
     def __init__(self, name, json_data):
         self.output_data = util.load_template("move")
@@ -46,8 +46,11 @@ class Move:
                 _range = int(_range.group(1))
             else:
                 _range = 5
+            if "Save" in json_data:
+                _type = "save"
+            else:
+                _type = "other"
 
-            _type = "other"
         elif json_data["ab"]:
             if json_data["Range"] == "Melee":
                 _range = 5
@@ -61,8 +64,8 @@ class Move:
 
         elif "Save" not in json_data:
             # Move isn't attack or requires save
-            _type = None
-            _range = None
+            _range, _ = check_range(json_data["Range"])
+            _type = "Other"
 
         elif "Save" in json_data:
             # Move requires save but not attack
@@ -81,7 +84,7 @@ class Move:
         move_time = json_data["Move Time"].lower()
         activation = ""
         if "bonus action" in move_time:
-            activation = "bonus action"
+            activation = "bonus"
         elif "reaction" in move_time:
             activation = "reaction"
         elif "action" in move_time:
@@ -116,7 +119,7 @@ class Move:
 
     def convert_target(self, json_data):
         area = self.AREA_REG.search(json_data["Description"])
-        if area:
+        if area and area.group(3):
             _type = area.group(3)
             if _type == "circle":
                 _type = "sphere"
@@ -202,11 +205,11 @@ class Move:
             json.dump(self.output_data, fp, ensure_ascii=False)
 
 
-# if __name__ == "__main__":
-#     import shutil
-#     from pathlib import Path
-#     shutil.rmtree(util.BUILD_MOVES, ignore_errors=True)
-#     _name = "Bide"
-#     _json_data = util.MOVE_DATA["Bide"]
-#     poke = Move(_name, _json_data)
-#     poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))
+if __name__ == "__main__":
+    import shutil
+    from pathlib import Path
+    shutil.rmtree(util.BUILD_MOVES, ignore_errors=True)
+    _name = "Yawn"
+    _json_data = util.MOVE_DATA[_name]
+    poke = Move(_name, _json_data)
+    poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))

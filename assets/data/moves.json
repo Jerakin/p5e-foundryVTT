@@ -27,5 +27,19 @@
       },
       "actionType": "rwak"
     }
+  },
+  "Smokescreen": {
+    "data": {
+      "target": {
+        "value": 60,
+        "units": "ft",
+        "type": "line"
+      },
+      "range": {
+        "value": null,
+        "long": null,
+        "units": "self"
+      }
+    }
   }
 }

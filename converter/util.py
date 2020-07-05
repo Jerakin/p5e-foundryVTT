@@ -67,6 +67,7 @@ def __download(name, path):
     else:
         print(url, r.status_code)
 
+
 def download_pokemon():
     name = "pokemon_data"
     index = CACHE / "index.json"

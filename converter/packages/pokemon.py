@@ -172,7 +172,8 @@ class Pokemon:
                     json_move_data = json.load(fp)
                     new_move = Move(json_move_data)
             else:  # Move have not been built, build it and use that
-                m = move.Move(move_name, util.MOVE_DATA[move_name])
+                json_move_data = util.MOVE_DATA[move_name]
+                m = move.Move(move_name, json_move_data)
                 m.save((util.BUILD_MOVES / move_name).with_suffix(".json"))
                 new_move = Move(m.output_data)
 
@@ -187,7 +188,7 @@ class Pokemon:
                     pass
                 else:
                     _move = self.output_data["data"]["abilities"][util.MOVE_DATA[move_name]["Move Power"][0].lower()]["mod"]
-            new_move.update_damage_save(json_data, level, self.proficiency, _move)
+            new_move.update_damage_save(json_move_data, level, self.proficiency, _move)
             new_move.convert()
 
             self.output_data["items"].append(new_move.output_data)

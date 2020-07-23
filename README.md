@@ -3,8 +3,8 @@ This projects aim is to convert the [Pokemon5e](https://www.pokemon5e.com) Compa
 
 ## Installation
 1. Download the latest [release](https://github.com/Jerakin/p5e-foundryVTT/releases)
-2. Unzip the file into a folder named Pokemon5e (*"Extract to Pokemon5e"*)
-3. Place the folder `Pokemon5e` in foundry `AppData/Local/FoundryVTT/Data/modules/` folder.
+2. Unzip the file into a folder named `Pokemon5e` (*"Extract to Pokemon5e"*)
+3. Place the folder `Pokemon5e` in `AppData/Local/FoundryVTT/Data/modules/` folder.
 
 ## Develop
 ### Requirements

@@ -1,3 +1,5 @@
+from pathlib import Path
+
 skill_name_to_abv = {
     "Acrobatics": "acr",
     "Animal Handling": "ani",
@@ -60,14 +62,18 @@ sr_map = {
 }
 
 module_name = "Pokemon5e"
+module_version = (Path(__file__).parent.parent / "VERSION").read_text()
 module_definition = {
     "name": module_name,
     "title": module_name,
     "description": "The Wonderful World of Pokémon - in Dungeons & Dragons 5E",
     "author": "Jerakin",
-    "version": "1.0.0",
+    "version": module_version,
     "minimumCoreVersion": "0.5.0",
     "compatibleCoreVersion": "0.5.5",
+    "url": "https://github.com/Jerakin/p5e-foundryVTT",
+    "manifest": "https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/master/module.json",
+    "download": f"https://github.com/Jerakin/p5e-foundryVTT/releases/download/v{module_version}/Pokemon5e.zip",
     "packs": [
     ]
 }

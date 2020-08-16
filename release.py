@@ -15,9 +15,17 @@ if not get_active_branch_name() == "release":
     print("aborting, not on 'release' branch")
     sys.exit(1)
 
-module_version = (Path(__file__).parent.parent / "VERSION").read_text()
-cmd.run("git add module.json")
-cmd.run(f"git commit -m 'Update manifest to f{module_version}'")
-cmd.run("git push")
+ROOT = Path(__file__).parent
+module_version = (ROOT / "VERSION").read_text()
 
-gh_release_create("Jerakin/p5e-foundryVTT", f"v{module_version}", token=Path("~/Documents/signing/TOKEN_VTT").expanduser().read_text(), publish=True, name=f"v{module_version}", asset_pattern="dist/Pokemon5e.zip")
+# Add the module json and a tag, push them both
+cmd.run("git add module.json")
+cmd.run(f'git commit -m "Update manifest to {module_version}"')
+cmd.run(f'git tag -a v{module_version} -m "Release of {module_version}"')
+cmd.run("git push origin release")
+cmd.run(f'git push origin v{module_version}')
+
+# Get token and create a release
+token = Path("~/Documents/signing/TOKEN_VTT").expanduser().read_text()
+cmd.run(f'githubrelease --github-token {token} release Jerakin/p5e-foundryVTT create v{module_version} --publish --name "v{module_version}" "dist/Pokemon5e.zip"')
+

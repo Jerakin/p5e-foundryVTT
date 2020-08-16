@@ -72,7 +72,7 @@ module_definition = {
     "minimumCoreVersion": "0.5.0",
     "compatibleCoreVersion": "0.5.5",
     "url": "https://github.com/Jerakin/p5e-foundryVTT",
-    "manifest": "https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/master/module.json",
+    "manifest": "https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/release/module.json",
     "download": f"https://github.com/Jerakin/p5e-foundryVTT/releases/download/v{module_version}/Pokemon5e.zip",
     "packs": [
     ]

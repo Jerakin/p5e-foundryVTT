@@ -27,7 +27,7 @@ CACHE = PROJECT / "cache"
 ASSETS = PROJECT / "assets"
 
 RAW_DATA_SOURCE = "https://raw.githubusercontent.com/Jerakin/Pokedex5E/p5e-vtt/assets/datafiles/"
-DATA_SOURCE = "https://github.com/Jerakin/Pokedex5E/tree/p5e-vtt/master/assets/datafiles/"
+DATA_SOURCE = "https://github.com/Jerakin/Pokedex5E/tree/p5e-vtt/assets/datafiles/"
 
 
 def __load(path):
@@ -36,27 +36,27 @@ def __load(path):
     return json_data
 
 
-def __get_index(name, path):
+def __get_index(index_entry, path):
     if path.exists():
         index_data = __load(path)
-        if name not in index_data:
-            index_data[name] = {}
+        if index_entry not in index_data:
+            index_data[index_entry] = {}
     else:
-        index_data = {name: {}}
+        index_data = {index_entry: {}}
     return index_data
 
 
-def __download(name, path):
+def __download(index_entry, path):
     index = CACHE / "index.json"
-    index_data = __get_index(name, index)
+    index_data = __get_index(index_entry, index)
 
     if not path.parent.exists():
         path.parent.mkdir(parents=True)
 
-    url = RAW_DATA_SOURCE + name + ".json"
+    url = RAW_DATA_SOURCE + index_entry + ".json"
     r = requests.get(url)
     if r.status_code == 200:
-        index_data[name]["time"] = time.time()
+        index_data[index_entry]["time"] = time.time()
         with index.open("w") as f:
             json.dump(index_data, f)
 
@@ -68,24 +68,39 @@ def __download(name, path):
         print(url, r.status_code)
 
 
-def download_pokemon():
-    name = "pokemon_data"
+def _update_index(index_entry):
     index = CACHE / "index.json"
-    index_data = __get_index(name, index)
-    current_time = time.time()
+    index_data = __get_index(index_entry, index)
+    if index_entry not in index_data:
+        index_data[index_entry] = {}
+    index_data[index_entry]["time"] = time.time()
+    with index.open("w") as f:
+        json.dump(index_data, f)
 
-    if "time" in index_data[name] and current_time - index_data[name]["time"] > 86400*7:  # Data is a week old
-        total = gitdir.download(DATA_SOURCE + "pokemon", flatten=True, output_dir=CACHE / "pokemon")
-    elif "time" not in index_data[name]:
-        total = gitdir.download(DATA_SOURCE + "pokemon", flatten=True, output_dir=CACHE / "pokemon")
+
+def _should_update(index_entry):
+    index = CACHE / "index.json"
+    index_data = __get_index(index_entry, index)
+    current_time = time.time()
+    if ("time" in index_data[index_entry] and current_time - index_data[index_entry]["time"] > 86400 * 7) or "time" not in index_data[index_entry]:  # Data is a week old
+        return True
+
+
+def __download_to_cache(index_entry, folder):
+    if not (CACHE / folder).exists() or _should_update(index_entry):
+        update = gitdir.download(DATA_SOURCE + folder, flatten=True, output_dir=CACHE / folder)
     else:
         return
-    if total:
-        if name not in index_data:
-            index_data[name] = {}
-        index_data[name]["time"] = time.time()
-        with index.open("w") as f:
-            json.dump(index_data, f)
+    if update:
+        _update_index(index_entry)
+
+
+def download_pokemon():
+    __download_to_cache("pokemon_data", "Pokemon")
+
+
+def download_moves():
+    __download_to_cache("moves_data", "moves")
 
 
 def load_datafile(name):
@@ -114,7 +129,6 @@ def load_template(name):
 
 LEVEL_DATA = load_datafile("leveling")
 POKEDEX_DATA = load_datafile("pokedex_extra")
-MOVE_DATA = load_datafile("moves")
 ABILITY_DATA = load_datafile("abilities")
 
 EXTRA_MOVE_DATA = load_extra("moves_extra")

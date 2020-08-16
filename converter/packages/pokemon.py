@@ -172,22 +172,21 @@ class Pokemon:
                     json_move_data = json.load(fp)
                     new_move = Move(json_move_data)
             else:  # Move have not been built, build it and use that
-                json_move_data = util.MOVE_DATA[move_name]
-                m = move.Move(move_name, json_move_data)
-                m.save((util.BUILD_MOVES / move_name).with_suffix(".json"))
+                m, json_move_data = move.build_from_cache(move_name)
                 new_move = Move(m.output_data)
 
             level = self.output_data["data"]["details"]["level"]
 
             _move = 0
-            if "Move Power" in util.MOVE_DATA[move_name]:
-                power = util.MOVE_DATA[move_name]["Move Power"][0].lower()
+            # Scale the move with the current pokemon modifier
+            power = new_move.output_data["data"]["ability"]
+            if power:
                 if power == "any":
                     _move = max([self.output_data["data"]["abilities"][ab]["mod"]] for ab in foundry.abilities)
                 elif power == "varies":
                     pass
                 else:
-                    _move = self.output_data["data"]["abilities"][util.MOVE_DATA[move_name]["Move Power"][0].lower()]["mod"]
+                    _move = self.output_data["data"]["abilities"][power]["mod"]
             new_move.update_damage_save(json_move_data, level, self.proficiency, _move)
             new_move.convert()
 

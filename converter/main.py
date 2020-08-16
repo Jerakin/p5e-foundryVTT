@@ -43,7 +43,10 @@ def build():
     util.BUILD_MOVES.mkdir()
     util.BUILD_ABILITIES.mkdir()
 
+    # Download the data
     util.download_pokemon()
+    util.download_moves()
+
     print("Building Pokemon")
     total = len(list((util.CACHE / "pokemon").iterdir()))
     for index, pokemon_file in enumerate((util.CACHE / "pokemon").iterdir(), 1):
@@ -55,13 +58,14 @@ def build():
         build_pokemon(pokemon_file.stem, json_data, util.BUILD_POKEMON / pokemon_file.name)
 
     print("Building Moves")
-    total = len(util.MOVE_DATA)
-    for index, (name, json_data) in enumerate(util.MOVE_DATA.items(), 1):
-        if name == "Error":
+    total = len(list((util.CACHE / "moves").iterdir()))
+    for index, move_file in enumerate((util.CACHE / "moves").iterdir(), 1):
+        if move_file.stem == "Error":
             continue
         update_progress(index / total)
-        if name not in util.BUILD_MOVES.iterdir():
-            build_move(name, json_data, (util.BUILD_MOVES / name).with_suffix(".json"))
+        with move_file.open(encoding="utf-8") as fp:
+            json_data = json.load(fp)
+        build_move(move_file.stem, json_data, (util.BUILD_MOVES / move_file.name))
 
     print("Building Abilities")
     total = len(util.ABILITY_DATA)

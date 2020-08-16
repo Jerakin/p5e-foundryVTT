@@ -8,6 +8,18 @@ except ImportError:
     import converter.util as util
 
 
+def build_from_cache(name):
+    cached_move = (util.CACHE / "moves" / name).with_suffix(".json")
+    if not cached_move.exists():
+        raise FileNotFoundError(f"Can not find file: {cached_move}")
+
+    with cached_move.open() as fp:
+        json_data = json.load(fp)
+    m = Move(name, json_data)
+    m.save((util.BUILD_MOVES / name).with_suffix(".json"))
+    return m, json_data
+
+
 class Move:
     RANGE_REG = re.compile("([\d]+)")
     DURATION_REG = re.compile("([-d\d]+)\s([\w]+)")
@@ -40,7 +52,7 @@ class Move:
 
             return __range, __type
 
-        if not json_data["ab"] and "Damage" in json_data:
+        if ("atk" in json_data and not json_data["atk"]) and "Damage" in json_data:
             _range = self.RANGE_REG.match(json_data["Range"])
             if _range:
                 _range = int(_range.group(1))
@@ -51,7 +63,7 @@ class Move:
             else:
                 _type = "other"
 
-        elif json_data["ab"]:
+        elif "atk" in json_data and json_data["atk"]:
             if json_data["Range"] == "Melee":
                 _range = 5
                 _type = "mwak"
@@ -209,6 +221,7 @@ if __name__ == "__main__":
     from pathlib import Path
     shutil.rmtree(util.BUILD_MOVES, ignore_errors=True)
     _name = "Yawn"
-    _json_data = util.MOVE_DATA[_name]
+    with (util.CACHE / "moves" / _name).with_suffix(".json").open() as f:
+        _json_data = json.load(f)
     poke = Move(_name, _json_data)
     poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))

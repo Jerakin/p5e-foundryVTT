@@ -2,10 +2,7 @@ import hashlib
 import json
 import re
 
-try:
-    import util
-except ImportError:
-    import converter.util as util
+import converter.util as util
 
 
 def build_from_cache(name):

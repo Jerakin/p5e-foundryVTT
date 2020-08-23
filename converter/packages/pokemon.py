@@ -1,23 +1,13 @@
 import hashlib
 import json
-
 import math
 
-
-try:
-    import converter.packages.ability as ability
-    import converter.packages.move as move
-    import converter.packages.experience as experience
-    import converter.util as util
-    import converter.foundry as foundry
-    from converter import pokemon_types as p_types
-except ImportError:
-    import packages.ability as ability
-    import packages.move as move
-    import packages.experience as experience
-    import util
-    import foundry
-    import pokemon_types as p_types
+import converter.packages.ability as ability
+import converter.packages.move as move
+import converter.packages.experience as experience
+import converter.util as util
+import converter.foundry as foundry
+from converter import pokemon_types as p_types
 
 
 class Move(move.Move):

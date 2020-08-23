@@ -43,10 +43,6 @@ def build():
     util.BUILD_MOVES.mkdir()
     util.BUILD_ABILITIES.mkdir()
 
-    # Download the data
-    util.download_pokemon()
-    util.download_moves()
-
     print("Building Pokemon")
     total = len(list((util.CACHE / "pokemon").iterdir()))
     for index, pokemon_file in enumerate((util.CACHE / "pokemon").iterdir(), 1):

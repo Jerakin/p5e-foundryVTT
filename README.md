@@ -19,7 +19,15 @@ Python 3.7 or higher as well as
 pip install requests
 ```
 
+### Get new data
+This project have https://github.com/Jerakin/p5e-data-conversion added as submodule,
+you can update the data by running `python download.py path_to_token.json`.
+The token is the same as you would use for that project.
 
 ### Build
-Run `python converter/main.py` and it will output the module content in `./dist*`
+Run `python build.py` and it will output the module content in `./dist*`
 
+### Release
+1. Change your branch to `release`
+1. Update the `VERSION` file
+1. run `python release.json`

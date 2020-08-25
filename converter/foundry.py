@@ -23,7 +23,7 @@ skill_name_to_abv = {
 
 token_size_map = {
     "tiny": {"width": 1, "height": 1, "scale": 0.5},
-    "sm": {"width": 1, "height": 1, "scale": 1},
+    "sm": {"width": 1, "height": 1, "scale": 0.8},
     "med": {"width": 1, "height": 1, "scale": 1},
     "lg": {"width": 2, "height": 2, "scale": 1},
     "huge": {"width": 3, "height": 3, "scale": 1},

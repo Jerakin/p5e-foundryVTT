@@ -30,6 +30,16 @@ token_size_map = {
     "grg": {"width": 4, "height": 4, "scale": 1},
 }
 
+abv_size = {
+    "Tiny": "tiny",
+    "Small": "sm",
+    "Medium": "med",
+    "Large": "lg",
+    "Huge": "huge",
+    "Gargantuan": "grg",
+    "Varies": "med"
+}
+
 
 skill_abv_to_name = {
      "acr": "Acrobatics",

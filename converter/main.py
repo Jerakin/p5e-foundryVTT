@@ -94,6 +94,9 @@ def package():
             foundry.module_definition["packs"].append(pack_def)
             pack_folder(util.BUILD / pack_name, util.DIST_MODULE / pack_def["path"])
 
+    # Move the images
+    shutil.copytree(util.ASSETS / "images" / "pokemon", util.DIST / "Pokemon5e" / "images" / "pokemon")
+
     with (util.DIST_MODULE / "module.json").open("w", encoding="utf-8") as fp:
         json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
 

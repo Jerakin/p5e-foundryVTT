@@ -98,12 +98,22 @@ class PokemonItem:
                 lines.append(level_moves[str(level)].format(", ".join(json_data["Moves"]["Level"][str(level)])))
         if "TM" in json_data["Moves"]:
             lines.extend(["<h2>TMs</h2>", "<p>{}</p>".format(", ".join([str(x) for x in json_data["Moves"]["TM"]]))])
+        return lines
 
-        self.output_data["data"]["description"]["value"] = "\n".join(lines).format()
+    def convert_level_data(self, json_data):
+        lines = []
+        if "evolve_text" in json_data:
+            lines.append("<blockquote>{}</blockquote>".format(json_data["evolve_text"]))
+
+        return lines
 
     def convert(self, json_data):
         self.convert_image()
-        self.convert_move_info(json_data)
+        evolve_lines = self.convert_level_data(json_data)
+        move_lines = self.convert_move_info(json_data)
+        evolve_lines.extend(move_lines)
+        self.output_data["data"]["description"]["value"] = "\n".join(evolve_lines).format()
+
         self.output_data["data"]["hitDice"] = f"d{json_data['Hit Dice']}"
         self.output_data["data"]["source"] = str(json_data["index"])
         self.output_data["data"]["subclass"] = str(json_data["index"])

@@ -15,6 +15,7 @@ Open the Add-on Modules tab in the Configuration and Setup dialog. Click Install
 As DM go to the Manage Modules options menu in the Game Settings for your World, then enable the D&D 5e Conditions module.
 
 ### Manual Installation
+If the above installation doesn't work you can try doing it manually.
 1. Download the latest [release](https://github.com/Jerakin/p5e-foundryVTT/releases)
 2. Unzip the file into a folder named `Pokemon5e` (*"Extract to Pokemon5e"*)
 3. Place the folder `Pokemon5e` in `AppData/Local/FoundryVTT/Data/modules/` folder.

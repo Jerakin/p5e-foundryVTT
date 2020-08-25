@@ -96,6 +96,8 @@ def package():
 
     # Move the images
     shutil.copytree(util.ASSETS / "images" / "pokemon", util.DIST / "Pokemon5e" / "images" / "pokemon")
+    shutil.copytree(util.ASSETS / "images" / "tokens", util.DIST / "Pokemon5e" / "images" / "tokens",
+                    ignore=lambda _, list_of_content: [x for x in list_of_content if x.endswith(".png")])
 
     with (util.DIST_MODULE / "module.json").open("w", encoding="utf-8") as fp:
         json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)

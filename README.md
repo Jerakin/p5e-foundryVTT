@@ -37,5 +37,7 @@ Run `python build.py` and it will output the module content in `./dist*`
 
 ### Release
 1. Change your branch to `release`
+1. Update, commit and push the sub modules
+1. Download the data (using the instructions in `Get new data`)
 1. Update the `VERSION` file
 1. run `python release.json`

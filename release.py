@@ -3,6 +3,7 @@ from pathlib import Path
 from github_release import gh_release_create
 import subprocess as cmd
 
+
 def get_active_branch_name():
     head_dir = Path(".") / ".git" / "HEAD"
     with head_dir.open("r") as f: content = f.read().splitlines()

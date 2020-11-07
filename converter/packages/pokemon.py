@@ -142,7 +142,7 @@ class Pokemon:
         self.output_data["_id"] = hashlib.sha256(self.output_data["name"].encode('utf-8')).hexdigest()[:16]
 
     def convert_token(self, json_data):
-        self.output_data["token"]["img"] = util.EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["token"]
+        self.output_data["token"]["img"] = util.EXTRA_POKEMON_IMAGE_DATA[self.output_data["name"]]["token"]
 
         size = self.output_data["data"]["traits"]["size"]
         self.output_data["token"]["width"] = foundry.token_size_map[size]["width"]

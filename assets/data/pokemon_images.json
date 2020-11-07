@@ -1,0 +1,3414 @@
+{
+	"Leafeon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle470.webp",
+		"image": "modules/Pokemon5e/images/pokemon/470Leafeon.webp"
+	},
+	"Bulbasaur": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle001.webp",
+		"image": "modules/Pokemon5e/images/pokemon/1Bulbasaur.webp"
+	},
+	"Ivysaur": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle002.webp",
+		"image": "modules/Pokemon5e/images/pokemon/2Ivysaur.webp"
+	},
+	"Venusaur": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle003.webp",
+		"image": "modules/Pokemon5e/images/pokemon/3Venusaur.webp"
+	},
+	"Charmander": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle004.webp",
+		"image": "modules/Pokemon5e/images/pokemon/4Charmander.webp"
+	},
+	"Charmeleon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle005.webp",
+		"image": "modules/Pokemon5e/images/pokemon/5Charmeleon.webp"
+	},
+	"Charizard": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle006.webp",
+		"image": "modules/Pokemon5e/images/pokemon/6Charizard.webp"
+	},
+	"Squirtle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle007.webp",
+		"image": "modules/Pokemon5e/images/pokemon/7Squirtle.webp"
+	},
+	"Wartortle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle008.webp",
+		"image": "modules/Pokemon5e/images/pokemon/8Wartortle.webp"
+	},
+	"Blastoise": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle009.webp",
+		"image": "modules/Pokemon5e/images/pokemon/9Blastoise.webp"
+	},
+	"Caterpie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle010.webp",
+		"image": "modules/Pokemon5e/images/pokemon/10Caterpie.webp"
+	},
+	"Metapod": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle011.webp",
+		"image": "modules/Pokemon5e/images/pokemon/11Metapod.webp"
+	},
+	"Butterfree": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle012.webp",
+		"image": "modules/Pokemon5e/images/pokemon/12Butterfree.webp"
+	},
+	"Weedle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle013.webp",
+		"image": "modules/Pokemon5e/images/pokemon/13Weedle.webp"
+	},
+	"Kakuna": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle014.webp",
+		"image": "modules/Pokemon5e/images/pokemon/14Kakuna.webp"
+	},
+	"Beedrill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle015.webp",
+		"image": "modules/Pokemon5e/images/pokemon/15Beedrill.webp"
+	},
+	"Pidgey": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle016.webp",
+		"image": "modules/Pokemon5e/images/pokemon/16Pidgey.webp"
+	},
+	"Pidgeotto": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle017.webp",
+		"image": "modules/Pokemon5e/images/pokemon/17Pidgeotto.webp"
+	},
+	"Pidgeot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle018.webp",
+		"image": "modules/Pokemon5e/images/pokemon/18Pidgeot.webp"
+	},
+	"Rattata": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle019.webp",
+		"image": "modules/Pokemon5e/images/pokemon/19Rattata.webp"
+	},
+	"Raticate": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle020.webp",
+		"image": "modules/Pokemon5e/images/pokemon/20Raticate.webp"
+	},
+	"Spearow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle021.webp",
+		"image": "modules/Pokemon5e/images/pokemon/21Spearow.webp"
+	},
+	"Fearow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle022.webp",
+		"image": "modules/Pokemon5e/images/pokemon/22Fearow.webp"
+	},
+	"Ekans": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle023.webp",
+		"image": "modules/Pokemon5e/images/pokemon/23Ekans.webp"
+	},
+	"Arbok": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle024.webp",
+		"image": "modules/Pokemon5e/images/pokemon/24Arbok.webp"
+	},
+	"Pikachu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle025.webp",
+		"image": "modules/Pokemon5e/images/pokemon/25Pikachu.webp"
+	},
+	"Raichu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle026.webp",
+		"image": "modules/Pokemon5e/images/pokemon/26Raichu.webp"
+	},
+	"Sandshrew": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle027.webp",
+		"image": "modules/Pokemon5e/images/pokemon/27Sandshrew.webp"
+	},
+	"Sandslash": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle028.webp",
+		"image": "modules/Pokemon5e/images/pokemon/28Sandslash.webp"
+	},
+	"Nidoran ♀": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle029.webp",
+		"image": "modules/Pokemon5e/images/pokemon/29Nidoran.webp"
+	},
+	"Nidorina": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle030.webp",
+		"image": "modules/Pokemon5e/images/pokemon/30Nidorina.webp"
+	},
+	"Nidoqueen": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle031.webp",
+		"image": "modules/Pokemon5e/images/pokemon/31Nidoqueen.webp"
+	},
+	"Nidoran ♂": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle032.webp",
+		"image": "modules/Pokemon5e/images/pokemon/32Nidoran.webp"
+	},
+	"Nidorino": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle033.webp",
+		"image": "modules/Pokemon5e/images/pokemon/33Nidorino.webp"
+	},
+	"Nidoking": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle034.webp",
+		"image": "modules/Pokemon5e/images/pokemon/34Nidoking.webp"
+	},
+	"Clefairy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle035.webp",
+		"image": "modules/Pokemon5e/images/pokemon/35Clefairy.webp"
+	},
+	"Clefable": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle036.webp",
+		"image": "modules/Pokemon5e/images/pokemon/36Clefable.webp"
+	},
+	"Vulpix": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle037.webp",
+		"image": "modules/Pokemon5e/images/pokemon/37Vulpix.webp"
+	},
+	"Ninetales": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle038.webp",
+		"image": "modules/Pokemon5e/images/pokemon/38Ninetales.webp"
+	},
+	"Jigglypuff": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle039.webp",
+		"image": "modules/Pokemon5e/images/pokemon/39Jigglypuff.webp"
+	},
+	"Wigglytuff": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle040.webp",
+		"image": "modules/Pokemon5e/images/pokemon/40Wigglytuff.webp"
+	},
+	"Zubat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle041.webp",
+		"image": "modules/Pokemon5e/images/pokemon/41Zubat.webp"
+	},
+	"Golbat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle042.webp",
+		"image": "modules/Pokemon5e/images/pokemon/42Golbat.webp"
+	},
+	"Oddish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle043.webp",
+		"image": "modules/Pokemon5e/images/pokemon/43Oddish.webp"
+	},
+	"Gloom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle044.webp",
+		"image": "modules/Pokemon5e/images/pokemon/44Gloom.webp"
+	},
+	"Vileplume": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle045.webp",
+		"image": "modules/Pokemon5e/images/pokemon/45Vileplume.webp"
+	},
+	"Paras": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle046.webp",
+		"image": "modules/Pokemon5e/images/pokemon/46Paras.webp"
+	},
+	"Parasect": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle047.webp",
+		"image": "modules/Pokemon5e/images/pokemon/47Parasect.webp"
+	},
+	"Venonat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle048.webp",
+		"image": "modules/Pokemon5e/images/pokemon/48Venonat.webp"
+	},
+	"Venomoth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle049.webp",
+		"image": "modules/Pokemon5e/images/pokemon/49Venomoth.webp"
+	},
+	"Diglett": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle050.webp",
+		"image": "modules/Pokemon5e/images/pokemon/50Diglett.webp"
+	},
+	"Dugtrio": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle051.webp",
+		"image": "modules/Pokemon5e/images/pokemon/51Dugtrio.webp"
+	},
+	"Meowth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle052.webp",
+		"image": "modules/Pokemon5e/images/pokemon/52Meowth.webp"
+	},
+	"Persian": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle053.webp",
+		"image": "modules/Pokemon5e/images/pokemon/53Persian.webp"
+	},
+	"Psyduck": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle054.webp",
+		"image": "modules/Pokemon5e/images/pokemon/54Psyduck.webp"
+	},
+	"Golduck": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle055.webp",
+		"image": "modules/Pokemon5e/images/pokemon/55Golduck.webp"
+	},
+	"Mankey": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle056.webp",
+		"image": "modules/Pokemon5e/images/pokemon/56Mankey.webp"
+	},
+	"Primeape": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle057.webp",
+		"image": "modules/Pokemon5e/images/pokemon/57Primeape.webp"
+	},
+	"Growlithe": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle058.webp",
+		"image": "modules/Pokemon5e/images/pokemon/58Growlithe.webp"
+	},
+	"Arcanine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle059.webp",
+		"image": "modules/Pokemon5e/images/pokemon/59Arcanine.webp"
+	},
+	"Poliwag": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle060.webp",
+		"image": "modules/Pokemon5e/images/pokemon/60Poliwag.webp"
+	},
+	"Poliwhirl": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle061.webp",
+		"image": "modules/Pokemon5e/images/pokemon/61Poliwhirl.webp"
+	},
+	"Poliwrath": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle062.webp",
+		"image": "modules/Pokemon5e/images/pokemon/62Poliwrath.webp"
+	},
+	"Abra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle063.webp",
+		"image": "modules/Pokemon5e/images/pokemon/63Abra.webp"
+	},
+	"Kadabra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle064.webp",
+		"image": "modules/Pokemon5e/images/pokemon/64Kadabra.webp"
+	},
+	"Alakazam": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle065.webp",
+		"image": "modules/Pokemon5e/images/pokemon/65Alakazam.webp"
+	},
+	"Machop": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle066.webp",
+		"image": "modules/Pokemon5e/images/pokemon/66Machop.webp"
+	},
+	"Machoke": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle067.webp",
+		"image": "modules/Pokemon5e/images/pokemon/67Machoke.webp"
+	},
+	"Machamp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle068.webp",
+		"image": "modules/Pokemon5e/images/pokemon/68Machamp.webp"
+	},
+	"Bellsprout": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle069.webp",
+		"image": "modules/Pokemon5e/images/pokemon/69Bellsprout.webp"
+	},
+	"Weepinbell": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle070.webp",
+		"image": "modules/Pokemon5e/images/pokemon/70Weepinbell.webp"
+	},
+	"Victreebel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle071.webp",
+		"image": "modules/Pokemon5e/images/pokemon/71Victreebel.webp"
+	},
+	"Tentacool": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle072.webp",
+		"image": "modules/Pokemon5e/images/pokemon/72Tentacool.webp"
+	},
+	"Tentacruel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle073.webp",
+		"image": "modules/Pokemon5e/images/pokemon/73Tentacruel.webp"
+	},
+	"Geodude": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle074.webp",
+		"image": "modules/Pokemon5e/images/pokemon/74Geodude.webp"
+	},
+	"Graveler": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle075.webp",
+		"image": "modules/Pokemon5e/images/pokemon/75Graveler.webp"
+	},
+	"Golem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle076.webp",
+		"image": "modules/Pokemon5e/images/pokemon/76Golem.webp"
+	},
+	"Ponyta": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle077.webp",
+		"image": "modules/Pokemon5e/images/pokemon/77Ponyta.webp"
+	},
+	"Rapidash": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle078.webp",
+		"image": "modules/Pokemon5e/images/pokemon/78Rapidash.webp"
+	},
+	"Slowpoke": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle079.webp",
+		"image": "modules/Pokemon5e/images/pokemon/79Slowpoke.webp"
+	},
+	"Slowbro": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle080.webp",
+		"image": "modules/Pokemon5e/images/pokemon/80Slowbro.webp"
+	},
+	"Magnemite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle081.webp",
+		"image": "modules/Pokemon5e/images/pokemon/81Magnemite.webp"
+	},
+	"Magneton": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle082.webp",
+		"image": "modules/Pokemon5e/images/pokemon/82Magneton.webp"
+	},
+	"Farfetch'd": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle083.webp",
+		"image": "modules/Pokemon5e/images/pokemon/83Farfetch'd.webp"
+	},
+	"Doduo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle084.webp",
+		"image": "modules/Pokemon5e/images/pokemon/84Doduo.webp"
+	},
+	"Dodrio": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle085.webp",
+		"image": "modules/Pokemon5e/images/pokemon/85Dodrio.webp"
+	},
+	"Seel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle086.webp",
+		"image": "modules/Pokemon5e/images/pokemon/86Seel.webp"
+	},
+	"Dewgong": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle087.webp",
+		"image": "modules/Pokemon5e/images/pokemon/87Dewgong.webp"
+	},
+	"Grimer": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle088.webp",
+		"image": "modules/Pokemon5e/images/pokemon/88Grimer.webp"
+	},
+	"Muk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle089.webp",
+		"image": "modules/Pokemon5e/images/pokemon/89Muk.webp"
+	},
+	"Shellder": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle090.webp",
+		"image": "modules/Pokemon5e/images/pokemon/90Shellder.webp"
+	},
+	"Cloyster": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle091.webp",
+		"image": "modules/Pokemon5e/images/pokemon/91Cloyster.webp"
+	},
+	"Gastly": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle092.webp",
+		"image": "modules/Pokemon5e/images/pokemon/92Gastly.webp"
+	},
+	"Haunter": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle093.webp",
+		"image": "modules/Pokemon5e/images/pokemon/93Haunter.webp"
+	},
+	"Gengar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle094.webp",
+		"image": "modules/Pokemon5e/images/pokemon/94Gengar.webp"
+	},
+	"Onix": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle095.webp",
+		"image": "modules/Pokemon5e/images/pokemon/95Onix.webp"
+	},
+	"Drowzee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle096.webp",
+		"image": "modules/Pokemon5e/images/pokemon/96Drowzee.webp"
+	},
+	"Hypno": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle097.webp",
+		"image": "modules/Pokemon5e/images/pokemon/97Hypno.webp"
+	},
+	"Krabby": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle098.webp",
+		"image": "modules/Pokemon5e/images/pokemon/98Krabby.webp"
+	},
+	"Kingler": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle099.webp",
+		"image": "modules/Pokemon5e/images/pokemon/99Kingler.webp"
+	},
+	"Voltorb": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle100.webp",
+		"image": "modules/Pokemon5e/images/pokemon/100Voltorb.webp"
+	},
+	"Electrode": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle101.webp",
+		"image": "modules/Pokemon5e/images/pokemon/101Electrode.webp"
+	},
+	"Exeggcute": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle102.webp",
+		"image": "modules/Pokemon5e/images/pokemon/102Exeggcute.webp"
+	},
+	"Exeggutor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle103.webp",
+		"image": "modules/Pokemon5e/images/pokemon/103Exeggutor.webp"
+	},
+	"Cubone": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle104.webp",
+		"image": "modules/Pokemon5e/images/pokemon/104Cubone.webp"
+	},
+	"Marowak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle105.webp",
+		"image": "modules/Pokemon5e/images/pokemon/105Marowak.webp"
+	},
+	"Hitmonlee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle106.webp",
+		"image": "modules/Pokemon5e/images/pokemon/106Hitmonlee.webp"
+	},
+	"Hitmonchan": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle107.webp",
+		"image": "modules/Pokemon5e/images/pokemon/107Hitmonchan.webp"
+	},
+	"Lickitung": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle108.webp",
+		"image": "modules/Pokemon5e/images/pokemon/108Lickitung.webp"
+	},
+	"Koffing": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle109.webp",
+		"image": "modules/Pokemon5e/images/pokemon/109Koffing.webp"
+	},
+	"Weezing": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle110.webp",
+		"image": "modules/Pokemon5e/images/pokemon/110Weezing.webp"
+	},
+	"Rhyhorn": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle111.webp",
+		"image": "modules/Pokemon5e/images/pokemon/111Rhyhorn.webp"
+	},
+	"Rhydon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle112.webp",
+		"image": "modules/Pokemon5e/images/pokemon/112Rhydon.webp"
+	},
+	"Chansey": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle113.webp",
+		"image": "modules/Pokemon5e/images/pokemon/113Chansey.webp"
+	},
+	"Tangela": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle114.webp",
+		"image": "modules/Pokemon5e/images/pokemon/114Tangela.webp"
+	},
+	"Kangaskhan": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle115.webp",
+		"image": "modules/Pokemon5e/images/pokemon/115Kangaskhan.webp"
+	},
+	"Horsea": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle116.webp",
+		"image": "modules/Pokemon5e/images/pokemon/116Horsea.webp"
+	},
+	"Seadra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle117.webp",
+		"image": "modules/Pokemon5e/images/pokemon/117Seadra.webp"
+	},
+	"Goldeen": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle118.webp",
+		"image": "modules/Pokemon5e/images/pokemon/118Goldeen.webp"
+	},
+	"Seaking": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle119.webp",
+		"image": "modules/Pokemon5e/images/pokemon/119Seaking.webp"
+	},
+	"Staryu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle120.webp",
+		"image": "modules/Pokemon5e/images/pokemon/120Staryu.webp"
+	},
+	"Starmie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle121.webp",
+		"image": "modules/Pokemon5e/images/pokemon/121Starmie.webp"
+	},
+	"Mr. Mime": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle122.webp",
+		"image": "modules/Pokemon5e/images/pokemon/122Mr. Mime.webp"
+	},
+	"Scyther": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle123.webp",
+		"image": "modules/Pokemon5e/images/pokemon/123Scyther.webp"
+	},
+	"Jynx": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle124.webp",
+		"image": "modules/Pokemon5e/images/pokemon/124Jynx.webp"
+	},
+	"Electabuzz": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle125.webp",
+		"image": "modules/Pokemon5e/images/pokemon/125Electabuzz.webp"
+	},
+	"Magmar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle126.webp",
+		"image": "modules/Pokemon5e/images/pokemon/126Magmar.webp"
+	},
+	"Pinsir": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle127.webp",
+		"image": "modules/Pokemon5e/images/pokemon/127Pinsir.webp"
+	},
+	"Tauros": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle128.webp",
+		"image": "modules/Pokemon5e/images/pokemon/128Tauros.webp"
+	},
+	"Magikarp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle129.webp",
+		"image": "modules/Pokemon5e/images/pokemon/129Magikarp.webp"
+	},
+	"Gyarados": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle130.webp",
+		"image": "modules/Pokemon5e/images/pokemon/130Gyarados.webp"
+	},
+	"Lapras": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle131.webp",
+		"image": "modules/Pokemon5e/images/pokemon/131Lapras.webp"
+	},
+	"Ditto": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle132.webp",
+		"image": "modules/Pokemon5e/images/pokemon/132Ditto.webp"
+	},
+	"Eevee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle133.webp",
+		"image": "modules/Pokemon5e/images/pokemon/133Eevee.webp"
+	},
+	"Vaporeon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle134.webp",
+		"image": "modules/Pokemon5e/images/pokemon/134Vaporeon.webp"
+	},
+	"Jolteon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle135.webp",
+		"image": "modules/Pokemon5e/images/pokemon/135Jolteon.webp"
+	},
+	"Flareon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle136.webp",
+		"image": "modules/Pokemon5e/images/pokemon/136Flareon.webp"
+	},
+	"Porygon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle137.webp",
+		"image": "modules/Pokemon5e/images/pokemon/137Porygon.webp"
+	},
+	"Omanyte": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle138.webp",
+		"image": "modules/Pokemon5e/images/pokemon/138Omanyte.webp"
+	},
+	"Omastar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle139.webp",
+		"image": "modules/Pokemon5e/images/pokemon/139Omastar.webp"
+	},
+	"Kabuto": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle140.webp",
+		"image": "modules/Pokemon5e/images/pokemon/140Kabuto.webp"
+	},
+	"Kabutops": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle141.webp",
+		"image": "modules/Pokemon5e/images/pokemon/141Kabutops.webp"
+	},
+	"Aerodactyl": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle142.webp",
+		"image": "modules/Pokemon5e/images/pokemon/142Aerodactyl.webp"
+	},
+	"Snorlax": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle143.webp",
+		"image": "modules/Pokemon5e/images/pokemon/143Snorlax.webp"
+	},
+	"Articuno": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle144.webp",
+		"image": "modules/Pokemon5e/images/pokemon/144Articuno.webp"
+	},
+	"Zapdos": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle145.webp",
+		"image": "modules/Pokemon5e/images/pokemon/145Zapdos.webp"
+	},
+	"Moltres": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle146.webp",
+		"image": "modules/Pokemon5e/images/pokemon/146Moltres.webp"
+	},
+	"Dratini": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle147.webp",
+		"image": "modules/Pokemon5e/images/pokemon/147Dratini.webp"
+	},
+	"Dragonair": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle148.webp",
+		"image": "modules/Pokemon5e/images/pokemon/148Dragonair.webp"
+	},
+	"Dragonite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle149.webp",
+		"image": "modules/Pokemon5e/images/pokemon/149Dragonite.webp"
+	},
+	"Mewtwo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle150.webp",
+		"image": "modules/Pokemon5e/images/pokemon/150Mewtwo.webp"
+	},
+	"Mew": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle151.webp",
+		"image": "modules/Pokemon5e/images/pokemon/151Mew.webp"
+	},
+	"Chikorita": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle152.webp",
+		"image": "modules/Pokemon5e/images/pokemon/152Chikorita.webp"
+	},
+	"Bayleef": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle153.webp",
+		"image": "modules/Pokemon5e/images/pokemon/153Bayleef.webp"
+	},
+	"Meganium": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle154.webp",
+		"image": "modules/Pokemon5e/images/pokemon/154Meganium.webp"
+	},
+	"Cyndaquil": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle155.webp",
+		"image": "modules/Pokemon5e/images/pokemon/155Cyndaquil.webp"
+	},
+	"Quilava": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle156.webp",
+		"image": "modules/Pokemon5e/images/pokemon/156Quilava.webp"
+	},
+	"Typhlosion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle157.webp",
+		"image": "modules/Pokemon5e/images/pokemon/157Typhlosion.webp"
+	},
+	"Totodile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle158.webp",
+		"image": "modules/Pokemon5e/images/pokemon/158Totodile.webp"
+	},
+	"Croconaw": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle159.webp",
+		"image": "modules/Pokemon5e/images/pokemon/159Croconaw.webp"
+	},
+	"Feraligatr": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle160.webp",
+		"image": "modules/Pokemon5e/images/pokemon/160Feraligatr.webp"
+	},
+	"Sentret": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle161.webp",
+		"image": "modules/Pokemon5e/images/pokemon/161Sentret.webp"
+	},
+	"Furret": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle162.webp",
+		"image": "modules/Pokemon5e/images/pokemon/162Furret.webp"
+	},
+	"Hoothoot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle163.webp",
+		"image": "modules/Pokemon5e/images/pokemon/163Hoothoot.webp"
+	},
+	"Noctowl": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle164.webp",
+		"image": "modules/Pokemon5e/images/pokemon/164Noctowl.webp"
+	},
+	"Ledyba": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle165.webp",
+		"image": "modules/Pokemon5e/images/pokemon/165Ledyba.webp"
+	},
+	"Ledian": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle166.webp",
+		"image": "modules/Pokemon5e/images/pokemon/166Ledian.webp"
+	},
+	"Spinarak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle167.webp",
+		"image": "modules/Pokemon5e/images/pokemon/167Spinarak.webp"
+	},
+	"Ariados": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle168.webp",
+		"image": "modules/Pokemon5e/images/pokemon/168Ariados.webp"
+	},
+	"Crobat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle169.webp",
+		"image": "modules/Pokemon5e/images/pokemon/169Crobat.webp"
+	},
+	"Chinchou": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle170.webp",
+		"image": "modules/Pokemon5e/images/pokemon/170Chinchou.webp"
+	},
+	"Lanturn": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle171.webp",
+		"image": "modules/Pokemon5e/images/pokemon/171Lanturn.webp"
+	},
+	"Pichu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle172.webp",
+		"image": "modules/Pokemon5e/images/pokemon/172Pichu.webp"
+	},
+	"Cleffa": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle173.webp",
+		"image": "modules/Pokemon5e/images/pokemon/173Cleffa.webp"
+	},
+	"Igglybuff": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle174.webp",
+		"image": "modules/Pokemon5e/images/pokemon/174Igglybuff.webp"
+	},
+	"Togepi": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle175.webp",
+		"image": "modules/Pokemon5e/images/pokemon/175Togepi.webp"
+	},
+	"Togetic": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle176.webp",
+		"image": "modules/Pokemon5e/images/pokemon/176Togetic.webp"
+	},
+	"Natu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle177.webp",
+		"image": "modules/Pokemon5e/images/pokemon/177Natu.webp"
+	},
+	"Xatu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle178.webp",
+		"image": "modules/Pokemon5e/images/pokemon/178Xatu.webp"
+	},
+	"Mareep": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle179.webp",
+		"image": "modules/Pokemon5e/images/pokemon/179Mareep.webp"
+	},
+	"Flaaffy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle180.webp",
+		"image": "modules/Pokemon5e/images/pokemon/180Flaaffy.webp"
+	},
+	"Ampharos": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle181.webp",
+		"image": "modules/Pokemon5e/images/pokemon/181Ampharos.webp"
+	},
+	"Bellossom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle182.webp",
+		"image": "modules/Pokemon5e/images/pokemon/182Bellossom.webp"
+	},
+	"Marill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle183.webp",
+		"image": "modules/Pokemon5e/images/pokemon/183Marill.webp"
+	},
+	"Azumarill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle184.webp",
+		"image": "modules/Pokemon5e/images/pokemon/184Azumarill.webp"
+	},
+	"Sudowoodo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle185.webp",
+		"image": "modules/Pokemon5e/images/pokemon/185Sudowoodo.webp"
+	},
+	"Politoed": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle186.webp",
+		"image": "modules/Pokemon5e/images/pokemon/186Politoed.webp"
+	},
+	"Hoppip": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle187.webp",
+		"image": "modules/Pokemon5e/images/pokemon/187Hoppip.webp"
+	},
+	"Skiploom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle188.webp",
+		"image": "modules/Pokemon5e/images/pokemon/188Skiploom.webp"
+	},
+	"Jumpluff": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle189.webp",
+		"image": "modules/Pokemon5e/images/pokemon/189Jumpluff.webp"
+	},
+	"Aipom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle190.webp",
+		"image": "modules/Pokemon5e/images/pokemon/190Aipom.webp"
+	},
+	"Sunkern": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle191.webp",
+		"image": "modules/Pokemon5e/images/pokemon/191Sunkern.webp"
+	},
+	"Sunflora": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle192.webp",
+		"image": "modules/Pokemon5e/images/pokemon/192Sunflora.webp"
+	},
+	"Yanma": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle193.webp",
+		"image": "modules/Pokemon5e/images/pokemon/193Yanma.webp"
+	},
+	"Wooper": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle194.webp",
+		"image": "modules/Pokemon5e/images/pokemon/194Wooper.webp"
+	},
+	"Quagsire": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle195.webp",
+		"image": "modules/Pokemon5e/images/pokemon/195Quagsire.webp"
+	},
+	"Espeon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle196.webp",
+		"image": "modules/Pokemon5e/images/pokemon/196Espeon.webp"
+	},
+	"Umbreon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle197.webp",
+		"image": "modules/Pokemon5e/images/pokemon/197Umbreon.webp"
+	},
+	"Murkrow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle198.webp",
+		"image": "modules/Pokemon5e/images/pokemon/198Murkrow.webp"
+	},
+	"Slowking": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle199.webp",
+		"image": "modules/Pokemon5e/images/pokemon/199Slowking.webp"
+	},
+	"Misdreavus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle200.webp",
+		"image": "modules/Pokemon5e/images/pokemon/200Misdreavus.webp"
+	},
+	"Unown": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle201.webp",
+		"image": "modules/Pokemon5e/images/pokemon/201Unown.webp"
+	},
+	"Wobbuffet": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle202.webp",
+		"image": "modules/Pokemon5e/images/pokemon/202Wobbuffet.webp"
+	},
+	"Girafarig": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle203.webp",
+		"image": "modules/Pokemon5e/images/pokemon/203Girafarig.webp"
+	},
+	"Pineco": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle204.webp",
+		"image": "modules/Pokemon5e/images/pokemon/204Pineco.webp"
+	},
+	"Forretress": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle205.webp",
+		"image": "modules/Pokemon5e/images/pokemon/205Forretress.webp"
+	},
+	"Dunsparce": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle206.webp",
+		"image": "modules/Pokemon5e/images/pokemon/206Dunsparce.webp"
+	},
+	"Gligar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle207.webp",
+		"image": "modules/Pokemon5e/images/pokemon/207Gligar.webp"
+	},
+	"Steelix": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle208.webp",
+		"image": "modules/Pokemon5e/images/pokemon/208Steelix.webp"
+	},
+	"Snubbull": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle209.webp",
+		"image": "modules/Pokemon5e/images/pokemon/209Snubbull.webp"
+	},
+	"Granbull": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle210.webp",
+		"image": "modules/Pokemon5e/images/pokemon/210Granbull.webp"
+	},
+	"Qwilfish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle211.webp",
+		"image": "modules/Pokemon5e/images/pokemon/211Qwilfish.webp"
+	},
+	"Scizor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle212.webp",
+		"image": "modules/Pokemon5e/images/pokemon/212Scizor.webp"
+	},
+	"Shuckle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle213.webp",
+		"image": "modules/Pokemon5e/images/pokemon/213Shuckle.webp"
+	},
+	"Heracross": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle214.webp",
+		"image": "modules/Pokemon5e/images/pokemon/214Heracross.webp"
+	},
+	"Sneasel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle215.webp",
+		"image": "modules/Pokemon5e/images/pokemon/215Sneasel.webp"
+	},
+	"Teddiursa": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle216.webp",
+		"image": "modules/Pokemon5e/images/pokemon/216Teddiursa.webp"
+	},
+	"Ursaring": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle217.webp",
+		"image": "modules/Pokemon5e/images/pokemon/217Ursaring.webp"
+	},
+	"Slugma": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle218.webp",
+		"image": "modules/Pokemon5e/images/pokemon/218Slugma.webp"
+	},
+	"Magcargo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle219.webp",
+		"image": "modules/Pokemon5e/images/pokemon/219Magcargo.webp"
+	},
+	"Swinub": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle220.webp",
+		"image": "modules/Pokemon5e/images/pokemon/220Swinub.webp"
+	},
+	"Piloswine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle221.webp",
+		"image": "modules/Pokemon5e/images/pokemon/221Piloswine.webp"
+	},
+	"Corsola": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle222.webp",
+		"image": "modules/Pokemon5e/images/pokemon/222Corsola.webp"
+	},
+	"Remoraid": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle223.webp",
+		"image": "modules/Pokemon5e/images/pokemon/223Remoraid.webp"
+	},
+	"Octillery": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle224.webp",
+		"image": "modules/Pokemon5e/images/pokemon/224Octillery.webp"
+	},
+	"Delibird": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle225.webp",
+		"image": "modules/Pokemon5e/images/pokemon/225Delibird.webp"
+	},
+	"Mantine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle226.webp",
+		"image": "modules/Pokemon5e/images/pokemon/226Mantine.webp"
+	},
+	"Skarmory": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle227.webp",
+		"image": "modules/Pokemon5e/images/pokemon/227Skarmory.webp"
+	},
+	"Houndour": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle228.webp",
+		"image": "modules/Pokemon5e/images/pokemon/228Houndour.webp"
+	},
+	"Houndoom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle229.webp",
+		"image": "modules/Pokemon5e/images/pokemon/229Houndoom.webp"
+	},
+	"Kingdra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle230.webp",
+		"image": "modules/Pokemon5e/images/pokemon/230Kingdra.webp"
+	},
+	"Phanpy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle231.webp",
+		"image": "modules/Pokemon5e/images/pokemon/231Phanpy.webp"
+	},
+	"Donphan": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle232.webp",
+		"image": "modules/Pokemon5e/images/pokemon/232Donphan.webp"
+	},
+	"Porygon2": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle233.webp",
+		"image": "modules/Pokemon5e/images/pokemon/233Porygon2.webp"
+	},
+	"Stantler": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle234.webp",
+		"image": "modules/Pokemon5e/images/pokemon/234Stantler.webp"
+	},
+	"Smeargle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle235.webp",
+		"image": "modules/Pokemon5e/images/pokemon/235Smeargle.webp"
+	},
+	"Tyrogue": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle236.webp",
+		"image": "modules/Pokemon5e/images/pokemon/236Tyrogue.webp"
+	},
+	"Hitmontop": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle237.webp",
+		"image": "modules/Pokemon5e/images/pokemon/237Hitmontop.webp"
+	},
+	"Smoochum": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle238.webp",
+		"image": "modules/Pokemon5e/images/pokemon/238Smoochum.webp"
+	},
+	"Elekid": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle239.webp",
+		"image": "modules/Pokemon5e/images/pokemon/239Elekid.webp"
+	},
+	"Magby": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle240.webp",
+		"image": "modules/Pokemon5e/images/pokemon/240Magby.webp"
+	},
+	"Miltank": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle241.webp",
+		"image": "modules/Pokemon5e/images/pokemon/241Miltank.webp"
+	},
+	"Blissey": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle242.webp",
+		"image": "modules/Pokemon5e/images/pokemon/242Blissey.webp"
+	},
+	"Raikou": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle243.webp",
+		"image": "modules/Pokemon5e/images/pokemon/243Raikou.webp"
+	},
+	"Entei": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle244.webp",
+		"image": "modules/Pokemon5e/images/pokemon/244Entei.webp"
+	},
+	"Suicune": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle245.webp",
+		"image": "modules/Pokemon5e/images/pokemon/245Suicune.webp"
+	},
+	"Larvitar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle246.webp",
+		"image": "modules/Pokemon5e/images/pokemon/246Larvitar.webp"
+	},
+	"Pupitar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle247.webp",
+		"image": "modules/Pokemon5e/images/pokemon/247Pupitar.webp"
+	},
+	"Tyranitar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle248.webp",
+		"image": "modules/Pokemon5e/images/pokemon/248Tyranitar.webp"
+	},
+	"Lugia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle249.webp",
+		"image": "modules/Pokemon5e/images/pokemon/249Lugia.webp"
+	},
+	"Ho-oh": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle250.webp",
+		"image": "modules/Pokemon5e/images/pokemon/250Ho-Oh.webp"
+	},
+	"Celebi": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle251.webp",
+		"image": "modules/Pokemon5e/images/pokemon/251Celebi.webp"
+	},
+	"Treecko": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle252.webp",
+		"image": "modules/Pokemon5e/images/pokemon/252Treecko.webp"
+	},
+	"Grovyle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle253.webp",
+		"image": "modules/Pokemon5e/images/pokemon/253Grovyle.webp"
+	},
+	"Sceptile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle254.webp",
+		"image": "modules/Pokemon5e/images/pokemon/254Sceptile.webp"
+	},
+	"Torchic": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle255.webp",
+		"image": "modules/Pokemon5e/images/pokemon/255Torchic.webp"
+	},
+	"Combusken": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle256.webp",
+		"image": "modules/Pokemon5e/images/pokemon/256Combusken.webp"
+	},
+	"Blaziken": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle257.webp",
+		"image": "modules/Pokemon5e/images/pokemon/257Blaziken.webp"
+	},
+	"Mudkip": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle258.webp",
+		"image": "modules/Pokemon5e/images/pokemon/258Mudkip.webp"
+	},
+	"Marshtomp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle259.webp",
+		"image": "modules/Pokemon5e/images/pokemon/259Marshtomp.webp"
+	},
+	"Swampert": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle260.webp",
+		"image": "modules/Pokemon5e/images/pokemon/260Swampert.webp"
+	},
+	"Poochyena": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle261.webp",
+		"image": "modules/Pokemon5e/images/pokemon/261Poochyena.webp"
+	},
+	"Mightyena": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle262.webp",
+		"image": "modules/Pokemon5e/images/pokemon/262Mightyena.webp"
+	},
+	"Zigzagoon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle263.webp",
+		"image": "modules/Pokemon5e/images/pokemon/263Zigzagoon.webp"
+	},
+	"Linoone": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle264.webp",
+		"image": "modules/Pokemon5e/images/pokemon/264Linoone.webp"
+	},
+	"Wurmple": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle265.webp",
+		"image": "modules/Pokemon5e/images/pokemon/265Wurmple.webp"
+	},
+	"Silcoon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle266.webp",
+		"image": "modules/Pokemon5e/images/pokemon/266Silcoon.webp"
+	},
+	"Beautifly": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle267.webp",
+		"image": "modules/Pokemon5e/images/pokemon/267Beautifly.webp"
+	},
+	"Cascoon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle268.webp",
+		"image": "modules/Pokemon5e/images/pokemon/268Cascoon.webp"
+	},
+	"Dustox": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle269.webp",
+		"image": "modules/Pokemon5e/images/pokemon/269Dustox.webp"
+	},
+	"Lotad": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle270.webp",
+		"image": "modules/Pokemon5e/images/pokemon/270Lotad.webp"
+	},
+	"Lombre": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle271.webp",
+		"image": "modules/Pokemon5e/images/pokemon/271Lombre.webp"
+	},
+	"Ludicolo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle272.webp",
+		"image": "modules/Pokemon5e/images/pokemon/272Ludicolo.webp"
+	},
+	"Seedot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle273.webp",
+		"image": "modules/Pokemon5e/images/pokemon/273Seedot.webp"
+	},
+	"Nuzleaf": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle274.webp",
+		"image": "modules/Pokemon5e/images/pokemon/274Nuzleaf.webp"
+	},
+	"Shiftry": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle275.webp",
+		"image": "modules/Pokemon5e/images/pokemon/275Shiftry.webp"
+	},
+	"Taillow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle276.webp",
+		"image": "modules/Pokemon5e/images/pokemon/276Taillow.webp"
+	},
+	"Swellow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle277.webp",
+		"image": "modules/Pokemon5e/images/pokemon/277Swellow.webp"
+	},
+	"Wingull": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle278.webp",
+		"image": "modules/Pokemon5e/images/pokemon/278Wingull.webp"
+	},
+	"Pelipper": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle279.webp",
+		"image": "modules/Pokemon5e/images/pokemon/279Pelipper.webp"
+	},
+	"Ralts": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle280.webp",
+		"image": "modules/Pokemon5e/images/pokemon/280Ralts.webp"
+	},
+	"Kirlia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle281.webp",
+		"image": "modules/Pokemon5e/images/pokemon/281Kirlia.webp"
+	},
+	"Gardevoir": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle282.webp",
+		"image": "modules/Pokemon5e/images/pokemon/282Gardevoir.webp"
+	},
+	"Surskit": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle283.webp",
+		"image": "modules/Pokemon5e/images/pokemon/283Surskit.webp"
+	},
+	"Masquerain": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle284.webp",
+		"image": "modules/Pokemon5e/images/pokemon/284Masquerain.webp"
+	},
+	"Shroomish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle285.webp",
+		"image": "modules/Pokemon5e/images/pokemon/285Shroomish.webp"
+	},
+	"Breloom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle286.webp",
+		"image": "modules/Pokemon5e/images/pokemon/286Breloom.webp"
+	},
+	"Slakoth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle287.webp",
+		"image": "modules/Pokemon5e/images/pokemon/287Slakoth.webp"
+	},
+	"Vigoroth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle288.webp",
+		"image": "modules/Pokemon5e/images/pokemon/288Vigoroth.webp"
+	},
+	"Slaking": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle289.webp",
+		"image": "modules/Pokemon5e/images/pokemon/289Slaking.webp"
+	},
+	"Nincada": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle290.webp",
+		"image": "modules/Pokemon5e/images/pokemon/290Nincada.webp"
+	},
+	"Ninjask": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle291.webp",
+		"image": "modules/Pokemon5e/images/pokemon/291Ninjask.webp"
+	},
+	"Shedinja": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle292.webp",
+		"image": "modules/Pokemon5e/images/pokemon/292Shedinja.webp"
+	},
+	"Whismur": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle293.webp",
+		"image": "modules/Pokemon5e/images/pokemon/293Whismur.webp"
+	},
+	"Loudred": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle294.webp",
+		"image": "modules/Pokemon5e/images/pokemon/294Loudred.webp"
+	},
+	"Exploud": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle295.webp",
+		"image": "modules/Pokemon5e/images/pokemon/295Exploud.webp"
+	},
+	"Makuhita": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle296.webp",
+		"image": "modules/Pokemon5e/images/pokemon/296Makuhita.webp"
+	},
+	"Hariyama": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle297.webp",
+		"image": "modules/Pokemon5e/images/pokemon/297Hariyama.webp"
+	},
+	"Azurill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle298.webp",
+		"image": "modules/Pokemon5e/images/pokemon/298Azurill.webp"
+	},
+	"Nosepass": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle299.webp",
+		"image": "modules/Pokemon5e/images/pokemon/299Nosepass.webp"
+	},
+	"Skitty": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle300.webp",
+		"image": "modules/Pokemon5e/images/pokemon/300Skitty.webp"
+	},
+	"Delcatty": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle301.webp",
+		"image": "modules/Pokemon5e/images/pokemon/301Delcatty.webp"
+	},
+	"Sableye": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle302.webp",
+		"image": "modules/Pokemon5e/images/pokemon/302Sableye.webp"
+	},
+	"Mawile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle303.webp",
+		"image": "modules/Pokemon5e/images/pokemon/303Mawile.webp"
+	},
+	"Aron": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle304.webp",
+		"image": "modules/Pokemon5e/images/pokemon/304Aron.webp"
+	},
+	"Lairon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle305.webp",
+		"image": "modules/Pokemon5e/images/pokemon/305Lairon.webp"
+	},
+	"Aggron": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle306.webp",
+		"image": "modules/Pokemon5e/images/pokemon/306Aggron.webp"
+	},
+	"Meditite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle307.webp",
+		"image": "modules/Pokemon5e/images/pokemon/307Meditite.webp"
+	},
+	"Medicham": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle308.webp",
+		"image": "modules/Pokemon5e/images/pokemon/308Medicham.webp"
+	},
+	"Electrike": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle309.webp",
+		"image": "modules/Pokemon5e/images/pokemon/309Electrike.webp"
+	},
+	"Manectric": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle310.webp",
+		"image": "modules/Pokemon5e/images/pokemon/310Manectric.webp"
+	},
+	"Plusle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle311.webp",
+		"image": "modules/Pokemon5e/images/pokemon/311Plusle.webp"
+	},
+	"Minun": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle312.webp",
+		"image": "modules/Pokemon5e/images/pokemon/312Minun.webp"
+	},
+	"Volbeat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle313.webp",
+		"image": "modules/Pokemon5e/images/pokemon/313Volbeat.webp"
+	},
+	"Illumise": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle314.webp",
+		"image": "modules/Pokemon5e/images/pokemon/314Illumise.webp"
+	},
+	"Roselia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle315.webp",
+		"image": "modules/Pokemon5e/images/pokemon/315Roselia.webp"
+	},
+	"Gulpin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle316.webp",
+		"image": "modules/Pokemon5e/images/pokemon/316Gulpin.webp"
+	},
+	"Swalot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle317.webp",
+		"image": "modules/Pokemon5e/images/pokemon/317Swalot.webp"
+	},
+	"Carvanha": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle318.webp",
+		"image": "modules/Pokemon5e/images/pokemon/318Carvanha.webp"
+	},
+	"Sharpedo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle319.webp",
+		"image": "modules/Pokemon5e/images/pokemon/319Sharpedo.webp"
+	},
+	"Wailmer": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle320.webp",
+		"image": "modules/Pokemon5e/images/pokemon/320Wailmer.webp"
+	},
+	"Wailord": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle321.webp",
+		"image": "modules/Pokemon5e/images/pokemon/321Wailord.webp"
+	},
+	"Numel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle322.webp",
+		"image": "modules/Pokemon5e/images/pokemon/322Numel.webp"
+	},
+	"Camerupt": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle323.webp",
+		"image": "modules/Pokemon5e/images/pokemon/323Camerupt.webp"
+	},
+	"Torkoal": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle324.webp",
+		"image": "modules/Pokemon5e/images/pokemon/324Torkoal.webp"
+	},
+	"Spoink": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle325.webp",
+		"image": "modules/Pokemon5e/images/pokemon/325Spoink.webp"
+	},
+	"Grumpig": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle326.webp",
+		"image": "modules/Pokemon5e/images/pokemon/326Grumpig.webp"
+	},
+	"Spinda": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle327.webp",
+		"image": "modules/Pokemon5e/images/pokemon/327Spinda.webp"
+	},
+	"Trapinch": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle328.webp",
+		"image": "modules/Pokemon5e/images/pokemon/328Trapinch.webp"
+	},
+	"Vibrava": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle329.webp",
+		"image": "modules/Pokemon5e/images/pokemon/329Vibrava.webp"
+	},
+	"Flygon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle330.webp",
+		"image": "modules/Pokemon5e/images/pokemon/330Flygon.webp"
+	},
+	"Cacnea": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle331.webp",
+		"image": "modules/Pokemon5e/images/pokemon/331Cacnea.webp"
+	},
+	"Cacturne": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle332.webp",
+		"image": "modules/Pokemon5e/images/pokemon/332Cacturne.webp"
+	},
+	"Swablu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle333.webp",
+		"image": "modules/Pokemon5e/images/pokemon/333Swablu.webp"
+	},
+	"Altaria": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle334.webp",
+		"image": "modules/Pokemon5e/images/pokemon/334Altaria.webp"
+	},
+	"Zangoose": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle335.webp",
+		"image": "modules/Pokemon5e/images/pokemon/335Zangoose.webp"
+	},
+	"Seviper": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle336.webp",
+		"image": "modules/Pokemon5e/images/pokemon/336Seviper.webp"
+	},
+	"Lunatone": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle337.webp",
+		"image": "modules/Pokemon5e/images/pokemon/337Lunatone.webp"
+	},
+	"Solrock": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle338.webp",
+		"image": "modules/Pokemon5e/images/pokemon/338Solrock.webp"
+	},
+	"Barboach": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle339.webp",
+		"image": "modules/Pokemon5e/images/pokemon/339Barboach.webp"
+	},
+	"Whiscash": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle340.webp",
+		"image": "modules/Pokemon5e/images/pokemon/340Whiscash.webp"
+	},
+	"Corphish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle341.webp",
+		"image": "modules/Pokemon5e/images/pokemon/341Corphish.webp"
+	},
+	"Crawdaunt": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle342.webp",
+		"image": "modules/Pokemon5e/images/pokemon/342Crawdaunt.webp"
+	},
+	"Baltoy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle343.webp",
+		"image": "modules/Pokemon5e/images/pokemon/343Baltoy.webp"
+	},
+	"Claydol": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle344.webp",
+		"image": "modules/Pokemon5e/images/pokemon/344Claydol.webp"
+	},
+	"Lileep": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle345.webp",
+		"image": "modules/Pokemon5e/images/pokemon/345Lileep.webp"
+	},
+	"Cradily": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle346.webp",
+		"image": "modules/Pokemon5e/images/pokemon/346Cradily.webp"
+	},
+	"Anorith": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle347.webp",
+		"image": "modules/Pokemon5e/images/pokemon/347Anorith.webp"
+	},
+	"Armaldo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle348.webp",
+		"image": "modules/Pokemon5e/images/pokemon/348Armaldo.webp"
+	},
+	"Feebas": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle349.webp",
+		"image": "modules/Pokemon5e/images/pokemon/349Feebas.webp"
+	},
+	"Milotic": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle350.webp",
+		"image": "modules/Pokemon5e/images/pokemon/350Milotic.webp"
+	},
+	"Castform": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle351.webp",
+		"image": "modules/Pokemon5e/images/pokemon/351Castform.webp"
+	},
+	"Castform Sunny": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle351S.webp",
+		"image": "modules/Pokemon5e/images/pokemon/351Castform-Sunny.webp"
+	},
+	"Castform Rainy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle351R.webp",
+		"image": "modules/Pokemon5e/images/pokemon/351Castform-Rainy.webp"
+	},
+	"Castform Snowy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle351H.webp",
+		"image": "modules/Pokemon5e/images/pokemon/351Castform-Snowy.webp"
+	},
+	"Kecleon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle352.webp",
+		"image": "modules/Pokemon5e/images/pokemon/352Kecleon.webp"
+	},
+	"Shuppet": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle353.webp",
+		"image": "modules/Pokemon5e/images/pokemon/353Shuppet.webp"
+	},
+	"Banette": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle354.webp",
+		"image": "modules/Pokemon5e/images/pokemon/354Banette.webp"
+	},
+	"Duskull": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle355.webp",
+		"image": "modules/Pokemon5e/images/pokemon/355Duskull.webp"
+	},
+	"Dusclops": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle356.webp",
+		"image": "modules/Pokemon5e/images/pokemon/356Dusclops.webp"
+	},
+	"Tropius": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle357.webp",
+		"image": "modules/Pokemon5e/images/pokemon/357Tropius.webp"
+	},
+	"Chimecho": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle358.webp",
+		"image": "modules/Pokemon5e/images/pokemon/358Chimecho.webp"
+	},
+	"Absol": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle359.webp",
+		"image": "modules/Pokemon5e/images/pokemon/359Absol.webp"
+	},
+	"Wynaut": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle360.webp",
+		"image": "modules/Pokemon5e/images/pokemon/360Wynaut.webp"
+	},
+	"Snorunt": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle361.webp",
+		"image": "modules/Pokemon5e/images/pokemon/361Snorunt.webp"
+	},
+	"Glalie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle362.webp",
+		"image": "modules/Pokemon5e/images/pokemon/362Glalie.webp"
+	},
+	"Spheal": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle363.webp",
+		"image": "modules/Pokemon5e/images/pokemon/363Spheal.webp"
+	},
+	"Sealeo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle364.webp",
+		"image": "modules/Pokemon5e/images/pokemon/364Sealeo.webp"
+	},
+	"Walrein": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle365.webp",
+		"image": "modules/Pokemon5e/images/pokemon/365Walrein.webp"
+	},
+	"Clamperl": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle366.webp",
+		"image": "modules/Pokemon5e/images/pokemon/366Clamperl.webp"
+	},
+	"Huntail": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle367.webp",
+		"image": "modules/Pokemon5e/images/pokemon/367Huntail.webp"
+	},
+	"Gorebyss": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle368.webp",
+		"image": "modules/Pokemon5e/images/pokemon/368Gorebyss.webp"
+	},
+	"Relicanth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle369.webp",
+		"image": "modules/Pokemon5e/images/pokemon/369Relicanth.webp"
+	},
+	"Luvdisc": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle370.webp",
+		"image": "modules/Pokemon5e/images/pokemon/370Luvdisc.webp"
+	},
+	"Bagon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle371.webp",
+		"image": "modules/Pokemon5e/images/pokemon/371Bagon.webp"
+	},
+	"Shelgon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle372.webp",
+		"image": "modules/Pokemon5e/images/pokemon/372Shelgon.webp"
+	},
+	"Salamence": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle373.webp",
+		"image": "modules/Pokemon5e/images/pokemon/373Salamence.webp"
+	},
+	"Beldum": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle374.webp",
+		"image": "modules/Pokemon5e/images/pokemon/374Beldum.webp"
+	},
+	"Metang": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle375.webp",
+		"image": "modules/Pokemon5e/images/pokemon/375Metang.webp"
+	},
+	"Metagross": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle376.webp",
+		"image": "modules/Pokemon5e/images/pokemon/376Metagross.webp"
+	},
+	"Regirock": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle377.webp",
+		"image": "modules/Pokemon5e/images/pokemon/377Regirock.webp"
+	},
+	"Regice": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle378.webp",
+		"image": "modules/Pokemon5e/images/pokemon/378Regice.webp"
+	},
+	"Registeel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle379.webp",
+		"image": "modules/Pokemon5e/images/pokemon/379Registeel.webp"
+	},
+	"Latias": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle380.webp",
+		"image": "modules/Pokemon5e/images/pokemon/380Latias.webp"
+	},
+	"Latios": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle381.webp",
+		"image": "modules/Pokemon5e/images/pokemon/381Latios.webp"
+	},
+	"Kyogre": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle382.webp",
+		"image": "modules/Pokemon5e/images/pokemon/382Kyogre.webp"
+	},
+	"Groudon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle383.webp",
+		"image": "modules/Pokemon5e/images/pokemon/383Groudon.webp"
+	},
+	"Rayquaza": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle384.webp",
+		"image": "modules/Pokemon5e/images/pokemon/384Rayquaza.webp"
+	},
+	"Jirachi": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle385.webp",
+		"image": "modules/Pokemon5e/images/pokemon/385Jirachi.webp"
+	},
+	"Deoxys": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle386.webp",
+		"image": "modules/Pokemon5e/images/pokemon/386Deoxys.webp"
+	},
+	"Turtwig": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle387.webp",
+		"image": "modules/Pokemon5e/images/pokemon/387Turtwig.webp"
+	},
+	"Grotle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle388.webp",
+		"image": "modules/Pokemon5e/images/pokemon/388Grotle.webp"
+	},
+	"Torterra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle389.webp",
+		"image": "modules/Pokemon5e/images/pokemon/389Torterra.webp"
+	},
+	"Chimchar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle390.webp",
+		"image": "modules/Pokemon5e/images/pokemon/390Chimchar.webp"
+	},
+	"Monferno": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle391.webp",
+		"image": "modules/Pokemon5e/images/pokemon/391Monferno.webp"
+	},
+	"Infernape": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle392.webp",
+		"image": "modules/Pokemon5e/images/pokemon/392Infernape.webp"
+	},
+	"Piplup": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle393.webp",
+		"image": "modules/Pokemon5e/images/pokemon/393Piplup.webp"
+	},
+	"Prinplup": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle394.webp",
+		"image": "modules/Pokemon5e/images/pokemon/394Prinplup.webp"
+	},
+	"Empoleon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle395.webp",
+		"image": "modules/Pokemon5e/images/pokemon/395Empoleon.webp"
+	},
+	"Starly": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle396.webp",
+		"image": "modules/Pokemon5e/images/pokemon/396Starly.webp"
+	},
+	"Staravia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle397.webp",
+		"image": "modules/Pokemon5e/images/pokemon/397Staravia.webp"
+	},
+	"Staraptor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle398.webp",
+		"image": "modules/Pokemon5e/images/pokemon/398Staraptor.webp"
+	},
+	"Bidoof": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle399.webp",
+		"image": "modules/Pokemon5e/images/pokemon/399Bidoof.webp"
+	},
+	"Bibarel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle400.webp",
+		"image": "modules/Pokemon5e/images/pokemon/400Bibarel.webp"
+	},
+	"Kricketot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle401.webp",
+		"image": "modules/Pokemon5e/images/pokemon/401Kricketot.webp"
+	},
+	"Kricketune": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle402.webp",
+		"image": "modules/Pokemon5e/images/pokemon/402Kricketune.webp"
+	},
+	"Shinx": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle403.webp",
+		"image": "modules/Pokemon5e/images/pokemon/403Shinx.webp"
+	},
+	"Luxio": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle404.webp",
+		"image": "modules/Pokemon5e/images/pokemon/404Luxio.webp"
+	},
+	"Luxray": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle405.webp",
+		"image": "modules/Pokemon5e/images/pokemon/405Luxray.webp"
+	},
+	"Budew": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle406.webp",
+		"image": "modules/Pokemon5e/images/pokemon/406Budew.webp"
+	},
+	"Roserade": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle407.webp",
+		"image": "modules/Pokemon5e/images/pokemon/407Roserade.webp"
+	},
+	"Cranidos": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle408.webp",
+		"image": "modules/Pokemon5e/images/pokemon/408Cranidos.webp"
+	},
+	"Rampardos": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle409.webp",
+		"image": "modules/Pokemon5e/images/pokemon/409Rampardos.webp"
+	},
+	"Shieldon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle410.webp",
+		"image": "modules/Pokemon5e/images/pokemon/410Shieldon.webp"
+	},
+	"Bastiodon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle411.webp",
+		"image": "modules/Pokemon5e/images/pokemon/411Bastiodon.webp"
+	},
+	"Burmy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle412.webp",
+		"image": "modules/Pokemon5e/images/pokemon/412Burmy.webp"
+	},
+	"Wormadam Plant Cloak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle413.webp",
+		"image": "modules/Pokemon5e/images/pokemon/413Wormadam-Plant.webp"
+	},
+	"Wormadam Sand Cloak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle413G.webp",
+		"image": "modules/Pokemon5e/images/pokemon/413Wormadam-Sand.webp"
+	},
+	"Wormadam Trash Cloak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle413S.webp",
+		"image": "modules/Pokemon5e/images/pokemon/413Wormadam-Trash.webp"
+	},
+	"Mothim": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle414.webp",
+		"image": "modules/Pokemon5e/images/pokemon/414Mothim.webp"
+	},
+	"Combee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle415.webp",
+		"image": "modules/Pokemon5e/images/pokemon/415Combee.webp"
+	},
+	"Vespiquen": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle416.webp",
+		"image": "modules/Pokemon5e/images/pokemon/416Vespiquen.webp"
+	},
+	"Pachirisu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle417.webp",
+		"image": "modules/Pokemon5e/images/pokemon/417Pachirisu.webp"
+	},
+	"Buizel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle418.webp",
+		"image": "modules/Pokemon5e/images/pokemon/418Buizel.webp"
+	},
+	"Floatzel": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle419.webp",
+		"image": "modules/Pokemon5e/images/pokemon/419Floatzel.webp"
+	},
+	"Cherubi": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle420.webp",
+		"image": "modules/Pokemon5e/images/pokemon/420Cherubi.webp"
+	},
+	"Cherrim": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle421.webp",
+		"image": "modules/Pokemon5e/images/pokemon/421Cherrim.webp"
+	},
+	"Shellos": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle422.webp",
+		"image": "modules/Pokemon5e/images/pokemon/422Shellos.webp"
+	},
+	"Gastrodon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle423.webp",
+		"image": "modules/Pokemon5e/images/pokemon/423Gastrodon.webp"
+	},
+	"Ambipom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle424.webp",
+		"image": "modules/Pokemon5e/images/pokemon/424Ambipom.webp"
+	},
+	"Drifloon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle425.webp",
+		"image": "modules/Pokemon5e/images/pokemon/425Drifloon.webp"
+	},
+	"Drifblim": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle426.webp",
+		"image": "modules/Pokemon5e/images/pokemon/426Drifblim.webp"
+	},
+	"Buneary": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle427.webp",
+		"image": "modules/Pokemon5e/images/pokemon/427Buneary.webp"
+	},
+	"Lopunny": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle428.webp",
+		"image": "modules/Pokemon5e/images/pokemon/428Lopunny.webp"
+	},
+	"Mismagius": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle429.webp",
+		"image": "modules/Pokemon5e/images/pokemon/429Mismagius.webp"
+	},
+	"Honchkrow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle430.webp",
+		"image": "modules/Pokemon5e/images/pokemon/430Honchkrow.webp"
+	},
+	"Glameow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle431.webp",
+		"image": "modules/Pokemon5e/images/pokemon/431Glameow.webp"
+	},
+	"Purugly": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle432.webp",
+		"image": "modules/Pokemon5e/images/pokemon/432Purugly.webp"
+	},
+	"Chingling": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle433.webp",
+		"image": "modules/Pokemon5e/images/pokemon/433Chingling.webp"
+	},
+	"Stunky": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle434.webp",
+		"image": "modules/Pokemon5e/images/pokemon/434Stunky.webp"
+	},
+	"Skuntank": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle435.webp",
+		"image": "modules/Pokemon5e/images/pokemon/435Skuntank.webp"
+	},
+	"Bronzor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle436.webp",
+		"image": "modules/Pokemon5e/images/pokemon/436Bronzor.webp"
+	},
+	"Bronzong": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle437.webp",
+		"image": "modules/Pokemon5e/images/pokemon/437Bronzong.webp"
+	},
+	"Bonsly": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle438.webp",
+		"image": "modules/Pokemon5e/images/pokemon/438Bonsly.webp"
+	},
+	"Mime Jr.": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle439.webp",
+		"image": "modules/Pokemon5e/images/pokemon/439Mime Jr..webp"
+	},
+	"Happiny": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle440.webp",
+		"image": "modules/Pokemon5e/images/pokemon/440Happiny.webp"
+	},
+	"Chatot": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle441.webp",
+		"image": "modules/Pokemon5e/images/pokemon/441Chatot.webp"
+	},
+	"Spiritomb": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle442.webp",
+		"image": "modules/Pokemon5e/images/pokemon/442Spiritomb.webp"
+	},
+	"Gible": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle443.webp",
+		"image": "modules/Pokemon5e/images/pokemon/443Gible.webp"
+	},
+	"Gabite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle444.webp",
+		"image": "modules/Pokemon5e/images/pokemon/444Gabite.webp"
+	},
+	"Garchomp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle445.webp",
+		"image": "modules/Pokemon5e/images/pokemon/445Garchomp.webp"
+	},
+	"Munchlax": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle446.webp",
+		"image": "modules/Pokemon5e/images/pokemon/446Munchlax.webp"
+	},
+	"Riolu": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle447.webp",
+		"image": "modules/Pokemon5e/images/pokemon/447Riolu.webp"
+	},
+	"Lucario": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle448.webp",
+		"image": "modules/Pokemon5e/images/pokemon/448Lucario.webp"
+	},
+	"Hippopotas": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle449.webp",
+		"image": "modules/Pokemon5e/images/pokemon/449Hippopotas.webp"
+	},
+	"Hippowdon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle450.webp",
+		"image": "modules/Pokemon5e/images/pokemon/450Hippowdon.webp"
+	},
+	"Skorupi": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle451.webp",
+		"image": "modules/Pokemon5e/images/pokemon/451Skorupi.webp"
+	},
+	"Drapion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle452.webp",
+		"image": "modules/Pokemon5e/images/pokemon/452Drapion.webp"
+	},
+	"Croagunk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle453.webp",
+		"image": "modules/Pokemon5e/images/pokemon/453Croagunk.webp"
+	},
+	"Toxicroak": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle454.webp",
+		"image": "modules/Pokemon5e/images/pokemon/454Toxicroak.webp"
+	},
+	"Carnivine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle455.webp",
+		"image": "modules/Pokemon5e/images/pokemon/455Carnivine.webp"
+	},
+	"Finneon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle456.webp",
+		"image": "modules/Pokemon5e/images/pokemon/456Finneon.webp"
+	},
+	"Lumineon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle457.webp",
+		"image": "modules/Pokemon5e/images/pokemon/457Lumineon.webp"
+	},
+	"Mantyke": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle458.webp",
+		"image": "modules/Pokemon5e/images/pokemon/458Mantyke.webp"
+	},
+	"Snover": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle459.webp",
+		"image": "modules/Pokemon5e/images/pokemon/459Snover.webp"
+	},
+	"Abomasnow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle460.webp",
+		"image": "modules/Pokemon5e/images/pokemon/460Abomasnow.webp"
+	},
+	"Weavile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle461.webp",
+		"image": "modules/Pokemon5e/images/pokemon/461Weavile.webp"
+	},
+	"Magnezone": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle462.webp",
+		"image": "modules/Pokemon5e/images/pokemon/462Magnezone.webp"
+	},
+	"Lickilicky": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle463.webp",
+		"image": "modules/Pokemon5e/images/pokemon/463Lickilicky.webp"
+	},
+	"Rhyperior": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle464.webp",
+		"image": "modules/Pokemon5e/images/pokemon/464Rhyperior.webp"
+	},
+	"Tangrowth": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle465.webp",
+		"image": "modules/Pokemon5e/images/pokemon/465Tangrowth.webp"
+	},
+	"Electivire": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle466.webp",
+		"image": "modules/Pokemon5e/images/pokemon/466Electivire.webp"
+	},
+	"Magmortar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle467.webp",
+		"image": "modules/Pokemon5e/images/pokemon/467Magmortar.webp"
+	},
+	"Togekiss": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle468.webp",
+		"image": "modules/Pokemon5e/images/pokemon/468Togekiss.webp"
+	},
+	"Yanmega": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle469.webp",
+		"image": "modules/Pokemon5e/images/pokemon/469Yanmega.webp"
+	},
+	"Glaceon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle471.webp",
+		"image": "modules/Pokemon5e/images/pokemon/471Glaceon.webp"
+	},
+	"Gliscor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle472.webp",
+		"image": "modules/Pokemon5e/images/pokemon/472Gliscor.webp"
+	},
+	"Mamoswine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle473.webp",
+		"image": "modules/Pokemon5e/images/pokemon/473Mamoswine.webp"
+	},
+	"Porygon-Z": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle474.webp",
+		"image": "modules/Pokemon5e/images/pokemon/474Porygon-Z.webp"
+	},
+	"Gallade": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle475.webp",
+		"image": "modules/Pokemon5e/images/pokemon/475Gallade.webp"
+	},
+	"Probopass": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle476.webp",
+		"image": "modules/Pokemon5e/images/pokemon/476Probopass.webp"
+	},
+	"Dusknoir": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle477.webp",
+		"image": "modules/Pokemon5e/images/pokemon/477Dusknoir.webp"
+	},
+	"Froslass": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle478.webp",
+		"image": "modules/Pokemon5e/images/pokemon/478Froslass.webp"
+	},
+	"Rotom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom.webp"
+	},
+	"Rotom Heat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479O.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom-Heat.webp"
+	},
+	"Rotom Wash": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479W.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom-Wash.webp"
+	},
+	"Rotom Frost": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479R.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom-Frost.webp"
+	},
+	"Rotom Fan": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479F.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom-Fan.webp"
+	},
+	"Rotom Mow": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle479L.webp",
+		"image": "modules/Pokemon5e/images/pokemon/479Rotom-Mow.webp"
+	},
+	"Uxie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle480.webp",
+		"image": "modules/Pokemon5e/images/pokemon/480Uxie.webp"
+	},
+	"Mesprit": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle481.webp",
+		"image": "modules/Pokemon5e/images/pokemon/481Mesprit.webp"
+	},
+	"Azelf": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle482.webp",
+		"image": "modules/Pokemon5e/images/pokemon/482Azelf.webp"
+	},
+	"Dialga": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle483.webp",
+		"image": "modules/Pokemon5e/images/pokemon/483Dialga.webp"
+	},
+	"Palkia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle484.webp",
+		"image": "modules/Pokemon5e/images/pokemon/484Palkia.webp"
+	},
+	"Heatran": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle485.webp",
+		"image": "modules/Pokemon5e/images/pokemon/485Heatran.webp"
+	},
+	"Regigigas": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle486.webp",
+		"image": "modules/Pokemon5e/images/pokemon/486Regigigas.webp"
+	},
+	"Giratina Altered Forme": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle487.webp",
+		"image": "modules/Pokemon5e/images/pokemon/487Giratina-Altered.webp"
+	},
+	"Giratina Origin Forme": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle487O.webp",
+		"image": "modules/Pokemon5e/images/pokemon/487Giratina-Origin.webp"
+	},
+	"Cresselia": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle488.webp",
+		"image": "modules/Pokemon5e/images/pokemon/488Cresselia.webp"
+	},
+	"Phione": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle489.webp",
+		"image": "modules/Pokemon5e/images/pokemon/489Phione.webp"
+	},
+	"Manaphy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle490.webp",
+		"image": "modules/Pokemon5e/images/pokemon/490Manaphy.webp"
+	},
+	"Darkrai": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle491.webp",
+		"image": "modules/Pokemon5e/images/pokemon/491Darkrai.webp"
+	},
+	"Shaymin Land": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle492.webp",
+		"image": "modules/Pokemon5e/images/pokemon/492Shaymin Land.webp"
+	},
+	"Shaymin Sky": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle492S.webp",
+		"image": "modules/Pokemon5e/images/pokemon/492Shaymin Sky.webp"
+	},
+	"Arceus (Normal)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Fighting)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Flying)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Poison)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Ground)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Rock)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Bug)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Ghost)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Steel)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Fire)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Water)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Grass)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Electric)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Psychic)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Ice)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Dragon)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Dark)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Arceus (Fairy)": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle493.webp",
+		"image": "modules/Pokemon5e/images/pokemon/493Arceus.webp"
+	},
+	"Victini": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle494.webp",
+		"image": "modules/Pokemon5e/images/pokemon/494Victini.webp"
+	},
+	"Snivy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle495.webp",
+		"image": "modules/Pokemon5e/images/pokemon/495Snivy.webp"
+	},
+	"Servine": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle496.webp",
+		"image": "modules/Pokemon5e/images/pokemon/496Servine.webp"
+	},
+	"Serperior": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle497.webp",
+		"image": "modules/Pokemon5e/images/pokemon/497Serperior.webp"
+	},
+	"Tepig": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle498.webp",
+		"image": "modules/Pokemon5e/images/pokemon/498Tepig.webp"
+	},
+	"Pignite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle499.webp",
+		"image": "modules/Pokemon5e/images/pokemon/499Pignite.webp"
+	},
+	"Emboar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle500.webp",
+		"image": "modules/Pokemon5e/images/pokemon/500Emboar.webp"
+	},
+	"Oshawott": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle501.webp",
+		"image": "modules/Pokemon5e/images/pokemon/501Oshawott.webp"
+	},
+	"Dewott": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle502.webp",
+		"image": "modules/Pokemon5e/images/pokemon/502Dewott.webp"
+	},
+	"Samurott": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle503.webp",
+		"image": "modules/Pokemon5e/images/pokemon/503Samurott.webp"
+	},
+	"Patrat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle504.webp",
+		"image": "modules/Pokemon5e/images/pokemon/504Patrat.webp"
+	},
+	"Watchog": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle505.webp",
+		"image": "modules/Pokemon5e/images/pokemon/505Watchog.webp"
+	},
+	"Lillipup": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle506.webp",
+		"image": "modules/Pokemon5e/images/pokemon/506Lillipup.webp"
+	},
+	"Herdier": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle507.webp",
+		"image": "modules/Pokemon5e/images/pokemon/507Herdier.webp"
+	},
+	"Stoutland": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle508.webp",
+		"image": "modules/Pokemon5e/images/pokemon/508Stoutland.webp"
+	},
+	"Purrloin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle509.webp",
+		"image": "modules/Pokemon5e/images/pokemon/509Purrloin.webp"
+	},
+	"Liepard": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle510.webp",
+		"image": "modules/Pokemon5e/images/pokemon/510Liepard.webp"
+	},
+	"Pansage": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle511.webp",
+		"image": "modules/Pokemon5e/images/pokemon/511Pansage.webp"
+	},
+	"Simisage": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle512.webp",
+		"image": "modules/Pokemon5e/images/pokemon/512Simisage.webp"
+	},
+	"Pansear": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle513.webp",
+		"image": "modules/Pokemon5e/images/pokemon/513Pansear.webp"
+	},
+	"Simisear": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle514.webp",
+		"image": "modules/Pokemon5e/images/pokemon/514Simisear.webp"
+	},
+	"Panpour": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle515.webp",
+		"image": "modules/Pokemon5e/images/pokemon/515Panpour.webp"
+	},
+	"Simipour": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle516.webp",
+		"image": "modules/Pokemon5e/images/pokemon/516Simipour.webp"
+	},
+	"Munna": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle517.webp",
+		"image": "modules/Pokemon5e/images/pokemon/517Munna.webp"
+	},
+	"Musharna": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle518.webp",
+		"image": "modules/Pokemon5e/images/pokemon/518Musharna.webp"
+	},
+	"Pidove": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle519.webp",
+		"image": "modules/Pokemon5e/images/pokemon/519Pidove.webp"
+	},
+	"Tranquill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle520.webp",
+		"image": "modules/Pokemon5e/images/pokemon/520Tranquill.webp"
+	},
+	"Unfezant": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle521.webp",
+		"image": "modules/Pokemon5e/images/pokemon/521Unfezant.webp"
+	},
+	"Blitzle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle522.webp",
+		"image": "modules/Pokemon5e/images/pokemon/522Blitzle.webp"
+	},
+	"Zebstrika": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle523.webp",
+		"image": "modules/Pokemon5e/images/pokemon/523Zebstrika.webp"
+	},
+	"Roggenrola": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle524.webp",
+		"image": "modules/Pokemon5e/images/pokemon/524Roggenrola.webp"
+	},
+	"Boldore": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle525.webp",
+		"image": "modules/Pokemon5e/images/pokemon/525Boldore.webp"
+	},
+	"Gigalith": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle526.webp",
+		"image": "modules/Pokemon5e/images/pokemon/526Gigalith.webp"
+	},
+	"Woobat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle527.webp",
+		"image": "modules/Pokemon5e/images/pokemon/527Woobat.webp"
+	},
+	"Swoobat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle528.webp",
+		"image": "modules/Pokemon5e/images/pokemon/528Swoobat.webp"
+	},
+	"Drilbur": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle529.webp",
+		"image": "modules/Pokemon5e/images/pokemon/529Drilbur.webp"
+	},
+	"Excadrill": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle530.webp",
+		"image": "modules/Pokemon5e/images/pokemon/530Excadrill.webp"
+	},
+	"Audino": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle531.webp",
+		"image": "modules/Pokemon5e/images/pokemon/531Audino.webp"
+	},
+	"Timburr": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle532.webp",
+		"image": "modules/Pokemon5e/images/pokemon/532Timburr.webp"
+	},
+	"Gurdurr": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle533.webp",
+		"image": "modules/Pokemon5e/images/pokemon/533Gurdurr.webp"
+	},
+	"Conkeldurr": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle534.webp",
+		"image": "modules/Pokemon5e/images/pokemon/534Conkeldurr.webp"
+	},
+	"Tympole": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle535.webp",
+		"image": "modules/Pokemon5e/images/pokemon/535Tympole.webp"
+	},
+	"Palpitoad": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle536.webp",
+		"image": "modules/Pokemon5e/images/pokemon/536Palpitoad.webp"
+	},
+	"Seismitoad": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle537.webp",
+		"image": "modules/Pokemon5e/images/pokemon/537Seismitoad.webp"
+	},
+	"Throh": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle538.webp",
+		"image": "modules/Pokemon5e/images/pokemon/538Throh.webp"
+	},
+	"Sawk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle539.webp",
+		"image": "modules/Pokemon5e/images/pokemon/539Sawk.webp"
+	},
+	"Sewaddle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle540.webp",
+		"image": "modules/Pokemon5e/images/pokemon/540Sewaddle.webp"
+	},
+	"Swadloon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle541.webp",
+		"image": "modules/Pokemon5e/images/pokemon/541Swadloon.webp"
+	},
+	"Leavanny": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle542.webp",
+		"image": "modules/Pokemon5e/images/pokemon/542Leavanny.webp"
+	},
+	"Venipede": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle543.webp",
+		"image": "modules/Pokemon5e/images/pokemon/543Venipede.webp"
+	},
+	"Whirlipede": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle544.webp",
+		"image": "modules/Pokemon5e/images/pokemon/544Whirlipede.webp"
+	},
+	"Scolipede": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle545.webp",
+		"image": "modules/Pokemon5e/images/pokemon/545Scolipede.webp"
+	},
+	"Cottonee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle546.webp",
+		"image": "modules/Pokemon5e/images/pokemon/546Cottonee.webp"
+	},
+	"Whimsicott": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle547.webp",
+		"image": "modules/Pokemon5e/images/pokemon/547Whimsicott.webp"
+	},
+	"Petilil": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle548.webp",
+		"image": "modules/Pokemon5e/images/pokemon/548Petilil.webp"
+	},
+	"Lilligant": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle549.webp",
+		"image": "modules/Pokemon5e/images/pokemon/549Lilligant.webp"
+	},
+	"Basculin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle550.webp",
+		"image": "modules/Pokemon5e/images/pokemon/550Basculin.webp"
+	},
+	"Sandile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle551.webp",
+		"image": "modules/Pokemon5e/images/pokemon/551Sandile.webp"
+	},
+	"Krokorok": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle552.webp",
+		"image": "modules/Pokemon5e/images/pokemon/552Krokorok.webp"
+	},
+	"Krookodile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle553.webp",
+		"image": "modules/Pokemon5e/images/pokemon/553Krookodile.webp"
+	},
+	"Darumaka": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle554.webp",
+		"image": "modules/Pokemon5e/images/pokemon/554Darumaka.webp"
+	},
+	"Darmanitan": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle555.webp",
+		"image": "modules/Pokemon5e/images/pokemon/555Darmanitan.webp"
+	},
+	"Maractus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle556.webp",
+		"image": "modules/Pokemon5e/images/pokemon/556Maractus.webp"
+	},
+	"Dwebble": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle557.webp",
+		"image": "modules/Pokemon5e/images/pokemon/557Dwebble.webp"
+	},
+	"Crustle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle558.webp",
+		"image": "modules/Pokemon5e/images/pokemon/558Crustle.webp"
+	},
+	"Scraggy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle559.webp",
+		"image": "modules/Pokemon5e/images/pokemon/559Scraggy.webp"
+	},
+	"Scrafty": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle560.webp",
+		"image": "modules/Pokemon5e/images/pokemon/560Scrafty.webp"
+	},
+	"Sigilyph": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle561.webp",
+		"image": "modules/Pokemon5e/images/pokemon/561Sigilyph.webp"
+	},
+	"Yamask": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle562.webp",
+		"image": "modules/Pokemon5e/images/pokemon/562Yamask.webp"
+	},
+	"Cofagrigus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle563.webp",
+		"image": "modules/Pokemon5e/images/pokemon/563Cofagrigus.webp"
+	},
+	"Tirtouga": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle564.webp",
+		"image": "modules/Pokemon5e/images/pokemon/564Tirtouga.webp"
+	},
+	"Carracosta": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle565.webp",
+		"image": "modules/Pokemon5e/images/pokemon/565Carracosta.webp"
+	},
+	"Archen": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle566.webp",
+		"image": "modules/Pokemon5e/images/pokemon/566Archen.webp"
+	},
+	"Archeops": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle567.webp",
+		"image": "modules/Pokemon5e/images/pokemon/567Archeops.webp"
+	},
+	"Trubbish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle568.webp",
+		"image": "modules/Pokemon5e/images/pokemon/568Trubbish.webp"
+	},
+	"Garbodor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle569.webp",
+		"image": "modules/Pokemon5e/images/pokemon/569Garbodor.webp"
+	},
+	"Zorua": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle570.webp",
+		"image": "modules/Pokemon5e/images/pokemon/570Zorua.webp"
+	},
+	"Zoroark": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle571.webp",
+		"image": "modules/Pokemon5e/images/pokemon/571Zoroark.webp"
+	},
+	"Minccino": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle572.webp",
+		"image": "modules/Pokemon5e/images/pokemon/572Minccino.webp"
+	},
+	"Cinccino": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle573.webp",
+		"image": "modules/Pokemon5e/images/pokemon/573Cinccino.webp"
+	},
+	"Gothita": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle574.webp",
+		"image": "modules/Pokemon5e/images/pokemon/574Gothita.webp"
+	},
+	"Gothorita": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle575.webp",
+		"image": "modules/Pokemon5e/images/pokemon/575Gothorita.webp"
+	},
+	"Gothitelle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle576.webp",
+		"image": "modules/Pokemon5e/images/pokemon/576Gothitelle.webp"
+	},
+	"Solosis": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle577.webp",
+		"image": "modules/Pokemon5e/images/pokemon/577Solosis.webp"
+	},
+	"Duosion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle578.webp",
+		"image": "modules/Pokemon5e/images/pokemon/578Duosion.webp"
+	},
+	"Reuniclus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle579.webp",
+		"image": "modules/Pokemon5e/images/pokemon/579Reuniclus.webp"
+	},
+	"Ducklett": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle580.webp",
+		"image": "modules/Pokemon5e/images/pokemon/580Ducklett.webp"
+	},
+	"Swanna": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle581.webp",
+		"image": "modules/Pokemon5e/images/pokemon/581Swanna.webp"
+	},
+	"Vanillite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle582.webp",
+		"image": "modules/Pokemon5e/images/pokemon/582Vanillite.webp"
+	},
+	"Vanillish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle583.webp",
+		"image": "modules/Pokemon5e/images/pokemon/583Vanillish.webp"
+	},
+	"Vanilluxe": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle584.webp",
+		"image": "modules/Pokemon5e/images/pokemon/584Vanilluxe.webp"
+	},
+	"Deerling": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle585.webp",
+		"image": "modules/Pokemon5e/images/pokemon/585Deerling.webp"
+	},
+	"Sawsbuck": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle586.webp",
+		"image": "modules/Pokemon5e/images/pokemon/586Sawsbuck-Spring.webp"
+	},
+	"Emolga": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle587.webp",
+		"image": "modules/Pokemon5e/images/pokemon/587Emolga.webp"
+	},
+	"Karrablast": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle588.webp",
+		"image": "modules/Pokemon5e/images/pokemon/588Karrablast.webp"
+	},
+	"Escavalier": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle589.webp",
+		"image": "modules/Pokemon5e/images/pokemon/589Escavalier.webp"
+	},
+	"Foongus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle590.webp",
+		"image": "modules/Pokemon5e/images/pokemon/590Foongus.webp"
+	},
+	"Amoonguss": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle591.webp",
+		"image": "modules/Pokemon5e/images/pokemon/591Amoonguss.webp"
+	},
+	"Frillish": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle592.webp",
+		"image": "modules/Pokemon5e/images/pokemon/592Frillish.webp"
+	},
+	"Jellicent": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle593.webp",
+		"image": "modules/Pokemon5e/images/pokemon/593Jellicent.webp"
+	},
+	"Alomomola": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle594.webp",
+		"image": "modules/Pokemon5e/images/pokemon/594Alomomola.webp"
+	},
+	"Joltik": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle595.webp",
+		"image": "modules/Pokemon5e/images/pokemon/595Joltik.webp"
+	},
+	"Galvantula": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle596.webp",
+		"image": "modules/Pokemon5e/images/pokemon/596Galvantula.webp"
+	},
+	"Ferroseed": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle597.webp",
+		"image": "modules/Pokemon5e/images/pokemon/597Ferroseed.webp"
+	},
+	"Ferrothorn": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle598.webp",
+		"image": "modules/Pokemon5e/images/pokemon/598Ferrothorn.webp"
+	},
+	"Klink": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle599.webp",
+		"image": "modules/Pokemon5e/images/pokemon/599Klink.webp"
+	},
+	"Klang": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle600.webp",
+		"image": "modules/Pokemon5e/images/pokemon/600Klang.webp"
+	},
+	"Klinklang": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle601.webp",
+		"image": "modules/Pokemon5e/images/pokemon/601Klinklang.webp"
+	},
+	"Tynamo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle602.webp",
+		"image": "modules/Pokemon5e/images/pokemon/602Tynamo.webp"
+	},
+	"Eelektrik": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle603.webp",
+		"image": "modules/Pokemon5e/images/pokemon/603Eelektrik.webp"
+	},
+	"Eelektross": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle604.webp",
+		"image": "modules/Pokemon5e/images/pokemon/604Eelektross.webp"
+	},
+	"Elgyem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle605.webp",
+		"image": "modules/Pokemon5e/images/pokemon/605Elgyem.webp"
+	},
+	"Beheeyem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle606.webp",
+		"image": "modules/Pokemon5e/images/pokemon/606Beheeyem.webp"
+	},
+	"Litwick": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle607.webp",
+		"image": "modules/Pokemon5e/images/pokemon/607Litwick.webp"
+	},
+	"Lampent": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle608.webp",
+		"image": "modules/Pokemon5e/images/pokemon/608Lampent.webp"
+	},
+	"Chandelure": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle609.webp",
+		"image": "modules/Pokemon5e/images/pokemon/609Chandelure.webp"
+	},
+	"Axew": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle610.webp",
+		"image": "modules/Pokemon5e/images/pokemon/610Axew.webp"
+	},
+	"Fraxure": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle611.webp",
+		"image": "modules/Pokemon5e/images/pokemon/611Fraxure.webp"
+	},
+	"Haxorus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle612.webp",
+		"image": "modules/Pokemon5e/images/pokemon/612Haxorus.webp"
+	},
+	"Cubchoo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle613.webp",
+		"image": "modules/Pokemon5e/images/pokemon/613Cubchoo.webp"
+	},
+	"Beartic": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle614.webp",
+		"image": "modules/Pokemon5e/images/pokemon/614Beartic.webp"
+	},
+	"Cryogonal": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle615.webp",
+		"image": "modules/Pokemon5e/images/pokemon/615Cryogonal.webp"
+	},
+	"Shelmet": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle616.webp",
+		"image": "modules/Pokemon5e/images/pokemon/616Shelmet.webp"
+	},
+	"Accelgor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle617.webp",
+		"image": "modules/Pokemon5e/images/pokemon/617Accelgor.webp"
+	},
+	"Stunfisk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle618.webp",
+		"image": "modules/Pokemon5e/images/pokemon/618Stunfisk.webp"
+	},
+	"Mienfoo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle619.webp",
+		"image": "modules/Pokemon5e/images/pokemon/619Mienfoo.webp"
+	},
+	"Mienshao": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle620.webp",
+		"image": "modules/Pokemon5e/images/pokemon/620Mienshao.webp"
+	},
+	"Druddigon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle621.webp",
+		"image": "modules/Pokemon5e/images/pokemon/621Druddigon.webp"
+	},
+	"Golett": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle622.webp",
+		"image": "modules/Pokemon5e/images/pokemon/622Golett.webp"
+	},
+	"Golurk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle623.webp",
+		"image": "modules/Pokemon5e/images/pokemon/623Golurk.webp"
+	},
+	"Pawniard": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle624.webp",
+		"image": "modules/Pokemon5e/images/pokemon/624Pawniard.webp"
+	},
+	"Bisharp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle625.webp",
+		"image": "modules/Pokemon5e/images/pokemon/625Bisharp.webp"
+	},
+	"Bouffalant": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle626.webp",
+		"image": "modules/Pokemon5e/images/pokemon/626Bouffalant.webp"
+	},
+	"Rufflet": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle627.webp",
+		"image": "modules/Pokemon5e/images/pokemon/627Rufflet.webp"
+	},
+	"Braviary": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle628.webp",
+		"image": "modules/Pokemon5e/images/pokemon/628Braviary.webp"
+	},
+	"Vullaby": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle629.webp",
+		"image": "modules/Pokemon5e/images/pokemon/629Vullaby.webp"
+	},
+	"Mandibuzz": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle630.webp",
+		"image": "modules/Pokemon5e/images/pokemon/630Mandibuzz.webp"
+	},
+	"Heatmor": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle631.webp",
+		"image": "modules/Pokemon5e/images/pokemon/631Heatmor.webp"
+	},
+	"Durant": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle632.webp",
+		"image": "modules/Pokemon5e/images/pokemon/632Durant.webp"
+	},
+	"Deino": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle633.webp",
+		"image": "modules/Pokemon5e/images/pokemon/633Deino.webp"
+	},
+	"Zweilous": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle634.webp",
+		"image": "modules/Pokemon5e/images/pokemon/634Zweilous.webp"
+	},
+	"Hydreigon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle635.webp",
+		"image": "modules/Pokemon5e/images/pokemon/635Hydreigon.webp"
+	},
+	"Larvesta": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle636.webp",
+		"image": "modules/Pokemon5e/images/pokemon/636Larvesta.webp"
+	},
+	"Volcarona": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle637.webp",
+		"image": "modules/Pokemon5e/images/pokemon/637Volcarona.webp"
+	},
+	"Cobalion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle638.webp",
+		"image": "modules/Pokemon5e/images/pokemon/638Cobalion.webp"
+	},
+	"Terrakion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle639.webp",
+		"image": "modules/Pokemon5e/images/pokemon/639Terrakion.webp"
+	},
+	"Virizion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle640.webp",
+		"image": "modules/Pokemon5e/images/pokemon/640Virizion.webp"
+	},
+	"Tornadus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle641.webp",
+		"image": "modules/Pokemon5e/images/pokemon/641Tornadus.webp"
+	},
+	"Thundurus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle642.webp",
+		"image": "modules/Pokemon5e/images/pokemon/642Thundurus.webp"
+	},
+	"Reshiram": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle643.webp",
+		"image": "modules/Pokemon5e/images/pokemon/643Reshiram.webp"
+	},
+	"Zekrom": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle644.webp",
+		"image": "modules/Pokemon5e/images/pokemon/644Zekrom.webp"
+	},
+	"Landorus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle645.webp",
+		"image": "modules/Pokemon5e/images/pokemon/645Landorus.webp"
+	},
+	"Kyurem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle646.webp",
+		"image": "modules/Pokemon5e/images/pokemon/646Kyurem.webp"
+	},
+	"White Kyurem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle646W.webp",
+		"image": "modules/Pokemon5e/images/pokemon/646Kyurem-White.webp"
+	},
+	"Black Kyurem": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle646B.webp",
+		"image": "modules/Pokemon5e/images/pokemon/646Kyurem-Black.webp"
+	},
+	"Keldeo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle647.webp",
+		"image": "modules/Pokemon5e/images/pokemon/647Keldeo.webp"
+	},
+	"Meloetta - Aria": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle648.webp",
+		"image": "modules/Pokemon5e/images/pokemon/648Meloetta.webp"
+	},
+	"Meloetta - Pirouette": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle648P.webp",
+		"image": "modules/Pokemon5e/images/pokemon/648Meloetta-Pirouette.webp"
+	},
+	"Genesect": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle649.webp",
+		"image": "modules/Pokemon5e/images/pokemon/649Genesect.webp"
+	},
+	"Chespin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle650.webp",
+		"image": "modules/Pokemon5e/images/pokemon/650Chespin.webp"
+	},
+	"Quilladin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle651.webp",
+		"image": "modules/Pokemon5e/images/pokemon/651Quilladin.webp"
+	},
+	"Chesnaught": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle652.webp",
+		"image": "modules/Pokemon5e/images/pokemon/652Chesnaught.webp"
+	},
+	"Fennekin": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle653.webp",
+		"image": "modules/Pokemon5e/images/pokemon/653Fennekin.webp"
+	},
+	"Braixen": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle654.webp",
+		"image": "modules/Pokemon5e/images/pokemon/654Braixen.webp"
+	},
+	"Delphox": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle655.webp",
+		"image": "modules/Pokemon5e/images/pokemon/655Delphox.webp"
+	},
+	"Froakie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle656.webp",
+		"image": "modules/Pokemon5e/images/pokemon/656Froakie.webp"
+	},
+	"Frogadier": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle657.webp",
+		"image": "modules/Pokemon5e/images/pokemon/657Frogadier.webp"
+	},
+	"Greninja": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle658.webp",
+		"image": "modules/Pokemon5e/images/pokemon/658Greninja.webp"
+	},
+	"Bunnelby": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle659.webp",
+		"image": "modules/Pokemon5e/images/pokemon/659Bunnelby.webp"
+	},
+	"Diggersby": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle660.webp",
+		"image": "modules/Pokemon5e/images/pokemon/660Diggersby.webp"
+	},
+	"Fletchling": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle661.webp",
+		"image": "modules/Pokemon5e/images/pokemon/661Fletchling.webp"
+	},
+	"Fletchinder": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle662.webp",
+		"image": "modules/Pokemon5e/images/pokemon/662Fletchinder.webp"
+	},
+	"Talonflame": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle663.webp",
+		"image": "modules/Pokemon5e/images/pokemon/663Talonflame.webp"
+	},
+	"Scatterbug": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle664.webp",
+		"image": "modules/Pokemon5e/images/pokemon/664Scatterbug.webp"
+	},
+	"Spewpa": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle665.webp",
+		"image": "modules/Pokemon5e/images/pokemon/665Spewpa.webp"
+	},
+	"Vivillon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle666.webp",
+		"image": "modules/Pokemon5e/images/pokemon/666Vivillon.webp"
+	},
+	"Litleo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle667.webp",
+		"image": "modules/Pokemon5e/images/pokemon/667Litleo.webp"
+	},
+	"Pyroar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle668.webp",
+		"image": "modules/Pokemon5e/images/pokemon/668Pyroar.webp"
+	},
+	"Flabébé": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle669.webp",
+		"image": "modules/Pokemon5e/images/pokemon/669Flabébé.webp"
+	},
+	"Floette": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle670.webp",
+		"image": "modules/Pokemon5e/images/pokemon/670Floette.webp"
+	},
+	"Florges": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle671.webp",
+		"image": "modules/Pokemon5e/images/pokemon/671Florges.webp"
+	},
+	"Skiddo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle672.webp",
+		"image": "modules/Pokemon5e/images/pokemon/672Skiddo.webp"
+	},
+	"Gogoat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle673.webp",
+		"image": "modules/Pokemon5e/images/pokemon/673Gogoat.webp"
+	},
+	"Pancham": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle674.webp",
+		"image": "modules/Pokemon5e/images/pokemon/674Pancham.webp"
+	},
+	"Pangoro": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle675.webp",
+		"image": "modules/Pokemon5e/images/pokemon/675Pangoro.webp"
+	},
+	"Furfrou": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle676.webp",
+		"image": "modules/Pokemon5e/images/pokemon/676Furfrou.webp"
+	},
+	"Espurr": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle677.webp",
+		"image": "modules/Pokemon5e/images/pokemon/677Espurr.webp"
+	},
+	"Meowstic ♂": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle678.webp",
+		"image": "modules/Pokemon5e/images/pokemon/678Meowstic.webp"
+	},
+	"Meowstic ♀": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle678F.webp",
+		"image": "modules/Pokemon5e/images/pokemon/678Meowstic.webp"
+	},
+	"Honedge": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle679.webp",
+		"image": "modules/Pokemon5e/images/pokemon/679Honedge.webp"
+	},
+	"Doublade": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle680.webp",
+		"image": "modules/Pokemon5e/images/pokemon/680Doublade.webp"
+	},
+	"Aegislash": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle681.webp",
+		"image": "modules/Pokemon5e/images/pokemon/681Aegislash.webp"
+	},
+	"Spritzee": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle682.webp",
+		"image": "modules/Pokemon5e/images/pokemon/682Spritzee.webp"
+	},
+	"Aromatisse": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle683.webp",
+		"image": "modules/Pokemon5e/images/pokemon/683Aromatisse.webp"
+	},
+	"Swirlix": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle684.webp",
+		"image": "modules/Pokemon5e/images/pokemon/684Swirlix.webp"
+	},
+	"Slurpuff": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle685.webp",
+		"image": "modules/Pokemon5e/images/pokemon/685Slurpuff.webp"
+	},
+	"Inkay": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle686.webp",
+		"image": "modules/Pokemon5e/images/pokemon/686Inkay.webp"
+	},
+	"Malamar": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle687.webp",
+		"image": "modules/Pokemon5e/images/pokemon/687Malamar.webp"
+	},
+	"Binacle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle688.webp",
+		"image": "modules/Pokemon5e/images/pokemon/688Binacle.webp"
+	},
+	"Barbaracle": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle689.webp",
+		"image": "modules/Pokemon5e/images/pokemon/689Barbaracle.webp"
+	},
+	"Skrelp": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle690.webp",
+		"image": "modules/Pokemon5e/images/pokemon/690Skrelp.webp"
+	},
+	"Dragalge": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle691.webp",
+		"image": "modules/Pokemon5e/images/pokemon/691Dragalge.webp"
+	},
+	"Clauncher": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle692.webp",
+		"image": "modules/Pokemon5e/images/pokemon/692Clauncher.webp"
+	},
+	"Clawitzer": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle693.webp",
+		"image": "modules/Pokemon5e/images/pokemon/693Clawitzer.webp"
+	},
+	"Helioptile": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle694.webp",
+		"image": "modules/Pokemon5e/images/pokemon/694Helioptile.webp"
+	},
+	"Heliolisk": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle695.webp",
+		"image": "modules/Pokemon5e/images/pokemon/695Heliolisk.webp"
+	},
+	"Tyrunt": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle696.webp",
+		"image": "modules/Pokemon5e/images/pokemon/696Tyrunt.webp"
+	},
+	"Tyrantrum": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle697.webp",
+		"image": "modules/Pokemon5e/images/pokemon/697Tyrantrum.webp"
+	},
+	"Amaura": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle698.webp",
+		"image": "modules/Pokemon5e/images/pokemon/698Amaura.webp"
+	},
+	"Aurorus": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle699.webp",
+		"image": "modules/Pokemon5e/images/pokemon/699Aurorus.webp"
+	},
+	"Sylveon": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle700.webp",
+		"image": "modules/Pokemon5e/images/pokemon/700Sylveon.webp"
+	},
+	"Hawlucha": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle701.webp",
+		"image": "modules/Pokemon5e/images/pokemon/701Hawlucha.webp"
+	},
+	"Dedenne": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle702.webp",
+		"image": "modules/Pokemon5e/images/pokemon/702Dedenne.webp"
+	},
+	"Carbink": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle703.webp",
+		"image": "modules/Pokemon5e/images/pokemon/703Carbink.webp"
+	},
+	"Goomy": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle704.webp",
+		"image": "modules/Pokemon5e/images/pokemon/704Goomy.webp"
+	},
+	"Sliggoo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle705.webp",
+		"image": "modules/Pokemon5e/images/pokemon/705Sliggoo.webp"
+	},
+	"Goodra": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle706.webp",
+		"image": "modules/Pokemon5e/images/pokemon/706Goodra.webp"
+	},
+	"Klefki": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle707.webp",
+		"image": "modules/Pokemon5e/images/pokemon/707Klefki.webp"
+	},
+	"Phantump": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle708.webp",
+		"image": "modules/Pokemon5e/images/pokemon/708Phantump.webp"
+	},
+	"Trevenant": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle709.webp",
+		"image": "modules/Pokemon5e/images/pokemon/709Trevenant.webp"
+	},
+	"Pumpkaboo": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle710.webp",
+		"image": "modules/Pokemon5e/images/pokemon/710Pumpkaboo.webp"
+	},
+	"Pumpkaboo - Small": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle710.webp",
+		"image": "modules/Pokemon5e/images/pokemon/710Pumpkaboo.webp"
+	},
+	"Pumpkaboo - Average": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle710.webp",
+		"image": "modules/Pokemon5e/images/pokemon/710Pumpkaboo.webp"
+	},
+	"Pumpkaboo - Large": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle710.webp",
+		"image": "modules/Pokemon5e/images/pokemon/710Pumpkaboo.webp"
+	},
+	"Pumpkaboo - Supersize": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle710.webp",
+		"image": "modules/Pokemon5e/images/pokemon/710Pumpkaboo.webp"
+	},
+	"Gourgeist": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle711.webp",
+		"image": "modules/Pokemon5e/images/pokemon/711Gourgeist.webp"
+	},
+	"Gourgeist - Small": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle711.webp",
+		"image": "modules/Pokemon5e/images/pokemon/711Gourgeist.webp"
+	},
+	"Gourgeist - Average": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle711.webp",
+		"image": "modules/Pokemon5e/images/pokemon/711Gourgeist.webp"
+	},
+	"Gourgeist - Large": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle711.webp",
+		"image": "modules/Pokemon5e/images/pokemon/711Gourgeist.webp"
+	},
+	"Gourgeist- Supersize": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle711.webp",
+		"image": "modules/Pokemon5e/images/pokemon/711Gourgeist.webp"
+	},
+	"Bergmite": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle712.webp",
+		"image": "modules/Pokemon5e/images/pokemon/712Bergmite.webp"
+	},
+	"Avalugg": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle713.webp",
+		"image": "modules/Pokemon5e/images/pokemon/713Avalugg.webp"
+	},
+	"Noibat": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle714.webp",
+		"image": "modules/Pokemon5e/images/pokemon/714Noibat.webp"
+	},
+	"Noivern": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle715.webp",
+		"image": "modules/Pokemon5e/images/pokemon/715Noivern.webp"
+	},
+	"Xerneas": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle716.webp",
+		"image": "modules/Pokemon5e/images/pokemon/716Xerneas.webp"
+	},
+	"Yveltal": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle717.webp",
+		"image": "modules/Pokemon5e/images/pokemon/717Yveltal.webp"
+	},
+	"Zygarde 10% Forme": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle718T.webp",
+		"image": "modules/Pokemon5e/images/pokemon/718Zygarde-10Percent.webp"
+	},
+	"Zygarde 50% Forme": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle718.webp",
+		"image": "modules/Pokemon5e/images/pokemon/718Zygarde.webp"
+	},
+	"Zygarde Complete Form": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle718C.webp",
+		"image": "modules/Pokemon5e/images/pokemon/718Zygarde-Complete.webp"
+	},
+	"Zygarde Complete Forme": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle718C.webp",
+		"image": "modules/Pokemon5e/images/pokemon/718Zygarde-Complete.webp"
+	},
+	"Diancie": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle719.webp",
+		"image": "modules/Pokemon5e/images/pokemon/719Diancie.webp"
+	},
+	"Hoopa Confined": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle720.webp",
+		"image": "modules/Pokemon5e/images/pokemon/720Hoopa.webp"
+	},
+	"Hoopa Unbound": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle720U.webp",
+		"image": "modules/Pokemon5e/images/pokemon/720Hoopa-Unbound.webp"
+	},
+	"Volcanion": {
+		"token": "modules/Pokemon5e/images/tokens/128px-Shuffle721.webp",
+		"image": "modules/Pokemon5e/images/pokemon/721Volcanion.webp"
+	},
+	"Alolan Rattata": {
+		"token": "",
+		"image": ""},
+	"Alolan Raticate":{
+		"token": "",
+		"image": ""},
+	"Alolan Raichu": {
+		"token": "",
+		"image": ""},
+	"Alolan Sandshrew":{
+		"token": "",
+		"image": ""},
+	"Alolan Sandslash": {
+		"token": "",
+		"image": ""},
+	"Alolan Vulpix":{
+		"token": "",
+		"image": ""},
+	"Alolan Ninetales": {
+		"token": "",
+		"image": ""},
+	"Alolan Diglett":{
+		"token": "",
+		"image": ""},
+	"Alolan Dugtrio": {
+		"token": "",
+		"image": ""},
+	"Alolan Meowth":{
+		"token": "",
+		"image": ""},
+	"Alolan Persian": {
+		"token": "",
+		"image": ""},
+	"Alolan Geodude":{
+		"token": "",
+		"image": ""},
+	"Alolan Graveler": {
+		"token": "",
+		"image": ""},
+	"Alolan Golem":{
+		"token": "",
+		"image": ""},
+	"Alolan Grimer": {
+		"token": "",
+		"image": ""},
+	"Alolan Muk":{
+		"token": "",
+		"image": ""},
+	"Alolan Exeggutor": {
+		"token": "",
+		"image": ""},
+	"Alolan Marowak":{
+		"token": "",
+		"image": ""},
+	"Rowlet": {
+		"token": "",
+		"image": ""},
+	"Dartrix":{
+		"token": "",
+		"image": ""},
+	"Decidueye": {
+		"token": "",
+		"image": ""},
+	"Litten":{
+		"token": "",
+		"image": ""},
+	"Torracat": {
+		"token": "",
+		"image": ""},
+	"Incineroar":{
+		"token": "",
+		"image": ""},
+	"Popplio": {
+		"token": "",
+		"image": ""},
+	"Brionne":{
+		"token": "",
+		"image": ""},
+	"Primarina": {
+		"token": "",
+		"image": ""},
+	"Pikipek":{
+		"token": "",
+		"image": ""},
+	"Trumbeak": {
+		"token": "",
+		"image": ""},
+	"Toucannon":{
+		"token": "",
+		"image": ""},
+	"Yungoos": {
+		"token": "",
+		"image": ""},
+	"Gumshoos":{
+		"token": "",
+		"image": ""},
+	"Grubbin": {
+		"token": "",
+		"image": ""},
+	"Charjabug":{
+		"token": "",
+		"image": ""},
+	"Vikavolt": {
+		"token": "",
+		"image": ""},
+	"Crabrawler":{
+		"token": "",
+		"image": ""},
+	"Crabominable": {
+		"token": "",
+		"image": ""},
+	"Oricorio Baile Style":{
+		"token": "",
+		"image": ""},
+	"Oricorio Pom-Pom Style": {
+		"token": "",
+		"image": ""},
+	"Oricorio Pa'u Style":{
+		"token":"",
+		"image":""},
+	"Oricorio Sensu Style": {
+		"token":"",
+		"image":""},
+	"Cutiefly":{
+		"token":"",
+		"image":""},
+	"Ribombee": {
+		"token":"",
+		"image":""},
+	"Rockruff":{
+		"token":"",
+		"image":""},
+	"Lycanroc Midday Form": {
+		"token":"",
+		"image":""},
+	"Lycanroc Midnight Form":{
+		"token":"",
+		"image":""},
+	"Lycanroc Dusk Form": {
+		"token":"",
+		"image":""},
+	"Wishiwashi Solo Form":{
+		"token":"",
+		"image":""},
+	"Wishiwashi School Form": {
+		"token":"",
+		"image":""},
+	"Mareanie":{
+		"token":"",
+		"image":""},
+	"Toxapex": {
+		"token":"",
+		"image":""},
+	"Mudbray":{
+		"token":"",
+		"image":""},
+	"Mudsdale": {
+		"token":"",
+		"image":""},
+	"Dewpider":{
+		"token":"",
+		"image":""},
+	"Araquanid": {
+		"token":"",
+		"image":""},
+	"Fomantis":{
+		"token":"",
+		"image":""},
+	"Lurantis": {
+		"token":"",
+		"image":""},
+	"Morelull":{
+		"token":"",
+		"image":""},
+	"Shiinotic": {
+		"token":"",
+		"image":""},
+	"Salandit":{
+		"token":"",
+		"image":""},
+	"Salazzle": {
+		"token":"",
+		"image":""},
+	"Stufful":{
+		"token":"",
+		"image":""},
+	"Bewear": {
+		"token":"",
+		"image":""},
+	"Bounsweet":{
+		"token":"",
+		"image":""},
+	"Steenee": {
+		"token":"",
+		"image":""},
+	"Tsareena":{
+		"token":"",
+		"image":""},
+	"Comfey": {
+		"token":"",
+		"image":""},
+	"Oranguru":{
+		"token":"",
+		"image":""},
+	"Passimian": {
+		"token":"",
+		"image":""},
+	"Wimpod":{
+		"token":"",
+		"image":""},
+	"Golisopod": {
+		"token":"",
+		"image":""},
+	"Sandygast":{
+		"token":"",
+		"image":""},
+	"Palossand": {
+		"token":"",
+		"image":""},
+	"Pyukumuku":{
+		"token":"",
+		"image":""},
+	"Type: Null": {
+		"token":"",
+		"image":""},
+	"Silvally":{
+		"token":"",
+		"image":""},
+	"Minior Meteor Form": {
+		"token":"",
+		"image":""},
+	"Minior Core Form":{
+		"token":"",
+		"image":""},
+	"Komala": {
+		"token":"",
+		"image":""},
+	"Turtonator":{
+		"token":"",
+		"image":""},
+	"Togedemaru": {
+		"token":"",
+		"image":""},
+	"Mimikyu":{
+		"token":"",
+		"image":""},
+	"Bruxish": {
+		"token":"",
+		"image":""},
+	"Drampa":{
+		"token":"",
+		"image":""},
+	"Dhelmise": {
+		"token":"",
+		"image":""},
+	"Jangmo-o":{
+		"token":"",
+		"image":""},
+	"Hakamo-o": {
+		"token":"",
+		"image":""},
+	"Kommo-o":{
+		"token":"",
+		"image":""},
+	"Tapu Koko": {
+		"token":"",
+		"image":""},
+	"Tapu Lele":{
+		"token":"",
+		"image":""},
+	"Tapu Bulu": {
+		"token":"",
+		"image":""},
+	"Tapu Fini":{
+		"token":"",
+		"image":""},
+	"Cosmog": {
+		"token":"",
+		"image":""},
+	"Cosmoem":{
+		"token":"",
+		"image":""},
+	"Solgaleo": {
+		"token":"",
+		"image":""},
+	"Lunala":{
+		"token":"",
+		"image":""},
+	"Nihilego": {
+		"token":"",
+		"image":""},
+	"Buzzwole":{
+		"token":"",
+		"image":""},
+	"Pheromosa": {
+		"token":"",
+		"image":""},
+	"Xurkitree":{
+		"token":"",
+		"image":""},
+	"Celesteela": {
+		"token":"",
+		"image":""},
+	"Kartana":{
+		"token":"",
+		"image":""},
+	"Guzzlord": {
+		"token":"",
+		"image":""},
+	"Necrozma":{
+		"token":"",
+		"image":""},
+	"Dusk Mane Necrozma": {
+		"token":"",
+		"image":""},
+	"Dawn Wings Necrozma":{
+		"token":"",
+		"image":""},
+	"Ultra Necrozma": {
+		"token":"",
+		"image":""},
+	"Magearna":{
+		"token":"",
+		"image":""},
+	"Marshadow": {
+		"token":"",
+		"image":""},
+	"Poipole":{
+		"token":"",
+		"image":""},
+	"Naganadel": {
+		"token":"",
+		"image":""},
+	"Stakataka":{
+		"token":"",
+		"image":""},
+	"Blacephalon": {
+		"token":"",
+		"image":""},
+	"Zeraora":{
+		"token":"",
+		"image":""},
+	"Meltan": {
+		"token":"",
+		"image":""},
+	"Melmetal":{
+		"token":"",
+		"image":""}
+}

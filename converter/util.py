@@ -57,7 +57,7 @@ EXTRA_POKEMON_DATA = load_extra("pokemon_extra")
 MERGE_MOVE_DATA = load_extra("moves")
 MERGE_POKEMON_DATA = load_extra("pokemon")
 EXTRA_MOVE_ICON_DATA = load_extra("move_icons")
-EXTRA_POKEMON_ICON_DATA = load_extra("pokemon_icons")
+EXTRA_POKEMON_IMAGE_DATA = load_extra("pokemon_images")
 MERGE_ABILITY_DATA = load_extra("abilities")
 
 TRANSLATE_NAME = {

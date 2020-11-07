@@ -65,7 +65,8 @@ TRANSLATE_NAME = {
   "Meowstic-f": "Meowstic ♀",
   "Meowstic-m": "Meowstic ♂",
   "Nidoran-m": "Nidoran ♂",
-  "Nidoran-f": "Nidoran ♀"
+  "Nidoran-f": "Nidoran ♀",
+  "Type Null": "Type: Null"
 }
 
 

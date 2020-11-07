@@ -8,6 +8,6 @@ output = util.CACHE
 if __name__ == '__main__':
     if len(sys.argv) == 2:
         token = sys.argv[1]
-        subprocess.run(["python", str(script), token, "--output", str(output), "--keep-dice"])
+        subprocess.run(["python", str(script), token, "--output", str(output), "--keep-dice", "--no-variants"])
     else:
         print("Please supply spread token")

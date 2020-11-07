@@ -26,3 +26,20 @@ class Ability:
             file_path.parent.mkdir(parents=True)
         with file_path.open("w+", encoding="utf-8") as fp:
             json.dump(self.output_data, fp, ensure_ascii=False)
+
+
+LOADED_ABILITY = {"json": None}
+
+
+def build_from_cache(name):
+    cached_move = (util.CACHE / "abilities.json")
+    if not cached_move.exists():
+        raise FileNotFoundError(f"Can not find file: {cached_move}")
+    if not LOADED_ABILITY["json"]:
+        with cached_move.open() as fp:
+            json_data = json.load(fp)
+        LOADED_ABILITY["json"] = json_data
+    data = LOADED_ABILITY["json"][name]
+    m = Ability(name, data)
+    m.save((util.BUILD_MOVES / name).with_suffix(".json"))
+    return m, data

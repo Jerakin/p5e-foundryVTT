@@ -198,13 +198,12 @@ class Pokemon:
             abilities.append(json_data["Hidden Ability"])
 
         for ability_name in abilities:
-            if ability_name in util.BUILD_ABILITIES.iterdir():  # Check if the move have been built and use that
+            if ability_name in util.BUILD_ABILITIES.iterdir():  # Check if the ability have been built and use that
                 with (util.BUILD_ABILITIES / ability_name).with_suffix(".json").open(encoding="utf-8") as fp:
-                    json_move_data = json.load(fp)
-                    new_ability = Ability(json_move_data)
-            else:  # Move have not been built, build it and use that
-                m = ability.Ability(ability_name, util.ABILITY_DATA[ability_name])
-                m.save((util.BUILD_ABILITIES / ability_name).with_suffix(".json"))
+                    json_ability_data = json.load(fp)
+                    new_ability = Ability(json_ability_data)
+            else:  # Abilities have not been built, build it and use that
+                m, json_ability_data = ability.build_from_cache(ability_name)
                 new_ability = Ability(m.output_data)
 
             self.output_data["items"].append(new_ability.output_data)

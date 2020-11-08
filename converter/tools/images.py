@@ -89,7 +89,7 @@ def add_tokens():
 
 def resize():
     size = 128, 128
-    p = Path(__file__).parent / "raw_images2"
+    p = Path(__file__).parent / "raw_images"
     out = Path(__file__).parent / "resized"
 
     for infile in p.iterdir():
@@ -102,4 +102,20 @@ def resize():
             except IOError:
                 print("cannot create thumbnail for '%s'" % infile)
 
-resize()
+
+def crop():
+    p = Path(__file__).parent / "raw_images"
+    p = Path(r"E:\projects\repositories\p5e-foundryVTT\assets\images\tokens")
+
+    for infile in p.iterdir():
+        try:
+            img = Image.open(infile)
+            before = img.size
+            img = img.crop(img.getbbox())
+            if before != img.size:
+                img.save(infile)
+        except IOError:
+            print("cannot create thumbnail for '%s'" % infile)
+
+
+crop()

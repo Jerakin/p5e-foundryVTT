@@ -25,8 +25,11 @@ def build_pokemon(name, json_data, output_file):
 
 
 def build_move(name, json_data, output_file):
-    poke = move.Move(name, json_data)
-    poke.save(output_file)
+    try:
+        poke = move.Move(name, json_data)
+        poke.save(output_file)
+    except KeyError as e:
+        print(f"Could not build {name} at output {output_file}")
 
 
 def build_ability(name, json_data, output_file):

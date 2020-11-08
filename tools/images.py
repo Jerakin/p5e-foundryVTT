@@ -6,24 +6,39 @@ from pathlib import Path
 import shutil
 from PIL import Image
 
-output_json = Path(__file__).parent.parent / "assets/data/pokemon.json"
+root = Path(__file__).parent.parent
+output_json = root / "assets/data/pokemon_images.json"
 input_folder = Path(__file__).parent.parent / "cache/pokemon"
 
 
 class Bulbapedia:
     dirty_reg = re.compile("filehistory-selected[^\"]*.*?(cdn\.bulbagarden\.net/upload[^\"]*)")
 
+    def image_exists(self, data, pokemon):
+        if pokemon not in data:
+            return False
+        _img = data[pokemon]["image"]
+
+        if _img:
+            if (root / _img.replace("modules/Pokemon5e", "assets")).exists():
+                return True
+        return False
+
     def collect(self):
+        if output_json.exists():
+            with output_json.open("r") as fp:
+                img_data = json.load(fp)
+
         new = {}
         for poke_json in input_folder.iterdir():
             with poke_json.open("r") as f:
                 data = json.load(f)
                 index = data["index"]
                 pokemon = poke_json.stem
-
                 raw_url = "https://bulbapedia.bulbagarden.net/wiki/File:{:03d}{}.png".format(index, pokemon)
                 file_name = Path("./raw_images/{}{}.png".format(index, pokemon)).absolute()
 
+            if not self.image_exists(img_data, pokemon):
                 r = requests.get(raw_url)
                 url = self.get_url_from_source(r.content)
                 if url:
@@ -88,88 +103,19 @@ class Pokedex5e:
 
 
 def use_downloaded():
-    new = {}
     with output_json.open("r") as fp:
-        data = json.load(fp)
+        i_data = json.load(fp)
 
     for poke_json in input_folder.iterdir():
         with poke_json.open("r") as f:
             data = json.load(f)
             index = data["index"]
             pokemon = poke_json.stem
-            new[pokemon] = {"img": f"modules/Pokemon5e/images/pokemon/{index}{pokemon}.webp"}
+            if pokemon in i_data and i_data[pokemon]["image"] == "":
+                i_data[pokemon]["image"] = f"modules/Pokemon5e/images/tokens/128px-Shuffle{index}.webp"
 
     with output_json.open("w") as f:
-        data = json.dump(new, f, indent=4)
-
-from pathlib import Path
-import requests
-import time
-import shutil
-import re
-from bs4 import BeautifulSoup
-
-import numpy as np
-
-root = Path(__file__).parent
-output = root / "images"
-dirty_reg = re.compile('<a class="internal" href="(//archives.bulbagarden.net/media/upload.*)" title="BT{3}.png">BT{3}.png</a>')
-
-if not output.exists():
-    output.mkdir()
+        json.dump(i_data, f, indent=4)
 
 
-def crop(png_image_name):
-    size = 128, 128
-    im = Image.open(png_image_name)
-    im.getbbox()
-    im2 = im.crop(im.getbbox())
-    im2.save(png_image_name.with_suffix(".webp"), "WebP")
-
-
-def get_url_from_source(source):
-    soup = BeautifulSoup(source, 'html.parser')
-    for image in soup.find_all("img"):
-        if image["height"] == "128" and image["width"] == "128":
-            return image["src"][2:]
-    return None
-
-
-def download_image(url, name):
-    r = requests.get("http://" + url, stream=True)
-    print("Got Image ", name)
-    if r.status_code == 200:
-        with open(name, 'wb') as f:
-            r.raw.decode_content = True
-            shutil.copyfileobj(r.raw, f)
-            print("Image copied")
-    else:
-        print("Error")
-
-
-def download(index):
-    # raw_url = "https://bulbapedia.bulbagarden.net/wiki/File:BT{:03d}.png".format(index,)
-    raw_url = "https://bulbapedia.bulbagarden.net/wiki/File:BT{}.png".format(index,)
-    file_name = Path(output / "128px-Shuffle{}.png".format(index)).absolute()
-
-    r = requests.get(raw_url)
-    url = get_url_from_source(r.content)
-    if url:
-        download_image(url, file_name)
-        crop(file_name)
-    else:
-        print("No Match", index)
-
-
-for img in Path(r"C:\Users\Jerakin\Downloads\t").iterdir():
-    if img.suffix == ".png":
-        # i = img.stem[-4:-1]
-        crop(img)
-
-# for i in range(720):
-#     download(i+1)
-    # time.sleep(0.5)
-
-# if __name__ == '__main__':
-# Bulbapedia().resize()
-
+use_downloaded()

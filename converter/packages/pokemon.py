@@ -81,7 +81,7 @@ class PokemonItem:
         self.convert(json_data)
 
     def convert_image(self):
-        self.output_data["img"] = util.EXTRA_POKEMON_ICON_DATA[self.output_data["name"]]["img"]
+        self.output_data["img"] = util.EXTRA_POKEMON_IMAGE_DATA[self.output_data["name"]]["image"]
 
     def convert_move_info(self, json_data):
         lines = ["<h2>Moves</h2>",
@@ -312,11 +312,11 @@ class Pokemon:
         self.convert_dex_entry(json_data)
         self.convert_token(json_data)
         self.convert_movement_speed(json_data)
-
         self.add_pokemon_item(name, json_data)
         self.add_starting_moves(json_data)
         self.add_abilities(json_data)
         self.convert_stab(json_data)
+        self.output_data["img"] = util.EXTRA_POKEMON_IMAGE_DATA[name]["image"]
 
     def save(self, file_path):
         if not file_path.parent.exists():

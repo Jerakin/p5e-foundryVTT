@@ -20,6 +20,7 @@ ROOT = Path(__file__).parent
 module_version = (ROOT / "VERSION").read_text()
 
 # Add the module json and a tag, push them both
+cmd.run("git add VERSION")
 cmd.run("git add module.json")
 cmd.run(f'git commit -m "Update manifest to {module_version}"')
 cmd.run(f'git tag -a v{module_version} -m "Release of {module_version}"')

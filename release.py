@@ -1,7 +1,10 @@
 import sys
+import json
 from pathlib import Path
-from github_release import gh_release_create
 import subprocess as cmd
+
+import converter.foundry as foundry
+import converter.util as util
 
 
 def get_active_branch_name():
@@ -16,8 +19,11 @@ if not get_active_branch_name() == "release":
     print("aborting, not on 'release' branch")
     sys.exit(1)
 
-ROOT = Path(__file__).parent
-module_version = (ROOT / "VERSION").read_text()
+# Update the manifest
+with (util.PROJECT / "module.json").open("w", encoding="utf-8") as fp:
+    json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
+
+module_version = foundry.module_version
 
 # Add the module json and a tag, push them both
 cmd.run("git add VERSION")

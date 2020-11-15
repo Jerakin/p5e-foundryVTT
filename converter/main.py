@@ -105,10 +105,6 @@ def package():
     with (util.DIST_MODULE / "module.json").open("w", encoding="utf-8") as fp:
         json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
 
-    # Also update the manifest locally
-    with (util.PROJECT / "module.json").open("w", encoding="utf-8") as fp:
-        json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
-
     shutil.make_archive(util.DIST / "Pokemon5e", "zip", util.DIST / "Pokemon5e")
     shutil.rmtree(util.DIST / "Pokemon5e")
 

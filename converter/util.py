@@ -19,7 +19,7 @@ DIST = PROJECT / "dist"
 DIST_MODULE = DIST / foundry.module_name
 DIST_PACKS = DIST_MODULE / "packs"
 
-CACHE = PROJECT / "cache"
+DATA = PROJECT / "p5e-data" / "data"
 
 ASSETS = PROJECT / "assets"
 
@@ -31,7 +31,7 @@ def __load(path):
 
 
 def load_datafile(name):
-    p = (CACHE / "data" / name).with_suffix(".json")
+    p = (DATA / "data" / name).with_suffix(".json")
     if p.exists():
         return __load(p)
     else:

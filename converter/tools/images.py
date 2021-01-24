@@ -3,7 +3,7 @@ import json
 import re
 import shutil
 from pathlib import Path
-from converter.util import BUILD_POKEMON, PROJECT, CACHE
+from converter.util import BUILD_POKEMON, PROJECT, DATA
 import time
 from converter.tools.utils import update_progress
 from PIL import Image
@@ -11,7 +11,7 @@ from PIL import Image
 extra_pokemon = Path(PROJECT / "assets" / "data" / "pokemon_images").with_suffix(".json")
 
 # index_orders = Path(RAW_DATA_SOURCE / "index_order").with_suffix(".json")
-input_folder = CACHE / "pokemon"
+input_folder = DATA / "pokemon"
 
 
 def add_sprites():

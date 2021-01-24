@@ -47,8 +47,8 @@ def build():
     util.BUILD_ABILITIES.mkdir()
 
     print("Building Pokemon")
-    total = len(list((util.CACHE / "pokemon").iterdir()))
-    for index, pokemon_file in enumerate((util.CACHE / "pokemon").iterdir(), 1):
+    total = len(list((util.DATA / "pokemon").iterdir()))
+    for index, pokemon_file in enumerate((util.DATA / "pokemon").iterdir(), 1):
         if pokemon_file.stem == "MissingNo":
             continue
         update_progress(index/total)
@@ -57,8 +57,8 @@ def build():
         build_pokemon(pokemon_file.stem, json_data, util.BUILD_POKEMON / pokemon_file.name)
 
     print("Building Moves")
-    total = len(list((util.CACHE / "moves").iterdir()))
-    for index, move_file in enumerate((util.CACHE / "moves").iterdir(), 1):
+    total = len(list((util.DATA / "moves").iterdir()))
+    for index, move_file in enumerate((util.DATA / "moves").iterdir(), 1):
         if move_file.stem == "Error":
             continue
         update_progress(index / total)

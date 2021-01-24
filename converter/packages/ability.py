@@ -32,7 +32,7 @@ LOADED_ABILITY = {"json": None}
 
 
 def build_from_cache(name):
-    cached_move = (util.CACHE / "abilities.json")
+    cached_move = (util.DATA / "abilities.json")
     if not cached_move.exists():
         raise FileNotFoundError(f"Can not find file: {cached_move}")
     if not LOADED_ABILITY["json"]:

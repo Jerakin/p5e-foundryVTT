@@ -3,11 +3,11 @@ from pathlib import Path
 import requests
 import json
 import shutil
-from converter.util import CACHE, ASSETS, PROJECT
+from converter.util import DATA, ASSETS, PROJECT
 from converter.tools.utils import update_progress
 
 output = ASSETS / "images" / "token" / "tokens"
-tokens = CACHE / "tokens"
+tokens = DATA / "tokens"
 token_source = PROJECT / "tools" / "token_parts"
 data_file = ASSETS / "data" / "pokemon_icons.json"
 filter_data_path = Path(r"E:\projects\repositories\Pokedex5E\assets\datafiles\filter_data.json")

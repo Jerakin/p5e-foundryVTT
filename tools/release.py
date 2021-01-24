@@ -2,8 +2,9 @@ import sys
 import json
 from pathlib import Path
 import subprocess as cmd
-
+from datetime import datetime
 import converter.foundry as foundry
+import converter
 import converter.util as util
 
 
@@ -27,7 +28,19 @@ for pack_name, pack_def in foundry.packs.items():
 with (util.PROJECT / "module.json").open("w", encoding="utf-8") as fp:
     json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
 
-module_version = foundry.module_version
+tool_version = converter.__version__
+
+# date of the data
+data_date = (Path(__file__).parent.parent / "p5e-data" / "VERSION").read_text()
+
+# Converting the date to Eu standard from US, which is then appended to the tool version
+# This makes up the package version
+date = datetime.strptime(data_date, "%m/%d/%Y").strftime("%y%m%d")
+module_version = f"{tool_version}.{date}"
+
+# Save the VERSION
+with (Path(".") / "VERSION").open('w') as fp:
+    fp.write(module_version)
 
 # Add the module json and a tag, push them both
 cmd.run("git add VERSION")

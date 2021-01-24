@@ -6,7 +6,7 @@ import converter.util as util
 
 
 def build_from_cache(name):
-    cached_move = (util.CACHE / "moves" / name).with_suffix(".json")
+    cached_move = (util.DATA / "moves" / name).with_suffix(".json")
     if not cached_move.exists():
         raise FileNotFoundError(f"Can not find file: {cached_move}")
 
@@ -218,7 +218,7 @@ if __name__ == "__main__":
     from pathlib import Path
     shutil.rmtree(util.BUILD_MOVES, ignore_errors=True)
     _name = "Yawn"
-    with (util.CACHE / "moves" / _name).with_suffix(".json").open() as f:
+    with (util.DATA / "moves" / _name).with_suffix(".json").open() as f:
         _json_data = json.load(f)
     poke = Move(_name, _json_data)
     poke.save((Path(r"E:\projects\repositories\p5e-foundryVTT\build") / _name).with_suffix(".json"))

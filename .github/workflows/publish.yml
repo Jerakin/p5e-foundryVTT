@@ -20,6 +20,9 @@ jobs:
         with:
           submodules: recursive
           ref: release
+          
+      - name: Pull data
+        run: git submodule update --remote --merge
         
       - name: Build data
         run: python '$GITHUB_WORKSPACE/p5e-foundryVTT/tools/workflow-make.py' 

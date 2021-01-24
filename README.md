@@ -12,7 +12,7 @@ See https://github.com/foundry-vtt-community/wiki/wiki/Modules#installing-module
 
 Open the Add-on Modules tab in the Configuration and Setup dialog. Click Install Module, paste `https://raw.githubusercontent.com/Jerakin/p5e-foundryVTT/release/module.json` in as the Manifest URL, then click Install.
 
-As DM go to the Manage Modules options menu in the Game Settings for your World, then enable the D&D 5e Conditions module.
+As DM go to the Manage Modules options menu in the Game Settings for your World, then enable the Pokemon5e module.
 
 ### Manual Installation
 If the above installation doesn't work you can try doing it manually.
@@ -40,4 +40,4 @@ This project have https://github.com/Jerakin/p5e-data-conversion added as submod
 1. Run `python build.py` and it will output the module content in `./dist*`
 
 **Release**  
-1. run `python release.py
+1. run `python release.py`

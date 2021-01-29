@@ -20,22 +20,42 @@ jobs:
         with:
           submodules: recursive
           ref: release
+          fetch-depth: 0
           
       - name: Pull data
-        run: git submodule update --remote --merge
+        run: |
+          git submodule update --init --recursive
+          cd p5e-data
+          git config user.email "action@github.com"
+          git config user.name "Github Action"
+          git fetch --all
+          git reset --hard origin/no-variants
+          
+        
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      # this Action should follow steps to set up Python build environment
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v2
+        with:
+          path: "requirements.txt"
         
       - name: Build data
-        run: python '$GITHUB_WORKSPACE/p5e-foundryVTT/tools/workflow-make.py' 
+        run: python '${{ github.workspace }}/tools/workflow-make.py' 
       
       - name: Get version number
-        run: DATA_VERSION=`cat "$GITHUB_WORKSPACE/p5e-foundryVTT/VERSION"`
-      
+        run: |
+          VER=$(cat VERSION)
+          echo "VERSION=$VER" >> $GITHUB_ENV
+          
       # Add and commit changes
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'Update $DATA_VERSION'
+          commit_message: 'Update ${{ env.VERSION }}'
       
       - uses: actions/upload-artifact@v2
         with:
-          name: "v$DATA_VERSION"
-          path: "$GITHUB_WORKSPACE/p5e-foundryVTT/dist/Pokemon5e.zip"
+          name: "v${{ env.VERSION }}"
+          path: "${{ github.workspace }}/dist/Pokemon5e.zip"

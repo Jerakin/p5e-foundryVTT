@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 import logging
+import requests
+
 
 try:
     import foundry as foundry
@@ -25,6 +27,15 @@ CACHE = PROJECT / "cache"
 ASSETS = PROJECT / "assets"
 
 
+def download():
+    CACHE.mkdir(exist_ok=True)
+    files = ['leveling.json', 'pokedex_extra.json', 'abilities.json']
+    for f in files:
+        r = requests.get(f'https://raw.githubusercontent.com/Jerakin/Pokedex5E/master/assets/datafiles/{f}', allow_redirects=True)
+        with open(CACHE / f, 'w', encoding="utf-8") as fp:
+            fp.write(json.dumps(r.json(), ensure_ascii=False))
+
+
 def __load(path):
     with path.open(encoding="utf-8") as fp:
         json_data = json.load(fp)
@@ -40,7 +51,7 @@ def load_datafile(name):
 
 
 def load_cached_file(name):
-    p = (CACHE / "data" / name).with_suffix(".json")
+    p = (CACHE / name).with_suffix(".json")
     if p.exists():
         return __load(p)
     else:
@@ -57,6 +68,7 @@ def load_template(name):
     return __load(p)
 
 
+download()
 LEVEL_DATA = load_cached_file("leveling")
 POKEDEX_DATA = load_cached_file("pokedex_extra")
 ABILITY_DATA = load_cached_file("abilities")

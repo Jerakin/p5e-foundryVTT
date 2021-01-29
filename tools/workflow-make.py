@@ -1,9 +1,15 @@
+import sys
 import json
 from pathlib import Path
 from datetime import datetime
 
-from converter import main
+file = Path(__file__).resolve()
+parent, root = file.parent, file.parents[1]
+sys.path.append(str(root))
+
+
 import converter
+import converter.main as main
 import converter.foundry as foundry
 import converter.util as util
 

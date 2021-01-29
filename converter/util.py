@@ -20,6 +20,7 @@ DIST_MODULE = DIST / foundry.module_name
 DIST_PACKS = DIST_MODULE / "packs"
 
 DATA = PROJECT / "p5e-data" / "data"
+CACHE = PROJECT / "cache"
 
 ASSETS = PROJECT / "assets"
 
@@ -31,7 +32,15 @@ def __load(path):
 
 
 def load_datafile(name):
-    p = (DATA / "data" / name).with_suffix(".json")
+    p = (DATA / name).with_suffix(".json")
+    if p.exists():
+        return __load(p)
+    else:
+        logging.error(f"Could not load data file {p}")
+
+
+def load_cached_file(name):
+    p = (CACHE / "data" / name).with_suffix(".json")
     if p.exists():
         return __load(p)
     else:
@@ -48,9 +57,9 @@ def load_template(name):
     return __load(p)
 
 
-LEVEL_DATA = load_datafile("leveling")
-POKEDEX_DATA = load_datafile("pokedex_extra")
-ABILITY_DATA = load_datafile("abilities")
+LEVEL_DATA = load_cached_file("leveling")
+POKEDEX_DATA = load_cached_file("pokedex_extra")
+ABILITY_DATA = load_cached_file("abilities")
 
 EXTRA_MOVE_DATA = load_extra("moves_extra")
 EXTRA_POKEMON_DATA = load_extra("pokemon_extra")

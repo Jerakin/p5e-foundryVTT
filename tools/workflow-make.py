@@ -7,24 +7,7 @@ file = Path(__file__).resolve()
 parent, root = file.parent, file.parents[1]
 sys.path.append(str(root))
 
-
 import converter
-import converter.main as main
-import converter.foundry as foundry
-import converter.util as util
-
-# Build the project
-main.make()
-
-
-# Update the manifest
-for pack_name, pack_def in foundry.packs.items():
-    if (util.BUILD / pack_name).exists():
-        foundry.module_definition["packs"].append(pack_def)
-
-with (util.PROJECT / "module.json").open("w", encoding="utf-8") as fp:
-    json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
-
 tool_version = converter.__version__
 
 # date of the data
@@ -38,3 +21,16 @@ module_version = f"{tool_version}.{date}"
 # Save the VERSION
 with (Path(__file__).parent.parent / "VERSION").open('w') as fp:
     fp.write(module_version)
+
+
+import converter.main as main
+import converter.foundry as foundry
+import converter.util as util
+
+# Build the project
+main.make()
+
+
+with (util.PROJECT / "module.json").open("w", encoding="utf-8") as fp:
+    json.dump(foundry.module_definition, fp, indent=2, ensure_ascii=False)
+

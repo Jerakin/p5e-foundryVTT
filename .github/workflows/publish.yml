@@ -54,8 +54,14 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: 'Update ${{ env.VERSION }}'
-      
-      - uses: actions/upload-artifact@v2
+          tagging_message: "v${{ env.VERSION }}"
+          branch: release  
+
+          
+      - name: Upload binaries to release
+        uses: svenstaro/upload-release-action@v2
         with:
-          name: "v${{ env.VERSION }}"
-          path: "${{ github.workspace }}/dist/Pokemon5e.zip"
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          tag: "v${{ env.VERSION }}"
+          file: "${{ github.workspace }}/dist/Pokemon5e.zip"
+          asset_name: Pokemon5e.zip
